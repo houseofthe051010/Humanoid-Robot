@@ -76,22 +76,9 @@ The complete assembly is still a prototype, so check fit and alignment before ti
 
 ## STM32 controller firmware
 
-The prototype PlatformIO project is in [`Code/stm32_controller/`](Code/stm32_controller/). It targets a Blue Pill STM32F103C8, talks to ODrive nodes 0 and 1 at 500 kbit/s using the legacy ODrive v3.x CANSimple packet format, and acts as an SPI slave to the Raspberry Pi. It supports enable, idle, clear-errors, emergency-stop, and position commands with velocity and torque feed-forward. Motors stay idle after boot until the host explicitly enables them. The packet IDs and payloads follow the [official ODrive v3.x CANSimple source](https://github.com/odriverobotics/ODrive/tree/master/Firmware/communication/can).
+The STM32 sits between the Raspberry Pi and the two ODrives. It receives movement commands over SPI and forwards them over CAN using the [ODrive v3.x CANSimple protocol](https://github.com/odriverobotics/ODrive/tree/master/Firmware/communication/can). UART can also be used for testing.
 
-Before using the controller, configure and calibrate each ODrive over USB. Give the first board CAN node ID `0`, the second node ID `1`, and set both to `500000` baud. Save the configuration, reboot, and confirm each motor works safely on USB before connecting the shared CAN bus. Clone firmware may expose slightly different configuration property names.
-
-```python
-odrv0.config.enable_can_a = True
-odrv0.can.config.baud_rate = 500000
-odrv0.axis0.config.can.node_id = 0  # use 1 on the second ODrive
-odrv0.axis0.config.can.heartbeat_rate_ms = 100
-odrv0.axis0.config.can.encoder_rate_ms = 20
-odrv0.save_configuration()
-```
-
-The 24-byte SPI request begins with `0xA5`, followed by command, motor (`0` or `1`), sequence, position in turns, velocity feed-forward in turns/s, and torque feed-forward in Nm. Command values are `1` move, `2` enable, `3` idle, `4` emergency stop, and `5` clear errors. The reply begins with `0x5A` and returns the status, sequence, both encoder estimates, and combined axis errors. [`Code/rpi_host/ankle_controller.py`](Code/rpi_host/ankle_controller.py) provides calls such as `enable(0)` and `move_position(0, 1.5)`. UART accepts `p <motor> <turns>`, `enable <motor>`, `idle <motor>`, `clear <motor>`, and `estop`.
-
-This firmware is a starting point for the prototype and has not yet been hardware-tested. Current limits, encoder setup, travel limits, control gains, emergency-stop behavior, and host-side timeout handling must be verified with the real parts before the robot carries weight.
+The first ODrive should use CAN ID `0` and the second ID `1`, both at 500 kbit/s. Calibrate and test each motor through USB before connecting the CAN bus. The Raspberry Pi helper in [`Code/rpi_host/ankle_controller.py`](Code/rpi_host/ankle_controller.py) includes basic position, enable, idle, and emergency-stop commands.
 
 ### Build and flash with ST-Link
 
@@ -104,6 +91,7 @@ pio run -t upload
 pio device monitor -b 115200
 ```
 
+The firmware is still untested because I do not have the final electronics yet.
 
 ## Notes
 

@@ -23,4 +23,3 @@ bool odrive_clear_errors(uint8_t node_id);
 bool odrive_estop_all(void);
 void odrive_process_rx(const CAN_RxHeaderTypeDef *header, const uint8_t data[8]);
 const ODriveFeedback *odrive_feedback(uint8_t node_id);
-
