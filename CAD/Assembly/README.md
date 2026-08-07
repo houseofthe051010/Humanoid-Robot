@@ -1,3 +1,9 @@
 # Shin, Ankle, and Feet Assembly
 
-This is where you'll find my full shin, ankle, and feet assembly.
+
+## Print settings
+
+- Material: PA12-CF
+- Infill: 100%
+- Walls: maximum
+- Printer: Anycubic Kobra S1
