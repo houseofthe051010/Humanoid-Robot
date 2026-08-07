@@ -22,9 +22,16 @@ A bipedal can easily walk on level ground with ankle pitch. I have also attached
 
 ## Bill of materials
 
-Look at the BOM CSV for the BOM. I have requested a grant in macondo for the things I require, but this is the current cost of all the items.
-
-Current estimated total: **$644.38 USD**
+| Category | Item | Quantity | Unit price (USD) | Line total (USD) | Product link |
+| --- | --- | ---: | ---: | ---: | --- |
+| Actuation | SteadyWin GIM6010-48 48:1 planetary geared ankle motor, without driver | 2 | $156.00 | $312.00 | [Buy](https://rcdrone.top/products/steadywin-gim6010-48-planetary-reducer-servo-motor) |
+| Structure | 6061-T6 aluminum square tubing, 1 in x 1 in x 0.125 in wall x 24 in | 2 | $14.89 | $29.78 | [Buy](https://www.onlinemetals.com/en/buy/aluminum/1-x-0-125-aluminum-square-tube-6061-t6-extruded/pid/18014) |
+| Fabrication | SUNLU PA6-CF black filament, 1.75 mm, 1 kg, 80% PA / 20% carbon fiber | 1 | $44.99 | $44.99 | [Buy](https://store.sunlu.com/products/nylon6-carbon-fiber-pa6-cf-3d-printer-filament-1kg) |
+| Mechanical | KP08 pillow block bearing, 8 mm bore | 10 | $2.95 | $29.50 | [Buy](https://www.crcibernetica.com/8-mm-pillow-block-mounted-ball-bearing-kp08/) |
+| Motor control | ODrive S V3.6 FOC single-axis BLDC motor controller, 60 A, CAN/PWM | 2 | $31.61 | $63.22 | [Buy](https://www.banggood.com/ODrive-S-V3_6-FOC-BLDC-Motor-Controller-60A-Support-CAN-PWM-Pulse-Encoder-TLE5012B-AS5047-AMT10X-MT6816-ARM-Cortex-M4-p-2043307.html) |
+| Embedded control | STM32F103C8T6 Blue Pill development board, pre-soldered | 1 | $8.99 | $8.99 | [Buy](https://shillehtek.com/products/shillehtek-pre-soldered-authentic-stm32f103c8t6-arm-stm32) |
+| Host computing | Raspberry Pi 5 Desktop Kit, 8 GB (host computer, storage, power, cooling, and accessories) | 1 | $235.00 | $235.00 | [Buy](https://www.canakit.com/official-raspberry-pi-5-desktop-kit.html) |
+| **Total** |  |  |  | **$723.48** |  |
 
 ## Notes
 
