@@ -30,9 +30,9 @@ I also kept my earlier 2-DOF single-leg assembly as a backup in case I return to
 
 ## Gearbox designs
 
-The [`CAD/Actuators/`](CAD/Actuators/) folder contains my planetary and cycloidal C6374 gearbox designs.
+The [`CAD/Actuators/`](CAD/Actuators/) folder has my custom planetary and cycloidal C6374 designs.
 
-<!-- Add a description of the gearbox designs and their reduction ratios here. -->
+These gearboxes were built by me as a part of prototyping and learning on how to make my robot. They are there as they helped me decide how to make my robot and what actuators to use. I chose the cyclodial gearbox over the plantery in my design as it was easier to print with lower backlash, had high reductions, and was stronger, giving me 50+nm torque around 100mm size. Though, I chose to use a pre-built one as it was much less complex. 
 
 ## Bill of materials
 
@@ -57,32 +57,29 @@ This table shows the full replication cost. My current Macondo grant request is 
 
 ## Assembly instructions
 
-The complete assembly is still a prototype, so check fit and alignment before tightening everything.
 
 1. Print the parts in [`CAD/Assembly/Individual STLs/`](CAD/Assembly/Individual%20STLs/) using PA6-CF. The STL names match their source STEP names.
 2. Fit the two `Foot Mounting Plate` parts and `Rounded Bearing Support` to the `Foot Base`, then install the purchased pillow-block bearings on the pitch axis.
 3. Attach the `Shin Support Attachment` and cut the aluminum shin tube to 200 mm. Drill the tube from the CAD hole locations, then fasten it with M3 hardware.
-4. Use the `Electronics Mounting Tray` and `Encoder Holder` parts for the controller and encoder mounting points. The `Lower Leg Support Assembly` STEP files are reference assemblies, not single printable bodies.
-5. Mount one GIM6010 motor and one ODrive to each lower leg. Confirm that both ankles move freely by hand before applying power.
-6. Wire and test one motor at a time with the ankle unloaded. Only enable both axes after motor direction, encoder direction, current limits, and travel limits have been checked.
+4. Use the `Electronics Mounting Tray` and `Encoder Holder` parts for the controller and encoder mounting points. The `Lower Leg Support Assembly` STEP files can be used as reference assemblies.
+5. Mount one motor and one ODrive to each lower leg. Confirm that both ankles move freely by hand before applying power.
+6. Wire and test one motor at a time with the ankle unloaded. 
 
 ### Power and signal wiring
 
-- Use a current-limited 50 V bench supply rated for at least 10 A per motor, or 20 A when both motors may run together. Add a fuse and emergency disconnect appropriate for the wiring and expected current.
-- The 50 V rail connects only to the ODrive power inputs. Power the STM32, CAN transceiver, and Raspberry Pi from their correct low-voltage supplies and join their signal grounds.
-- Connect STM32 `PA12` to the SN65HVD230 `D/TX` input and `PA11` to `R/RX`. Daisy-chain `CANH`, `CANL`, and ground to both ODrives with a twisted pair. Put one 120 ohm resistor at each physical end of the bus.
-- Connect Raspberry Pi SPI0 `CE0`, `SCLK`, `MISO`, and `MOSI` to STM32 `PA4`, `PA5`, `PA6`, and `PA7`. Both sides use 3.3 V logic and must share ground.
-- STM32 UART debug uses `PA9` TX and `PA10` RX at 115200 baud.
+- Use a current-limited 50 V bench supply rated for at least 10 A per motor, or 20 A when both motors  run together.
+- The 50 V rail connects only to the ODrive power inputs. Power the STM32, CAN transceiver, and Raspberry Pi from their voltage regulations with GND connections.
+- Connect STM32 CAN to Odrive CAN, merging them as you connect them, and UART to host computer.
 
 ## STM32 controller firmware
 
-The STM32 sits between the Raspberry Pi and the two ODrives. It receives movement commands over SPI and forwards them over CAN using the [ODrive v3.x CANSimple protocol](https://github.com/odriverobotics/ODrive/tree/master/Firmware/communication/can). UART can also be used for testing.
+This protocol is used for Odrive comms: [ODrive v3.x CANSimple protocol](https://github.com/odriverobotics/ODrive/tree/master/Firmware/communication/can). UART can also be used for testing.
 
-The first ODrive should use CAN ID `0` and the second ID `1`, both at 500 kbit/s. Calibrate and test each motor through USB before connecting the CAN bus. The Raspberry Pi helper in [`Code/rpi_host/ankle_controller.py`](Code/rpi_host/ankle_controller.py) includes basic position, enable, idle, and emergency-stop commands.
+The first ODrive uses CAN ID `0` and the second ID `1` at 500 kbit/s. The Raspberry Pi helper in controls them as the host [`Code/rpi_host/ankle_controller.py`](Code/rpi_host/ankle_controller.py) has position, enable, idle, and stop commands. This was used to test my custom gearboxes.
 
 ### Build and flash with ST-Link
 
-Connect the ST-Link `SWDIO`, `SWCLK`, `GND`, and 3.3 V reference to Blue Pill `PA13`, `PA14`, `GND`, and `3V3`. Keep the 50 V motor supply disconnected for the first flash.
+Connect the ST-LINK to the STM32. 
 
 ```text
 cd Code/stm32_controller
@@ -90,8 +87,6 @@ pio run
 pio run -t upload
 pio device monitor -b 115200
 ```
-
-The firmware is still untested because I do not have the final electronics yet.
 
 ## Notes
 
