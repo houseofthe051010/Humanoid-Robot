@@ -3,7 +3,7 @@
 
 ## Print settings
 
-- Material: PA12-CF
+- Material: PA6-CF
 - Infill: 100%
 - Walls: maximum
 - Printer: Anycubic Kobra S1
