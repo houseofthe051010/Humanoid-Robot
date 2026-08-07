@@ -47,6 +47,30 @@ I also kept my earlier 2-DOF single-leg assembly as a backup in case I return to
 | Host computing | Raspberry Pi 5 Desktop Kit, 8 GB (host computer, storage, power, cooling, and accessories) | 1 | $235.00 | $235.00 | [Buy](https://www.canakit.com/official-raspberry-pi-5-desktop-kit.html) |
 | **Total** |  |  |  | **$761.45** |  |
 
+## Assembly instructions
+
+1. I haven't assembled it myself yet as I am waiting on the grant to do so, but here is how I have planned it out
+
+### Assembly the foot base
+
+1. Get all the pillow bearing blocks (either printed as a prototype or steel consumer pillow blocks)
+2. Assembly them in a way to allow a pitch axis of the motor to spin.
+3. On the pitch axis, attach the foot structural support piece.
+
+### Assemble Shin/Motor
+
+1. Cut the aluminum tubing to 200MM length
+2. Plug it in the foot structural support piece
+3. Screw it tight with m3 screws
+4. Assemble motor by inserting the motor inside the motor structural supports; secure with m3 screws 
+5. Now attach the entire assembly with the metal tubing, secure using m3 screws
+
+### Get working model
+
+6. Mount the odrive using the odrive mount/casing. 
+7. Connect to bench power supply and test.
+
+
 ## Notes
 
 This is a long project, and I don't think macondo runs long enough for me to complete it, which is why i'm completing the lower leg first, and then will add on in different hack club events.
