@@ -12,7 +12,7 @@ This is the current prototype, showing both lower-leg assemblies side by side.
 
 ## Electronics
 
-Each ankle motor is controlled by a single-axis ODrive 3.6 clone. Both ODrives connect to an STM32F103 over CAN. The STM32 handles the live PID control and communicates with a host computer over SPI (likely a raspberry pi later on) for high level controls.
+Each ankle motor is controlled by a single-axis ODrive 3.6 clone. Both ODrives share one CAN bus with an STM32F103. The ODrives run the motor-control loops; the STM32 relays position commands from a Raspberry Pi 5 over SPI. UART is available for setup and debugging.
 
 This is a wiring diagram of how i'll utilize CAN buses for each motor [`Schematics/`](Schematics/).
 
@@ -28,7 +28,15 @@ I also kept my earlier 2-DOF single-leg assembly as a backup in case I return to
 
 ![Backup 2-DOF lower-leg assembly](Assets/1x%20Prototype%202-DOF%20Lower%20Leg%20Assembly.png)
 
+## Gearbox designs
+
+The [`CAD/Actuators/`](CAD/Actuators/) folder contains my planetary and cycloidal C6374 gearbox designs.
+
+<!-- Add a description of the gearbox designs and their reduction ratios here. -->
+
 ## Bill of materials
+
+This table shows the full replication cost. My current Macondo grant request is only $360 for the parts I still need; the rest are already owned or outside this grant request.
 
 | Category | Item | Quantity | Unit price (USD) | Line total (USD) | Product link |
 | --- | --- | ---: | ---: | ---: | --- |
@@ -49,26 +57,52 @@ I also kept my earlier 2-DOF single-leg assembly as a backup in case I return to
 
 ## Assembly instructions
 
-1. I haven't assembled it myself yet as I am waiting on the grant to do so, but here is how I have planned it out
+The complete assembly is still a prototype, so check fit and alignment before tightening everything.
 
-### Assembly the foot base
+1. Print the parts in [`CAD/Assembly/Individual STLs/`](CAD/Assembly/Individual%20STLs/) using PA6-CF. The STL names match their source STEP names.
+2. Fit the two `Foot Mounting Plate` parts and `Rounded Bearing Support` to the `Foot Base`, then install the purchased pillow-block bearings on the pitch axis.
+3. Attach the `Shin Support Attachment` and cut the aluminum shin tube to 200 mm. Drill the tube from the CAD hole locations, then fasten it with M3 hardware.
+4. Use the `Electronics Mounting Tray` and `Encoder Holder` parts for the controller and encoder mounting points. The `Lower Leg Support Assembly` STEP files are reference assemblies, not single printable bodies.
+5. Mount one GIM6010 motor and one ODrive to each lower leg. Confirm that both ankles move freely by hand before applying power.
+6. Wire and test one motor at a time with the ankle unloaded. Only enable both axes after motor direction, encoder direction, current limits, and travel limits have been checked.
 
-1. Get all the pillow bearing blocks (either printed as a prototype or steel consumer pillow blocks)
-2. Assembly them in a way to allow a pitch axis of the motor to spin.
-3. On the pitch axis, attach the foot structural support piece.
+### Power and signal wiring
 
-### Assemble Shin/Motor
+- Use a current-limited 50 V bench supply rated for at least 10 A per motor, or 20 A when both motors may run together. Add a fuse and emergency disconnect appropriate for the wiring and expected current.
+- The 50 V rail connects only to the ODrive power inputs. Power the STM32, CAN transceiver, and Raspberry Pi from their correct low-voltage supplies and join their signal grounds.
+- Connect STM32 `PA12` to the SN65HVD230 `D/TX` input and `PA11` to `R/RX`. Daisy-chain `CANH`, `CANL`, and ground to both ODrives with a twisted pair. Put one 120 ohm resistor at each physical end of the bus.
+- Connect Raspberry Pi SPI0 `CE0`, `SCLK`, `MISO`, and `MOSI` to STM32 `PA4`, `PA5`, `PA6`, and `PA7`. Both sides use 3.3 V logic and must share ground.
+- STM32 UART debug uses `PA9` TX and `PA10` RX at 115200 baud.
 
-1. Cut the aluminum tubing to 200MM length
-2. Plug it in the foot structural support piece
-3. Screw it tight with m3 screws
-4. Assemble motor by inserting the motor inside the motor structural supports; secure with m3 screws 
-5. Now attach the entire assembly with the metal tubing, secure using m3 screws
+## STM32 controller firmware
 
-### Get working model
+The prototype PlatformIO project is in [`Code/stm32_controller/`](Code/stm32_controller/). It targets a Blue Pill STM32F103C8, talks to ODrive nodes 0 and 1 at 500 kbit/s using the legacy ODrive v3.x CANSimple packet format, and acts as an SPI slave to the Raspberry Pi. It supports enable, idle, clear-errors, emergency-stop, and position commands with velocity and torque feed-forward. Motors stay idle after boot until the host explicitly enables them. The packet IDs and payloads follow the [official ODrive v3.x CANSimple source](https://github.com/odriverobotics/ODrive/tree/master/Firmware/communication/can).
 
-6. Mount the odrive using the odrive mount/casing. 
-7. Connect to bench power supply and test.
+Before using the controller, configure and calibrate each ODrive over USB. Give the first board CAN node ID `0`, the second node ID `1`, and set both to `500000` baud. Save the configuration, reboot, and confirm each motor works safely on USB before connecting the shared CAN bus. Clone firmware may expose slightly different configuration property names.
+
+```python
+odrv0.config.enable_can_a = True
+odrv0.can.config.baud_rate = 500000
+odrv0.axis0.config.can.node_id = 0  # use 1 on the second ODrive
+odrv0.axis0.config.can.heartbeat_rate_ms = 100
+odrv0.axis0.config.can.encoder_rate_ms = 20
+odrv0.save_configuration()
+```
+
+The 24-byte SPI request begins with `0xA5`, followed by command, motor (`0` or `1`), sequence, position in turns, velocity feed-forward in turns/s, and torque feed-forward in Nm. Command values are `1` move, `2` enable, `3` idle, `4` emergency stop, and `5` clear errors. The reply begins with `0x5A` and returns the status, sequence, both encoder estimates, and combined axis errors. [`Code/rpi_host/ankle_controller.py`](Code/rpi_host/ankle_controller.py) provides calls such as `enable(0)` and `move_position(0, 1.5)`. UART accepts `p <motor> <turns>`, `enable <motor>`, `idle <motor>`, `clear <motor>`, and `estop`.
+
+This firmware is a starting point for the prototype and has not yet been hardware-tested. Current limits, encoder setup, travel limits, control gains, emergency-stop behavior, and host-side timeout handling must be verified with the real parts before the robot carries weight.
+
+### Build and flash with ST-Link
+
+Connect the ST-Link `SWDIO`, `SWCLK`, `GND`, and 3.3 V reference to Blue Pill `PA13`, `PA14`, `GND`, and `3V3`. Keep the 50 V motor supply disconnected for the first flash.
+
+```text
+cd Code/stm32_controller
+pio run
+pio run -t upload
+pio device monitor -b 115200
+```
 
 
 ## Notes
