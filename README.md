@@ -11,7 +11,6 @@ The detailed build documents and screenshots are retained locally under `docs/`,
 | Start here | Contents |
 |---|---|
 | [Forge journal](JOURNAL.md) | Repo journal imported by Forge; Main entries only |
-| [Journal editor and sync](journal-tools/README.md) | Local editing, automatic repo export, and Forge setup |
 | [CAD locations](CAD/README.md) | Saved native source and local artifact locations |
 | [Firmware](firmware/) | Controller firmware and host utilities |
 
