@@ -1,5 +1,0 @@
-{
-  "all_joint_tests_passed_before_cleanup": true,
-  "cleanup": "Owned Isaac Python launcher 2184 and child 34980 stopped after SimulationApp.close hung. No other Python runs stopped.",
-  "finished_epoch": 1790804634.6001284
-}
