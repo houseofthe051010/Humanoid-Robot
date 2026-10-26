@@ -1,0 +1,56 @@
+{
+  "status": "NEUTRAL_PACKAGING_PASSES_INWARD_ARM_CLEARANCE_UNRESOLVED",
+  "samples": 21,
+  "clear_samples": 19,
+  "conflicts": [
+    {
+      "joint": "V24_L_shoulder_roll",
+      "command_deg": -20,
+      "actual_deg": -20.0,
+      "solid_intersection_tests": 9,
+      "max_parent_pose_error": 1.4654943925052066e-14,
+      "hits": [
+        {
+          "case": "waist_L",
+          "part": "S36_waist_L_removable_vented_lid",
+          "other_path": "left_forearm:1+A29_L_forearm_dual_servo_output_fork:1",
+          "other_body": "A29_L_forearm_dual_servo_output_fork",
+          "mm3": 1024.2139820132873
+        },
+        {
+          "case": "waist_L",
+          "part": "S36_waist_L_SEPARATE_enclosure",
+          "other_path": "left_forearm:1+A29_L_forearm_dual_servo_output_fork:1",
+          "other_body": "A29_L_forearm_dual_servo_output_fork",
+          "mm3": 1504.112724869315
+        }
+      ]
+    },
+    {
+      "joint": "V24_R_shoulder_roll",
+      "command_deg": 60,
+      "actual_deg": 21.0,
+      "solid_intersection_tests": 8,
+      "max_parent_pose_error": 1.4654943925052066e-14,
+      "hits": [
+        {
+          "case": "waist_R",
+          "part": "S36_waist_R_removable_vented_lid",
+          "other_path": "right_forearm:1+A29_R_forearm_dual_servo_output_fork:1",
+          "other_body": "A29_R_forearm_dual_servo_output_fork",
+          "mm3": 100.40437494508156
+        },
+        {
+          "case": "waist_R",
+          "part": "S36_waist_R_SEPARATE_enclosure",
+          "other_path": "right_forearm:1+A29_R_forearm_dual_servo_output_fork:1",
+          "other_body": "A29_R_forearm_dual_servo_output_fork",
+          "mm3": 1823.938655645777
+        }
+      ]
+    }
+  ],
+  "additional_samples": "additional_motion_samples.json",
+  "attribution": "inward_arm_attribution.json",
+  "note": "Conservative full driver envelope conflicts at inward L -20/R +21 degrees; L -15/R +15 and R outward -60 are clear including the envelope. No joint limits, original motors or arm geometry changed. Detailed board/encoder stack and a later approved mechanical change are required before full inward-travel fit can be established."
+}

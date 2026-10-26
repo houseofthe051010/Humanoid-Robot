@@ -1,0 +1,113 @@
+{
+  "pass": true,
+  "side": "Right",
+  "joint": "V25_R_elbow_pitch",
+  "range_deg": [
+    -135,
+    0
+  ],
+  "method": "Rotation about the measured elbow axis preserves axial intervals and radial distance; conservative placed BRep AABBs prove guard separation for adjacent forearm/shaft/bearing/skin parts at every angle in the range. Far wrist pieces use radial separation. Imported hand/cables and whole-body collisions are not certified.",
+  "guard_radius_bound_mm": 73.57309290766602,
+  "parts": [
+    {
+      "component": "A25_R_elbow_inner_6005",
+      "body": "A25_R_elbow_inner_6005",
+      "axial_gaps_mm": [
+        27.99999999999997,
+        60.0
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "A25_R_elbow_inner_bearing_retainer",
+      "body": "A25_R_elbow_inner_bearing_retainer",
+      "axial_gaps_mm": [
+        25.0,
+        72.00000000000011
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "A25_R_elbow_outer_6005",
+      "body": "A25_R_elbow_outer_6005",
+      "axial_gaps_mm": [
+        59.99999999999994,
+        27.99999999999997
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "A25_R_elbow_outer_bearing_retainer",
+      "body": "A25_R_elbow_outer_bearing_retainer",
+      "axial_gaps_mm": [
+        71.99999999999994,
+        25.000000000000057
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "A25_R_elbow_dual_output_shaft",
+      "body": "A25_R_elbow_dual_output_shaft",
+      "axial_gaps_mm": [
+        15.999999999999915,
+        16.00000000000017
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "C27_Right_forearm_front",
+      "body": "C27_Right_forearm_front_2p5mm_skin",
+      "axial_gaps_mm": [
+        2.9999999999998295,
+        3.0000000000001705
+      ],
+      "minimum_radial_AABB_distance_mm": 40.0011249841799,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "C27_Right_forearm_rear",
+      "body": "C27_Right_forearm_rear_2p5mm_skin",
+      "axial_gaps_mm": [
+        2.9999999999998295,
+        3.0000000000001705
+      ],
+      "minimum_radial_AABB_distance_mm": 40.00112498418013,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "C28_Right_wrist_shroud",
+      "body": "C28_Right_wrist_shroud_smooth_printed_skin",
+      "axial_gaps_mm": [
+        10.99999999999983,
+        11.000000000000085
+      ],
+      "minimum_radial_AABB_distance_mm": 210.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    },
+    {
+      "component": "A25_R_forearm_fork_to_wrist",
+      "body": "A26_R_forearm_fork_serviceable_wrist",
+      "axial_gaps_mm": [
+        10.999999999999886,
+        11.00000000000017
+      ],
+      "minimum_radial_AABB_distance_mm": 0.0,
+      "maximum_guard_radial_AABB_distance_mm": 73.57309290766602,
+      "continuous_bending_clearance_pass": true
+    }
+  ],
+  "original_joint_and_pose_mutations": 0
+}

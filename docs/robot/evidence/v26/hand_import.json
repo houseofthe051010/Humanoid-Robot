@@ -1,0 +1,46 @@
+{
+  "design": "Pollen Robotics AmazingHand",
+  "source": "https://github.com/pollen-robotics/AmazingHand",
+  "mechanical_license": "CC BY 4.0",
+  "hands": [
+    {
+      "side": "R",
+      "microservo_qty": 8,
+      "wrist_mount_holes": 3,
+      "wrist_mount_pcd_mm": 42,
+      "adapter_height_mm": 18,
+      "adapter_flange_od_mm": 54,
+      "adapter_top_mm": [
+        54,
+        32
+      ],
+      "forearm_mount_spacing_mm": [
+        24,
+        18
+      ],
+      "cable_bore_mm": 18,
+      "wrist_origin_z_mm": 799.36343136,
+      "assembly_order": "Hand to adapter first; four M3 from above forearm bridge into adapter top inserts. Insert fit needs printed trial."
+    },
+    {
+      "side": "L",
+      "microservo_qty": 8,
+      "wrist_mount_holes": 3,
+      "wrist_mount_pcd_mm": 42,
+      "adapter_height_mm": 18,
+      "adapter_flange_od_mm": 54,
+      "adapter_top_mm": [
+        54,
+        32
+      ],
+      "forearm_mount_spacing_mm": [
+        24,
+        18
+      ],
+      "cable_bore_mm": 18,
+      "wrist_origin_z_mm": 799.36343136,
+      "assembly_order": "Hand to adapter first; four M3 from above forearm bridge into adapter top inserts. Insert fit needs printed trial."
+    }
+  ],
+  "finger_joints": "Static official source assembly per user request; microservos and hardware retained as reference meshes."
+}

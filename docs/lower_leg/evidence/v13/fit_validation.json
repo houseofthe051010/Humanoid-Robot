@@ -1,0 +1,101 @@
+{
+  "chain_envelope_mm": {
+    "width": 22,
+    "plate_height": 12.2,
+    "centre_distance": 129.39999999999998,
+    "plane_x": -31.0
+  },
+  "chain_interferences": [],
+  "interface_interferences": [
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "Inner & Outer Ring_0",
+      "mm3": 9.137134384759314
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "mm3": 2.5698840939718264
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "mm3": 1.228872240072231
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "Inner & Outer Ring_0",
+      "mm3": 9.136964473328119
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "mm3": 2.5698842158277104
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "mm3": 1.2288640111388716
+    }
+  ],
+  "errors": [],
+  "solids": [],
+  "pair_body_tests": 51829,
+  "retained_vendor_reference_overlaps": [
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "Inner & Outer Ring_0",
+      "mm3": 9.137134384759314
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "mm3": 2.5698840939718264
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_L",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "mm3": 1.228872240072231
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "Inner & Outer Ring_0",
+      "mm3": 9.136964473328119
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "mm3": 2.5698842158277104
+    },
+    {
+      "one": "N02_Knee_shaft_8mm",
+      "body1": "Knee_shaft_8x104",
+      "two": "N04_Knee_pillow_block_R",
+      "body2": "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "mm3": 1.2288640111388716
+    }
+  ],
+  "new_interface_interferences": []
+}

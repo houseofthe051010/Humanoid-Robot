@@ -1,0 +1,2056 @@
+{
+  "checked_epoch": 1790804535.6463034,
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.f3d",
+  "archive_sha256": "3e809affb85bda0ab33a346bd533cbb598c48e21c97178491a401ce42dda0461",
+  "document": "Humanoid_complete_v29_revised",
+  "root_group_count": 42,
+  "occurrence_count": 372,
+  "joint_count": 47,
+  "revolute_count": 41,
+  "ball_count": 6,
+  "anatomical_count": 23,
+  "visible_brep_bodies": 1537,
+  "visible_mesh_bodies": 8,
+  "height_mm": 1600.2000000390617,
+  "sole_z_mm": -14.836568639052723,
+  "top_z_mm": 1585.363431400009,
+  "external_referenced_occurrences": 0,
+  "joints": [
+    {
+      "name": "WJ00_waist_yaw",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "waist_yaw_link",
+      "fixed_link": "pelvis",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.3343134,
+        0.0,
+        0.0,
+        1.0,
+        92.9,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ01_lower_waist_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "waist_pitch_link",
+      "fixed_link": "waist_yaw_link",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        4.8343134,
+        1.0,
+        0.0,
+        0.0,
+        95.7,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.5235987755982988,
+        0.3490658503988659
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ02_upper_waist_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "torso",
+      "fixed_link": "waist_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -2.0062499947200236e-16,
+        0.0,
+        0.0,
+        1.0,
+        4.834313399999997,
+        0.0,
+        -1.0,
+        0.0,
+        98.39999999999995,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_drive_L",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_drive_l",
+      "fixed_link": "torso",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        -6.349999999999294,
+        0.0,
+        -1.0,
+        0.0,
+        2.334313399999998,
+        1.0,
+        0.0,
+        -2.842170943040398e-13,
+        102.50000000000114,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.842170943040398e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.0471975511965976,
+        1.0471975511965976
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_L_pin",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_l_pin",
+      "fixed_link": "mechanism_wj_drive_l",
+      "frame_cm": [
+        0.0,
+        2.0816681711721665e-16,
+        1.0,
+        -2.9999999999991416,
+        0.0,
+        -1.0,
+        2.0816681711721665e-16,
+        -0.10888741404358335,
+        1.0,
+        0.0,
+        -2.1316282072802985e-13,
+        103.3892523726467,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        2.0816681711721665e-16,
+        -2.1316282072802985e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_L_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_l_tilt",
+      "fixed_link": "mechanism_wj_rod_l_pin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -2.9999999999991416,
+        0.0,
+        0.0,
+        1.0,
+        -0.10888741404358426,
+        0.0,
+        -1.0,
+        0.0,
+        103.38925237264668,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.6108652381980153,
+        0.6108652381980153
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_L_base",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_l_tilt",
+      "fixed_link": "waist_yaw_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -3.000000000000002,
+        0.0,
+        1.0,
+        0.0,
+        0.33431340000000265,
+        0.0,
+        0.0,
+        1.0,
+        96.49999999999994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "WJ_drive_R",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_drive_r",
+      "fixed_link": "torso",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        6.350000000000703,
+        0.0,
+        -1.0,
+        0.0,
+        2.3343134000000005,
+        1.0,
+        0.0,
+        -2.1316282072802985e-13,
+        102.49999999999892,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.1316282072802985e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.0471975511965976,
+        1.0471975511965976
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_R_pin",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_r_pin",
+      "fixed_link": "mechanism_wj_drive_r",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        3.0000000000008553,
+        0.0,
+        -1.0,
+        0.0,
+        -0.10888741404318766,
+        1.0,
+        0.0,
+        -2.842170943040405e-13,
+        103.38925237264675,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.842170943040405e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_R_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_r_tilt",
+      "fixed_link": "mechanism_wj_rod_r_pin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        3.0000000000008553,
+        0.0,
+        0.0,
+        1.0,
+        -0.10888741404318844,
+        0.0,
+        -1.0,
+        0.0,
+        103.38925237264675,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.6108652381980153,
+        0.6108652381980153
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WJ_rod_R_base",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "mechanism_wj_rod_r_tilt",
+      "fixed_link": "waist_yaw_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        2.9999999999999987,
+        0.0,
+        1.0,
+        0.0,
+        0.3343134000000009,
+        0.0,
+        0.0,
+        1.0,
+        96.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "Left_Ankle_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_ankle_pitch_link",
+      "fixed_link": "left_shin",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        -12.000000000000028,
+        0.0,
+        -1.0,
+        0.0,
+        1.167499999999999,
+        1.0,
+        0.0,
+        0.0,
+        3.1600000000000366,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Ankle_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_foot",
+      "fixed_link": "left_ankle_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -12.000000000000025,
+        0.0,
+        0.003897095239380199,
+        -0.9999924062955156,
+        1.1608749380930494,
+        0.0,
+        0.9999924062955156,
+        0.003897095239380199,
+        1.4600129092976593,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -0.9999924062955156,
+        0.003897095239380199
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Motor_A_output",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_motor_a_output",
+      "fixed_link": "left_shin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -12.000000000000018,
+        0.0,
+        0.0,
+        -1.0,
+        7.070000000000002,
+        0.0,
+        1.0,
+        0.0,
+        33.50000000000002,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.7278759594743862,
+        1.7627825445142729
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Motor_B_output",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_motor_b_output",
+      "fixed_link": "left_shin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -12.00000000000002,
+        0.0,
+        0.0,
+        -1.0,
+        6.370000000000001,
+        0.0,
+        1.0,
+        0.0,
+        25.300000000000022,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.7400932642383466,
+        1.7505652397503124
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Rod_A_pin_swivel",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_rod_a_pin_swivel",
+      "fixed_link": "mechanism_left_motor_a_output",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -9.700375890019401,
+        0.0,
+        0.0,
+        -1.0,
+        7.069999999999997,
+        0.0,
+        1.0,
+        0.0,
+        33.45841932184491,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -3.1596758199277857,
+        3.123509487251801
+      ],
+      "limits_enabled": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Left_Rod_A_bearing_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_rod_a_bearing_tilt",
+      "fixed_link": "mechanism_left_rod_a_pin_swivel",
+      "frame_cm": [
+        -3.625692527703947e-06,
+        0.0,
+        0.9999999999934273,
+        -9.700375890019394,
+        0.0,
+        -1.0,
+        0.0,
+        7.069999999999996,
+        0.9999999999934273,
+        0.0,
+        3.625692527703947e-06,
+        33.45841932184487,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9999999999934273,
+        0.0,
+        3.625692527703947e-06
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.16406094968746698,
+        0.2897246558310587
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Rod_A_lower_ball",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "left_foot",
+      "fixed_link": "mechanism_left_rod_a_bearing_tilt",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -9.700259688119324,
+        0.0,
+        1.0,
+        0.0,
+        5.058205127527335,
+        0.0,
+        0.0,
+        1.0,
+        1.4088451222148688,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "Left_Rod_B_pin_swivel",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_rod_b_pin_swivel",
+      "fixed_link": "mechanism_left_motor_b_output",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -14.299976293642384,
+        0.0,
+        0.0,
+        -1.0,
+        6.369999999999996,
+        0.0,
+        1.0,
+        0.0,
+        25.310442637747613,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        3.137051938449674,
+        3.137051938449674
+      ],
+      "limits_enabled": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Left_Rod_B_bearing_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_left_rod_b_bearing_tilt",
+      "fixed_link": "mechanism_left_rod_b_pin_swivel",
+      "frame_cm": [
+        -4.22258884834816e-07,
+        0.0,
+        0.999999999999911,
+        -14.299976293642377,
+        0.0,
+        -1.0,
+        0.0,
+        6.369999999999996,
+        0.999999999999911,
+        0.0,
+        4.22258884834816e-07,
+        25.310442637747613,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.999999999999911,
+        0.0,
+        4.22258884834816e-07
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.17278759594743864,
+        0.28099800957108706
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Rod_B_lower_ball",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "left_foot",
+      "fixed_link": "mechanism_left_rod_b_bearing_tilt",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -14.299966222920466,
+        0.0,
+        1.0,
+        0.0,
+        5.058407618799958,
+        0.0,
+        0.0,
+        1.0,
+        1.460804266789518,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "Left_Hip_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_hip_pitch_link",
+      "fixed_link": "pelvis",
+      "frame_cm": [
+        -0.42261826174066924,
+        0.0,
+        0.9063077870366641,
+        -1.9165619354073593,
+        0.0,
+        -1.0,
+        0.0,
+        2.3343133999999996,
+        0.9063077870366641,
+        0.0,
+        0.42261826174066924,
+        86.74898569830908,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9063077870366641,
+        0.0,
+        0.42261826174066924
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Hip_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_hip_roll_link",
+      "fixed_link": "left_hip_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -12.000000000000004,
+        0.0,
+        0.0,
+        -1.0,
+        -0.9156866000000018,
+        0.0,
+        1.0,
+        0.0,
+        78.35999999999999,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Hip_yaw",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_thigh",
+      "fixed_link": "left_hip_roll_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -12.000000000000002,
+        0.0,
+        -1.0,
+        0.0,
+        2.3343133999999983,
+        0.0,
+        0.0,
+        -1.0,
+        71.15000000000003,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Left_Knee_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_shin",
+      "fixed_link": "left_thigh",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        -11.000000000000014,
+        0.0,
+        -1.0,
+        0.0,
+        2.3343133999999996,
+        1.0,
+        0.0,
+        0.0,
+        43.06000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V24_L_shoulder_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_shoulder_pitch_link",
+      "fixed_link": "torso",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        -19.699999999993594,
+        0.0,
+        -1.0,
+        0.0,
+        2.800000000000014,
+        1.0,
+        0.0,
+        -2.8421709430403604e-13,
+        133.5363431360034,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.8421709430403604e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V24_L_shoulder_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_upper_arm",
+      "fixed_link": "left_shoulder_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -19.699999999993608,
+        0.0,
+        0.0,
+        1.0,
+        2.799999999999999,
+        0.0,
+        -1.0,
+        0.0,
+        133.53634313600344,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.3665191429188092,
+        1.6406094968746698
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V24_R_shoulder_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_shoulder_pitch_link",
+      "fixed_link": "torso",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        19.700000000006398,
+        0.0,
+        -1.0,
+        0.0,
+        2.800000000000015,
+        1.0,
+        0.0,
+        -2.8421709430403604e-13,
+        133.53634313599662,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.8421709430403604e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V24_R_shoulder_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_upper_arm",
+      "fixed_link": "right_shoulder_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        19.700000000006398,
+        0.0,
+        0.0,
+        1.0,
+        2.8000000000000043,
+        0.0,
+        -1.0,
+        0.0,
+        133.53634313599662,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.6406094968746698,
+        0.3665191429188092
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V24_neck_yaw",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "neck_yaw_link",
+      "fixed_link": "torso",
+      "frame_cm": [
+        1.0,
+        0.0,
+        1.7229273563402628e-13,
+        7.62700868295376e-12,
+        0.0,
+        1.0,
+        0.0,
+        2.8343134,
+        0.0,
+        0.0,
+        1.0,
+        140.63634313599994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.7229273563402628e-13,
+        0.0,
+        1.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V25_R_elbow_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_forearm",
+      "fixed_link": "right_upper_arm",
+      "frame_cm": [
+        -0.10452846326753656,
+        0.0,
+        0.9945218953682856,
+        22.574532739860473,
+        0.0,
+        -1.0,
+        0.0,
+        2.8,
+        0.9945218953682856,
+        0.0,
+        0.10452846326753656,
+        106.18699101337248,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9945218953682856,
+        0.0,
+        0.10452846326753656
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -2.356194490192345,
+        0.0
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V25_L_elbow_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "left_forearm",
+      "fixed_link": "left_upper_arm",
+      "frame_cm": [
+        -0.10452846326785312,
+        0.0,
+        0.9945218953682523,
+        -22.574532739860473,
+        0.0,
+        1.0,
+        0.0,
+        2.8,
+        -0.9945218953682525,
+        0.0,
+        -0.10452846326785309,
+        106.18699101337248,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9945218953682523,
+        0.0,
+        -0.10452846326785309
+      ],
+      "axis_dot": 0.9999999999999999,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -2.356194490192345,
+        0.0
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "V26_head_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "head",
+      "fixed_link": "neck_yaw_link",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        8.605949286533132e-12,
+        0.0,
+        -1.0,
+        0.0,
+        2.8343134000000116,
+        1.0,
+        0.0,
+        -2.8421709430404023e-13,
+        146.23634313599996,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        -2.8421709430404023e-13
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Ankle_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_ankle_pitch_link",
+      "fixed_link": "right_shin",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        12.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.1675,
+        1.0,
+        0.0,
+        0.0,
+        3.160000000000001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Ankle_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_foot",
+      "fixed_link": "right_ankle_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        11.999999999999996,
+        0.0,
+        -0.003897095239381309,
+        0.9999924062955156,
+        1.1608749380930512,
+        0.0,
+        -0.9999924062955156,
+        -0.003897095239381309,
+        1.460012909297626,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        0.9999924062955156,
+        -0.003897095239381309
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Motor_A_output",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_motor_a_output",
+      "fixed_link": "right_shin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0,
+        1.0,
+        7.07,
+        0.0,
+        -1.0,
+        0.0,
+        33.49999999999999,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.7278759594743862,
+        1.7627825445142729
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Motor_B_output",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_motor_b_output",
+      "fixed_link": "right_shin",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0,
+        1.0,
+        6.370000000000001,
+        0.0,
+        -1.0,
+        0.0,
+        25.299999999999994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -1.7400932642383466,
+        1.7505652397503124
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Rod_A_pin_swivel",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_rod_a_pin_swivel",
+      "fixed_link": "mechanism_right_motor_a_output",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        9.70037589001938,
+        0.0,
+        0.0,
+        1.0,
+        7.07,
+        0.0,
+        -1.0,
+        0.0,
+        33.45841932184485,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -3.1596758199277857,
+        3.123509487251801
+      ],
+      "limits_enabled": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Right_Rod_A_bearing_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_rod_a_bearing_tilt",
+      "fixed_link": "mechanism_right_rod_a_pin_swivel",
+      "frame_cm": [
+        -3.6256925284306026e-06,
+        0.0,
+        0.9999999999934271,
+        9.700375890019435,
+        0.0,
+        1.0,
+        0.0,
+        7.069999999999986,
+        -0.9999999999934274,
+        0.0,
+        -3.6256925284306018e-06,
+        33.45841932184484,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9999999999934271,
+        0.0,
+        -3.6256925284306018e-06
+      ],
+      "axis_dot": 0.9999999999999999,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.16406094968746698,
+        0.2897246558310587
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Rod_A_lower_ball",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "right_foot",
+      "fixed_link": "mechanism_right_rod_a_bearing_tilt",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        9.700259688119301,
+        0.0,
+        1.0,
+        0.0,
+        5.058205127527338,
+        0.0,
+        0.0,
+        1.0,
+        1.4088451222148368,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "Right_Rod_B_pin_swivel",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_rod_b_pin_swivel",
+      "fixed_link": "mechanism_right_motor_b_output",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        14.299976293642368,
+        0.0,
+        0.0,
+        1.0,
+        6.370000000000001,
+        0.0,
+        -1.0,
+        0.0,
+        25.310442637747578,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        3.137051938449674,
+        3.137051938449674
+      ],
+      "limits_enabled": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "Right_Rod_B_bearing_tilt",
+      "joint_type": 1,
+      "anatomical": false,
+      "moving_link": "mechanism_right_rod_b_bearing_tilt",
+      "fixed_link": "mechanism_right_rod_b_pin_swivel",
+      "frame_cm": [
+        -4.2225888563507534e-07,
+        0.0,
+        0.999999999999911,
+        14.299976293642342,
+        0.0,
+        1.0,
+        0.0,
+        6.369999999999991,
+        -0.9999999999999108,
+        0.0,
+        -4.222588856350754e-07,
+        25.310442637747634,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.999999999999911,
+        0.0,
+        -4.222588856350754e-07
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.17278759594743864,
+        0.28099800957108706
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Rod_B_lower_ball",
+      "joint_type": 6,
+      "anatomical": false,
+      "moving_link": "right_foot",
+      "fixed_link": "mechanism_right_rod_b_bearing_tilt",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        14.299966222920432,
+        0.0,
+        1.0,
+        0.0,
+        5.058407618799961,
+        0.0,
+        0.0,
+        1.0,
+        1.4608042667894843,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0
+    },
+    {
+      "name": "Right_Hip_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_hip_pitch_link",
+      "fixed_link": "pelvis",
+      "frame_cm": [
+        -0.42261826174068906,
+        6.776263578034401e-21,
+        0.9063077870366548,
+        1.9165619354073613,
+        0.00011698383540820243,
+        0.9999999916695148,
+        5.455045833118702e-05,
+        2.3290613722959232,
+        -0.9063077794866714,
+        0.00012907738086495233,
+        -0.4226182582200738,
+        86.74898535935012,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.9063077870366548,
+        5.455045833118702e-05,
+        -0.4226182582200738
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Hip_roll",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_hip_roll_link",
+      "fixed_link": "right_hip_pitch_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        12.000000000000004,
+        0.0,
+        0.00012907738090670726,
+        0.9999999916695149,
+        -0.9198557723279328,
+        0.0,
+        -0.9999999916695149,
+        0.00012907738090670726,
+        78.35958022943746,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        0.9999999916695149,
+        0.00012907738090670726
+      ],
+      "axis_dot": 1.0000000000000002,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Hip_yaw",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_thigh",
+      "fixed_link": "right_hip_roll_link",
+      "frame_cm": [
+        1.0,
+        0.0,
+        0.0,
+        12.000000000000007,
+        0.0,
+        0.9999999916695148,
+        -0.00012907738086820005,
+        2.3310748485140405,
+        0.0,
+        0.00012907738086820005,
+        0.9999999916695148,
+        71.14999979098806,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        0.0,
+        -0.00012907738086820005,
+        0.9999999916695148
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Right_Knee_pitch",
+      "joint_type": 1,
+      "anatomical": true,
+      "moving_link": "right_shin",
+      "fixed_link": "right_thigh",
+      "frame_cm": [
+        0.0,
+        0.0,
+        1.0,
+        12.0,
+        0.0,
+        -1.0,
+        0.0,
+        2.3343134,
+        1.0,
+        0.0,
+        0.0,
+        43.06,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "frame_max_error": 0.0,
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_dot": 1.0,
+      "angle_rad": 0.0,
+      "limits_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "limits_enabled": [
+        true,
+        true
+      ]
+    }
+  ],
+  "mesh_source_bound_checks": 1545,
+  "mesh_source_max_bound_difference_mm": 2.842170943040401e-14,
+  "limit_values_preserved_exactly": false,
+  "native_limit_differences": [
+    {
+      "name": "Left_Ankle_pitch",
+      "build_time_rad": [
+        -0.4847950854540299,
+        0.4402294181029648
+      ],
+      "saved_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "difference_rad": [
+        -0.0004064466003937395,
+        -0.0004064466003937395
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Left_Ankle_roll",
+      "build_time_rad": [
+        -0.1632371329997261,
+        0.1858287173991398
+      ],
+      "saved_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "difference_rad": [
+        -0.000823816687740897,
+        -0.0008238166877408692
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Left_Motor_A_output",
+      "build_time_rad": [
+        -1.727249711347475,
+        1.7634087926411843
+      ],
+      "saved_rad": [
+        -1.7278759594743862,
+        1.7627825445142729
+      ],
+      "difference_rad": [
+        -0.0006262481269112552,
+        -0.0006262481269114772
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Left_Motor_B_output",
+      "build_time_rad": [
+        -1.7407889591139334,
+        1.7498695448747257
+      ],
+      "saved_rad": [
+        -1.7400932642383466,
+        1.7505652397503124
+      ],
+      "difference_rad": [
+        0.0006956948755867387,
+        0.0006956948755867387
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Left_Rod_A_bearing_tilt",
+      "build_time_rad": [
+        -0.16384893977847836,
+        0.28993666574004734
+      ],
+      "saved_rad": [
+        -0.16406094968746698,
+        0.2897246558310587
+      ],
+      "difference_rad": [
+        -0.0002120099089886196,
+        -0.0002120099089886196
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Left_Rod_B_bearing_tilt",
+      "build_time_rad": [
+        -0.1725111837398626,
+        0.2812744217786631
+      ],
+      "saved_rad": [
+        -0.17278759594743864,
+        0.28099800957108706
+      ],
+      "difference_rad": [
+        -0.00027641220757604335,
+        -0.0002764122075760156
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Ankle_pitch",
+      "build_time_rad": [
+        -0.4847950854540299,
+        0.4402294181029648
+      ],
+      "saved_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "difference_rad": [
+        -0.0004064466003937395,
+        -0.0004064466003937395
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Ankle_roll",
+      "build_time_rad": [
+        -0.1632371329997261,
+        0.1858287173991398
+      ],
+      "saved_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "difference_rad": [
+        -0.000823816687740897,
+        -0.0008238166877408692
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Motor_A_output",
+      "build_time_rad": [
+        -1.727249711347475,
+        1.7634087926411843
+      ],
+      "saved_rad": [
+        -1.7278759594743862,
+        1.7627825445142729
+      ],
+      "difference_rad": [
+        -0.0006262481269112552,
+        -0.0006262481269114772
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Motor_B_output",
+      "build_time_rad": [
+        -1.7407889591139332,
+        1.749869544874726
+      ],
+      "saved_rad": [
+        -1.7400932642383466,
+        1.7505652397503124
+      ],
+      "difference_rad": [
+        0.0006956948755865167,
+        0.0006956948755865167
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Rod_A_bearing_tilt",
+      "build_time_rad": [
+        -0.16384893977847811,
+        0.28993666574004756
+      ],
+      "saved_rad": [
+        -0.16406094968746698,
+        0.2897246558310587
+      ],
+      "difference_rad": [
+        -0.0002120099089888694,
+        -0.00021200990898884164
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    },
+    {
+      "name": "Right_Rod_B_bearing_tilt",
+      "build_time_rad": [
+        -0.1725111837398626,
+        0.2812744217786631
+      ],
+      "saved_rad": [
+        -0.17278759594743864,
+        0.28099800957108706
+      ],
+      "difference_rad": [
+        -0.00027641220757604335,
+        -0.0002764122075760156
+      ],
+      "interpretation": "Observed after native save/reopen; exported URDF uses actual saved native values. Exact preservation of build-time limit values is not claimed."
+    }
+  ],
+  "limit_source_for_urdf": "native_joint_map_saved.json, read from the independently reopened archive",
+  "pass": true
+}

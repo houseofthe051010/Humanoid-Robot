@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Right_leg",
+    "target": "N04_Knee_pillow_block_L",
+    "donor": "N04_Knee_pillow_block_R",
+    "bodies": 20
+  },
+  {
+    "group": "Right_leg",
+    "target": "P01_Knee_side_rail_seat_L",
+    "donor": "P01_Knee_side_rail_seat_R",
+    "bodies": 1
+  },
+  {
+    "group": "Right_leg",
+    "target": "P02_Knee_rail_screws_and_sleeves_L",
+    "donor": "P02_Knee_rail_screws_and_sleeves_R",
+    "bodies": 6
+  },
+  {
+    "group": "Left_leg",
+    "target": "N04_Knee_pillow_block_L",
+    "donor": "N04_Knee_pillow_block_R",
+    "bodies": 20
+  },
+  {
+    "group": "Left_leg",
+    "target": "P01_Knee_side_rail_seat_L",
+    "donor": "P01_Knee_side_rail_seat_R",
+    "bodies": 1
+  },
+  {
+    "group": "Left_leg",
+    "target": "P02_Knee_rail_screws_and_sleeves_L",
+    "donor": "P02_Knee_rail_screws_and_sleeves_R",
+    "bodies": 6
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "section_rows_z_halfwidth_halfdepth_radius_mm": [
+    [
+      478,
+      54,
+      27,
+      14
+    ],
+    [
+      500,
+      57,
+      38,
+      18
+    ],
+    [
+      545,
+      63,
+      57,
+      23
+    ],
+    [
+      600,
+      65,
+      63,
+      24
+    ],
+    [
+      640,
+      65,
+      52,
+      23
+    ],
+    [
+      660,
+      63,
+      43,
+      21
+    ],
+    [
+      678,
+      58,
+      32,
+      17
+    ]
+  ],
+  "section_wall_offset_mm": 3.2,
+  "parting_gap_mm": 0.8,
+  "port_diameter_mm": 106,
+  "cover_diameter_mm": 122,
+  "cover_thickness_mm": 3,
+  "motor_center_z_mm": 600,
+  "cosmetic_reference": "User supplied Unitree H2 and Atlas-style images;original fitted geometry",
+  "components": [
+    "T10_Thigh_front_fairing_PROVISIONAL",
+    "T11_Thigh_rear_fairing_PROVISIONAL",
+    "T12_Circular_motor_service_cover_PROVISIONAL"
+  ],
+  "panel_join_hardware": "4 M3 screws/nuts,nominal25mm grip arrangement;lengths and pockets provisional",
+  "port_hardware": "4 M3 screws,pilot holes2.5mm;retention/insert choice TBD"
+}

@@ -1,0 +1,2687 @@
+{
+  "source": "preserved live v12 right leg -> v13",
+  "spacing_mm": 260,
+  "inventory": [
+    {
+      "side": "Right_leg",
+      "name": "F03_Roll_bearing_rear",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.320166646498
+    },
+    {
+      "side": "Right_leg",
+      "name": "F04_Roll_bearing_front",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring (1)_0",
+        "Inner & Outer Ring (1)_1",
+        "Balls (1)_0",
+        "Balls (1)_1",
+        "Balls (1)_2",
+        "Balls (1)_3",
+        "Balls (1)_4",
+        "Balls (1)_5",
+        "Balls (1)_6",
+        "Balls (1)_7",
+        "Ball Retainer (1)_0",
+        "Ball Retainer (1)_1",
+        "Bearing Seal (1)_0",
+        "Bearing Seal (1)_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1 (1)",
+        "Body (1)_0",
+        "608ZZ Standing bearing v4 (1)_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.32754213904
+    },
+    {
+      "side": "Right_leg",
+      "name": "S02_Pitch_bearing_left",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.400453114177
+    },
+    {
+      "side": "Right_leg",
+      "name": "S03_Pitch_bearing_right",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.400654324301
+    },
+    {
+      "side": "Right_leg",
+      "name": "A01_PA12CF_cross_axis_block",
+      "description": "PA12-CF block39 mm tall,17 mm pitch/roll axis separation. Small holes are M3 pinch-clamp holes; nominal screw/head/nut envelopes are shown. Steel pitch shaft8 x92 mm.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Upper_clamp_split",
+        "Roll_shaft_8mm",
+        "Pitch_shaft_8mm",
+        "Lower_M3_pinch_screw",
+        "Lower_M3_socket_head",
+        "Lower_M3_nut_envelope",
+        "Upper_M3_pinch_screw",
+        "Upper_M3_socket_head",
+        "Upper_M3_nut_envelope"
+      ],
+      "body_count": 9,
+      "volume_mm3": 27426.730881239033
+    },
+    {
+      "side": "Right_leg",
+      "name": "S05_Continuous_oval_steel_rail_L",
+      "description": "Continuous18x10 stadium steel tube,0.55mm assumed wall,366.6mm long,12mm longer for raised knee; knee cross-bolt passage atZ418.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "S05_Continuous_oval_steel_rail_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9202.673353124965
+    },
+    {
+      "side": "Right_leg",
+      "name": "S05_Continuous_oval_steel_rail_R",
+      "description": "Continuous18x10 stadium steel tube,0.55mm assumed wall,366.6mm long,12mm longer for raised knee; knee cross-bolt passage atZ418.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "S05_Continuous_oval_steel_rail_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9202.673353124965
+    },
+    {
+      "side": "Right_leg",
+      "name": "S06_Dual_7010_motor_carrier",
+      "description": "Motor-contoured calf: 88 mm upper bulge tapering to 86 mm, curved rear frame, annular motor cradles, oval rail sockets. One connected print.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body7"
+      ],
+      "body_count": 1,
+      "volume_mm3": 272772.7845647716
+    },
+    {
+      "side": "Right_leg",
+      "name": "S10_Separate_motor_plate_B",
+      "description": "Separate5 mm motor plate with32 projected vendor boundary edges, zero profile offset. Covers full motor face; removable M3 attachment.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Flat_lower_cover_edge_above_ODrive"
+      ],
+      "body_count": 1,
+      "volume_mm3": 26471.163381795075
+    },
+    {
+      "side": "Right_leg",
+      "name": "S10_Separate_motor_plate_A",
+      "description": "Separate5 mm motor plate with32 projected vendor boundary edges, zero profile offset. Covers full motor face; removable M3 attachment.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Half_mm_cover_separation"
+      ],
+      "body_count": 1,
+      "volume_mm3": 26471.163381795093
+    },
+    {
+      "side": "Right_leg",
+      "name": "H02_M3_motor_plate_hardware",
+      "description": "28 nominal M3x12 screws: 16 countersunk to motor case, 12 socket head to M3 inserts. Inserts OD4.6 x5 envelope, pilot 4.3 mm requires coupon and actual insert selection. No thread detail.",
+      "material": "steel",
+      "body_names": [
+        "M3x12_casing_screw_247_0",
+        "M3_casing_socket_head_247_0",
+        "M3_insert_installed_envelope_247_0",
+        "M3x12_casing_screw_247_1",
+        "M3_casing_socket_head_247_1",
+        "M3_insert_installed_envelope_247_1",
+        "M3x12_casing_screw_247_2",
+        "M3_casing_socket_head_247_2",
+        "M3_insert_installed_envelope_247_2",
+        "M3x12_casing_screw_247_3",
+        "M3_casing_socket_head_247_3",
+        "M3_insert_installed_envelope_247_3",
+        "M3x12_casing_screw_247_4",
+        "M3_casing_socket_head_247_4",
+        "M3_insert_installed_envelope_247_4",
+        "M3x12_casing_screw_247_5",
+        "M3_casing_socket_head_247_5",
+        "M3_insert_installed_envelope_247_5",
+        "M3x12_motor_case_screw_247_0",
+        "M3_motor_case_flush_head_247_0",
+        "M3x12_motor_case_screw_247_1",
+        "M3_motor_case_flush_head_247_1",
+        "M3x12_motor_case_screw_247_2",
+        "M3_motor_case_flush_head_247_2",
+        "M3x12_motor_case_screw_247_3",
+        "M3_motor_case_flush_head_247_3",
+        "M3x12_motor_case_screw_247_4",
+        "M3_motor_case_flush_head_247_4",
+        "M3x12_motor_case_screw_247_5",
+        "M3_motor_case_flush_head_247_5",
+        "M3x12_motor_case_screw_247_6",
+        "M3_motor_case_flush_head_247_6",
+        "M3x12_motor_case_screw_247_7",
+        "M3_motor_case_flush_head_247_7",
+        "M3x12_casing_screw_329_0",
+        "M3_casing_socket_head_329_0",
+        "M3_insert_installed_envelope_329_0",
+        "M3x12_casing_screw_329_1",
+        "M3_casing_socket_head_329_1",
+        "M3_insert_installed_envelope_329_1",
+        "M3x12_casing_screw_329_2",
+        "M3_casing_socket_head_329_2",
+        "M3_insert_installed_envelope_329_2",
+        "M3x12_casing_screw_329_3",
+        "M3_casing_socket_head_329_3",
+        "M3_insert_installed_envelope_329_3",
+        "M3x12_casing_screw_329_4",
+        "M3_casing_socket_head_329_4",
+        "M3_insert_installed_envelope_329_4",
+        "M3x12_casing_screw_329_5",
+        "M3_casing_socket_head_329_5",
+        "M3_insert_installed_envelope_329_5",
+        "M3x12_motor_case_screw_329_0",
+        "M3_motor_case_flush_head_329_0",
+        "M3x12_motor_case_screw_329_1",
+        "M3_motor_case_flush_head_329_1",
+        "M3x12_motor_case_screw_329_2",
+        "M3_motor_case_flush_head_329_2",
+        "M3x12_motor_case_screw_329_3",
+        "M3_motor_case_flush_head_329_3",
+        "M3x12_motor_case_screw_329_4",
+        "M3_motor_case_flush_head_329_4",
+        "M3x12_motor_case_screw_329_5",
+        "M3_motor_case_flush_head_329_5",
+        "M3x12_motor_case_screw_329_6",
+        "M3_motor_case_flush_head_329_6",
+        "M3x12_motor_case_screw_329_7",
+        "M3_motor_case_flush_head_329_7"
+      ],
+      "body_count": 68,
+      "volume_mm3": 4073.389034644715
+    },
+    {
+      "side": "Right_leg",
+      "name": "M01_GWK7010_A",
+      "description": "Supplied STEP geometry, visible output region partitioned from fixed housing; internal transmission not articulated",
+      "material": "purchased GWK7010-8",
+      "body_names": [
+        "GWK7010_vendor_fixed_region"
+      ],
+      "body_count": 1,
+      "volume_mm3": 53130.975582354935
+    },
+    {
+      "side": "Right_leg",
+      "name": "M02_Aluminum_crank_A",
+      "description": "6 mm sheet crank, 20.5 mm radius, curved tangent profile; 6 x M3 output holes, three locating-pin clearances; engagement 5 mm max",
+      "material": "6061-T6 aluminum",
+      "body_names": [
+        "Body1",
+        "GWK7010_vendor_visible_rotating_output",
+        "M6_upper_rod_end_pin",
+        "Output_crank_1mm_M3_washer_0",
+        "Output_crank_1mm_M3_washer_1",
+        "Output_crank_1mm_M3_washer_2",
+        "Output_crank_1mm_M3_washer_3",
+        "Output_crank_1mm_M3_washer_4",
+        "Output_crank_1mm_M3_washer_5",
+        "Wixroyd_65720_W0006_upper_inner_ring",
+        "Upper_inner_ring_spacer_4p5mm"
+      ],
+      "body_count": 11,
+      "volume_mm3": 12886.54263237079
+    },
+    {
+      "side": "Right_leg",
+      "name": "M01_GWK7010_B",
+      "description": "Supplied STEP geometry, visible output region partitioned from fixed housing; internal transmission not articulated",
+      "material": "purchased GWK7010-8",
+      "body_names": [
+        "GWK7010_vendor_fixed_region"
+      ],
+      "body_count": 1,
+      "volume_mm3": 53130.97558235481
+    },
+    {
+      "side": "Right_leg",
+      "name": "M02_Aluminum_crank_B",
+      "description": "6 mm sheet crank, 20.5 mm radius, curved tangent profile; 6 x M3 output holes, three locating-pin clearances; engagement 5 mm max",
+      "material": "6061-T6 aluminum",
+      "body_names": [
+        "Body1",
+        "GWK7010_vendor_visible_rotating_output",
+        "M6_upper_rod_end_pin",
+        "Output_crank_1mm_M3_washer_0",
+        "Output_crank_1mm_M3_washer_1",
+        "Output_crank_1mm_M3_washer_2",
+        "Output_crank_1mm_M3_washer_3",
+        "Output_crank_1mm_M3_washer_4",
+        "Output_crank_1mm_M3_washer_5",
+        "Wixroyd_65720_W0006_upper_inner_ring",
+        "Upper_inner_ring_spacer_4p5mm"
+      ],
+      "body_count": 11,
+      "volume_mm3": 12886.542632370789
+    },
+    {
+      "side": "Right_leg",
+      "name": "H01_Steel_crush_sleeves",
+      "description": "7 mm OD, 5.4 mm ID, 10 mm long steel sleeves through the oval tube. Verify exact tube section before cutting.",
+      "material": "steel",
+      "body_names": [
+        "Crush_sleeve_-14_74",
+        "Crush_sleeve_-14_94",
+        "Crush_sleeve_-14_238",
+        "Crush_sleeve_-14_308",
+        "Crush_sleeve_-14_360",
+        "Crush_sleeve_-14_400",
+        "Crush_sleeve_14_74",
+        "Crush_sleeve_14_94",
+        "Crush_sleeve_14_238",
+        "Crush_sleeve_14_308",
+        "Crush_sleeve_14_360",
+        "Crush_sleeve_14_400"
+      ],
+      "body_count": 12,
+      "volume_mm3": 1266.690157927458
+    },
+    {
+      "side": "Right_leg",
+      "name": "E03_ODrive_board_no_connectors",
+      "description": "15 exact source bodies at user placement. Bodies16-21 (GPIO and wire connectors) removed for direct soldering; capacitors face the rails.",
+      "material": "electronics envelope",
+      "body_names": [
+        "Body1",
+        "Body2",
+        "Body3",
+        "Body4",
+        "Body5",
+        "Body6",
+        "Body7",
+        "Body8",
+        "Body9",
+        "Body10",
+        "Body11",
+        "Body12",
+        "Body13",
+        "Body14",
+        "Body15"
+      ],
+      "body_count": 15,
+      "volume_mm3": 19660.14716207724
+    },
+    {
+      "side": "Right_leg",
+      "name": "F09_Purchased_bearing_M5_fasteners",
+      "description": "Four M5x20 socket screws, eight M5x1mm washers and four M5 nuts below plastic; heel group additionally two M6 shaft retaining nuts.",
+      "material": "",
+      "body_names": [
+        "M5x20_socket_screw_0",
+        "M5_1mm_washer",
+        "M5_1mm_washer (1)",
+        "M5_bottom_nut",
+        "M5x20_socket_screw_1",
+        "M5_1mm_washer (2)",
+        "M5_1mm_washer (3)",
+        "M5_bottom_nut (1)",
+        "M5x20_socket_screw_2",
+        "M5_1mm_washer (4)",
+        "M5_1mm_washer (5)",
+        "M5_bottom_nut (2)",
+        "M5x20_socket_screw_3",
+        "M5_1mm_washer (6)",
+        "M5_1mm_washer (7)",
+        "M5_bottom_nut (3)"
+      ],
+      "body_count": 16,
+      "volume_mm3": 3730.1712764596614
+    },
+    {
+      "side": "Right_leg",
+      "name": "E04_TPU_upper_rail_envelope",
+      "description": "Compliant split rail envelope. Upper M3 fasteners with TPU spacers; no bottom PCB screws. Nominal fit is a prototype; TPU stiffness is not characterized.",
+      "material": "TPU",
+      "body_names": [
+        "Shorten_TPU_arms_for_closer_PCB"
+      ],
+      "body_count": 1,
+      "volume_mm3": 6653.748725833051
+    },
+    {
+      "side": "Right_leg",
+      "name": "E05_TPU_board_spacer_1",
+      "description": "2 mm compliant stand-off at upper PCB M3 hole; tighten only enough to retain the board without crushing the TPU.",
+      "material": "TPU",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 59.86304801415623
+    },
+    {
+      "side": "Right_leg",
+      "name": "E05_TPU_board_spacer_2",
+      "description": "2 mm compliant stand-off at upper PCB M3 hole; tighten only enough to retain the board without crushing the TPU.",
+      "material": "TPU",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 59.86304801415619
+    },
+    {
+      "side": "Right_leg",
+      "name": "E06_ODrive_M3_top_fasteners",
+      "description": "Two M3x10 screws, M3 nuts and 1 mm washers. Lower PCB edge is supported without screws.",
+      "material": "steel",
+      "body_names": [
+        "M3x10_top_screw_0",
+        "M3_top_socket_head_0",
+        "M3_washer_0",
+        "Body4",
+        "M3x10_top_screw_1",
+        "M3_top_socket_head_1",
+        "M3_washer_1",
+        "Body8"
+      ],
+      "body_count": 8,
+      "volume_mm3": 435.6021720530757
+    },
+    {
+      "side": "Right_leg",
+      "name": "N01_Aluminum_knee_stack_1",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 18721.322423117304
+    },
+    {
+      "side": "Right_leg",
+      "name": "N01_Aluminum_knee_stack_2",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_2"
+      ],
+      "body_count": 1,
+      "volume_mm3": 23075.09102458568
+    },
+    {
+      "side": "Right_leg",
+      "name": "N01_Aluminum_knee_stack_4",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_4"
+      ],
+      "body_count": 1,
+      "volume_mm3": 23074.863593888233
+    },
+    {
+      "side": "Right_leg",
+      "name": "N01_Aluminum_knee_stack_5",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_5"
+      ],
+      "body_count": 1,
+      "volume_mm3": 25823.641098894717
+    },
+    {
+      "side": "Right_leg",
+      "name": "N02_Knee_shaft_8mm",
+      "description": "8 mm straight shaft, 112 mm nominal cut; retained by radial M3 set screws in the block and the purchased bearing collars. Knee load rating is unverified. V13 knee pivot/support raised12mm.",
+      "material": "steel",
+      "body_names": [
+        "Knee_shaft_8x104"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5227.610175573194
+    },
+    {
+      "side": "Right_leg",
+      "name": "N03_Sprocket_blank_LAYOUT",
+      "description": "Approximate16T #40 sprocket:12.7pitch,65.10PD,71.37OD,7.21face. Common chain planeX-31. Revised four recessed M3 ties and two6mm dowels. Roller-pocket teeth are visualization only.",
+      "material": "sprocket material undecided",
+      "body_names": [
+        "N03_Sprocket_blank_LAYOUT"
+      ],
+      "body_count": 1,
+      "volume_mm3": 22209.413941905696
+    },
+    {
+      "side": "Right_leg",
+      "name": "N04_Knee_pillow_block_L",
+      "description": "V13 custom aluminum pedestal replaces stock standing casting on drive side ONLY; retained bearing/cartridge solids and bearing centre.25.8mm through-seat follows unverified donor cartridge envelope. Bearing fit, shoulders and retention require design.",
+      "material": "608 bearing/cartridge + custom aluminum pedestal",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "CUSTOM_CNC_compact_cartridge_pedestal"
+      ],
+      "body_count": 20,
+      "volume_mm3": 8703.446612920188
+    },
+    {
+      "side": "Right_leg",
+      "name": "N06_Upper_leg_oval_stub_L",
+      "description": "18Yx10X oval tube,0.55mm assumed wall,234.8mm long; lower end raised12mm while hip height stays fixed. New side-screw and output-pin passages.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "N06_Upper_leg_oval_stub_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5829.0700344665465
+    },
+    {
+      "side": "Right_leg",
+      "name": "N04_Knee_pillow_block_R",
+      "description": "Exact existing pillow-block solids, 8 mm bore. Housing belongs to the thigh side; shaft belongs to the shin side. Bearing selection has not been load-rated for the knee. V13 knee pivot/support raised12mm.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.4006646613625
+    },
+    {
+      "side": "Right_leg",
+      "name": "N06_Upper_leg_oval_stub_R",
+      "description": "18Yx10X oval tube,0.55mm assumed wall,234.8mm long; lower end raised12mm while hip height stays fixed. New side-screw and output-pin passages.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "N06_Upper_leg_oval_stub_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5866.703172863952
+    },
+    {
+      "side": "Right_leg",
+      "name": "N07_Knee_stack_fasteners",
+      "description": "Four recessed M3x60 stack ties/nuts, two6x55.605 nominal dowels, two M3x50 rail bolts/nuts and two M3x10 set screws.",
+      "material": "steel reference",
+      "body_names": [
+        "M3_stack_nut_envelope",
+        "M3_stack_nut_envelope (1)",
+        "M3_stack_nut_envelope (2)",
+        "M3_stack_nut_envelope (3)",
+        "M3x50_rail_crossbolt",
+        "M3_rail_head",
+        "M3_rail_nut_envelope",
+        "M3x50_rail_crossbolt (1)",
+        "M3_rail_head (1)",
+        "M3_rail_nut_envelope (1)",
+        "M3x10_shaft_set_screw",
+        "M3x10_shaft_set_screw (1)",
+        "M3x60_stack_tie",
+        "Recessed_M3_head",
+        "M3x60_stack_tie (1)",
+        "Recessed_M3_head (1)",
+        "M3x60_stack_tie (2)",
+        "Recessed_M3_head (2)",
+        "M3x60_stack_tie (3)",
+        "Recessed_M3_head (3)",
+        "6mm_stack_dowel",
+        "6mm_stack_dowel (1)"
+      ],
+      "body_count": 22,
+      "volume_mm3": 6388.500917705752
+    },
+    {
+      "side": "Right_leg",
+      "name": "F06_Heel_pillow_block_L",
+      "description": "Exact existing 8 mm-ID pillow block; housing edge nominal2.5 mm inside the100 mm foot. Mounted upright with M5 hardware matching purchased mounting slots.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.379905810709
+    },
+    {
+      "side": "Right_leg",
+      "name": "F07_Printed_8_to_6_bearing_sleeve_L",
+      "description": "8 mm OD,6 mm ID,12 mm nominal sleeve in purchased bearing. Radial bearing load passes through this printed sleeve; validate retention and material physically.",
+      "material": "PA12-CF",
+      "body_names": [
+        "8OD_6ID_reducer"
+      ],
+      "body_count": 1,
+      "volume_mm3": 263.89378290153127
+    },
+    {
+      "side": "Right_leg",
+      "name": "F06_Heel_pillow_block_R",
+      "description": "Exact existing 8 mm-ID pillow block; housing edge nominal2.5 mm inside the100 mm foot. Mounted upright with M5 hardware matching purchased mounting slots.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.398301472807
+    },
+    {
+      "side": "Right_leg",
+      "name": "F07_Printed_8_to_6_bearing_sleeve_R",
+      "description": "8 mm OD,6 mm ID,12 mm nominal sleeve in purchased bearing. Radial bearing load passes through this printed sleeve; validate retention and material physically.",
+      "material": "PA12-CF",
+      "body_names": [
+        "8OD_6ID_reducer"
+      ],
+      "body_count": 1,
+      "volume_mm3": 263.89378290153115
+    },
+    {
+      "side": "Right_leg",
+      "name": "F08_Heel_cross_shaft_6mm",
+      "description": "6 mm cross-shaft through two reducing sleeves and both6 mm rod-end inner rings.97 mm cut; verify selected retention hardware.",
+      "material": "steel",
+      "body_names": [
+        "Heel_cross_shaft_6mm",
+        "Wixroyd_65720_W0006_inner_ring_A",
+        "Wixroyd_65720_W0006_inner_ring_B"
+      ],
+      "body_count": 3,
+      "volume_mm3": 4066.6041126961973
+    },
+    {
+      "side": "Right_leg",
+      "name": "F10_Heel_axial_spacers",
+      "description": "Printed axial spacers bear only on the inner-ring faces.0.2 mm nominal end float per outside spacer; bore6.2 mm. Sleeve material and shaft bending not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Inner_ring_axial_spacer",
+        "Inner_ring_axial_spacer (1)",
+        "Inner_ring_axial_spacer (2)"
+      ],
+      "body_count": 3,
+      "volume_mm3": 1245.397228320622
+    },
+    {
+      "side": "Right_leg",
+      "name": "F11_Heel_pillow_M5_hardware",
+      "description": "Four M5 mounting bolts and nuts sized for the purchased pillow block slots, plus M6 shaft-end retaining nuts. External component attachment retains M5.",
+      "material": "steel",
+      "body_names": [
+        "M5x20_socket_screw_4",
+        "M5_1mm_washer",
+        "M5_1mm_washer (1)",
+        "M5_bottom_nut",
+        "M5x20_socket_screw_5",
+        "M5_1mm_washer (2)",
+        "M5_1mm_washer (3)",
+        "M5_bottom_nut (1)",
+        "M5x20_socket_screw_6",
+        "M5_1mm_washer (4)",
+        "M5_1mm_washer (5)",
+        "M5_bottom_nut (2)",
+        "M5x20_socket_screw_7",
+        "M5_1mm_washer (6)",
+        "M5_1mm_washer (7)",
+        "M5_bottom_nut (3)"
+      ],
+      "body_count": 16,
+      "volume_mm3": 3730.1712764596614
+    },
+    {
+      "side": "Right_leg",
+      "name": "L01_Threaded_link_rod_A",
+      "description": "M6 rod threaded directly into a 15 mm M6-female ball reference. Central oval-steel reinforcement and printed guides are separate rigid components. Verify actual ball thread and rod-end supplier; no qualified load rating.",
+      "material": "steel",
+      "body_names": [
+        "M6x1_steel_core",
+        "Wixroyd_65720_W0006_upper_housing",
+        "Wixroyd_65720_W0006_lower_housing"
+      ],
+      "body_count": 3,
+      "volume_mm3": 11722.692088356156
+    },
+    {
+      "side": "Right_leg",
+      "name": "L02_Oval_steel_reinforcement_A",
+      "description": "18 x10 x nominal0.55 mm stadium steel tube, centered 230 mm cut. Weak-axis composite stiffness is an ideal upper bound; printed coupling requires physical validation.",
+      "material": "salvaged steel",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5779.53839791761
+    },
+    {
+      "side": "Right_leg",
+      "name": "L03_Threaded_oval_plug_A_lower",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8694510432756
+    },
+    {
+      "side": "Right_leg",
+      "name": "L03_Threaded_oval_plug_A_upper",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8693736426667
+    },
+    {
+      "side": "Right_leg",
+      "name": "L04_Central_rod_guide_A",
+      "description": "Internal oval guide between threaded end plugs. 6.4 mm smooth bore, not a deep tapped hole. Close lateral support is assumed in ideal buckling model, not proven by clearance alone.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 17958.55922874497
+    },
+    {
+      "side": "Right_leg",
+      "name": "L01_Threaded_link_rod_B",
+      "description": "M6 rod threaded directly into a 15 mm M6-female ball reference. Central oval-steel reinforcement and printed guides are separate rigid components. Verify actual ball thread and rod-end supplier; no qualified load rating.",
+      "material": "steel",
+      "body_names": [
+        "M6x1_steel_core",
+        "Wixroyd_65720_W0006_upper_housing",
+        "Wixroyd_65720_W0006_lower_housing"
+      ],
+      "body_count": 3,
+      "volume_mm3": 9906.69705671089
+    },
+    {
+      "side": "Right_leg",
+      "name": "L02_Oval_steel_reinforcement_B",
+      "description": "18 x10 x nominal0.55 mm stadium steel tube, centered 140 mm cut. Weak-axis composite stiffness is an ideal upper bound; printed coupling requires physical validation.",
+      "material": "salvaged steel",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 3517.9798943846245
+    },
+    {
+      "side": "Right_leg",
+      "name": "L03_Threaded_oval_plug_B_lower",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8403497774725
+    },
+    {
+      "side": "Right_leg",
+      "name": "L03_Threaded_oval_plug_B_upper",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8403843577735
+    },
+    {
+      "side": "Right_leg",
+      "name": "L04_Central_rod_guide_B",
+      "description": "Internal oval guide between threaded end plugs. 6.4 mm smooth bore, not a deep tapped hole. Close lateral support is assumed in ideal buckling model, not proven by clearance alone.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9433.926683454862
+    },
+    {
+      "side": "Right_leg",
+      "name": "R01_DJI_10018_77KV_ESTIMATED_REFERENCE",
+      "description": "DJI10018 estimated motor at knee+261.4 mm. Rear hub X33 to right rail inner face X38 leaves 5mm encoder gap. Gearbox omitted. V13 axis Z565: 25mm below released v12, reconciled against surviving live edit.",
+      "material": "purchased motor - dimensions provisional",
+      "body_names": [
+        "Black_rotor_can_EST",
+        "Front_rotor_plate_EST",
+        "Rear_stator_ring_EST",
+        "Rear_bearing_hub_EST",
+        "Mount_boss_and_4p2_bore_EST",
+        "Stator_mount_spoke_EST",
+        "Mount_boss_and_4p2_bore_EST (1)",
+        "Stator_mount_spoke_EST (1)",
+        "Mount_boss_and_4p2_bore_EST (2)",
+        "Stator_mount_spoke_EST (2)",
+        "Mount_boss_and_4p2_bore_EST (3)",
+        "Stator_mount_spoke_EST (3)",
+        "Copper_winding_visual_EST",
+        "Copper_winding_visual_EST (1)",
+        "Copper_winding_visual_EST (2)",
+        "Copper_winding_visual_EST (3)",
+        "Copper_winding_visual_EST (4)",
+        "Copper_winding_visual_EST (5)",
+        "Copper_winding_visual_EST (6)",
+        "Copper_winding_visual_EST (7)",
+        "Copper_winding_visual_EST (8)",
+        "Copper_winding_visual_EST (9)",
+        "Copper_winding_visual_EST (10)",
+        "Copper_winding_visual_EST (11)",
+        "Copper_winding_visual_EST (12)",
+        "Copper_winding_visual_EST (13)",
+        "Copper_winding_visual_EST (14)",
+        "Copper_winding_visual_EST (15)",
+        "Copper_winding_visual_EST (16)",
+        "Copper_winding_visual_EST (17)",
+        "Copper_winding_visual_EST (18)",
+        "Copper_winding_visual_EST (19)",
+        "Copper_winding_visual_EST (20)",
+        "Copper_winding_visual_EST (21)",
+        "Copper_winding_visual_EST (22)",
+        "Copper_winding_visual_EST (23)",
+        "Copper_winding_visual_EST (24)",
+        "Copper_winding_visual_EST (25)",
+        "Copper_winding_visual_EST (26)",
+        "Copper_winding_visual_EST (27)",
+        "Copper_winding_visual_EST (28)",
+        "Copper_winding_visual_EST (29)",
+        "Copper_winding_visual_EST (30)",
+        "Copper_winding_visual_EST (31)",
+        "Copper_winding_visual_EST (32)",
+        "Copper_winding_visual_EST (33)",
+        "Copper_winding_visual_EST (34)",
+        "Copper_winding_visual_EST (35)",
+        "Prop_mount_pad_EST",
+        "Prop_mount_post_UNCUT_EST",
+        "Prop_mount_pad_EST (1)",
+        "Prop_mount_post_UNCUT_EST (1)",
+        "Front_central_shaft_boss_EST",
+        "Phase_wire_visual_EST",
+        "Phase_wire_visual_EST (1)",
+        "Phase_wire_visual_EST (2)"
+      ],
+      "body_count": 56,
+      "volume_mm3": 88083.85107942353
+    },
+    {
+      "side": "Right_leg",
+      "name": "T04_GWK7010_Hip_yaw_REFERENCE",
+      "description": "Vertical yaw axis. 40-50Nm peak is an untested user estimate. Structural bearing support undecided.",
+      "material": "purchased GWK7010 reference",
+      "body_names": [
+        "GWK7010_vendor_fixed_yaw",
+        "GWK7010_vendor_output_yaw"
+      ],
+      "body_count": 2,
+      "volume_mm3": 57001.92187411903
+    },
+    {
+      "side": "Right_leg",
+      "name": "T07_Hip_pitch_motor_ENVELOPE_REFERENCE",
+      "description": "Hip pitch reference,unselected100x40mm motor envelope;user-specified25 degree tilt. Axis orientation sign remains layout convention.",
+      "material": "unspecified motor envelope",
+      "body_names": [
+        "Hip_pitch_100x40_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 314159.2653589817
+    },
+    {
+      "side": "Right_leg",
+      "name": "T09_Hip_roll_motor_ENVELOPE_REFERENCE",
+      "description": "Distinct hip roll:90mm diameter x36mm reference,axis alongY throughX0/Z743.6. Positioned fore-aft clear of yaw;motor and bearing design unresolved.",
+      "material": "unselected motor envelope",
+      "body_names": [
+        "Hip_roll_90x36_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 282743.33882309357
+    },
+    {
+      "side": "Right_leg",
+      "name": "P02_Knee_rail_screws_and_sleeves_L",
+      "description": "Two M4x20 nominal side screws and retained crush sleeves; verify measured engagement.",
+      "material": "steel reference",
+      "body_names": [
+        "M4_socket_head",
+        "Crush_sleeve",
+        "M4_socket_head (1)",
+        "Crush_sleeve (1)",
+        "M4x20_side_screw",
+        "M4x20_side_screw (1)"
+      ],
+      "body_count": 6,
+      "volume_mm3": 1064.3213255537448
+    },
+    {
+      "side": "Right_leg",
+      "name": "P02_Knee_rail_screws_and_sleeves_R",
+      "description": "Two M4x25 nominal side screws and internal crush sleeves; finish threads and bolt length on measured stock. V13 knee pivot/support raised12mm.",
+      "material": "steel",
+      "body_names": [
+        "M4x25_side_screw",
+        "M4_socket_head",
+        "Crush_sleeve",
+        "M4x25_side_screw (1)",
+        "M4_socket_head (1)",
+        "Crush_sleeve (1)"
+      ],
+      "body_count": 6,
+      "volume_mm3": 1189.98503169733
+    },
+    {
+      "side": "Right_leg",
+      "name": "P06_Gearbox_output_REFERENCE",
+      "description": "16mm output shaft with3mm flange,0.5mm axial gaps to cover and motor boss; bearing/carrier/coupling undefined.",
+      "material": "aluminum reference",
+      "body_names": [
+        "P06_Gearbox_output_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7621.001122784598
+    },
+    {
+      "side": "Right_leg",
+      "name": "P07_Motor_output_sprocket_BLANK",
+      "description": "Approximate8T #40 sprocket:12.7pitch,33.19PD,38.28OD,7.21face; roller-pocket visualization only, not CNC tooth form. Common chain plane X-31.",
+      "material": "sprocket material undecided",
+      "body_names": [
+        "P07_Motor_output_sprocket_BLANK"
+      ],
+      "body_count": 1,
+      "volume_mm3": 4345.503133513904
+    },
+    {
+      "side": "Right_leg",
+      "name": "P08_Sprocket_output_flange",
+      "description": "19mm OD compact8T hub; provisional keyed/coupled interface and retention.",
+      "material": "aluminum reference",
+      "body_names": [
+        "P08_Sprocket_output_flange"
+      ],
+      "body_count": 1,
+      "volume_mm3": 692.3088460807946
+    },
+    {
+      "side": "Right_leg",
+      "name": "P09_Opposite_output_support_pin_6mm",
+      "description": "6mm support pin,39mm long in revised chain plane. Bearing/retention pending.",
+      "material": "steel reference",
+      "body_names": [
+        "P09_Opposite_output_support_pin_6mm"
+      ],
+      "body_count": 1,
+      "volume_mm3": 1102.6990214099699
+    },
+    {
+      "side": "Right_leg",
+      "name": "Q01_CNC_rail_to_yaw_crosshead",
+      "description": "8mm fixed yaw annulus with two 26.5mm slotted oval rail sockets and M4 pinch provisions. Four provisional M2 clearance locations at R20.25 follow visible donor geometry; measure motor mounting before CNC.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q01_CNC_rail_to_yaw_crosshead"
+      ],
+      "body_count": 1,
+      "volume_mm3": 62955.759934900416
+    },
+    {
+      "side": "Right_leg",
+      "name": "Q02_CNC_yaw_to_roll_cradle",
+      "description": "Integral 10mm roll backplate and floor on yaw output hub. Roll motor 100x36 reference, provisional 80 PCD M5; yaw output pattern and bearing/fastener access require vendor confirmation. Layout only, no hip joint qualification.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q02_CNC_yaw_to_roll_cradle"
+      ],
+      "body_count": 1,
+      "volume_mm3": 152649.4136025396
+    },
+    {
+      "side": "Right_leg",
+      "name": "P01_Knee_side_rail_seat_L",
+      "description": "38mm-wide CNC drive-side saddle, inner faceX-36 leaves1.395mm to sprocket. Two M4x20 side screws; two top-entering M4x45 pedestal screws.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "P01_Knee_side_rail_seat_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 17505.354577256603
+    },
+    {
+      "side": "Right_leg",
+      "name": "P01_Knee_side_rail_seat_R",
+      "description": "Matched 18Y x 10X oval side saddle; two nominal M4 side threads and two M5 bearing mount clearances. CNC dimensions provisional. V13 knee pivot/support raised12mm.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "P01_Knee_side_rail_seat_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 35998.9369371071
+    },
+    {
+      "side": "Right_leg",
+      "name": "P03_Circular_motor_gearbox_case",
+      "description": "Aluminum tube:106mm ID,110mm OD,2mm wall,45mm axial length X-8..37. Rear wire notch. Gearbox cavity13mm nominal; final reduction depth deferred.",
+      "material": "aluminum tubing, grade unconfirmed",
+      "body_names": [
+        "P03_Circular_motor_gearbox_case"
+      ],
+      "body_count": 1,
+      "volume_mm3": 30440.081887463562
+    },
+    {
+      "side": "Right_leg",
+      "name": "P04_Case_rail_cap_R_546",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_R_546"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.874424148549
+    },
+    {
+      "side": "Right_leg",
+      "name": "P04_Case_rail_cap_R_634",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_R_634"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.87442414852
+    },
+    {
+      "side": "Right_leg",
+      "name": "P04_Case_rail_cap_L_646",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_L_646"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.874424148555
+    },
+    {
+      "side": "Right_leg",
+      "name": "P05_Gearbox_front_cover",
+      "description": "3mm front cover atX-11..-8 plus upper bridge/clamp to opposite rail. External tie ears avoid threading a2mm tube wall. Prop-post passages are provisional.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P05_Gearbox_front_cover"
+      ],
+      "body_count": 1,
+      "volume_mm3": 52748.317065303294
+    },
+    {
+      "side": "Right_leg",
+      "name": "P10_Output_support_rail_block",
+      "description": "Compact split support around 6mm pin; clears sprocket bolts. 6.6mm passage only, bearing and load-bearing section require final design. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P10_Output_support_rail_block"
+      ],
+      "body_count": 1,
+      "volume_mm3": 1225.1017716633376
+    },
+    {
+      "side": "Right_leg",
+      "name": "P11_Output_support_cap",
+      "description": "Compact split support around 6mm pin; clears sprocket bolts. 6.6mm passage only, bearing and load-bearing section require final design. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P11_Output_support_cap"
+      ],
+      "body_count": 1,
+      "volume_mm3": 3197.9365742755112
+    },
+    {
+      "side": "Right_leg",
+      "name": "Q03_CNC_roll_to_pitch_fork",
+      "description": "Opposed CNC cheek concept and 25deg pitch flange, relieved around the motor with0.5mm radial clearance. Mount patterns and machining split provisional.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q03_CNC_roll_to_pitch_fork"
+      ],
+      "body_count": 1,
+      "volume_mm3": 104476.3971269
+    },
+    {
+      "side": "Right_leg",
+      "name": "P12_Case_clamp_and_cover_hardware",
+      "description": "Eight M4 rail-clamp screws and four external M3x60 case ties with nut envelopes; verify stock screw lengths and print retention.",
+      "material": "steel reference",
+      "body_names": [
+        "M4_clamp_shank",
+        "M4_clamp_head",
+        "M4_clamp_shank (1)",
+        "M4_clamp_head (1)",
+        "M4_clamp_shank (2)",
+        "M4_clamp_head (2)",
+        "M4_clamp_shank (3)",
+        "M4_clamp_head (3)",
+        "M4_clamp_shank (4)",
+        "M4_clamp_head (4)",
+        "M4_clamp_shank (5)",
+        "M4_clamp_head (5)",
+        "M4_clamp_shank (6)",
+        "M4_clamp_head (6)",
+        "M4_clamp_shank (7)",
+        "M4_clamp_head (7)",
+        "M3x60_tie_shank",
+        "M3_tie_head",
+        "M3_nut_envelope",
+        "M3x60_tie_shank (1)",
+        "M3_tie_head (1)",
+        "M3_nut_envelope (1)",
+        "M3x60_tie_shank (2)",
+        "M3_tie_head (2)",
+        "M3_nut_envelope (2)",
+        "M3x60_tie_shank (3)",
+        "M3_tie_head (3)",
+        "M3_nut_envelope (3)"
+      ],
+      "body_count": 28,
+      "volume_mm3": 5668.758899175705
+    },
+    {
+      "side": "Right_leg",
+      "name": "P14_Motor_to_backplate_M4_screws",
+      "description": "Four M4x12 nominal bolts seat in X41 counterbores of the circular backplate; actual motor thread/depth unmeasured. V13 moved down25mm; name retains historical identifier.",
+      "material": "steel reference",
+      "body_names": [
+        "Motor_mount_M4x12",
+        "Motor_mount_head",
+        "Motor_mount_M4x12 (1)",
+        "Motor_mount_head (1)",
+        "Motor_mount_M4x12 (2)",
+        "Motor_mount_head (2)",
+        "Motor_mount_M4x12 (3)",
+        "Motor_mount_head (3)"
+      ],
+      "body_count": 8,
+      "volume_mm3": 1218.937949592838
+    },
+    {
+      "side": "Right_leg",
+      "name": "P15_Separate_motor_backplate_and_rail_saddles",
+      "description": "Separate8mm printed rear plate and two right-rail saddles. Aluminum tube is clamped between plates by four external M3 tie screws. Mount pattern remains estimated.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P15_Separate_motor_backplate_and_rail_saddles"
+      ],
+      "body_count": 1,
+      "volume_mm3": 73390.11850426413
+    },
+    {
+      "side": "Right_leg",
+      "name": "N09_Knee_sprocket_standoff_hub",
+      "description": "48mm OD x6.395mm sprocket standoff, fourM3 ties and two6mm registrations. Keeps chain planeX-31 clear of shin tubes. Provisional load path.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N09_Knee_sprocket_standoff_hub"
+      ],
+      "body_count": 1,
+      "volume_mm3": 10641.829462514008
+    },
+    {
+      "side": "Right_leg",
+      "name": "N10_Drive_side_pedestal_hardware",
+      "description": "Two top-entering M4x45 pedestal screws; nominal6mm engagement. Thread fit/strength and assembly access pending.",
+      "material": "steel reference",
+      "body_names": [
+        "M4x45_pedestal_screw",
+        "M4_pedestal_head",
+        "M4x45_pedestal_screw (1)",
+        "M4_pedestal_head (1)"
+      ],
+      "body_count": 4,
+      "volume_mm3": 1438.8494353440944
+    },
+    {
+      "side": "Right_leg",
+      "name": "F01_Foot_plate",
+      "description": "Source foot-v2 100 x 122 x 4 mm plate; add socket fastener holes",
+      "material": "aluminum",
+      "body_names": [
+        "Aluminum_plate_current_mounts"
+      ],
+      "body_count": 1,
+      "volume_mm3": 46907.16463288535
+    },
+    {
+      "side": "Right_leg",
+      "name": "F02_Replaceable_sole",
+      "description": "Source foot-v2 replaceable sole; no strength credit assigned",
+      "material": "PA12-CF or wood",
+      "body_names": [
+        "Sole_without_obsolete_holes"
+      ],
+      "body_count": 1,
+      "volume_mm3": 234447.42474178787
+    },
+    {
+      "side": "Right_leg",
+      "name": "S01_Ankle_to_oval_rail_adapter",
+      "description": "Filled PA12-CF adapter; continuous central web, shallow underside pivot relief and rounded front rod-sweep scallops. Rotated lower oval tubes at X +/-11. Four M5 bearing mount holes.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Loose_PCB_seat"
+      ],
+      "body_count": 1,
+      "volume_mm3": 111839.13481490001
+    },
+    {
+      "side": "Left_leg",
+      "name": "F03_Roll_bearing_rear",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.371559264662
+    },
+    {
+      "side": "Left_leg",
+      "name": "F04_Roll_bearing_front",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring (1)_0",
+        "Inner & Outer Ring (1)_1",
+        "Balls (1)_0",
+        "Balls (1)_1",
+        "Balls (1)_2",
+        "Balls (1)_3",
+        "Balls (1)_4",
+        "Balls (1)_5",
+        "Balls (1)_6",
+        "Balls (1)_7",
+        "Ball Retainer (1)_0",
+        "Ball Retainer (1)_1",
+        "Bearing Seal (1)_0",
+        "Bearing Seal (1)_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1 (1)",
+        "Body (1)_0",
+        "608ZZ Standing bearing v4 (1)_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.377753770725
+    },
+    {
+      "side": "Left_leg",
+      "name": "S02_Pitch_bearing_left",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.394177806266
+    },
+    {
+      "side": "Left_leg",
+      "name": "S03_Pitch_bearing_right",
+      "description": "Source geometry; bearings centered on the new shaft datums",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.393976595613
+    },
+    {
+      "side": "Left_leg",
+      "name": "A01_PA12CF_cross_axis_block",
+      "description": "PA12-CF block39 mm tall,17 mm pitch/roll axis separation. Small holes are M3 pinch-clamp holes; nominal screw/head/nut envelopes are shown. Steel pitch shaft8 x92 mm.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Upper_clamp_split",
+        "Roll_shaft_8mm",
+        "Pitch_shaft_8mm",
+        "Lower_M3_pinch_screw",
+        "Lower_M3_socket_head",
+        "Lower_M3_nut_envelope",
+        "Upper_M3_pinch_screw",
+        "Upper_M3_socket_head",
+        "Upper_M3_nut_envelope"
+      ],
+      "body_count": 9,
+      "volume_mm3": 27426.73088123904
+    },
+    {
+      "side": "Left_leg",
+      "name": "S05_Continuous_oval_steel_rail_L",
+      "description": "Continuous18x10 stadium steel tube,0.55mm assumed wall,366.6mm long,12mm longer for raised knee; knee cross-bolt passage atZ418.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "S05_Continuous_oval_steel_rail_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9202.673353124965
+    },
+    {
+      "side": "Left_leg",
+      "name": "S05_Continuous_oval_steel_rail_R",
+      "description": "Continuous18x10 stadium steel tube,0.55mm assumed wall,366.6mm long,12mm longer for raised knee; knee cross-bolt passage atZ418.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "S05_Continuous_oval_steel_rail_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9202.673353124965
+    },
+    {
+      "side": "Left_leg",
+      "name": "S06_Dual_7010_motor_carrier",
+      "description": "Motor-contoured calf: 88 mm upper bulge tapering to 86 mm, curved rear frame, annular motor cradles, oval rail sockets. One connected print.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body7"
+      ],
+      "body_count": 1,
+      "volume_mm3": 272772.7845647716
+    },
+    {
+      "side": "Left_leg",
+      "name": "S10_Separate_motor_plate_B",
+      "description": "Separate5 mm motor plate with32 projected vendor boundary edges, zero profile offset. Covers full motor face; removable M3 attachment.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Flat_lower_cover_edge_above_ODrive"
+      ],
+      "body_count": 1,
+      "volume_mm3": 26471.163381795075
+    },
+    {
+      "side": "Left_leg",
+      "name": "S10_Separate_motor_plate_A",
+      "description": "Separate5 mm motor plate with32 projected vendor boundary edges, zero profile offset. Covers full motor face; removable M3 attachment.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Half_mm_cover_separation"
+      ],
+      "body_count": 1,
+      "volume_mm3": 26471.163381795093
+    },
+    {
+      "side": "Left_leg",
+      "name": "H02_M3_motor_plate_hardware",
+      "description": "28 nominal M3x12 screws: 16 countersunk to motor case, 12 socket head to M3 inserts. Inserts OD4.6 x5 envelope, pilot 4.3 mm requires coupon and actual insert selection. No thread detail.",
+      "material": "steel",
+      "body_names": [
+        "M3x12_casing_screw_247_0",
+        "M3_casing_socket_head_247_0",
+        "M3_insert_installed_envelope_247_0",
+        "M3x12_casing_screw_247_1",
+        "M3_casing_socket_head_247_1",
+        "M3_insert_installed_envelope_247_1",
+        "M3x12_casing_screw_247_2",
+        "M3_casing_socket_head_247_2",
+        "M3_insert_installed_envelope_247_2",
+        "M3x12_casing_screw_247_3",
+        "M3_casing_socket_head_247_3",
+        "M3_insert_installed_envelope_247_3",
+        "M3x12_casing_screw_247_4",
+        "M3_casing_socket_head_247_4",
+        "M3_insert_installed_envelope_247_4",
+        "M3x12_casing_screw_247_5",
+        "M3_casing_socket_head_247_5",
+        "M3_insert_installed_envelope_247_5",
+        "M3x12_motor_case_screw_247_0",
+        "M3_motor_case_flush_head_247_0",
+        "M3x12_motor_case_screw_247_1",
+        "M3_motor_case_flush_head_247_1",
+        "M3x12_motor_case_screw_247_2",
+        "M3_motor_case_flush_head_247_2",
+        "M3x12_motor_case_screw_247_3",
+        "M3_motor_case_flush_head_247_3",
+        "M3x12_motor_case_screw_247_4",
+        "M3_motor_case_flush_head_247_4",
+        "M3x12_motor_case_screw_247_5",
+        "M3_motor_case_flush_head_247_5",
+        "M3x12_motor_case_screw_247_6",
+        "M3_motor_case_flush_head_247_6",
+        "M3x12_motor_case_screw_247_7",
+        "M3_motor_case_flush_head_247_7",
+        "M3x12_casing_screw_329_0",
+        "M3_casing_socket_head_329_0",
+        "M3_insert_installed_envelope_329_0",
+        "M3x12_casing_screw_329_1",
+        "M3_casing_socket_head_329_1",
+        "M3_insert_installed_envelope_329_1",
+        "M3x12_casing_screw_329_2",
+        "M3_casing_socket_head_329_2",
+        "M3_insert_installed_envelope_329_2",
+        "M3x12_casing_screw_329_3",
+        "M3_casing_socket_head_329_3",
+        "M3_insert_installed_envelope_329_3",
+        "M3x12_casing_screw_329_4",
+        "M3_casing_socket_head_329_4",
+        "M3_insert_installed_envelope_329_4",
+        "M3x12_casing_screw_329_5",
+        "M3_casing_socket_head_329_5",
+        "M3_insert_installed_envelope_329_5",
+        "M3x12_motor_case_screw_329_0",
+        "M3_motor_case_flush_head_329_0",
+        "M3x12_motor_case_screw_329_1",
+        "M3_motor_case_flush_head_329_1",
+        "M3x12_motor_case_screw_329_2",
+        "M3_motor_case_flush_head_329_2",
+        "M3x12_motor_case_screw_329_3",
+        "M3_motor_case_flush_head_329_3",
+        "M3x12_motor_case_screw_329_4",
+        "M3_motor_case_flush_head_329_4",
+        "M3x12_motor_case_screw_329_5",
+        "M3_motor_case_flush_head_329_5",
+        "M3x12_motor_case_screw_329_6",
+        "M3_motor_case_flush_head_329_6",
+        "M3x12_motor_case_screw_329_7",
+        "M3_motor_case_flush_head_329_7"
+      ],
+      "body_count": 68,
+      "volume_mm3": 4073.389034644716
+    },
+    {
+      "side": "Left_leg",
+      "name": "M01_GWK7010_A",
+      "description": "Supplied STEP geometry, visible output region partitioned from fixed housing; internal transmission not articulated",
+      "material": "purchased GWK7010-8",
+      "body_names": [
+        "GWK7010_vendor_fixed_region"
+      ],
+      "body_count": 1,
+      "volume_mm3": 53130.9755823549
+    },
+    {
+      "side": "Left_leg",
+      "name": "M02_Aluminum_crank_A",
+      "description": "6 mm sheet crank, 20.5 mm radius, curved tangent profile; 6 x M3 output holes, three locating-pin clearances; engagement 5 mm max",
+      "material": "6061-T6 aluminum",
+      "body_names": [
+        "Body1",
+        "GWK7010_vendor_visible_rotating_output",
+        "M6_upper_rod_end_pin",
+        "Output_crank_1mm_M3_washer_0",
+        "Output_crank_1mm_M3_washer_1",
+        "Output_crank_1mm_M3_washer_2",
+        "Output_crank_1mm_M3_washer_3",
+        "Output_crank_1mm_M3_washer_4",
+        "Output_crank_1mm_M3_washer_5",
+        "Wixroyd_65720_W0006_upper_inner_ring",
+        "Upper_inner_ring_spacer_4p5mm"
+      ],
+      "body_count": 11,
+      "volume_mm3": 12886.54263237079
+    },
+    {
+      "side": "Left_leg",
+      "name": "M01_GWK7010_B",
+      "description": "Supplied STEP geometry, visible output region partitioned from fixed housing; internal transmission not articulated",
+      "material": "purchased GWK7010-8",
+      "body_names": [
+        "GWK7010_vendor_fixed_region"
+      ],
+      "body_count": 1,
+      "volume_mm3": 53130.97558235479
+    },
+    {
+      "side": "Left_leg",
+      "name": "M02_Aluminum_crank_B",
+      "description": "6 mm sheet crank, 20.5 mm radius, curved tangent profile; 6 x M3 output holes, three locating-pin clearances; engagement 5 mm max",
+      "material": "6061-T6 aluminum",
+      "body_names": [
+        "Body1",
+        "GWK7010_vendor_visible_rotating_output",
+        "M6_upper_rod_end_pin",
+        "Output_crank_1mm_M3_washer_0",
+        "Output_crank_1mm_M3_washer_1",
+        "Output_crank_1mm_M3_washer_2",
+        "Output_crank_1mm_M3_washer_3",
+        "Output_crank_1mm_M3_washer_4",
+        "Output_crank_1mm_M3_washer_5",
+        "Wixroyd_65720_W0006_upper_inner_ring",
+        "Upper_inner_ring_spacer_4p5mm"
+      ],
+      "body_count": 11,
+      "volume_mm3": 12886.542632370787
+    },
+    {
+      "side": "Left_leg",
+      "name": "H01_Steel_crush_sleeves",
+      "description": "7 mm OD, 5.4 mm ID, 10 mm long steel sleeves through the oval tube. Verify exact tube section before cutting.",
+      "material": "steel",
+      "body_names": [
+        "Crush_sleeve_-14_74",
+        "Crush_sleeve_-14_94",
+        "Crush_sleeve_-14_238",
+        "Crush_sleeve_-14_308",
+        "Crush_sleeve_-14_360",
+        "Crush_sleeve_-14_400",
+        "Crush_sleeve_14_74",
+        "Crush_sleeve_14_94",
+        "Crush_sleeve_14_238",
+        "Crush_sleeve_14_308",
+        "Crush_sleeve_14_360",
+        "Crush_sleeve_14_400"
+      ],
+      "body_count": 12,
+      "volume_mm3": 1266.6901579274586
+    },
+    {
+      "side": "Left_leg",
+      "name": "E03_ODrive_board_no_connectors",
+      "description": "15 exact source bodies at user placement. Bodies16-21 (GPIO and wire connectors) removed for direct soldering; capacitors face the rails.",
+      "material": "electronics envelope",
+      "body_names": [
+        "Body1",
+        "Body2",
+        "Body3",
+        "Body4",
+        "Body5",
+        "Body6",
+        "Body7",
+        "Body8",
+        "Body9",
+        "Body10",
+        "Body11",
+        "Body12",
+        "Body13",
+        "Body14",
+        "Body15"
+      ],
+      "body_count": 15,
+      "volume_mm3": 19660.306295688384
+    },
+    {
+      "side": "Left_leg",
+      "name": "F09_Purchased_bearing_M5_fasteners",
+      "description": "Four M5x20 socket screws, eight M5x1mm washers and four M5 nuts below plastic; heel group additionally two M6 shaft retaining nuts.",
+      "material": "",
+      "body_names": [
+        "M5x20_socket_screw_0",
+        "M5_1mm_washer",
+        "M5_1mm_washer (1)",
+        "M5_bottom_nut",
+        "M5x20_socket_screw_1",
+        "M5_1mm_washer (2)",
+        "M5_1mm_washer (3)",
+        "M5_bottom_nut (1)",
+        "M5x20_socket_screw_2",
+        "M5_1mm_washer (4)",
+        "M5_1mm_washer (5)",
+        "M5_bottom_nut (2)",
+        "M5x20_socket_screw_3",
+        "M5_1mm_washer (6)",
+        "M5_1mm_washer (7)",
+        "M5_bottom_nut (3)"
+      ],
+      "body_count": 16,
+      "volume_mm3": 3730.1712764596614
+    },
+    {
+      "side": "Left_leg",
+      "name": "E04_TPU_upper_rail_envelope",
+      "description": "Compliant split rail envelope. Upper M3 fasteners with TPU spacers; no bottom PCB screws. Nominal fit is a prototype; TPU stiffness is not characterized.",
+      "material": "TPU",
+      "body_names": [
+        "Shorten_TPU_arms_for_closer_PCB"
+      ],
+      "body_count": 1,
+      "volume_mm3": 6653.748725833051
+    },
+    {
+      "side": "Left_leg",
+      "name": "E05_TPU_board_spacer_1",
+      "description": "2 mm compliant stand-off at upper PCB M3 hole; tighten only enough to retain the board without crushing the TPU.",
+      "material": "TPU",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 59.86304801415623
+    },
+    {
+      "side": "Left_leg",
+      "name": "E05_TPU_board_spacer_2",
+      "description": "2 mm compliant stand-off at upper PCB M3 hole; tighten only enough to retain the board without crushing the TPU.",
+      "material": "TPU",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 59.86304801415619
+    },
+    {
+      "side": "Left_leg",
+      "name": "E06_ODrive_M3_top_fasteners",
+      "description": "Two M3x10 screws, M3 nuts and 1 mm washers. Lower PCB edge is supported without screws.",
+      "material": "steel",
+      "body_names": [
+        "M3x10_top_screw_0",
+        "M3_top_socket_head_0",
+        "M3_washer_0",
+        "Body4",
+        "M3x10_top_screw_1",
+        "M3_top_socket_head_1",
+        "M3_washer_1",
+        "Body8"
+      ],
+      "body_count": 8,
+      "volume_mm3": 435.6021720530757
+    },
+    {
+      "side": "Left_leg",
+      "name": "N01_Aluminum_knee_stack_1",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 18721.74635959555
+    },
+    {
+      "side": "Left_leg",
+      "name": "N01_Aluminum_knee_stack_2",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_2"
+      ],
+      "body_count": 1,
+      "volume_mm3": 23074.86359388825
+    },
+    {
+      "side": "Left_leg",
+      "name": "N01_Aluminum_knee_stack_4",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_4"
+      ],
+      "body_count": 1,
+      "volume_mm3": 23075.091024585687
+    },
+    {
+      "side": "Left_leg",
+      "name": "N01_Aluminum_knee_stack_5",
+      "description": "V13 raised shaft axis Z435.6 (+12mm), R24 crown, extended shin sockets, revised tie/dowel pattern and chain-side relief toX-12 outside R24.8. Recheck CNC stock and strength.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N01_Aluminum_knee_stack_5"
+      ],
+      "body_count": 1,
+      "volume_mm3": 25823.390931063223
+    },
+    {
+      "side": "Left_leg",
+      "name": "N02_Knee_shaft_8mm",
+      "description": "8 mm straight shaft, 112 mm nominal cut; retained by radial M3 set screws in the block and the purchased bearing collars. Knee load rating is unverified. V13 knee pivot/support raised12mm.",
+      "material": "steel",
+      "body_names": [
+        "Knee_shaft_8x104"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5227.610175573194
+    },
+    {
+      "side": "Left_leg",
+      "name": "N03_Sprocket_blank_LAYOUT",
+      "description": "Approximate16T #40 sprocket:12.7pitch,65.10PD,71.37OD,7.21face. Common chain planeX-31. Revised four recessed M3 ties and two6mm dowels. Roller-pocket teeth are visualization only.",
+      "material": "sprocket material undecided",
+      "body_names": [
+        "N03_Sprocket_blank_LAYOUT"
+      ],
+      "body_count": 1,
+      "volume_mm3": 22209.4139419057
+    },
+    {
+      "side": "Left_leg",
+      "name": "N04_Knee_pillow_block_L",
+      "description": "V13 custom aluminum pedestal replaces stock standing casting on drive side ONLY; retained bearing/cartridge solids and bearing centre.25.8mm through-seat follows unverified donor cartridge envelope. Bearing fit, shoulders and retention require design.",
+      "material": "608 bearing/cartridge + custom aluminum pedestal",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "CUSTOM_CNC_compact_cartridge_pedestal"
+      ],
+      "body_count": 20,
+      "volume_mm3": 8703.443867510592
+    },
+    {
+      "side": "Left_leg",
+      "name": "N06_Upper_leg_oval_stub_L",
+      "description": "18Yx10X oval tube,0.55mm assumed wall,234.8mm long; lower end raised12mm while hip height stays fixed. New side-screw and output-pin passages.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "N06_Upper_leg_oval_stub_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5829.070034466548
+    },
+    {
+      "side": "Left_leg",
+      "name": "N04_Knee_pillow_block_R",
+      "description": "Exact existing pillow-block solids, 8 mm bore. Housing belongs to the thigh side; shaft belongs to the shin side. Bearing selection has not been load-rated for the knee. V13 knee pivot/support raised12mm.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.393986574909
+    },
+    {
+      "side": "Left_leg",
+      "name": "N06_Upper_leg_oval_stub_R",
+      "description": "18Yx10X oval tube,0.55mm assumed wall,234.8mm long; lower end raised12mm while hip height stays fixed. New side-screw and output-pin passages.",
+      "material": "steel, grade and wall unverified",
+      "body_names": [
+        "N06_Upper_leg_oval_stub_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5866.70317286396
+    },
+    {
+      "side": "Left_leg",
+      "name": "N07_Knee_stack_fasteners",
+      "description": "Four recessed M3x60 stack ties/nuts, two6x55.605 nominal dowels, two M3x50 rail bolts/nuts and two M3x10 set screws.",
+      "material": "steel reference",
+      "body_names": [
+        "M3_stack_nut_envelope",
+        "M3_stack_nut_envelope (1)",
+        "M3_stack_nut_envelope (2)",
+        "M3_stack_nut_envelope (3)",
+        "M3x50_rail_crossbolt",
+        "M3_rail_head",
+        "M3_rail_nut_envelope",
+        "M3x50_rail_crossbolt (1)",
+        "M3_rail_head (1)",
+        "M3_rail_nut_envelope (1)",
+        "M3x10_shaft_set_screw",
+        "M3x10_shaft_set_screw (1)",
+        "M3x60_stack_tie",
+        "Recessed_M3_head",
+        "M3x60_stack_tie (1)",
+        "Recessed_M3_head (1)",
+        "M3x60_stack_tie (2)",
+        "Recessed_M3_head (2)",
+        "M3x60_stack_tie (3)",
+        "Recessed_M3_head (3)",
+        "6mm_stack_dowel",
+        "6mm_stack_dowel (1)"
+      ],
+      "body_count": 22,
+      "volume_mm3": 6388.500917705757
+    },
+    {
+      "side": "Left_leg",
+      "name": "F06_Heel_pillow_block_L",
+      "description": "Exact existing 8 mm-ID pillow block; housing edge nominal2.5 mm inside the100 mm foot. Mounted upright with M5 hardware matching purchased mounting slots.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.273370672578
+    },
+    {
+      "side": "Left_leg",
+      "name": "F07_Printed_8_to_6_bearing_sleeve_L",
+      "description": "8 mm OD,6 mm ID,12 mm nominal sleeve in purchased bearing. Radial bearing load passes through this printed sleeve; validate retention and material physically.",
+      "material": "PA12-CF",
+      "body_names": [
+        "8OD_6ID_reducer"
+      ],
+      "body_count": 1,
+      "volume_mm3": 263.89378290153127
+    },
+    {
+      "side": "Left_leg",
+      "name": "F06_Heel_pillow_block_R",
+      "description": "Exact existing 8 mm-ID pillow block; housing edge nominal2.5 mm inside the100 mm foot. Mounted upright with M5 hardware matching purchased mounting slots.",
+      "material": "purchased bearing assembly",
+      "body_names": [
+        "Inner & Outer Ring_0",
+        "Inner & Outer Ring_1",
+        "Balls_0",
+        "Balls_1",
+        "Balls_2",
+        "Balls_3",
+        "Balls_4",
+        "Balls_5",
+        "Balls_6",
+        "Balls_7",
+        "Ball Retainer_0",
+        "Ball Retainer_1",
+        "Bearing Seal_0",
+        "Bearing Seal_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+        "91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+        "Body_0",
+        "608ZZ Standing bearing v4_0"
+      ],
+      "body_count": 20,
+      "volume_mm3": 6541.292750492405
+    },
+    {
+      "side": "Left_leg",
+      "name": "F07_Printed_8_to_6_bearing_sleeve_R",
+      "description": "8 mm OD,6 mm ID,12 mm nominal sleeve in purchased bearing. Radial bearing load passes through this printed sleeve; validate retention and material physically.",
+      "material": "PA12-CF",
+      "body_names": [
+        "8OD_6ID_reducer"
+      ],
+      "body_count": 1,
+      "volume_mm3": 263.89378290153115
+    },
+    {
+      "side": "Left_leg",
+      "name": "F08_Heel_cross_shaft_6mm",
+      "description": "6 mm cross-shaft through two reducing sleeves and both6 mm rod-end inner rings.97 mm cut; verify selected retention hardware.",
+      "material": "steel",
+      "body_names": [
+        "Heel_cross_shaft_6mm",
+        "Wixroyd_65720_W0006_inner_ring_A",
+        "Wixroyd_65720_W0006_inner_ring_B"
+      ],
+      "body_count": 3,
+      "volume_mm3": 4066.5959778662905
+    },
+    {
+      "side": "Left_leg",
+      "name": "F10_Heel_axial_spacers",
+      "description": "Printed axial spacers bear only on the inner-ring faces.0.2 mm nominal end float per outside spacer; bore6.2 mm. Sleeve material and shaft bending not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Inner_ring_axial_spacer",
+        "Inner_ring_axial_spacer (1)",
+        "Inner_ring_axial_spacer (2)"
+      ],
+      "body_count": 3,
+      "volume_mm3": 1245.3972283183432
+    },
+    {
+      "side": "Left_leg",
+      "name": "F11_Heel_pillow_M5_hardware",
+      "description": "Four M5 mounting bolts and nuts sized for the purchased pillow block slots, plus M6 shaft-end retaining nuts. External component attachment retains M5.",
+      "material": "steel",
+      "body_names": [
+        "M5x20_socket_screw_4",
+        "M5_1mm_washer",
+        "M5_1mm_washer (1)",
+        "M5_bottom_nut",
+        "M5x20_socket_screw_5",
+        "M5_1mm_washer (2)",
+        "M5_1mm_washer (3)",
+        "M5_bottom_nut (1)",
+        "M5x20_socket_screw_6",
+        "M5_1mm_washer (4)",
+        "M5_1mm_washer (5)",
+        "M5_bottom_nut (2)",
+        "M5x20_socket_screw_7",
+        "M5_1mm_washer (6)",
+        "M5_1mm_washer (7)",
+        "M5_bottom_nut (3)"
+      ],
+      "body_count": 16,
+      "volume_mm3": 3730.1712764596614
+    },
+    {
+      "side": "Left_leg",
+      "name": "L01_Threaded_link_rod_A",
+      "description": "M6 rod threaded directly into a 15 mm M6-female ball reference. Central oval-steel reinforcement and printed guides are separate rigid components. Verify actual ball thread and rod-end supplier; no qualified load rating.",
+      "material": "steel",
+      "body_names": [
+        "M6x1_steel_core",
+        "Wixroyd_65720_W0006_upper_housing",
+        "Wixroyd_65720_W0006_lower_housing"
+      ],
+      "body_count": 3,
+      "volume_mm3": 11722.69208828866
+    },
+    {
+      "side": "Left_leg",
+      "name": "L02_Oval_steel_reinforcement_A",
+      "description": "18 x10 x nominal0.55 mm stadium steel tube, centered 230 mm cut. Weak-axis composite stiffness is an ideal upper bound; printed coupling requires physical validation.",
+      "material": "salvaged steel",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 5779.538397917541
+    },
+    {
+      "side": "Left_leg",
+      "name": "L03_Threaded_oval_plug_A_lower",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8694509613388
+    },
+    {
+      "side": "Left_leg",
+      "name": "L03_Threaded_oval_plug_A_upper",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8693735603647
+    },
+    {
+      "side": "Left_leg",
+      "name": "L04_Central_rod_guide_A",
+      "description": "Internal oval guide between threaded end plugs. 6.4 mm smooth bore, not a deep tapped hole. Close lateral support is assumed in ideal buckling model, not proven by clearance alone.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 17958.55922874487
+    },
+    {
+      "side": "Left_leg",
+      "name": "L01_Threaded_link_rod_B",
+      "description": "M6 rod threaded directly into a 15 mm M6-female ball reference. Central oval-steel reinforcement and printed guides are separate rigid components. Verify actual ball thread and rod-end supplier; no qualified load rating.",
+      "material": "steel",
+      "body_names": [
+        "M6x1_steel_core",
+        "Wixroyd_65720_W0006_upper_housing",
+        "Wixroyd_65720_W0006_lower_housing"
+      ],
+      "body_count": 3,
+      "volume_mm3": 9906.697056741095
+    },
+    {
+      "side": "Left_leg",
+      "name": "L02_Oval_steel_reinforcement_B",
+      "description": "18 x10 x nominal0.55 mm stadium steel tube, centered 140 mm cut. Weak-axis composite stiffness is an ideal upper bound; printed coupling requires physical validation.",
+      "material": "salvaged steel",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 3517.9798943846245
+    },
+    {
+      "side": "Left_leg",
+      "name": "L03_Threaded_oval_plug_B_lower",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.8403497879935
+    },
+    {
+      "side": "Left_leg",
+      "name": "L03_Threaded_oval_plug_B_upper",
+      "description": "Printed size adapter: 16.6 x8.6 fit section, 20 mm inside tube, 1.5 mm locating flange. 5 mm pilot to tap M6x1. Calibrate fit to measured tubing; thread retention not load-qualified.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 2322.84038436797
+    },
+    {
+      "side": "Left_leg",
+      "name": "L04_Central_rod_guide_B",
+      "description": "Internal oval guide between threaded end plugs. 6.4 mm smooth bore, not a deep tapped hole. Close lateral support is assumed in ideal buckling model, not proven by clearance alone.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Body1"
+      ],
+      "body_count": 1,
+      "volume_mm3": 9433.926683454862
+    },
+    {
+      "side": "Left_leg",
+      "name": "R01_DJI_10018_77KV_ESTIMATED_REFERENCE",
+      "description": "DJI10018 estimated motor at knee+261.4 mm. Rear hub X33 to right rail inner face X38 leaves 5mm encoder gap. Gearbox omitted. V13 axis Z565: 25mm below released v12, reconciled against surviving live edit.",
+      "material": "purchased motor - dimensions provisional",
+      "body_names": [
+        "Black_rotor_can_EST",
+        "Front_rotor_plate_EST",
+        "Rear_stator_ring_EST",
+        "Rear_bearing_hub_EST",
+        "Mount_boss_and_4p2_bore_EST",
+        "Stator_mount_spoke_EST",
+        "Mount_boss_and_4p2_bore_EST (1)",
+        "Stator_mount_spoke_EST (1)",
+        "Mount_boss_and_4p2_bore_EST (2)",
+        "Stator_mount_spoke_EST (2)",
+        "Mount_boss_and_4p2_bore_EST (3)",
+        "Stator_mount_spoke_EST (3)",
+        "Copper_winding_visual_EST",
+        "Copper_winding_visual_EST (1)",
+        "Copper_winding_visual_EST (2)",
+        "Copper_winding_visual_EST (3)",
+        "Copper_winding_visual_EST (4)",
+        "Copper_winding_visual_EST (5)",
+        "Copper_winding_visual_EST (6)",
+        "Copper_winding_visual_EST (7)",
+        "Copper_winding_visual_EST (8)",
+        "Copper_winding_visual_EST (9)",
+        "Copper_winding_visual_EST (10)",
+        "Copper_winding_visual_EST (11)",
+        "Copper_winding_visual_EST (12)",
+        "Copper_winding_visual_EST (13)",
+        "Copper_winding_visual_EST (14)",
+        "Copper_winding_visual_EST (15)",
+        "Copper_winding_visual_EST (16)",
+        "Copper_winding_visual_EST (17)",
+        "Copper_winding_visual_EST (18)",
+        "Copper_winding_visual_EST (19)",
+        "Copper_winding_visual_EST (20)",
+        "Copper_winding_visual_EST (21)",
+        "Copper_winding_visual_EST (22)",
+        "Copper_winding_visual_EST (23)",
+        "Copper_winding_visual_EST (24)",
+        "Copper_winding_visual_EST (25)",
+        "Copper_winding_visual_EST (26)",
+        "Copper_winding_visual_EST (27)",
+        "Copper_winding_visual_EST (28)",
+        "Copper_winding_visual_EST (29)",
+        "Copper_winding_visual_EST (30)",
+        "Copper_winding_visual_EST (31)",
+        "Copper_winding_visual_EST (32)",
+        "Copper_winding_visual_EST (33)",
+        "Copper_winding_visual_EST (34)",
+        "Copper_winding_visual_EST (35)",
+        "Prop_mount_pad_EST",
+        "Prop_mount_post_UNCUT_EST",
+        "Prop_mount_pad_EST (1)",
+        "Prop_mount_post_UNCUT_EST (1)",
+        "Front_central_shaft_boss_EST",
+        "Phase_wire_visual_EST",
+        "Phase_wire_visual_EST (1)",
+        "Phase_wire_visual_EST (2)"
+      ],
+      "body_count": 56,
+      "volume_mm3": 88083.85107942353
+    },
+    {
+      "side": "Left_leg",
+      "name": "T04_GWK7010_Hip_yaw_REFERENCE",
+      "description": "Vertical yaw axis. 40-50Nm peak is an untested user estimate. Structural bearing support undecided.",
+      "material": "purchased GWK7010 reference",
+      "body_names": [
+        "GWK7010_vendor_fixed_yaw",
+        "GWK7010_vendor_output_yaw"
+      ],
+      "body_count": 2,
+      "volume_mm3": 57001.921874118954
+    },
+    {
+      "side": "Left_leg",
+      "name": "T07_Hip_pitch_motor_ENVELOPE_REFERENCE",
+      "description": "Hip pitch reference,unselected100x40mm motor envelope;user-specified25 degree tilt. Axis orientation sign remains layout convention.",
+      "material": "unspecified motor envelope",
+      "body_names": [
+        "Hip_pitch_100x40_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 314159.26535898173
+    },
+    {
+      "side": "Left_leg",
+      "name": "T09_Hip_roll_motor_ENVELOPE_REFERENCE",
+      "description": "Distinct hip roll:90mm diameter x36mm reference,axis alongY throughX0/Z743.6. Positioned fore-aft clear of yaw;motor and bearing design unresolved.",
+      "material": "unselected motor envelope",
+      "body_names": [
+        "Hip_roll_90x36_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 282743.33882309357
+    },
+    {
+      "side": "Left_leg",
+      "name": "P02_Knee_rail_screws_and_sleeves_L",
+      "description": "Two M4x20 nominal side screws and retained crush sleeves; verify measured engagement.",
+      "material": "steel reference",
+      "body_names": [
+        "M4_socket_head",
+        "Crush_sleeve",
+        "M4_socket_head (1)",
+        "Crush_sleeve (1)",
+        "M4x20_side_screw",
+        "M4x20_side_screw (1)"
+      ],
+      "body_count": 6,
+      "volume_mm3": 1064.3213255537448
+    },
+    {
+      "side": "Left_leg",
+      "name": "P02_Knee_rail_screws_and_sleeves_R",
+      "description": "Two M4x25 nominal side screws and internal crush sleeves; finish threads and bolt length on measured stock. V13 knee pivot/support raised12mm.",
+      "material": "steel",
+      "body_names": [
+        "M4x25_side_screw",
+        "M4_socket_head",
+        "Crush_sleeve",
+        "M4x25_side_screw (1)",
+        "M4_socket_head (1)",
+        "Crush_sleeve (1)"
+      ],
+      "body_count": 6,
+      "volume_mm3": 1189.98503169733
+    },
+    {
+      "side": "Left_leg",
+      "name": "P06_Gearbox_output_REFERENCE",
+      "description": "16mm output shaft with3mm flange,0.5mm axial gaps to cover and motor boss; bearing/carrier/coupling undefined.",
+      "material": "aluminum reference",
+      "body_names": [
+        "P06_Gearbox_output_REFERENCE"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7621.0011227845935
+    },
+    {
+      "side": "Left_leg",
+      "name": "P07_Motor_output_sprocket_BLANK",
+      "description": "Approximate8T #40 sprocket:12.7pitch,33.19PD,38.28OD,7.21face; roller-pocket visualization only, not CNC tooth form. Common chain plane X-31.",
+      "material": "sprocket material undecided",
+      "body_names": [
+        "P07_Motor_output_sprocket_BLANK"
+      ],
+      "body_count": 1,
+      "volume_mm3": 4345.503133513903
+    },
+    {
+      "side": "Left_leg",
+      "name": "P08_Sprocket_output_flange",
+      "description": "19mm OD compact8T hub; provisional keyed/coupled interface and retention.",
+      "material": "aluminum reference",
+      "body_names": [
+        "P08_Sprocket_output_flange"
+      ],
+      "body_count": 1,
+      "volume_mm3": 692.3088460807946
+    },
+    {
+      "side": "Left_leg",
+      "name": "P09_Opposite_output_support_pin_6mm",
+      "description": "6mm support pin,39mm long in revised chain plane. Bearing/retention pending.",
+      "material": "steel reference",
+      "body_names": [
+        "P09_Opposite_output_support_pin_6mm"
+      ],
+      "body_count": 1,
+      "volume_mm3": 1102.6990214099699
+    },
+    {
+      "side": "Left_leg",
+      "name": "Q01_CNC_rail_to_yaw_crosshead",
+      "description": "8mm fixed yaw annulus with two 26.5mm slotted oval rail sockets and M4 pinch provisions. Four provisional M2 clearance locations at R20.25 follow visible donor geometry; measure motor mounting before CNC.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q01_CNC_rail_to_yaw_crosshead"
+      ],
+      "body_count": 1,
+      "volume_mm3": 62955.7599349004
+    },
+    {
+      "side": "Left_leg",
+      "name": "Q02_CNC_yaw_to_roll_cradle",
+      "description": "Integral 10mm roll backplate and floor on yaw output hub. Roll motor 100x36 reference, provisional 80 PCD M5; yaw output pattern and bearing/fastener access require vendor confirmation. Layout only, no hip joint qualification.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q02_CNC_yaw_to_roll_cradle"
+      ],
+      "body_count": 1,
+      "volume_mm3": 152649.4136025396
+    },
+    {
+      "side": "Left_leg",
+      "name": "P01_Knee_side_rail_seat_L",
+      "description": "38mm-wide CNC drive-side saddle, inner faceX-36 leaves1.395mm to sprocket. Two M4x20 side screws; two top-entering M4x45 pedestal screws.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "P01_Knee_side_rail_seat_L"
+      ],
+      "body_count": 1,
+      "volume_mm3": 17505.35457725659
+    },
+    {
+      "side": "Left_leg",
+      "name": "P01_Knee_side_rail_seat_R",
+      "description": "Matched 18Y x 10X oval side saddle; two nominal M4 side threads and two M5 bearing mount clearances. CNC dimensions provisional. V13 knee pivot/support raised12mm.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "P01_Knee_side_rail_seat_R"
+      ],
+      "body_count": 1,
+      "volume_mm3": 35998.9369371071
+    },
+    {
+      "side": "Left_leg",
+      "name": "P03_Circular_motor_gearbox_case",
+      "description": "Aluminum tube:106mm ID,110mm OD,2mm wall,45mm axial length X-8..37. Rear wire notch. Gearbox cavity13mm nominal; final reduction depth deferred.",
+      "material": "aluminum tubing, grade unconfirmed",
+      "body_names": [
+        "P03_Circular_motor_gearbox_case"
+      ],
+      "body_count": 1,
+      "volume_mm3": 30440.081887463606
+    },
+    {
+      "side": "Left_leg",
+      "name": "P04_Case_rail_cap_R_546",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_R_546"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.874424148551
+    },
+    {
+      "side": "Left_leg",
+      "name": "P04_Case_rail_cap_R_634",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_R_634"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.874424148524
+    },
+    {
+      "side": "Left_leg",
+      "name": "P04_Case_rail_cap_L_646",
+      "description": "Split cap, 18x10 rail socket,0.8mm seam and two M4 clearances. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P04_Case_rail_cap_L_646"
+      ],
+      "body_count": 1,
+      "volume_mm3": 7671.874424148558
+    },
+    {
+      "side": "Left_leg",
+      "name": "P05_Gearbox_front_cover",
+      "description": "3mm front cover atX-11..-8 plus upper bridge/clamp to opposite rail. External tie ears avoid threading a2mm tube wall. Prop-post passages are provisional.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P05_Gearbox_front_cover"
+      ],
+      "body_count": 1,
+      "volume_mm3": 52748.0093126691
+    },
+    {
+      "side": "Left_leg",
+      "name": "P10_Output_support_rail_block",
+      "description": "Compact split support around 6mm pin; clears sprocket bolts. 6.6mm passage only, bearing and load-bearing section require final design. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P10_Output_support_rail_block"
+      ],
+      "body_count": 1,
+      "volume_mm3": 1225.1017716632948
+    },
+    {
+      "side": "Left_leg",
+      "name": "P11_Output_support_cap",
+      "description": "Compact split support around 6mm pin; clears sprocket bolts. 6.6mm passage only, bearing and load-bearing section require final design. V13 moved down25mm; name retains historical identifier.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P11_Output_support_cap"
+      ],
+      "body_count": 1,
+      "volume_mm3": 3197.936574275512
+    },
+    {
+      "side": "Left_leg",
+      "name": "Q03_CNC_roll_to_pitch_fork",
+      "description": "Opposed CNC cheek concept and 25deg pitch flange, relieved around the motor with0.5mm radial clearance. Mount patterns and machining split provisional.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "Q03_CNC_roll_to_pitch_fork"
+      ],
+      "body_count": 1,
+      "volume_mm3": 104476.39712774855
+    },
+    {
+      "side": "Left_leg",
+      "name": "P12_Case_clamp_and_cover_hardware",
+      "description": "Eight M4 rail-clamp screws and four external M3x60 case ties with nut envelopes; verify stock screw lengths and print retention.",
+      "material": "steel reference",
+      "body_names": [
+        "M4_clamp_shank",
+        "M4_clamp_head",
+        "M4_clamp_shank (1)",
+        "M4_clamp_head (1)",
+        "M4_clamp_shank (2)",
+        "M4_clamp_head (2)",
+        "M4_clamp_shank (3)",
+        "M4_clamp_head (3)",
+        "M4_clamp_shank (4)",
+        "M4_clamp_head (4)",
+        "M4_clamp_shank (5)",
+        "M4_clamp_head (5)",
+        "M4_clamp_shank (6)",
+        "M4_clamp_head (6)",
+        "M4_clamp_shank (7)",
+        "M4_clamp_head (7)",
+        "M3x60_tie_shank",
+        "M3_tie_head",
+        "M3_nut_envelope",
+        "M3x60_tie_shank (1)",
+        "M3_tie_head (1)",
+        "M3_nut_envelope (1)",
+        "M3x60_tie_shank (2)",
+        "M3_tie_head (2)",
+        "M3_nut_envelope (2)",
+        "M3x60_tie_shank (3)",
+        "M3_tie_head (3)",
+        "M3_nut_envelope (3)"
+      ],
+      "body_count": 28,
+      "volume_mm3": 5668.758899175705
+    },
+    {
+      "side": "Left_leg",
+      "name": "P14_Motor_to_backplate_M4_screws",
+      "description": "Four M4x12 nominal bolts seat in X41 counterbores of the circular backplate; actual motor thread/depth unmeasured. V13 moved down25mm; name retains historical identifier.",
+      "material": "steel reference",
+      "body_names": [
+        "Motor_mount_M4x12",
+        "Motor_mount_head",
+        "Motor_mount_M4x12 (1)",
+        "Motor_mount_head (1)",
+        "Motor_mount_M4x12 (2)",
+        "Motor_mount_head (2)",
+        "Motor_mount_M4x12 (3)",
+        "Motor_mount_head (3)"
+      ],
+      "body_count": 8,
+      "volume_mm3": 1218.937949592838
+    },
+    {
+      "side": "Left_leg",
+      "name": "P15_Separate_motor_backplate_and_rail_saddles",
+      "description": "Separate8mm printed rear plate and two right-rail saddles. Aluminum tube is clamped between plates by four external M3 tie screws. Mount pattern remains estimated.",
+      "material": "PA-CF provisional",
+      "body_names": [
+        "P15_Separate_motor_backplate_and_rail_saddles"
+      ],
+      "body_count": 1,
+      "volume_mm3": 73389.92805998953
+    },
+    {
+      "side": "Left_leg",
+      "name": "N09_Knee_sprocket_standoff_hub",
+      "description": "48mm OD x6.395mm sprocket standoff, fourM3 ties and two6mm registrations. Keeps chain planeX-31 clear of shin tubes. Provisional load path.",
+      "material": "6061-T6 nominal",
+      "body_names": [
+        "N09_Knee_sprocket_standoff_hub"
+      ],
+      "body_count": 1,
+      "volume_mm3": 10641.829462514008
+    },
+    {
+      "side": "Left_leg",
+      "name": "N10_Drive_side_pedestal_hardware",
+      "description": "Two top-entering M4x45 pedestal screws; nominal6mm engagement. Thread fit/strength and assembly access pending.",
+      "material": "steel reference",
+      "body_names": [
+        "M4x45_pedestal_screw",
+        "M4_pedestal_head",
+        "M4x45_pedestal_screw (1)",
+        "M4_pedestal_head (1)"
+      ],
+      "body_count": 4,
+      "volume_mm3": 1438.8494353440944
+    },
+    {
+      "side": "Left_leg",
+      "name": "F01_Foot_plate",
+      "description": "Source foot-v2 100 x 122 x 4 mm plate; add socket fastener holes",
+      "material": "aluminum",
+      "body_names": [
+        "Aluminum_plate_current_mounts"
+      ],
+      "body_count": 1,
+      "volume_mm3": 46907.16463288534
+    },
+    {
+      "side": "Left_leg",
+      "name": "F02_Replaceable_sole",
+      "description": "Source foot-v2 replaceable sole; no strength credit assigned",
+      "material": "PA12-CF or wood",
+      "body_names": [
+        "Sole_without_obsolete_holes"
+      ],
+      "body_count": 1,
+      "volume_mm3": 234447.4247417878
+    },
+    {
+      "side": "Left_leg",
+      "name": "S01_Ankle_to_oval_rail_adapter",
+      "description": "Filled PA12-CF adapter; continuous central web, shallow underside pivot relief and rounded front rod-sweep scallops. Rotated lower oval tubes at X +/-11. Four M5 bearing mount holes.",
+      "material": "PA12-CF",
+      "body_names": [
+        "Loose_PCB_seat"
+      ],
+      "body_count": 1,
+      "volume_mm3": 111839.0169763834
+    }
+  ],
+  "part_exports": [
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N01_Aluminum_knee_stack_1.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N01_Aluminum_knee_stack_2.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N01_Aluminum_knee_stack_4.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N01_Aluminum_knee_stack_5.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N03_Sprocket_blank_LAYOUT.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P07_Motor_output_sprocket_BLANK.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P08_Sprocket_output_flange.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P01_Knee_side_rail_seat_L.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P01_Knee_side_rail_seat_R.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P03_Circular_motor_gearbox_case.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P04_Case_rail_cap_R_546.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P04_Case_rail_cap_R_634.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P04_Case_rail_cap_L_646.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P05_Gearbox_front_cover.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P10_Output_support_rail_block.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P11_Output_support_cap.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_P15_Separate_motor_backplate_and_rail_saddles.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Right_leg_N09_Knee_sprocket_standoff_hub.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N01_Aluminum_knee_stack_1.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N01_Aluminum_knee_stack_2.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N01_Aluminum_knee_stack_4.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N01_Aluminum_knee_stack_5.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N03_Sprocket_blank_LAYOUT.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P07_Motor_output_sprocket_BLANK.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P08_Sprocket_output_flange.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P01_Knee_side_rail_seat_L.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P01_Knee_side_rail_seat_R.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P03_Circular_motor_gearbox_case.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P04_Case_rail_cap_R_546.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P04_Case_rail_cap_R_634.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P04_Case_rail_cap_L_646.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P05_Gearbox_front_cover.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P10_Output_support_rail_block.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P11_Output_support_cap.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_P15_Separate_motor_backplate_and_rail_saddles.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\parts\\Left_leg_N09_Knee_sprocket_standoff_hub.step"
+  ],
+  "native": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\Bilateral_legs_v13.f3d"
+}

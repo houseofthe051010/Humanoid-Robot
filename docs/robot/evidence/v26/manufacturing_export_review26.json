@@ -1,0 +1,792 @@
+{
+  "generated_epoch": 1790758541.0017254,
+  "native_calls": 0,
+  "mutation_count": 0,
+  "trimesh_available": false,
+  "topology_implementation": "Bundled NumPy exact-welded triangle edge incidence, direction consistency and vertex connectivity.",
+  "parts": [
+    {
+      "part": "N01_Oval_spine_6005_servo_adapter",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N01_Oval_spine_6005_servo_adapter.step",
+        "bytes": 101420,
+        "sha256": "e3c879c9e5724e37526045368ac983b211aabd8414b63a9c783eb5f83e269286",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 2331,
+            "assigned_length_units": [
+              2333
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 2332,
+            "assigned_length_units": [
+              2333
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N01_Oval_spine_6005_servo_adapter.stl",
+        "bytes": 279384,
+        "sha256": "d022bb4695cb8a5076e9c6ddf118d1b8a3fd5015874bae8a2f5f7d944c668833",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 5586,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 2785,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -29.5,
+            -1.1568659543991089,
+            1347.3634033203125
+          ],
+          [
+            29.5,
+            88.34313201904297,
+            1402.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          59.0,
+          89.49999797344208,
+          55.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 48921.26417945194,
+        "source_native_brep_volume_mm3": 48928.97307569359,
+        "polygon_to_native_volume_ratio": 0.9998424472095556,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 5586,
+        "minimum_stored_normal_alignment": 0.9999999445774764,
+        "attribute_words_nonzero": 5586,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "H01_Defined_vision_head_v25",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H01_Defined_vision_head_v25.step",
+        "bytes": 261704,
+        "sha256": "29881f27d3f8f5a0e92bbe16e136649298d67744e51f2e6a6d7a1ad6144ab30a",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 3803,
+            "assigned_length_units": [
+              3805
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 3804,
+            "assigned_length_units": [
+              3805
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H01_Defined_vision_head_v25.stl",
+        "bytes": 1956784,
+        "sha256": "9c957683acd62021a0fcf073e86eabd6c11d7f540d2faa847ccb7c8bff6a863c",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 39134,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 19545,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -77.8581771850586,
+            -40.78935241699219,
+            1424.5081787109375
+          ],
+          [
+            77.85856628417969,
+            50.0,
+            1575.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          155.71674346923828,
+          90.78935241699219,
+          150.855224609375
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 133487.74829476033,
+        "source_native_brep_volume_mm3": 133504.29449363504,
+        "polygon_to_native_volume_ratio": 0.9998760624222803,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 39134,
+        "minimum_stored_normal_alignment": 0.9999990223777626,
+        "attribute_words_nonzero": 39134,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "N25_dual_side_head_pitch_yoke",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N25_dual_side_head_pitch_yoke.step",
+        "bytes": 61048,
+        "sha256": "402392e788ab3560057b61456830ec517512aba49729be3e6a0e39115b9c842e",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1421,
+            "assigned_length_units": [
+              1423
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1422,
+            "assigned_length_units": [
+              1423
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N25_dual_side_head_pitch_yoke.stl",
+        "bytes": 174384,
+        "sha256": "ff6d9782c397b80fcdca7462177aae22754963463784f7f97c2dae4eb8be7dda",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 3486,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 1723,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -28.0,
+            12.343145370483398,
+            1436.3687744140625
+          ],
+          [
+            26.0,
+            89.0,
+            1486.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          54.0,
+          76.6568546295166,
+          49.99462890625
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 26664.949316315033,
+        "source_native_brep_volume_mm3": 26665.48507411642,
+        "polygon_to_native_volume_ratio": 0.9999799081921856,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 3486,
+        "minimum_stored_normal_alignment": 0.9999999450481825,
+        "attribute_words_nonzero": 3486,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "H25_camera_visor_bezel",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H25_camera_visor_bezel.step",
+        "bytes": 129422,
+        "sha256": "25b34882cd964742cae949ac3bb1b48f86a7034554bbe1a902e80b7420b940cb",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1791,
+            "assigned_length_units": [
+              1793
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1792,
+            "assigned_length_units": [
+              1793
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H25_camera_visor_bezel.stl",
+        "bytes": 120284,
+        "sha256": "662ef512e8730ec44ca80c3d5fce04c20f7434f8f4e5ba5062c41dfdc13d6181",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 2404,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 1194,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -47.0,
+            -43.5,
+            1487.3634033203125
+          ],
+          [
+            47.0,
+            -39.384056091308594,
+            1529.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          94.0,
+          4.115943908691406,
+          42.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 4090.3291337322185,
+        "source_native_brep_volume_mm3": 4090.623270010653,
+        "polygon_to_native_volume_ratio": 0.9999280949970165,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 2404,
+        "minimum_stored_normal_alignment": 0.9999952663953684,
+        "attribute_words_nonzero": 2404,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "A25_R_forearm_fork_to_wrist",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\A25_R_forearm_fork_to_wrist.step",
+        "bytes": 87148,
+        "sha256": "b5cbdb2aff6009094dbab9422ea534cd247a02d7cb97561472ea7528e425ad9b",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1985,
+            "assigned_length_units": [
+              1987
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1986,
+            "assigned_length_units": [
+              1987
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\A25_R_forearm_fork_to_wrist.stl",
+        "bytes": 289484,
+        "sha256": "fa2dd1b91d2f989d75c43bebbe22ab81cb9b0f267c1b83eaf7d08a65a945ac77",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 5788,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 2858,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            158.0,
+            -0.9973391890525818,
+            817.3634033203125
+          ],
+          [
+            236.0,
+            56.997337341308594,
+            1094.348876953125
+          ]
+        ],
+        "extents_mm": [
+          78.0,
+          57.994676530361176,
+          276.9854736328125
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 163370.75315645116,
+        "source_native_brep_volume_mm3": 163366.28155397906,
+        "polygon_to_native_volume_ratio": 1.0000273716364818,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 5788,
+        "minimum_stored_normal_alignment": 0.9999998119684212,
+        "attribute_words_nonzero": 5788,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "A25_L_forearm_fork_to_wrist",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\A25_L_forearm_fork_to_wrist.step",
+        "bytes": 87518,
+        "sha256": "0414413911407db08fe756fc7229739382ddd5dd3ed922de3f3d0aa06cd6939e",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1985,
+            "assigned_length_units": [
+              1987
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1986,
+            "assigned_length_units": [
+              1987
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\A25_L_forearm_fork_to_wrist.stl",
+        "bytes": 289484,
+        "sha256": "5f5e5ec06fc1ad8e5514b3b95955231edea8e0298e2a722d2a7e03d4caddbb88",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 5788,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 2858,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -236.0,
+            -0.9973391890525818,
+            817.3634033203125
+          ],
+          [
+            -158.0,
+            56.997337341308594,
+            1094.348876953125
+          ]
+        ],
+        "extents_mm": [
+          78.0,
+          57.994676530361176,
+          276.9854736328125
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 163370.75315645096,
+        "source_native_brep_volume_mm3": 163366.28155397886,
+        "polygon_to_native_volume_ratio": 1.0000273716364818,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 5788,
+        "minimum_stored_normal_alignment": 0.9999998119684212,
+        "attribute_words_nonzero": 5788,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "H26_removable_rear_head_shell",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H26_removable_rear_head_shell.step",
+        "bytes": 188554,
+        "sha256": "47b582c45d7de7b8db566dcc472b2fb44b5f3d35bbc69aee6651a5cae4007a84",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 2943,
+            "assigned_length_units": [
+              2945
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 2944,
+            "assigned_length_units": [
+              2945
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\H26_removable_rear_head_shell.stl",
+        "bytes": 1306284,
+        "sha256": "85a13b4578660bb18ce594f8aef841e3955f0f9a1b9bd4423f340688b99b1890",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 26124,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 13052,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -77.8581771850586,
+            50.0,
+            1432.3634033203125
+          ],
+          [
+            77.8581771850586,
+            99.0,
+            1575.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          155.7163543701172,
+          49.0,
+          143.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 87577.78246383641,
+        "source_native_brep_volume_mm3": 87201.56836386975,
+        "polygon_to_native_volume_ratio": 1.0043143042840332,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 26124,
+        "minimum_stored_normal_alignment": 0.9999997660372792,
+        "attribute_words_nonzero": 26124,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "N26_pitch_servo_removable_clamp",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N26_pitch_servo_removable_clamp.step",
+        "bytes": 22272,
+        "sha256": "ce944c8f0d0ef40617292e2c76f69fdc69e42ec719797a64cffcf4019f2dd944",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 482,
+            "assigned_length_units": [
+              484
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 483,
+            "assigned_length_units": [
+              484
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\N26_pitch_servo_removable_clamp.stl",
+        "bytes": 114884,
+        "sha256": "5f94088013cfefed3298e50665cd3184c98ebf7cc683971d92a77a35bd306008",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 2296,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 1146,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -1.850000023841858,
+            8.343133926391602,
+            1427.3634033203125
+          ],
+          [
+            24.0,
+            48.343135833740234,
+            1434.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          25.850000023841858,
+          40.00000190734863,
+          7.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 3245.269932785748,
+        "source_native_brep_volume_mm3": 3244.3199150374853,
+        "polygon_to_native_volume_ratio": 1.0002928249288423,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 2296,
+        "minimum_stored_normal_alignment": 0.9999998783130609,
+        "attribute_words_nonzero": 2296,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "Hand26_R_forearm_wrist_adapter",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Hand26_R_forearm_wrist_adapter.step",
+        "bytes": 59479,
+        "sha256": "b1256746052802fb769cb35f040401c7a95ca282fb99e0b0e9266128b88cdd2a",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1370,
+            "assigned_length_units": [
+              1372
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1371,
+            "assigned_length_units": [
+              1372
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Hand26_R_forearm_wrist_adapter.stl",
+        "bytes": 296684,
+        "sha256": "7f0c5388b0cd90a0bbadaa54ee8c0c9cf75d42e1a6ec263eeb1f9b51bfda4f9c",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 5932,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 2950,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            170.0,
+            1.0009732246398926,
+            799.3634033203125
+          ],
+          [
+            224.0,
+            54.999027252197266,
+            817.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          54.0,
+          53.99805402755737,
+          18.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 25878.410605625857,
+        "source_native_brep_volume_mm3": 25877.33145597128,
+        "polygon_to_native_volume_ratio": 1.0000417025092565,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 5932,
+        "minimum_stored_normal_alignment": 0.9999997102694116,
+        "attribute_words_nonzero": 5932,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    },
+    {
+      "part": "Hand26_L_forearm_wrist_adapter",
+      "native_solid_count": 1,
+      "native_export_stage_complete": true,
+      "step": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Hand26_L_forearm_wrist_adapter.step",
+        "bytes": 59659,
+        "sha256": "bb2050f3e312bc6a3a73328448c7a41ef616d661cda8df977fdc69b796990a82",
+        "file_stable_while_reading": true,
+        "starts_iso_10303": true,
+        "ends_iso_10303": true,
+        "manifold_solid_brep_entities": 1,
+        "geometric_unit_contexts": [
+          {
+            "entity": 1370,
+            "assigned_length_units": [
+              1372
+            ],
+            "length_is_millimetre": true
+          },
+          {
+            "entity": 1371,
+            "assigned_length_units": [
+              1372
+            ],
+            "length_is_millimetre": true
+          }
+        ],
+        "geometry_units_millimetres": true,
+        "structure_unit_pass": true
+      },
+      "stl": {
+        "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Hand26_L_forearm_wrist_adapter.stl",
+        "bytes": 296684,
+        "sha256": "802ebc901ee31982c58206993fb2213b102fd8918d7110f333b8ea927cbb8bde",
+        "file_stable_while_reading": true,
+        "format": "binary STL",
+        "triangle_count": 5932,
+        "record_size_matches": true,
+        "unit_metadata": "STL has no inherent unit; native export explicitly used millimetres, checked against STEP units and source volume.",
+        "finite_coordinates_and_normals": true,
+        "exact_welded_vertex_count": 2950,
+        "weld_method": "Exact equality of the exported float32 coordinate values; no mesh repair or tolerance welding.",
+        "bounds_mm": [
+          [
+            -224.0,
+            1.0009732246398926,
+            799.3634033203125
+          ],
+          [
+            -170.0,
+            54.999027252197266,
+            817.3634033203125
+          ]
+        ],
+        "extents_mm": [
+          54.0,
+          53.99805402755737,
+          18.0
+        ],
+        "degenerate_triangles": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistently_oriented_shared_edges": 0,
+        "watertight_exact_topology": true,
+        "winding_consistent": true,
+        "connected_surface_components": 1,
+        "signed_volume_mm3": 25878.41060562593,
+        "source_native_brep_volume_mm3": 25877.33145597128,
+        "polygon_to_native_volume_ratio": 1.0000417025092594,
+        "unit_scale_consistent_by_volume": true,
+        "nonzero_stored_normals": 5932,
+        "minimum_stored_normal_alignment": 0.9999997102694116,
+        "attribute_words_nonzero": 5932,
+        "mesh_file_pass": true
+      },
+      "file_review_pass": true
+    }
+  ],
+  "part_count": 10,
+  "pass": true,
+  "qualification": "Ten concept-part native STEP/STL pairs only; no purchased vendor parts. Binary STL format, exact mesh topology, finite bounds, winding and millimetre scale are checked. STEP structure and assigned geometric units are checked, without native STEP reimport or surface-intersection analysis. STL coordinates retain assembly placement and should be arranged/oriented in a slicer before printing. Material choice, print orientation, supports, shrinkage, fastener fit and mechanical strength are not certified. The 3% polygon/native volume allowance is a unit-scale check, not a CAD geometry-retention tolerance."
+}

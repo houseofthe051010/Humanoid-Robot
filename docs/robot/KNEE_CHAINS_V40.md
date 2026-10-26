@@ -1,0 +1,4 @@
+<!-- chains40_20261024 -->
+## Straight-run knee chains V40 — October24,2026
+
+Current native source **Humanoid_tensioned_knee_chains_v40**, saved v2. The user-rejected V39 oval layout is replaced with36-pitch ANSI40 chains and complete knee motor/mount assemblies lowered7.83755mm. Both spans are straight;151.56245mm centres,12.7mm pitch,18inner/18outer links and180active solids per knee. No stretched or offset link. Lower knee axes/rails/ankles and83joints retained; adapter overlap remains intentionally for the user's later repair. Native placement/tooth checks, independent fullF3D and two180-body STEP reopen pass. Static geometry only; preload,dynamics,load and manufacture unqualified. [CAD, views and evidence](E:/Aditya/robot_sim/outputs/shin_cad_20260912/chains40/REPORT.md). V38 remains preserved below; V39 is rejected evidence. Training stopped, computer on, unrelated unsaved Fusion work preserved.

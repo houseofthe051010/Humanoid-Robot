@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "side": "Left",
+  "joint": "Left_Hip_yaw",
+  "angles_deg": [
+    -45.0,
+    -22.5,
+    0.0,
+    22.5,
+    45.0
+  ],
+  "selected_fixed_bodies": 2,
+  "hits": [],
+  "persistent_pose_mutations": 0
+}

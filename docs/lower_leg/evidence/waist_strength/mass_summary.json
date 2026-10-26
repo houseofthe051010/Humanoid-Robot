@@ -1,0 +1,51 @@
+{
+  "Left_leg": {
+    "mass_kg": 7.328770263527014,
+    "low_kg": 6.2806932371743125,
+    "high_kg": 8.472847289879715,
+    "categories": {
+      "7010 motors": 1.002,
+      "DJI motors": 0.756,
+      "electronics": 0.06,
+      "structure": 3.7607702635270135,
+      "unselected hip motors": 1.75
+    }
+  },
+  "Right_leg": {
+    "mass_kg": 7.3288180482951075,
+    "low_kg": 6.280736243465597,
+    "high_kg": 8.47289985312462,
+    "categories": {
+      "7010 motors": 1.002,
+      "DJI motors": 0.756,
+      "electronics": 0.06,
+      "structure": 3.760818048295108,
+      "unselected hip motors": 1.75
+    }
+  },
+  "Waist_layout_v15": {
+    "mass_kg": 1.0188371168017372,
+    "low_kg": 0.9163534051215634,
+    "high_kg": 1.1533208284819108,
+    "categories": {
+      "7010 motors": 0.334,
+      "structure": 0.6848371168017371
+    }
+  },
+  "modeled_budget": {
+    "mass_kg": 15.676425428623858,
+    "low_kg": 13.477782885761473,
+    "high_kg": 18.099067971486246
+  },
+  "unmodeled_lower_assembly_allocation": {
+    "mass_kg": 1.8,
+    "low_kg": 1.0,
+    "high_kg": 3.0,
+    "basis": "Two knee gearsets 0.6 kg; chains 0.4; missing drivers/encoders/wiring 0.5; bearings/seam/retention hardware 0.3. Planning allocations, no chain dimensions calculated. Excludes torso and battery."
+  },
+  "completed_lower_assembly_budget": {
+    "mass_kg": 17.47642542862386,
+    "low_kg": 14.477782885761473,
+    "high_kg": 21.099067971486246
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "side": "Left",
+    "relief_radius_mm": 68,
+    "protected_journal_radius_mm": 26,
+    "removed_volume_mm3": 10247.9220303849,
+    "remaining_volume_mm3": 192039.3980000169
+  },
+  {
+    "side": "Right",
+    "relief_radius_mm": 68,
+    "protected_journal_radius_mm": 26,
+    "removed_volume_mm3": 10247.922030380807,
+    "remaining_volume_mm3": 192039.3980000209
+  }
+]

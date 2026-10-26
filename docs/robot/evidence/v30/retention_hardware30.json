@@ -1,0 +1,36 @@
+{
+  "waist_panels": [
+    {
+      "name": "C28_waist_front_reinforced_holder",
+      "volume_mm3": 261639.99673938248
+    },
+    {
+      "name": "C28_waist_rear_reinforced_holder",
+      "volume_mm3": 279254.91341097513
+    }
+  ],
+  "seam_centers_xz_mm": [
+    [
+      -64.06940374335873,
+      910.5467977420512
+    ],
+    [
+      64.06940374335873,
+      910.5467977420512
+    ],
+    [
+      -18.91480157580543,
+      794.783686055581
+    ],
+    [
+      18.91480157580543,
+      794.783686055581
+    ]
+  ],
+  "waist_seam_screws": 4,
+  "waist_seam_nuts": 4,
+  "hip_carrier_screws": 16,
+  "hip_carrier_nuts": 16,
+  "existing_vertical_yaw_mount_screws_preserved": 4,
+  "threaded_engagement_and_hex_nut_fit_pending": true
+}

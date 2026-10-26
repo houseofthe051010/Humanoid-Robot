@@ -1,0 +1,92 @@
+{
+  "pass": true,
+  "samples": 10,
+  "checks": [
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_rear_reinforced_holder",
+      "pitch_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Right_hip_cap",
+      "fixed": "C28_waist_rear_reinforced_holder",
+      "pitch_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_rear_reinforced_holder",
+      "pitch_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_front_reinforced_holder",
+      "pitch_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "moving": "Left_hip_cap",
+      "fixed": "C28_waist_rear_reinforced_holder",
+      "pitch_deg": 45,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "persistent_pose_mutations": 0
+}

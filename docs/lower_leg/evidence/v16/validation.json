@@ -1,0 +1,684 @@
+{
+  "document": "Legs_waist_gimbal_v16 (~recovered)",
+  "waist_joints": 12,
+  "leg_joints": {
+    "Right_leg": 101,
+    "Left_leg": 101
+  },
+  "poses": [
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 0,
+      "upper_oval_transform_delta": 0.0,
+      "overlaps": []
+    },
+    {
+      "yaw": 15,
+      "pitch": 0,
+      "roll": 0,
+      "upper_oval_transform_delta": 0.6041647651580191,
+      "overlaps": []
+    },
+    {
+      "yaw": -15,
+      "pitch": 0,
+      "roll": 0,
+      "upper_oval_transform_delta": 0.6041647651580185,
+      "overlaps": []
+    },
+    {
+      "yaw": 0,
+      "pitch": 15,
+      "roll": 0,
+      "upper_oval_transform_delta": 23.861221871695786,
+      "overlaps": []
+    },
+    {
+      "yaw": 0,
+      "pitch": -15,
+      "roll": 0,
+      "upper_oval_transform_delta": 24.020301472270532,
+      "overlaps": []
+    },
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 15,
+      "upper_oval_transform_delta": 24.898392138862484,
+      "overlaps": []
+    },
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "roll": -15,
+      "upper_oval_transform_delta": 24.8983921388625,
+      "overlaps": []
+    },
+    {
+      "yaw": 10,
+      "pitch": 10,
+      "roll": 10,
+      "upper_oval_transform_delta": 18.398898186225843,
+      "overlaps": []
+    }
+  ],
+  "bodies": [
+    {
+      "part": "W01_GWK7010_Waist_yaw_REFERENCE",
+      "body": "GWK7010_vendor_fixed_waist_yaw",
+      "solid": true,
+      "volume_mm3": 53130.976,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -39.0,
+          -15.657,
+          876.0
+        ],
+        [
+          39.0,
+          62.343,
+          900.8
+        ]
+      ]
+    },
+    {
+      "part": "W02_Waist_front_shell",
+      "body": "W02_Waist_front_shell_v16_motor_attach",
+      "solid": true,
+      "volume_mm3": 322138.335,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -117.98,
+          -43.279,
+          734.0
+        ],
+        [
+          117.99,
+          23.143,
+          902.0
+        ]
+      ]
+    },
+    {
+      "part": "W03_Waist_rear_shell",
+      "body": "W03_Waist_rear_shell_v16_motor_attach",
+      "solid": true,
+      "volume_mm3": 324211.512,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -117.99,
+          23.543,
+          734.0
+        ],
+        [
+          117.98,
+          89.965,
+          902.0
+        ]
+      ]
+    },
+    {
+      "part": "W04_PA12CF_fixed_yaw_mount",
+      "body": "W04_fixed_mount_star",
+      "solid": true,
+      "volume_mm3": 22832.098,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -49.0,
+          -25.657,
+          900.8
+        ],
+        [
+          49.0,
+          72.343,
+          907.5
+        ]
+      ]
+    },
+    {
+      "part": "W05_CNC_yaw_output_pitch_yoke",
+      "body": "GWK7010_vendor_output_MOVING",
+      "solid": true,
+      "volume_mm3": 3870.946,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -17.25,
+          6.093,
+          896.85
+        ],
+        [
+          17.25,
+          40.593,
+          904.0
+        ]
+      ]
+    },
+    {
+      "part": "W05_CNC_yaw_output_pitch_yoke",
+      "body": "W05_7075_output_pitch_yoke",
+      "solid": true,
+      "volume_mm3": 14289.597,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -21.5,
+          7.543,
+          904.05
+        ],
+        [
+          21.5,
+          39.143,
+          937.0
+        ]
+      ]
+    },
+    {
+      "part": "W06_CNC_pitch_roll_bridge",
+      "body": "W06_pitch_eye_clearanced",
+      "solid": true,
+      "volume_mm3": 20914.132,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -12.0,
+          3.343,
+          914.5
+        ],
+        [
+          12.0,
+          43.343,
+          974.0
+        ]
+      ]
+    },
+    {
+      "part": "W07_CNC_roll_oval_adapter",
+      "body": "W07_roll_eye_oval_socket",
+      "solid": true,
+      "volume_mm3": 24296.154,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -11.0,
+          8.343,
+          951.0
+        ],
+        [
+          11.0,
+          38.343,
+          1020.0
+        ]
+      ]
+    },
+    {
+      "part": "W08_spine_oval_REFERENCE",
+      "body": "W08_hollow_spine_oval",
+      "solid": true,
+      "volume_mm3": 2707.05,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -5.0,
+          14.343,
+          991.0
+        ],
+        [
+          5.0,
+          32.343,
+          1100.0
+        ]
+      ]
+    },
+    {
+      "part": "W09_pitch_bushings",
+      "body": "W09_pitch_bushing_1",
+      "solid": true,
+      "volume_mm3": 414.69,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -12.0,
+          17.343,
+          919.0
+        ],
+        [
+          0.0,
+          29.343,
+          931.0
+        ]
+      ]
+    },
+    {
+      "part": "W09_pitch_bushings",
+      "body": "W09_pitch_bushing_2",
+      "solid": true,
+      "volume_mm3": 414.69,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          17.343,
+          919.0
+        ],
+        [
+          12.0,
+          29.343,
+          931.0
+        ]
+      ]
+    },
+    {
+      "part": "W10_pitch_pin",
+      "body": "W10_pitch_pin_retained",
+      "solid": true,
+      "volume_mm3": 3771.82,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -23.0,
+          16.343,
+          918.0
+        ],
+        [
+          23.0,
+          30.343,
+          932.0
+        ]
+      ]
+    },
+    {
+      "part": "W11_roll_bushings",
+      "body": "W11_roll_bushing_1",
+      "solid": true,
+      "volume_mm3": 282.743,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -5.0,
+          13.343,
+          957.0
+        ],
+        [
+          5.0,
+          23.343,
+          967.0
+        ]
+      ]
+    },
+    {
+      "part": "W11_roll_bushings",
+      "body": "W11_roll_bushing_2",
+      "solid": true,
+      "volume_mm3": 282.743,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -5.0,
+          23.343,
+          957.0
+        ],
+        [
+          5.0,
+          33.343,
+          967.0
+        ]
+      ]
+    },
+    {
+      "part": "W12_roll_pin",
+      "body": "W12_roll_pin_retained",
+      "solid": true,
+      "volume_mm3": 2299.96,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -6.0,
+          1.843,
+          956.0
+        ],
+        [
+          6.0,
+          44.843,
+          968.0
+        ]
+      ]
+    },
+    {
+      "part": "W15_output_bolt_REFERENCES",
+      "body": "W15_output_1",
+      "solid": true,
+      "volume_mm3": 182.85,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -13.3,
+          20.243,
+          901.2
+        ],
+        [
+          -7.1,
+          26.443,
+          913.5
+        ]
+      ]
+    },
+    {
+      "part": "W15_output_bolt_REFERENCES",
+      "body": "W15_output_2",
+      "solid": true,
+      "volume_mm3": 182.85,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          2.0,
+          11.41,
+          901.2
+        ],
+        [
+          8.2,
+          17.61,
+          913.5
+        ]
+      ]
+    },
+    {
+      "part": "W15_output_bolt_REFERENCES",
+      "body": "W15_output_3",
+      "solid": true,
+      "volume_mm3": 182.85,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          2.0,
+          29.077,
+          901.2
+        ],
+        [
+          8.2,
+          35.277,
+          913.5
+        ]
+      ]
+    },
+    {
+      "part": "W16_spine_crossbolt_REFERENCES",
+      "body": "W16_spine_1",
+      "solid": true,
+      "volume_mm3": 439.32,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -13.0,
+          19.743,
+          998.4
+        ],
+        [
+          13.0,
+          26.943,
+          1005.6
+        ]
+      ]
+    },
+    {
+      "part": "W16_spine_crossbolt_REFERENCES",
+      "body": "W16_spine_2",
+      "solid": true,
+      "volume_mm3": 439.32,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -13.0,
+          19.743,
+          1009.4
+        ],
+        [
+          13.0,
+          26.943,
+          1016.6
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_1",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          17.05,
+          20.143,
+          898.3
+        ],
+        [
+          23.45,
+          26.543,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_2",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          11.119,
+          34.462,
+          898.3
+        ],
+        [
+          17.519,
+          40.862,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_3",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -3.2,
+          40.393,
+          898.3
+        ],
+        [
+          3.2,
+          46.793,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_4",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -17.519,
+          34.462,
+          898.3
+        ],
+        [
+          -11.119,
+          40.862,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_5",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -23.45,
+          20.143,
+          898.3
+        ],
+        [
+          -17.05,
+          26.543,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_6",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -17.519,
+          5.824,
+          898.3
+        ],
+        [
+          -11.119,
+          12.224,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_7",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -3.2,
+          -0.107,
+          898.3
+        ],
+        [
+          3.2,
+          6.293,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M4_bolt_REFERENCES",
+      "body": "W13_M4_fixed_8",
+      "solid": true,
+      "volume_mm3": 199.252,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          11.119,
+          5.824,
+          898.3
+        ],
+        [
+          17.519,
+          12.224,
+          910.1
+        ]
+      ]
+    },
+    {
+      "part": "W14_casing_M4_bolt_REFERENCES",
+      "body": "W14_M4_shell_1",
+      "solid": true,
+      "volume_mm3": 252.314,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          27.106,
+          50.449,
+          894.0
+        ],
+        [
+          33.706,
+          57.049,
+          909.6
+        ]
+      ]
+    },
+    {
+      "part": "W14_casing_M4_bolt_REFERENCES",
+      "body": "W14_M4_shell_2",
+      "solid": true,
+      "volume_mm3": 252.314,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -33.706,
+          50.449,
+          894.0
+        ],
+        [
+          -27.106,
+          57.049,
+          909.6
+        ]
+      ]
+    },
+    {
+      "part": "W14_casing_M4_bolt_REFERENCES",
+      "body": "W14_M4_shell_3",
+      "solid": true,
+      "volume_mm3": 252.314,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          -33.706,
+          -10.362,
+          894.0
+        ],
+        [
+          -27.106,
+          -3.762,
+          909.6
+        ]
+      ]
+    },
+    {
+      "part": "W14_casing_M4_bolt_REFERENCES",
+      "body": "W14_M4_shell_4",
+      "solid": true,
+      "volume_mm3": 252.314,
+      "outer_shell_count": 1,
+      "bounds_mm": [
+        [
+          27.106,
+          -10.362,
+          894.0
+        ],
+        [
+          33.706,
+          -3.762,
+          909.6
+        ]
+      ]
+    }
+  ],
+  "feature_issues": [],
+  "unqualified": [
+    "motor thread engagement",
+    "yaw thrust/radial bearing support",
+    "pin/bushing fatigue and pressure",
+    "spine tube wall and crossbolt retention",
+    "full torso/cabling/actuator collision sweep"
+  ]
+}

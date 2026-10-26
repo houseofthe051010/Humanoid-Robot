@@ -1,0 +1,76 @@
+{
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v18\\deliverables\\Legs_hip_waist_v18.f3d",
+  "parametric": true,
+  "groups": {
+    "Right_leg": {
+      "parts": 109,
+      "joints": 106,
+      "invalid_joints": []
+    },
+    "Left_leg": {
+      "parts": 109,
+      "joints": 106,
+      "invalid_joints": []
+    },
+    "Waist_roll_pitch_v18": {
+      "parts": 20,
+      "joints": 16,
+      "invalid_joints": []
+    }
+  },
+  "waist_axes": [
+    {
+      "joint": "WJ00_waist_yaw",
+      "axis": [
+        -1.232595164407831e-32,
+        -6.162975822039155e-33,
+        1.0
+      ]
+    },
+    {
+      "joint": "WJ01_lower_waist_roll",
+      "axis": [
+        1.8214596497756474e-17,
+        1.0000000000000016,
+        0.0
+      ]
+    },
+    {
+      "joint": "WJ02_upper_waist_pitch",
+      "axis": [
+        1.0,
+        8.673617379884035e-17,
+        5.551115123125783e-17
+      ]
+    }
+  ],
+  "spine_bounds_mm": [
+    -5.0,
+    24.343134,
+    982.0,
+    5.0,
+    42.34313399999999,
+    1091.0
+  ],
+  "spine_bound_error_mm": 1.4210854715202004e-13,
+  "inward_6010_outputs": [
+    {
+      "part": "W19",
+      "x_mm": -54.4999999999976,
+      "normal": [
+        1.0,
+        -2.2793074222646234e-16,
+        7.51112678311022e-33
+      ]
+    },
+    {
+      "part": "W20",
+      "x_mm": 54.4999999999976,
+      "normal": [
+        -1.0,
+        2.2793074222646234e-16,
+        7.51112678311022e-33
+      ]
+    }
+  ]
+}

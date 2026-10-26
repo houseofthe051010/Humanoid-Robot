@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "file_only": true,
+  "native_calls": 0,
+  "cad_mutations": 0,
+  "pass": true,
+  "errors": [],
+  "token_drift": [],
+  "authorized_cosmetic_changes": [],
+  "added": {
+    "bodies": [
+      "<root>/Left_leg:1/Left_F01_Foot_plate:1/C28_Left_shoe_sole_rim:1/C28_Left_shoe_sole_rim_raised_sole_rim_for_ground_clearance",
+      "<root>/Left_leg:1/Left_F01_Foot_plate:1/C28_Left_shoe_upper:1/C28_Left_shoe_upper_rounded_low_profile_swept_instep",
+      "<root>/Left_leg:1/Left_N04_Knee_pillow_block_L:1/C28_Left_hip_yaw_shroud:1/C28_Left_hip_yaw_shroud_refined_skin",
+      "<root>/Left_leg:1/Left_N04_Knee_pillow_block_L:1/C28_Left_knee_shroud:1/C28_Left_knee_shroud_smooth_printed_skin",
+      "<root>/Left_leg:1/Left_S01_Ankle_to_oval_rail_adapter:1/C28_Left_ankle_shroud:1/C28_Left_ankle_shroud_refined_skin",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_foot_boot_shroud:1/C28_Right_foot_boot_shroud_smooth_printed_skin",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_shoe_sole_rim:1/C28_Right_shoe_sole_rim_raised_sole_rim_for_ground_clearance",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_shoe_upper:1/C28_Right_shoe_upper_rounded_low_profile_swept_instep",
+      "<root>/Right_leg:1/Right_N04_Knee_pillow_block_L:1/C28_Right_hip_yaw_shroud:1/C28_Right_hip_yaw_shroud_refined_skin",
+      "<root>/Right_leg:1/Right_N04_Knee_pillow_block_L:1/C28_Right_knee_shroud:1/C28_Right_knee_shroud_refined_skin",
+      "<root>/Right_leg:1/Right_S01_Ankle_to_oval_rail_adapter:1/C28_Right_ankle_shroud:1/C28_Right_ankle_shroud_refined_skin",
+      "<root>/Upper_body_v26:1/A25_L_forearm_fork_to_wrist:1/C28_Left_wrist_shroud:1/C28_Left_wrist_shroud_smooth_printed_skin",
+      "<root>/Upper_body_v26:1/A25_R_forearm_fork_to_wrist:1/C28_Right_wrist_shroud:1/C28_Right_wrist_shroud_smooth_printed_skin",
+      "<root>/Upper_body_v26:1/N04_Head_yaw_output_ENVELOPE:1/C28_neck_yaw_collar:1/C28_neck_yaw_collar_rounded_rectangle_clearance_collar",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_elbow_inner_side_guard:1/C28_Left_elbow_inner_side_guard_3mm_printed_cheek",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_elbow_outer_side_guard:1/C28_Left_elbow_outer_side_guard_3mm_printed_cheek",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_shoulder_cuff_shroud:1/C28_Left_shoulder_cuff_shroud_inboard_open_scalloped_cuff",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_inner_side_guard:1/C28_Right_elbow_inner_side_guard_3mm_printed_cheek",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_outer_side_guard:1/C28_Right_elbow_outer_side_guard_3mm_printed_cheek",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_shroud:1/C28_Right_elbow_shroud_smooth_printed_skin",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_shoulder_cuff_shroud:1/C28_Right_shoulder_cuff_shroud_inboard_open_scalloped_cuff",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_front:1/C27_Torso_lower_front_right:1/C28_Torso_lower_front_right_motion_hem:1/C28_Torso_lower_front_right_motion_hem_printed_panel",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_front:1/C28_Torso_lower_front_motion_hem:1/C28_Torso_lower_front_motion_hem_printed_panel",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_rear:1/C27_Torso_lower_rear_right:1/C28_Torso_lower_rear_right_motion_hem:1/C28_Torso_lower_rear_right_motion_hem_printed_panel",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_rear:1/C28_Torso_lower_rear_motion_hem:1/C28_Torso_lower_rear_motion_hem_printed_panel",
+      "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/C28_waist_front_reinforced_holder:1/C28_waist_front_reinforced_holder_smooth_6mm_housing",
+      "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C28_waist_rear_reinforced_holder:1/C28_waist_rear_reinforced_holder_smooth_6mm_housing"
+    ],
+    "meshes": [],
+    "occurrences": [
+      "<root>/Left_leg:1/Left_F01_Foot_plate:1/C28_Left_shoe_sole_rim:1",
+      "<root>/Left_leg:1/Left_F01_Foot_plate:1/C28_Left_shoe_upper:1",
+      "<root>/Left_leg:1/Left_N04_Knee_pillow_block_L:1/C28_Left_hip_yaw_shroud:1",
+      "<root>/Left_leg:1/Left_N04_Knee_pillow_block_L:1/C28_Left_knee_shroud:1",
+      "<root>/Left_leg:1/Left_S01_Ankle_to_oval_rail_adapter:1/C28_Left_ankle_shroud:1",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_foot_boot_shroud:1",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_shoe_sole_rim:1",
+      "<root>/Right_leg:1/Right_F01_Foot_plate:1/C28_Right_shoe_upper:1",
+      "<root>/Right_leg:1/Right_N04_Knee_pillow_block_L:1/C28_Right_hip_yaw_shroud:1",
+      "<root>/Right_leg:1/Right_N04_Knee_pillow_block_L:1/C28_Right_knee_shroud:1",
+      "<root>/Right_leg:1/Right_S01_Ankle_to_oval_rail_adapter:1/C28_Right_ankle_shroud:1",
+      "<root>/Upper_body_v26:1/A25_L_forearm_fork_to_wrist:1/C28_Left_wrist_shroud:1",
+      "<root>/Upper_body_v26:1/A25_R_forearm_fork_to_wrist:1/C28_Right_wrist_shroud:1",
+      "<root>/Upper_body_v26:1/N04_Head_yaw_output_ENVELOPE:1/C28_neck_yaw_collar:1",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_elbow_inner_side_guard:1",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_elbow_outer_side_guard:1",
+      "<root>/Upper_body_v26:1/S24_L_upper_arm_fork_to_elbow:1/C28_Left_shoulder_cuff_shroud:1",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_inner_side_guard:1",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_outer_side_guard:1",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_elbow_shroud:1",
+      "<root>/Upper_body_v26:1/S24_R_upper_arm_fork_to_elbow:1/C28_Right_shoulder_cuff_shroud:1",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_front:1/C27_Torso_lower_front_right:1/C28_Torso_lower_front_right_motion_hem:1",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_front:1/C28_Torso_lower_front_motion_hem:1",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_rear:1/C27_Torso_lower_rear_right:1/C28_Torso_lower_rear_right_motion_hem:1",
+      "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/C27_Torso_lower_rear:1/C28_Torso_lower_rear_motion_hem:1",
+      "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/C28_waist_front_reinforced_holder:1",
+      "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C28_waist_rear_reinforced_holder:1"
+    ],
+    "joints": []
+  },
+  "original_counts": {
+    "bodies": 1828,
+    "meshes": 8,
+    "occurrences": 410,
+    "joints": 333
+  },
+  "tolerances": {
+    "distance_mm": 0.002,
+    "volume_absolute_mm3": 0.01,
+    "volume_relative": 1e-07,
+    "area_absolute_mm2": 0.01,
+    "area_relative": 1e-07,
+    "matrix_entry": 1e-07,
+    "angle_rad": 1e-06
+  },
+  "scope": "Original identity/path, physical signatures, placed/local occurrence poses and grounds, all original joint states/configuration, 23 anatomical values and existing meshes. Added declared skins and rigid cover attachments are separate.",
+  "limitations": "Matching volume/centroid/bounds/area/topology is a signature audit, not exact BRep identity or a full swept collision/strength/thermal qualification. Raw Fusion entity-token text is not a persistent geometry identifier; token drift alone is diagnostic, while canonical paths/stable IDs must still match.",
+  "body_axis_count": 23,
+  "inputs": {
+    "before": {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_before.json",
+      "sha256": "6a15f10030e306f5d8ba672f4441a6ed640dc200dd102bba3e1d1963ed7c6349"
+    },
+    "after": {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_after_final.json",
+      "sha256": "a911799cca2f517179731168bf8654b318d5a7c76a8aac8b423755942b72c4cc"
+    },
+    "policy": {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_audit_policy.json",
+      "sha256": "692b5093cb72a197187c39be57e40595401e9cadaa1b8da83f99121a9e446901"
+    }
+  }
+}

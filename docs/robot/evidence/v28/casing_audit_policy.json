@@ -1,0 +1,10 @@
+{
+  "authorized_original_cosmetic_body_ids": [],
+  "allow_cosmetic_body_removal": false,
+  "allowed_added_patterns": [
+    "C28_*"
+  ],
+  "allowed_new_joint_patterns": [
+    "C28_*"
+  ]
+}

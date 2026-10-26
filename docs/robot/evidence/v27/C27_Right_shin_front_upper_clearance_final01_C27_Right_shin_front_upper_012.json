@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Right_shin_front_upper",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      59.17788139760057,
+      -21.0,
+      262.2499999999996
+    ],
+    [
+      180.82211860239943,
+      27.7000000000001,
+      400.0
+    ]
+  ],
+  "skin_volume_mm3": 64061.0778922505,
+  "skin_lumps": 1,
+  "candidate_count": 13,
+  "skin_face_count": 8,
+  "skin_edge_count": 18,
+  "candidate_ids": [
+    "<root>/Right_leg:1/Right_H01_Steel_crush_sleeves:1/Crush_sleeve_-14_308",
+    "<root>/Right_leg:1/Right_H01_Steel_crush_sleeves:1/Crush_sleeve_-14_360",
+    "<root>/Right_leg:1/Right_H01_Steel_crush_sleeves:1/Crush_sleeve_14_308",
+    "<root>/Right_leg:1/Right_H01_Steel_crush_sleeves:1/Crush_sleeve_14_360",
+    "<root>/Right_leg:1/Right_M01_GWK7010_B:1/GWK7010_vendor_fixed_region",
+    "<root>/Right_leg:1/Right_N01_Aluminum_knee_stack_1:1/N01_Aluminum_knee_stack_1",
+    "<root>/Right_leg:1/Right_N01_Aluminum_knee_stack_2:1/N01_Aluminum_knee_stack_2",
+    "<root>/Right_leg:1/Right_N01_Aluminum_knee_stack_4:1/N01_Aluminum_knee_stack_4",
+    "<root>/Right_leg:1/Right_N01_Aluminum_knee_stack_5:1/N01_Aluminum_knee_stack_5",
+    "<root>/Right_leg:1/Right_N03_Sprocket_blank_LAYOUT:1/N03_Sprocket_blank_LAYOUT",
+    "<root>/Right_leg:1/Right_S05_Continuous_oval_steel_rail_L:1/S05_Continuous_oval_steel_rail_L",
+    "<root>/Right_leg:1/Right_S05_Continuous_oval_steel_rail_R:1/S05_Continuous_oval_steel_rail_R",
+    "<root>/Right_leg:1/Right_S06_Dual_7010_motor_carrier:1/Body7"
+  ],
+  "batch_start": 12,
+  "batch_size": 12,
+  "checks": [
+    {
+      "original": "<root>/Right_leg:1/Right_S06_Dual_7010_motor_carrier:1/Body7",
+      "actual_bounds_world_mm": [
+        [
+          72.0,
+          -4.0,
+          204.99999999999997
+        ],
+        [
+          167.99999999999997,
+          49.8,
+          383.0
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    }
+  ],
+  "excluded_original_cosmetic_ids": [],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 1,
+    "cut_planes_world_z_mm": [],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 137.7500000000004,
+    "full_bounds_mm": [
+      [
+        59.17788139760057,
+        -21.0,
+        262.2499999999996
+      ],
+      [
+        180.82211860239943,
+        27.7000000000001,
+        400.0
+      ]
+    ],
+    "footprint_mm": [
+      121.64423720479886,
+      48.7000000000001
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769533.1232429,
+  "memory_before_bytes": 12756779008,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": false,
+  "memory_after_bytes": 12756779008,
+  "elapsed_seconds": 0.08480024337768555
+}

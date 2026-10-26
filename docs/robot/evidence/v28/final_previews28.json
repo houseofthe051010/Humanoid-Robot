@@ -1,0 +1,30 @@
+[
+  {
+    "view": "front",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_front.png"
+  },
+  {
+    "view": "rear",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_rear.png"
+  },
+  {
+    "view": "side",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_side.png"
+  },
+  {
+    "view": "feet",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_feet.png"
+  },
+  {
+    "view": "elbows",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_elbows.png"
+  },
+  {
+    "view": "waist",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_waist.png"
+  },
+  {
+    "view": "iso",
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_iso.png"
+  }
+]

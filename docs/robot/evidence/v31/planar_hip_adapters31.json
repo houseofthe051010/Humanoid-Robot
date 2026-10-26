@@ -1,0 +1,26 @@
+[
+  {
+    "side": "Left",
+    "cradle_volume_mm3": 192039.3980000169,
+    "carrier_volume_mm3": 238903.56605072977,
+    "cradle_cheeks_mm": 10,
+    "carrier_cheeks_mm": 8,
+    "external_cap_mm": 5,
+    "unchanged_motor_placement": true,
+    "outside_contour_requested_radius_mm": 12,
+    "edge_round_mm": 1.5,
+    "endcap_ear_relief_radius_mm": 68
+  },
+  {
+    "side": "Right",
+    "cradle_volume_mm3": 192039.3980000209,
+    "carrier_volume_mm3": 238903.6359377872,
+    "cradle_cheeks_mm": 10,
+    "carrier_cheeks_mm": 8,
+    "external_cap_mm": 5,
+    "unchanged_motor_placement": true,
+    "outside_contour_requested_radius_mm": 12,
+    "edge_round_mm": 1.5,
+    "endcap_ear_relief_radius_mm": 68
+  }
+]

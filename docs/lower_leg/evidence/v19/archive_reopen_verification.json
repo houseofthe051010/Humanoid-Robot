@@ -1,0 +1,97 @@
+{
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v19\\deliverables\\Legs_hip_waist_v19.f3d",
+  "parametric": true,
+  "groups": {
+    "Left_leg": {
+      "parts": 112,
+      "joints": 109,
+      "invalid_joints": []
+    },
+    "Right_leg": {
+      "parts": 112,
+      "joints": 109,
+      "invalid_joints": []
+    },
+    "Waist_roll_pitch_v19": {
+      "parts": 28,
+      "joints": 26,
+      "invalid_joints": []
+    }
+  },
+  "tube_dimensions": [
+    {
+      "group": "Left_leg",
+      "part": "H01_Hip_roll_110OD_106ID_case",
+      "ID_mm": 106,
+      "OD_mm": 110,
+      "wall_mm": 2
+    },
+    {
+      "group": "Left_leg",
+      "part": "H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "ID_mm": 106,
+      "OD_mm": 110,
+      "wall_mm": 2
+    },
+    {
+      "group": "Right_leg",
+      "part": "H01_Hip_roll_110OD_106ID_case",
+      "ID_mm": 106,
+      "OD_mm": 110,
+      "wall_mm": 2
+    },
+    {
+      "group": "Right_leg",
+      "part": "H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "ID_mm": 106,
+      "OD_mm": 110,
+      "wall_mm": 2
+    }
+  ],
+  "hip_alignment": [
+    {
+      "group": "Left_leg",
+      "roll_axis_x_mm": -120.0,
+      "yaw_axis_x_mm": -119.99999999999993,
+      "x_error_mm": 7.105427357601002e-14
+    },
+    {
+      "group": "Right_leg",
+      "roll_axis_x_mm": 120.00000000000003,
+      "yaw_axis_x_mm": 119.99999999999994,
+      "x_error_mm": 8.881784197001252e-14
+    }
+  ],
+  "spine_bound_error_mm": 1.4210854715202004e-13,
+  "inward_6010_outputs": [
+    {
+      "part": "W23",
+      "normal": [
+        1.0,
+        2.36828700410014e-16,
+        2.28390313191941e-15
+      ],
+      "output_x_mm": -44.99999999999771
+    },
+    {
+      "part": "W24",
+      "normal": [
+        -1.0,
+        -2.530242883873416e-16,
+        -1.3456154506542976e-15
+      ],
+      "output_x_mm": 44.9999999999976
+    }
+  ],
+  "waist_joint_limits_deg": {
+    "WJ01_lower_waist_roll": [
+      -5.0,
+      5.0
+    ],
+    "WJ02_upper_waist_pitch": [
+      -20.0,
+      20.0
+    ]
+  },
+  "leg_axis_spacing_mm": 239.9999999999999
+}

@@ -1,0 +1,745 @@
+{
+  "records": [
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Left",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -40,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -35,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": -5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 35,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 40,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Left",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Left",
+      "part": "Left_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Left",
+      "part": "Left_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_conical_rear_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Left",
+      "part": "Left_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "pitch_carrier_to_waist",
+      "side": "Right",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -40,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -35,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": -5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 10,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 20,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 25,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 35,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 40,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "roll_cradle_to_pitch_carrier",
+      "side": "Right",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Right",
+      "part": "Right_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Right",
+      "part": "Right_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_conical_rear_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "fixed_case_to_waist",
+      "side": "Right",
+      "part": "Right_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "L",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "L",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "shoulder_pod_to_fixed_torso",
+      "side": "R",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": -15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 15,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 60,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 75,
+      "overlap_mm3": 0.0
+    },
+    {
+      "test": "upper_arm_roll_to_shoulder_pod",
+      "side": "R",
+      "angle_deg": 90,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "failures": [],
+  "all_sampled_clear": true,
+  "scope": "Temporary BRep volume checks at sampled angles, not a continuous collision or strength qualification"
+}

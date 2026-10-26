@@ -1,0 +1,4402 @@
+{
+  "bodies": [
+    {
+      "part": "T01_Torso_shell_2p5mm_concept",
+      "name": "T01_torso_shell_with_neck_retainer_clearance",
+      "volume_mm3": 888087.834236685,
+      "solid": true
+    },
+    {
+      "part": "N01_Oval_spine_6005_servo_adapter",
+      "name": "N01_Oval_spine_6005_servo_adapter_fit_v25",
+      "volume_mm3": 48928.97307569359,
+      "solid": true
+    },
+    {
+      "part": "N02_6005_25x47x12_REFERENCE",
+      "name": "6005_reference",
+      "volume_mm3": 14928.848289859905,
+      "solid": true
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound",
+      "volume_mm3": 30798.428868363408,
+      "solid": true
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound (1)",
+      "volume_mm3": 119.27637057367568,
+      "solid": true
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound (2)",
+      "volume_mm3": 382.1105205564783,
+      "solid": true
+    },
+    {
+      "part": "H01_Defined_vision_head_v25",
+      "name": "H26_printed_face_shell",
+      "volume_mm3": 133504.29449363504,
+      "solid": true
+    },
+    {
+      "part": "N04_Head_yaw_output_ENVELOPE",
+      "name": "N26_compact_yaw_hub_external_pitch_cradle",
+      "volume_mm3": 28076.238603772334,
+      "solid": true
+    },
+    {
+      "part": "S24_L_6810_pitch_bearing",
+      "name": "S24_L_6810_pitch_bearing",
+      "volume_mm3": 9483.682823024645,
+      "solid": true
+    },
+    {
+      "part": "S24_L_pitch_outer_race_retainer",
+      "name": "S24_L_pitch_outer_race_retainer",
+      "volume_mm3": 16938.69789795672,
+      "solid": true
+    },
+    {
+      "part": "S24_L_pitch_carrier_roll_housing",
+      "name": "S24_L_pitch_carrier_roll_housing_fit_v25",
+      "volume_mm3": 162665.62254382935,
+      "solid": true
+    },
+    {
+      "part": "S24_L_roll_driven_output",
+      "name": "S24_L_roll_driven_output_fit_v25",
+      "volume_mm3": 21606.997214047864,
+      "solid": true
+    },
+    {
+      "part": "S24_L_6005_rear_support_bearing",
+      "name": "S24_L_6005_rear_support_bearing",
+      "volume_mm3": 14928.848289859328,
+      "solid": true
+    },
+    {
+      "part": "S24_L_upper_arm_fork_to_elbow",
+      "name": "S25_L_upper_arm_with_dual_elbow_bearing_seats",
+      "volume_mm3": 271902.0991017643,
+      "solid": true
+    },
+    {
+      "part": "S24_L_rear_bearing_cap",
+      "name": "S24_L_rear_bearing_cap",
+      "volume_mm3": 7101.004706762405,
+      "solid": true
+    },
+    {
+      "part": "S24_L_rear_journal_washer",
+      "name": "S24_L_rear_journal_washer",
+      "volume_mm3": 1099.3061013441836,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_0",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_1",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_2",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_3",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_4",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_5",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_0",
+      "volume_mm3": 130.08157081270798,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_1",
+      "volume_mm3": 130.08157081270798,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_2",
+      "volume_mm3": 130.08157081270798,
+      "solid": true
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_3",
+      "volume_mm3": 130.08157081270798,
+      "solid": true
+    },
+    {
+      "part": "S24_R_6810_pitch_bearing",
+      "name": "S24_R_6810_pitch_bearing",
+      "volume_mm3": 9483.682823024645,
+      "solid": true
+    },
+    {
+      "part": "S24_R_pitch_outer_race_retainer",
+      "name": "S24_R_pitch_outer_race_retainer",
+      "volume_mm3": 16938.697897956055,
+      "solid": true
+    },
+    {
+      "part": "S24_R_pitch_carrier_roll_housing",
+      "name": "S24_R_pitch_carrier_roll_housing_fit_v25",
+      "volume_mm3": 162665.6225438295,
+      "solid": true
+    },
+    {
+      "part": "S24_R_roll_driven_output",
+      "name": "S24_R_roll_driven_output_fit_v25",
+      "volume_mm3": 21606.99721404788,
+      "solid": true
+    },
+    {
+      "part": "S24_R_6005_rear_support_bearing",
+      "name": "S24_R_6005_rear_support_bearing",
+      "volume_mm3": 14928.848289859328,
+      "solid": true
+    },
+    {
+      "part": "S24_R_upper_arm_fork_to_elbow",
+      "name": "S25_R_upper_arm_with_dual_elbow_bearing_seats",
+      "volume_mm3": 271902.0991017642,
+      "solid": true
+    },
+    {
+      "part": "S24_R_rear_bearing_cap",
+      "name": "S24_R_rear_bearing_cap",
+      "volume_mm3": 7101.004706762405,
+      "solid": true
+    },
+    {
+      "part": "S24_R_rear_journal_washer",
+      "name": "S24_R_rear_journal_washer",
+      "volume_mm3": 1099.3061013441836,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_0",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_1",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_2",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_3",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_4",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_5",
+      "volume_mm3": 316.51545984918516,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_0",
+      "volume_mm3": 130.08157081270792,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_1",
+      "volume_mm3": 130.08157081270792,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_2",
+      "volume_mm3": 130.08157081270792,
+      "solid": true
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_3",
+      "volume_mm3": 130.08157081270792,
+      "solid": true
+    },
+    {
+      "part": "T24_internal_shoulder_spine_frame",
+      "name": "T24_internal_shoulder_spine_frame_fit_v25",
+      "volume_mm3": 283311.03738649166,
+      "solid": true
+    },
+    {
+      "part": "T24_spine_clamp_cap_1",
+      "name": "T24_spine_clamp_cap_1",
+      "volume_mm3": 8314.911066307102,
+      "solid": true
+    },
+    {
+      "part": "T24_spine_clamp_cap_2",
+      "name": "T24_spine_clamp_cap_2",
+      "volume_mm3": 18101.39759561335,
+      "solid": true
+    },
+    {
+      "part": "E24_electronics_box",
+      "name": "E24_electronics_box",
+      "volume_mm3": 160820.31772788093,
+      "solid": true
+    },
+    {
+      "part": "E24_electronics_lid",
+      "name": "E24_electronics_lid",
+      "volume_mm3": 34367.22876291192,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_-20_1252",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_-20_1266",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_20_1252",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_20_1266",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_-20_1309.36343136",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_-20_1332.36343136",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_20_1309.36343136",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_20_1332.36343136",
+      "volume_mm3": 518.3627878423375,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_0",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_1",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_2",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_3",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_4",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_5",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_0",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_1",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_2",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_3",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_4",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_5",
+      "volume_mm3": 681.7256058289558,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_0",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_1",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_2",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_3",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_4",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_5",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_0",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_1",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_2",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_3",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_4",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_5",
+      "volume_mm3": 164.74511875425478,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut",
+      "volume_mm3": 123.55883906569218,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (1)",
+      "volume_mm3": 123.55883906569218,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (2)",
+      "volume_mm3": 123.55883906569215,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (3)",
+      "volume_mm3": 123.55883906569215,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (4)",
+      "volume_mm3": 123.55883906569218,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (5)",
+      "volume_mm3": 123.55883906569218,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (6)",
+      "volume_mm3": 123.55883906569215,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (7)",
+      "volume_mm3": 123.55883906569215,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount",
+      "volume_mm3": 193.99334635917816,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (1)",
+      "volume_mm3": 193.99334635917816,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (2)",
+      "volume_mm3": 193.99334635917816,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (3)",
+      "volume_mm3": 193.99334635917816,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid",
+      "volume_mm3": 149.02930150465022,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (1)",
+      "volume_mm3": 149.02930150465025,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (2)",
+      "volume_mm3": 149.02930150465022,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (3)",
+      "volume_mm3": 149.02930150465025,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Rear_shell_M4",
+      "volume_mm3": 455.53093477053875,
+      "solid": true
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Rear_shell_M4 (1)",
+      "volume_mm3": 455.53093477053875,
+      "solid": true
+    },
+    {
+      "part": "N24_lower_yaw_retaining_collar",
+      "name": "N24_lower_yaw_collar",
+      "volume_mm3": 508.9380098814911,
+      "solid": true
+    },
+    {
+      "part": "S25_R_GWK6010_pitch_stator",
+      "name": "actual_GWK6010_pitch_fixed",
+      "volume_mm3": 51053.89939835846,
+      "solid": true
+    },
+    {
+      "part": "S25_R_GWK6010_pitch_rotating_hub",
+      "name": "actual_GWK6010_pitch_output",
+      "volume_mm3": 4650.399045664938,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_motor_face_mount",
+      "name": "S25_R_pitch_motor_face_mount_fit_v25",
+      "volume_mm3": 30043.781264657377,
+      "solid": true
+    },
+    {
+      "part": "S25_R_GWK6010_roll_stator",
+      "name": "actual_GWK6010_roll_fixed",
+      "volume_mm3": 51053.89939835837,
+      "solid": true
+    },
+    {
+      "part": "S25_R_GWK6010_roll_rotating_hub",
+      "name": "actual_GWK6010_roll_output",
+      "volume_mm3": 4650.399045664936,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_removable_inner_collar",
+      "name": "S25_R_pitch_removable_inner_collar",
+      "volume_mm3": 480.66367599924666,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_0",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_1",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_2",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_3",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_4",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_5",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_6",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_R_motor_mount_fasteners",
+      "name": "roll_M2_5_7",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_GWK6010_pitch_stator",
+      "name": "actual_GWK6010_pitch_fixed",
+      "volume_mm3": 51053.89939835844,
+      "solid": true
+    },
+    {
+      "part": "S25_L_GWK6010_pitch_rotating_hub",
+      "name": "actual_GWK6010_pitch_output",
+      "volume_mm3": 4650.399045664939,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_motor_face_mount",
+      "name": "S25_L_pitch_motor_face_mount_fit_v25",
+      "volume_mm3": 30043.856631714167,
+      "solid": true
+    },
+    {
+      "part": "S25_L_GWK6010_roll_stator",
+      "name": "actual_GWK6010_roll_fixed",
+      "volume_mm3": 51053.89939835835,
+      "solid": true
+    },
+    {
+      "part": "S25_L_GWK6010_roll_rotating_hub",
+      "name": "actual_GWK6010_roll_output",
+      "volume_mm3": 4650.399045664939,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_removable_inner_collar",
+      "name": "S25_L_pitch_removable_inner_collar",
+      "volume_mm3": 480.66367599924666,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_0",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_1",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_2",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_3",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_4",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_5",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_6",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "S25_L_motor_mount_fasteners",
+      "name": "roll_M2_5_7",
+      "volume_mm3": 72.55115534384241,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_yaw_case",
+      "name": "N25_Feetech_yaw_case",
+      "volume_mm3": 34806.47576141292,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_yaw_ac1",
+      "name": "N25_Feetech_yaw_ac1",
+      "volume_mm3": 849.3118177546095,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_yaw_ac2",
+      "name": "N25_Feetech_yaw_ac2",
+      "volume_mm3": 559.1249525226887,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_pitch_case",
+      "name": "N25_Feetech_pitch_case",
+      "volume_mm3": 34806.47576141293,
+      "solid": true
+    },
+    {
+      "part": "N25_dual_side_head_pitch_yoke",
+      "name": "N26_dual_sided_pitch_yoke_serviceable",
+      "volume_mm3": 26665.48507411642,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_pitch_ac1",
+      "name": "N25_Feetech_pitch_ac1",
+      "volume_mm3": 849.3118177546011,
+      "solid": true
+    },
+    {
+      "part": "N25_Feetech_pitch_ac2",
+      "name": "N25_Feetech_pitch_ac2",
+      "volume_mm3": 559.1249525226674,
+      "solid": true
+    },
+    {
+      "part": "H25_camera_visor_bezel",
+      "name": "H25_complete_flat_visor_bezel",
+      "volume_mm3": 4090.623270010653,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_0_00_Gemini Asm_20200420_Body1",
+      "volume_mm3": 1103.6767571409935,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_1_00_Gemini Asm_20200420_Body2",
+      "volume_mm3": 13.044322720325082,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_2_00_Gemini Asm_20200420_Body3",
+      "volume_mm3": 8.794448810753945,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_3_00_Gemini Asm_20200420_Body4",
+      "volume_mm3": 267.9966512577072,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_4_00_Gemini Asm_20200420_Body5",
+      "volume_mm3": 11.117656578095072,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_5_00_Gemini Asm_20200420_Body28",
+      "volume_mm3": 2264.1102100834923,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_6_00_Gemini Asm_20200420_Body29",
+      "volume_mm3": 84.11023450414524,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_7_00_Gemini Asm_20200420_Body30",
+      "volume_mm3": 13.04432272032509,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_8_00_Gemini Asm_20200420_Body31",
+      "volume_mm3": 17.451573898034276,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_9_00_Gemini Asm_20200420_Body32",
+      "volume_mm3": 13.044322720325395,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_10_00_Gemini Asm_20200420_Body33",
+      "volume_mm3": 11.117656578095444,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_11_00_Gemini Asm_20200420_Body34",
+      "volume_mm3": 47.72184128569842,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_12_00_Gemini Asm_20200420_Body35",
+      "volume_mm3": 6.720192412151885,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_13_00_Gemini Asm_20200420_Body36",
+      "volume_mm3": 3.4402649846574707,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_14_00_Gemini Asm_20200420_Body37",
+      "volume_mm3": 13.044322720325185,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_15_00_Gemini Asm_20200420_Body38",
+      "volume_mm3": 7458.620701124699,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_16_00_Gemini Asm_20200420_Body39",
+      "volume_mm3": 84.11023450410431,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_17_00_Gemini Asm_20200420_Body40",
+      "volume_mm3": 3.6040049964323266,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_18_00_Gemini Asm_20200420_Body57",
+      "volume_mm3": 130.9606952529652,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_19_Gemini\u00cd\u00e2\u00bf\u00c7_Body1",
+      "volume_mm3": 6834.200711763277,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_20_Gemini\u00c2\u00c1\u00ba\u00cf\u00bd\u00f0\u00ba\u00f3\u00b8\u00c7_Body1",
+      "volume_mm3": 2254.631085279247,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_21_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "volume_mm3": 23.67527492359355,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_22_fmcr tapping screws-scrape point a gb_GB_CROSS_SCREWS_TYPE143 ST1.9X6-N_Body1",
+      "volume_mm3": 24.0136783221775,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_23_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "volume_mm3": 23.675274923593324,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_24_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "volume_mm3": 23.67527492359372,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_25_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "volume_mm3": 23.67527492359396,
+      "solid": true
+    },
+    {
+      "part": "H25_AIView_official_camera_CAD",
+      "name": "AIView_26_fmcr tapping screws-scrape point a gb_GB_CROSS_SCREWS_TYPE143 ST1.9X6-N_Body1",
+      "volume_mm3": 24.0136791569855,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_0",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_1",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_2",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_3",
+      "volume_mm3": 89.82991493857946,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_4",
+      "volume_mm3": 89.82991493857946,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_5",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_6",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_R_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_7",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_0",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_1",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_2",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_3",
+      "volume_mm3": 89.82991493857946,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_4",
+      "volume_mm3": 89.82991493857946,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_5",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_6",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "S25_L_pitch_mount_fasteners_fixed",
+      "name": "pitch_M2_5_7",
+      "volume_mm3": 89.82991493857945,
+      "solid": true
+    },
+    {
+      "part": "A25_R_elbow_inner_6005",
+      "name": "A25_R_elbow_inner_6005",
+      "volume_mm3": 14928.848289859377,
+      "solid": true
+    },
+    {
+      "part": "A25_R_elbow_inner_bearing_retainer",
+      "name": "A25_R_elbow_inner_bearing_retainer",
+      "volume_mm3": 3346.5501583101027,
+      "solid": true
+    },
+    {
+      "part": "A25_R_elbow_outer_6005",
+      "name": "A25_R_elbow_outer_6005",
+      "volume_mm3": 14928.848289859377,
+      "solid": true
+    },
+    {
+      "part": "A25_R_elbow_outer_bearing_retainer",
+      "name": "A25_R_elbow_outer_bearing_retainer",
+      "volume_mm3": 3346.5501583101027,
+      "solid": true
+    },
+    {
+      "part": "A25_R_elbow_dual_output_shaft",
+      "name": "A25_R_elbow_dual_output_shaft",
+      "volume_mm3": 40704.830614397775,
+      "solid": true
+    },
+    {
+      "part": "A25_R_forearm_fork_to_wrist",
+      "name": "A26_R_forearm_fork_serviceable_wrist",
+      "volume_mm3": 163366.28155397906,
+      "solid": true
+    },
+    {
+      "part": "A25_L_elbow_inner_6005",
+      "name": "A25_L_elbow_inner_6005",
+      "volume_mm3": 14928.848289859377,
+      "solid": true
+    },
+    {
+      "part": "A25_L_elbow_inner_bearing_retainer",
+      "name": "A25_L_elbow_inner_bearing_retainer",
+      "volume_mm3": 3346.5501583101027,
+      "solid": true
+    },
+    {
+      "part": "A25_L_elbow_outer_6005",
+      "name": "A25_L_elbow_outer_6005",
+      "volume_mm3": 14928.848289859377,
+      "solid": true
+    },
+    {
+      "part": "A25_L_elbow_outer_bearing_retainer",
+      "name": "A25_L_elbow_outer_bearing_retainer",
+      "volume_mm3": 3346.5501583101027,
+      "solid": true
+    },
+    {
+      "part": "A25_L_elbow_dual_output_shaft",
+      "name": "A25_L_elbow_dual_output_shaft",
+      "volume_mm3": 40704.830614397775,
+      "solid": true
+    },
+    {
+      "part": "A25_L_forearm_fork_to_wrist",
+      "name": "A26_L_forearm_fork_serviceable_wrist",
+      "volume_mm3": 163366.28155397886,
+      "solid": true
+    },
+    {
+      "part": "N25_yaw_servo_retaining_clamp",
+      "name": "N25_removable_yaw_servo_clamp",
+      "volume_mm3": 12975.61735556483,
+      "solid": true
+    },
+    {
+      "part": "N25_yaw_6005_outer_race_retainer",
+      "name": "N25_6005_top_retainer",
+      "volume_mm3": 5039.3345278432325,
+      "solid": true
+    },
+    {
+      "part": "H26_removable_rear_head_shell",
+      "name": "H26_rear_service_shell_tilt_relief",
+      "volume_mm3": 87201.56836386975,
+      "solid": true
+    },
+    {
+      "part": "H26_head_shell_M3_fasteners",
+      "name": "M3_service_screw",
+      "volume_mm3": 167.6667999220945,
+      "solid": true
+    },
+    {
+      "part": "H26_head_shell_M3_fasteners",
+      "name": "M3_service_screw (1)",
+      "volume_mm3": 167.6667999220945,
+      "solid": true
+    },
+    {
+      "part": "H26_head_shell_M3_fasteners",
+      "name": "M3_service_screw (2)",
+      "volume_mm3": 167.6667999220945,
+      "solid": true
+    },
+    {
+      "part": "H26_head_shell_M3_fasteners",
+      "name": "M3_service_screw (3)",
+      "volume_mm3": 167.6667999220945,
+      "solid": true
+    },
+    {
+      "part": "N26_pitch_servo_removable_clamp",
+      "name": "N26_pitch_servo_service_clamp",
+      "volume_mm3": 3244.3199150374853,
+      "solid": true
+    },
+    {
+      "part": "N26_pitch_clamp_M3_fasteners",
+      "name": "M3_external_case_clamp",
+      "volume_mm3": 379.72430403938193,
+      "solid": true
+    },
+    {
+      "part": "N26_pitch_clamp_M3_fasteners",
+      "name": "M3_external_case_clamp (1)",
+      "volume_mm3": 379.72430403938193,
+      "solid": true
+    },
+    {
+      "part": "Hand26_R_forearm_wrist_adapter",
+      "name": "Hand26_18mm_wrist_adapter",
+      "volume_mm3": 25877.33145597128,
+      "solid": true
+    },
+    {
+      "part": "Hand26_L_forearm_wrist_adapter",
+      "name": "Hand26_18mm_wrist_adapter",
+      "volume_mm3": 25877.33145597128,
+      "solid": true
+    }
+  ],
+  "meshes": [
+    {
+      "part": "R_Printed_structure",
+      "name": "AmazingHand_R_Printed_structure",
+      "node_count": 96285,
+      "triangle_count": 193882,
+      "bounds_mm": [
+        [
+          133.316059,
+          0.799954,
+          632.841492
+        ],
+        [
+          250.597439,
+          117.706804,
+          799.363403
+        ]
+      ]
+    },
+    {
+      "part": "R_Printed_shells",
+      "name": "AmazingHand_R_Printed_shells",
+      "node_count": 122675,
+      "triangle_count": 245672,
+      "bounds_mm": [
+        [
+          131.829834,
+          -13.615443,
+          629.572945
+        ],
+        [
+          252.426167,
+          120.136299,
+          794.663467
+        ]
+      ]
+    },
+    {
+      "part": "R_Microservos",
+      "name": "AmazingHand_R_Microservos",
+      "node_count": 31514,
+      "triangle_count": 63088,
+      "bounds_mm": [
+        [
+          147.609501,
+          -4.8,
+          707.71347
+        ],
+        [
+          233.600006,
+          49.739108,
+          790.96344
+        ]
+      ]
+    },
+    {
+      "part": "R_Hardware",
+      "name": "AmazingHand_R_Hardware",
+      "node_count": 112040,
+      "triangle_count": 223936,
+      "bounds_mm": [
+        [
+          138.441153,
+          2.399929,
+          648.251877
+        ],
+        [
+          244.238625,
+          103.452406,
+          783.763428
+        ]
+      ]
+    },
+    {
+      "part": "L_Printed_structure",
+      "name": "AmazingHand_L_Printed_structure",
+      "node_count": 96238,
+      "triangle_count": 193750,
+      "bounds_mm": [
+        [
+          -249.682961,
+          0.799954,
+          632.841492
+        ],
+        [
+          -134.253569,
+          118.041182,
+          799.363403
+        ]
+      ]
+    },
+    {
+      "part": "L_Printed_shells",
+      "name": "AmazingHand_L_Printed_shells",
+      "node_count": 122712,
+      "triangle_count": 245740,
+      "bounds_mm": [
+        [
+          -251.538696,
+          -13.615443,
+          629.572945
+        ],
+        [
+          -132.745972,
+          120.462828,
+          794.663467
+        ]
+      ]
+    },
+    {
+      "part": "L_Microservos",
+      "name": "AmazingHand_L_Microservos",
+      "node_count": 31514,
+      "triangle_count": 63088,
+      "bounds_mm": [
+        [
+          -233.600006,
+          -4.8,
+          707.71347
+        ],
+        [
+          -147.609501,
+          49.739108,
+          790.96344
+        ]
+      ]
+    },
+    {
+      "part": "L_Hardware",
+      "name": "AmazingHand_L_Hardware",
+      "node_count": 112040,
+      "triangle_count": 223936,
+      "bounds_mm": [
+        [
+          -244.83593,
+          2.399931,
+          648.251877
+        ],
+        [
+          -137.815342,
+          103.836432,
+          783.763504
+        ]
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "owner": "<root>",
+      "name": "V24_L_shoulder_pitch",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -1.5707963267948966,
+            "maximum": 1.5707963267948966,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9999999999999994,
+        -7.002414226813166e-17,
+        1.7225110227059304e-13,
+        -19.699999999993594,
+        6.384616853114652e-17,
+        0.9999999999999993,
+        6.901535265983855e-17,
+        2.800000000000014,
+        -1.7236212457305555e-13,
+        -1.580260147755285e-16,
+        0.9999999999999993,
+        132.5363431360034,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_shoulder_roll",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.10471975511965978,
+          "unit": "rad",
+          "limits": {
+            "minimum": -0.2617993877991494,
+            "maximum": 1.7453292519943295,
+            "rest": 0.10471975511965978,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9945218953682544,
+        -7.002414226813166e-17,
+        0.10452846326782515,
+        -19.699999999993608,
+        8.794634793139643e-17,
+        0.9999999999999993,
+        6.549056148974755e-17,
+        2.799999999999999,
+        -0.1045284632678252,
+        -1.580260147755285e-16,
+        0.9945218953682544,
+        132.53634313600344,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_output_to_fork",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_6005_rear_support_bearing",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_rear_bearing_cap",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_drive_and_retainer_fasteners",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_fixed_rear_washer",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_6810_pitch_bearing",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_L_pitch_outer_race_retainer",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_shoulder_pitch",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -1.5707963267948966,
+            "maximum": 1.5707963267948966,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9999999999999994,
+        -5.4771754600877747e-17,
+        1.723066134218243e-13,
+        19.700000000006398,
+        6.211804620172311e-17,
+        0.9999999999999993,
+        6.901535265983855e-17,
+        2.800000000000015,
+        -1.7236212457305555e-13,
+        -1.4567487477449022e-16,
+        0.9999999999999993,
+        132.53634313599662,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_shoulder_roll",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": -0.10471975511965978,
+          "unit": "rad",
+          "limits": {
+            "minimum": -1.7453292519943295,
+            "maximum": 0.2617993877991494,
+            "rest": -0.10471975511965978,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9945218953682903,
+        -5.4771754600877747e-17,
+        -0.1045284632674825,
+        19.700000000006398,
+        9.717031501428223e-17,
+        0.9999999999999993,
+        5.790620937598283e-17,
+        2.8000000000000043,
+        0.10452846326748236,
+        -1.4567487477449022e-16,
+        0.9945218953682905,
+        132.53634313599662,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_output_to_fork",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_6005_rear_support_bearing",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_rear_bearing_cap",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_drive_and_retainer_fasteners",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_fixed_rear_washer",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_6810_pitch_bearing",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_R_pitch_outer_race_retainer",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_neck_yaw",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -1.5707963267948966,
+            "maximum": 1.5707963267948966,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9999999999999993,
+        -6.387940579060872e-18,
+        1.7229273563401648e-13,
+        7.627008682953762e-12,
+        3.412183755901692e-17,
+        0.9999999999999996,
+        5.5137564852024105e-17,
+        2.8343134,
+        -1.723066134218243e-13,
+        -6.703483528979862e-17,
+        0.9999999999999994,
+        139.63634313599994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_yaw_lower_collar",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_T01_Torso_shell_2p5mm_concept",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_N01_Oval_spine_6005_servo_adapter",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_N02_6005_25x47x12_REFERENCE",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_T24_spine_clamp_cap_1",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_T24_spine_clamp_cap_2",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_E24_electronics_box",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_E24_electronics_lid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_T24_frame_shell_clamp_hardware",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V24_fixed_T24_nuts_washers_electronics_screws",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_pitch_stator_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_pitch_rotating_hub_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_pitch_motor_face_mount_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_roll_stator_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_roll_rotating_hub_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_pitch_removable_inner_collar_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_motor_mount_screws_carried",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_pitch_stator_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_pitch_rotating_hub_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_pitch_motor_face_mount_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_roll_stator_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_roll_rotating_hub_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_pitch_removable_inner_collar_fixed_relation",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_motor_mount_screws_carried",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_case_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_ac1_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_ac2_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_case_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_ac1_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_ac2_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_pitch_yoke_to_head",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "H25_camera_visor_bezel_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_camera_to_head",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_fixed_pitch_mount_screws",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_fixed_pitch_mount_screws",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_inner_6005_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_inner_bearing_retainer_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_outer_6005_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_outer_bearing_retainer_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_forearm_fork_to_wrist_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_R_elbow_pitch",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -2.356194490192345,
+            "maximum": 0.0,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9945218953682907,
+        -5.767300226709335e-17,
+        -0.10452846326748241,
+        22.417740044960954,
+        8.329252720646782e-17,
+        0.9999999999999992,
+        5.790620937598285e-17,
+        2.800000000000015,
+        0.10452846326748243,
+        -1.7327840244278238e-16,
+        0.9945218953682907,
+        106.6787738564211,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_inner_6005_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_inner_bearing_retainer_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_outer_6005_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_outer_bearing_retainer_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_forearm_fork_to_wrist_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_L_elbow_pitch",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -2.356194490192345,
+            "maximum": 0.0,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9945218953682556,
+        -5.767300226709338e-17,
+        0.10452846326782528,
+        -22.417740044957057,
+        9.488524183530377e-17,
+        0.9999999999999996,
+        6.549056148974761e-17,
+        2.7999999999999834,
+        -0.10452846326782533,
+        -1.7327840244278246e-16,
+        0.9945218953682552,
+        106.6787738564288,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_yaw_clamp_to_fixed_adapter",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V25_yaw_bearing_retainer_fixed",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_head_pitch",
+      "type": 1,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {
+        "rotationValue": {
+          "value": 0.0,
+          "unit": "rad",
+          "limits": {
+            "minimum": -0.5235987755982988,
+            "maximum": 0.5235987755982988,
+            "rest": 0.0,
+            "minimum_enabled": true,
+            "maximum_enabled": true,
+            "rest_enabled": true
+          }
+        }
+      },
+      "frame_cm": [
+        0.9999999999999993,
+        -8.113161058329133e-18,
+        1.7238988014867118e-13,
+        8.605952026752904e-12,
+        3.5849959888440216e-17,
+        0.9999999999999996,
+        8.289314046765302e-17,
+        2.8343134000000116,
+        -1.723066134218243e-13,
+        -6.685350731066015e-17,
+        0.9999999999999996,
+        145.23634313599996,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_rear_head_shell_to_face",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_head_shell_fasteners_rigid",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_pitch_clamp_to_yaw_hub",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_pitch_clamp_fasteners_to_hub",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_R_hand_to_forearm",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_R_wrist_adapter_to_forearm",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_L_hand_to_forearm",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    },
+    {
+      "owner": "<root>",
+      "name": "V26_L_wrist_adapter_to_forearm",
+      "type": 0,
+      "valid": true,
+      "suppressed": false,
+      "motion_state": {},
+      "frame_cm": null
+    }
+  ],
+  "occurrences": [
+    {
+      "owner": "<root>",
+      "name": "T01_Torso_shell_2p5mm_concept:1",
+      "component": "T01_Torso_shell_2p5mm_concept",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "<root>",
+      "name": "N01_Oval_spine_6005_servo_adapter:1",
+      "component": "N01_Oval_spine_6005_servo_adapter",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N02_6005_25x47x12_REFERENCE:1",
+      "component": "N02_6005_25x47x12_REFERENCE",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE:1",
+      "component": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "H01_Defined_vision_head_v25:1",
+      "component": "H01_Defined_vision_head_v25",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N04_Head_yaw_output_ENVELOPE:1",
+      "component": "N04_Head_yaw_output_ENVELOPE",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_6810_pitch_bearing:1",
+      "component": "S24_L_6810_pitch_bearing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_pitch_outer_race_retainer:1",
+      "component": "S24_L_pitch_outer_race_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_pitch_carrier_roll_housing:1",
+      "component": "S24_L_pitch_carrier_roll_housing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_roll_driven_output:1",
+      "component": "S24_L_roll_driven_output",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_6005_rear_support_bearing:1",
+      "component": "S24_L_6005_rear_support_bearing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_upper_arm_fork_to_elbow:1",
+      "component": "S24_L_upper_arm_fork_to_elbow",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_rear_bearing_cap:1",
+      "component": "S24_L_rear_bearing_cap",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_rear_journal_washer:1",
+      "component": "S24_L_rear_journal_washer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_L_drive_and_retainer_fasteners:1",
+      "component": "S24_L_drive_and_retainer_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_6810_pitch_bearing:1",
+      "component": "S24_R_6810_pitch_bearing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_pitch_outer_race_retainer:1",
+      "component": "S24_R_pitch_outer_race_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_pitch_carrier_roll_housing:1",
+      "component": "S24_R_pitch_carrier_roll_housing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_roll_driven_output:1",
+      "component": "S24_R_roll_driven_output",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_6005_rear_support_bearing:1",
+      "component": "S24_R_6005_rear_support_bearing",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_upper_arm_fork_to_elbow:1",
+      "component": "S24_R_upper_arm_fork_to_elbow",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_rear_bearing_cap:1",
+      "component": "S24_R_rear_bearing_cap",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_rear_journal_washer:1",
+      "component": "S24_R_rear_journal_washer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S24_R_drive_and_retainer_fasteners:1",
+      "component": "S24_R_drive_and_retainer_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "T24_internal_shoulder_spine_frame:1",
+      "component": "T24_internal_shoulder_spine_frame",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "<root>",
+      "name": "T24_spine_clamp_cap_1:1",
+      "component": "T24_spine_clamp_cap_1",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "T24_spine_clamp_cap_2:1",
+      "component": "T24_spine_clamp_cap_2",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "E24_electronics_box:1",
+      "component": "E24_electronics_box",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "E24_electronics_lid:1",
+      "component": "E24_electronics_lid",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "T24_frame_shell_clamp_hardware:1",
+      "component": "T24_frame_shell_clamp_hardware",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "T24_nuts_washers_electronics_screws:1",
+      "component": "T24_nuts_washers_electronics_screws",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N24_lower_yaw_retaining_collar:1",
+      "component": "N24_lower_yaw_retaining_collar",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_pitch_stator:1",
+      "component": "S25_R_GWK6010_pitch_stator",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_pitch_rotating_hub:1",
+      "component": "S25_R_GWK6010_pitch_rotating_hub",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_pitch_motor_face_mount:1",
+      "component": "S25_R_pitch_motor_face_mount",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_roll_stator:1",
+      "component": "S25_R_GWK6010_roll_stator",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_GWK6010_roll_rotating_hub:1",
+      "component": "S25_R_GWK6010_roll_rotating_hub",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_pitch_removable_inner_collar:1",
+      "component": "S25_R_pitch_removable_inner_collar",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_motor_mount_fasteners:1",
+      "component": "S25_R_motor_mount_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_pitch_stator:1",
+      "component": "S25_L_GWK6010_pitch_stator",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_pitch_rotating_hub:1",
+      "component": "S25_L_GWK6010_pitch_rotating_hub",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_pitch_motor_face_mount:1",
+      "component": "S25_L_pitch_motor_face_mount",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_roll_stator:1",
+      "component": "S25_L_GWK6010_roll_stator",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_GWK6010_roll_rotating_hub:1",
+      "component": "S25_L_GWK6010_roll_rotating_hub",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_pitch_removable_inner_collar:1",
+      "component": "S25_L_pitch_removable_inner_collar",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_motor_mount_fasteners:1",
+      "component": "S25_L_motor_mount_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_case:1",
+      "component": "N25_Feetech_yaw_case",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_ac1:1",
+      "component": "N25_Feetech_yaw_ac1",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_yaw_ac2:1",
+      "component": "N25_Feetech_yaw_ac2",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_case:1",
+      "component": "N25_Feetech_pitch_case",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_dual_side_head_pitch_yoke:1",
+      "component": "N25_dual_side_head_pitch_yoke",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_ac1:1",
+      "component": "N25_Feetech_pitch_ac1",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_Feetech_pitch_ac2:1",
+      "component": "N25_Feetech_pitch_ac2",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "H25_camera_visor_bezel:1",
+      "component": "H25_camera_visor_bezel",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "H25_AIView_official_camera_CAD:1",
+      "component": "H25_AIView_official_camera_CAD",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_R_pitch_mount_fasteners_fixed:1",
+      "component": "S25_R_pitch_mount_fasteners_fixed",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "S25_L_pitch_mount_fasteners_fixed:1",
+      "component": "S25_L_pitch_mount_fasteners_fixed",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_inner_6005:1",
+      "component": "A25_R_elbow_inner_6005",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_inner_bearing_retainer:1",
+      "component": "A25_R_elbow_inner_bearing_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_outer_6005:1",
+      "component": "A25_R_elbow_outer_6005",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_outer_bearing_retainer:1",
+      "component": "A25_R_elbow_outer_bearing_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_elbow_dual_output_shaft:1",
+      "component": "A25_R_elbow_dual_output_shaft",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_R_forearm_fork_to_wrist:1",
+      "component": "A25_R_forearm_fork_to_wrist",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_inner_6005:1",
+      "component": "A25_L_elbow_inner_6005",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_inner_bearing_retainer:1",
+      "component": "A25_L_elbow_inner_bearing_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_outer_6005:1",
+      "component": "A25_L_elbow_outer_6005",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_outer_bearing_retainer:1",
+      "component": "A25_L_elbow_outer_bearing_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_elbow_dual_output_shaft:1",
+      "component": "A25_L_elbow_dual_output_shaft",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "A25_L_forearm_fork_to_wrist:1",
+      "component": "A25_L_forearm_fork_to_wrist",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_yaw_servo_retaining_clamp:1",
+      "component": "N25_yaw_servo_retaining_clamp",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N25_yaw_6005_outer_race_retainer:1",
+      "component": "N25_yaw_6005_outer_race_retainer",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "H26_removable_rear_head_shell:1",
+      "component": "H26_removable_rear_head_shell",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "H26_head_shell_M3_fasteners:1",
+      "component": "H26_head_shell_M3_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N26_pitch_servo_removable_clamp:1",
+      "component": "N26_pitch_servo_removable_clamp",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "N26_pitch_clamp_M3_fasteners:1",
+      "component": "N26_pitch_clamp_M3_fasteners",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "Hand26_R_AmazingHand:1",
+      "component": "Hand26_R_AmazingHand",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "Hand26_R_forearm_wrist_adapter:1",
+      "component": "Hand26_R_forearm_wrist_adapter",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "Hand26_L_AmazingHand:1",
+      "component": "Hand26_L_AmazingHand",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "<root>",
+      "name": "Hand26_L_forearm_wrist_adapter:1",
+      "component": "Hand26_L_forearm_wrist_adapter",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false
+    },
+    {
+      "owner": "Hand26_R_AmazingHand",
+      "name": "R_Printed_structure:1",
+      "component": "R_Printed_structure",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_R_AmazingHand",
+      "name": "R_Printed_shells:1",
+      "component": "R_Printed_shells",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_R_AmazingHand",
+      "name": "R_Microservos:1",
+      "component": "R_Microservos",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_R_AmazingHand",
+      "name": "R_Hardware:1",
+      "component": "R_Hardware",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_L_AmazingHand",
+      "name": "L_Printed_structure:1",
+      "component": "L_Printed_structure",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_L_AmazingHand",
+      "name": "L_Printed_shells:1",
+      "component": "L_Printed_shells",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_L_AmazingHand",
+      "name": "L_Microservos:1",
+      "component": "L_Microservos",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    },
+    {
+      "owner": "Hand26_L_AmazingHand",
+      "name": "L_Hardware:1",
+      "component": "L_Hardware",
+      "transform_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true
+    }
+  ]
+}

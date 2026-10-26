@@ -1,0 +1,22 @@
+[
+  {
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.f3d",
+    "bytes": 178961497,
+    "sha256": "3e809affb85bda0ab33a346bd533cbb598c48e21c97178491a401ce42dda0461"
+  },
+  {
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.step",
+    "bytes": 129597512,
+    "sha256": "a137ad5473494ebf6eeeacd5a15a2c73fd52f681043f5326f02b2115aa17f99a"
+  },
+  {
+    "path": "E:\\Aditya\\robot_sim\\physical_v29\\assets\\humanoid_physical_v29.urdf",
+    "bytes": 74449,
+    "sha256": "8eec4b6120a8987c9eb8fe95a81d07d57e2f6caf9f87f482fb1903aee7f79e4f"
+  },
+  {
+    "path": "E:\\Aditya\\robot_sim\\physical_v29\\assets\\usd\\humanoid_physical_v29.usd",
+    "bytes": 1469,
+    "sha256": "e4661276daabb4b7059dea3344583bced5bd114d0e1ee5e8fe3fbb89388e1205"
+  }
+]

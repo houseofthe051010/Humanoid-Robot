@@ -1,0 +1,25 @@
+{
+  "rail_spacing_mm": 20,
+  "rail_inward_each_mm": 4,
+  "knee_stack_width_mm": 42,
+  "knee_shaft_cut_mm": 104,
+  "edited_sketches": [
+    "S01_Ankle_to_oval_rail_adapter/Rail_stop",
+    "S01_Ankle_to_oval_rail_adapter/Rail_stop (1)",
+    "S01_Ankle_to_oval_rail_adapter/M3_rail_crossbolts_locations",
+    "S01_Ankle_to_oval_rail_adapter/M3_crush_sleeves_locations",
+    "S06_Dual_7010_motor_carrier/Forward_rail_socket_outer",
+    "S06_Dual_7010_motor_carrier/Forward_rail_socket_outer (1)",
+    "S06_Dual_7010_motor_carrier/Forward_rail_bore",
+    "S06_Dual_7010_motor_carrier/Rail_M3_crossbolt_locations",
+    "S06_Dual_7010_motor_carrier/Rail_crush_sleeve_relief_locations",
+    "S06_Dual_7010_motor_carrier/Forward_rail_bore (1)",
+    "S06_Dual_7010_motor_carrier/Rail_M3_crossbolt_locations (1)",
+    "S06_Dual_7010_motor_carrier/Rail_crush_sleeve_relief_locations (1)",
+    "E04_TPU_upper_rail_envelope/Oval_rail_fit",
+    "E04_TPU_upper_rail_envelope/Flexible_front_clip_split_profile",
+    "E04_TPU_upper_rail_envelope/Oval_rail_fit (1)",
+    "E04_TPU_upper_rail_envelope/Flexible_front_clip_split_profile (1)"
+  ],
+  "feature_issues": []
+}

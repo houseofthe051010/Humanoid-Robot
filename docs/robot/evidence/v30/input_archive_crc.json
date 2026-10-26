@@ -1,0 +1,74 @@
+{
+  "path": "outputs\\shin_cad_20260912\\v30\\Input_live_v29_user_edits_preserved.f3d",
+  "bytes": 264518032,
+  "sha256": "c8a228957eb86e7e39583e0726c8cf2ca9af11052ef389c07fb7e4d41eb0960d",
+  "zip_crc_errors": [],
+  "manifests": {
+    "Manifest.dat": {
+      "bytes": 571,
+      "sha256": "30a21221486a1e0a4c7a9446a463fb24e15b85b38169a7ad561208337e5b6aaf",
+      "original_design_literal_count": 0,
+      "strings": {
+        "ascii": [
+          "3-2-0-0",
+          "FusionDocType",
+          "Application",
+          "ParaMesh",
+          "SimCommon5u",
+          "SimFEACSObjects",
+          "SimFluidDynamics",
+          "SimStructuralAttributes"
+        ],
+        "utf16": [
+          "Fusion Document",
+          "A Fusion Document$",
+          "02022642-44d8-4f8e-8543-45f58e34c75b$",
+          "b172150c-a552-43a1-99c7-de53657958de",
+          "39996eb2-8e29-46c2-9831-86ef1d67eb74",
+          "FusionAssetName",
+          "NA_EXPORT"
+        ]
+      }
+    },
+    "FusionAssetName[Active]/Manifest.dat": {
+      "bytes": 589,
+      "sha256": "5c8371d209b812d3f9158a7bc499c9f47587e01a7cc9d2de491267ea00e03eb0",
+      "original_design_literal_count": 0,
+      "strings": {
+        "ascii": [
+          "FusionAssetType",
+          "Application",
+          "ParaMesh",
+          "Server$",
+          "VolField",
+          "Neutron3DAssetType",
+          "physicalChangeGuid$",
+          "FusionDesignSegmentType",
+          "FusionACTSegmentType",
+          "FusionBrowserSegmentType"
+        ],
+        "utf16": [
+          "FusionAssetName$",
+          "39996eb2-8e29-46c2-9831-86ef1d67eb74$",
+          "eb847523-37a3-44fc-a994-655c89e4f307",
+          "2941fca1-b163-44c8-9991-b5e55af6f7f5"
+        ]
+      }
+    }
+  },
+  "reference_markers": {
+    "original_design_marker_count": 0,
+    "gwk6010_model_name": false,
+    "gwk6010_lineage": false,
+    "sts3215_model_name": false,
+    "sts3215_lineage": false
+  },
+  "entry_count": 759,
+  "compression_methods": [
+    0,
+    93
+  ],
+  "file_stable_while_reading": true,
+  "zip_payload_crc_pass": true,
+  "interpretation": "CRC-valid native archive payload is separate from native reopen usability. String markers are direct manifest evidence, not a decoded proprietary reference schema."
+}

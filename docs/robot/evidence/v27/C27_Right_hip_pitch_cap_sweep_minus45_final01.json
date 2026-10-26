@@ -1,0 +1,1358 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "persistent_native_mutations": 0,
+  "pass": true,
+  "status": "complete",
+  "side": "Right",
+  "sample_target_degrees": -45,
+  "sample_delta_degrees": -45.0,
+  "selected_angles_degrees": [
+    -45,
+    -30,
+    0,
+    30,
+    45
+  ],
+  "moving_panel": "C27_Right_hip_roll_front_cap",
+  "fixed_targets": [
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_hip_motion_relief_skin",
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_right:1/C27_pelvis_front_nose_right_hip_motion_relief_skin",
+    "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/W02_Waist_front_shell_actual_housing_boss_clearances",
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/W03_Waist_rear_shell_actual_housing_boss_clearances",
+    "<root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1/W04_exact_scalloped_fixed_mount"
+  ],
+  "checks": [
+    {
+      "fixed_target": "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_hip_motion_relief_skin",
+      "fixed_bounds_world_mm": [
+        [
+          -115.01039487414641,
+          -55.02519356506823,
+          782.0
+        ],
+        [
+          -0.25000000000000355,
+          -42.5,
+          901.0000000000002
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "Actual precise bounds disjoint",
+      "pass": true
+    },
+    {
+      "fixed_target": "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_right:1/C27_pelvis_front_nose_right_hip_motion_relief_skin",
+      "fixed_bounds_world_mm": [
+        [
+          0.2499999999999858,
+          -55.02519356506823,
+          782.0
+        ],
+        [
+          115.01039487414641,
+          -42.5,
+          901.0
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of placed original/new fixed bodies and the rotated temporary cap",
+      "pass": true
+    },
+    {
+      "fixed_target": "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/W02_Waist_front_shell_actual_housing_boss_clearances",
+      "fixed_bounds_world_mm": [
+        [
+          -88.05588120721309,
+          -36.27901244215594,
+          763.5210190773662
+        ],
+        [
+          88.05588120721309,
+          23.143133988564315,
+          896.8000000000036
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of placed original/new fixed bodies and the rotated temporary cap",
+      "pass": true
+    },
+    {
+      "fixed_target": "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/W03_Waist_rear_shell_actual_housing_boss_clearances",
+      "fixed_bounds_world_mm": [
+        [
+          -88.05588120721309,
+          23.543134011435694,
+          763.5210190773662
+        ],
+        [
+          88.05588120721309,
+          82.96528044215593,
+          896.8000000000035
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "Actual precise bounds disjoint",
+      "pass": true
+    },
+    {
+      "fixed_target": "<root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1/W04_exact_scalloped_fixed_mount",
+      "fixed_bounds_world_mm": [
+        [
+          -49.0,
+          -25.656866,
+          896.8
+        ],
+        [
+          49.0,
+          72.343134,
+          902.7999999999998
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "Actual precise bounds disjoint",
+      "pass": true
+    }
+  ],
+  "axis_candidates": [
+    {
+      "policy": "raw_joint_geometry",
+      "origin_world_mm": [
+        19.165619354073602,
+        23.290613722959318,
+        837.4898535935013
+      ],
+      "axis_world": [
+        0.9063077870366536,
+        5.455045833169682e-05,
+        -0.4226182582200769
+      ],
+      "bearing_measurements": [
+        {
+          "bearing_body": "Pitch_40x52x7_-34",
+          "cylinder_origin_world_mm": [
+            19.165619354073584,
+            23.290613722959318,
+            837.4898535935013
+          ],
+          "cylinder_axis_world": [
+            0.9063077870366555,
+            5.455045833203471e-05,
+            -0.4226182582200725
+          ],
+          "line_distance_mm": 7.507208396985234e-15,
+          "axis_alignment": 1.0000000000000002
+        },
+        {
+          "bearing_body": "Pitch_40x52x7_21",
+          "cylinder_origin_world_mm": [
+            69.01254764108933,
+            23.29361399816758,
+            814.2458493913965
+          ],
+          "cylinder_axis_world": [
+            0.9063077870366477,
+            5.455045833203686e-05,
+            -0.42261825822008914
+          ],
+          "line_distance_mm": 6.12000468843591e-13,
+          "axis_alignment": 1.0000000000000002
+        }
+      ],
+      "signed_axis_alignment_with_measured_v26_motion": 1.0000000000000004,
+      "pass": true
+    },
+    {
+      "policy": "owner_transformed_joint_geometry",
+      "origin_world_mm": [
+        19.165619354073602,
+        23.290613722959318,
+        837.4898535935013
+      ],
+      "axis_world": [
+        0.9063077870366534,
+        5.4550458331696805e-05,
+        -0.4226182582200768
+      ],
+      "bearing_measurements": [
+        {
+          "bearing_body": "Pitch_40x52x7_-34",
+          "cylinder_origin_world_mm": [
+            19.165619354073584,
+            23.290613722959318,
+            837.4898535935013
+          ],
+          "cylinder_axis_world": [
+            0.9063077870366555,
+            5.455045833203471e-05,
+            -0.4226182582200725
+          ],
+          "line_distance_mm": 7.507208396985234e-15,
+          "axis_alignment": 1.0
+        },
+        {
+          "bearing_body": "Pitch_40x52x7_21",
+          "cylinder_origin_world_mm": [
+            69.01254764108933,
+            23.29361399816758,
+            814.2458493913965
+          ],
+          "cylinder_axis_world": [
+            0.9063077870366477,
+            5.455045833203686e-05,
+            -0.42261825822008914
+          ],
+          "line_distance_mm": 6.122582460304726e-13,
+          "axis_alignment": 1.0
+        }
+      ],
+      "signed_axis_alignment_with_measured_v26_motion": 1.0000000000000002,
+      "pass": true
+    }
+  ],
+  "original_fixed_body_references": [
+    {
+      "identity": "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/W02_Waist_front_shell_actual_housing_boss_clearances",
+      "reference_method": "Explicitly captured hidden original; validated native signature and identity root transform make native bounds exact world bounds",
+      "native_before_signature_pass": true,
+      "world_bounds_pass": true,
+      "native_actual": {
+        "volume_mm3": 93397.38828026749,
+        "area_mm2": 51573.10676012797,
+        "centroid_mm": [
+          0.004537990825491475,
+          -14.91409158765313,
+          838.1355026622349
+        ],
+        "bounds_mm": [
+          [
+            -88.05588120721309,
+            -36.27901244215594,
+            763.5210190773662
+          ],
+          [
+            88.05588120721309,
+            23.143133988564315,
+            896.8000000000036
+          ]
+        ],
+        "solid": true,
+        "face_count": 91,
+        "edge_count": 287,
+        "vertex_count": 195
+      },
+      "world_bounds_mm": [
+        [
+          -88.05588120721309,
+          -36.27901244215594,
+          763.5210190773662
+        ],
+        [
+          88.05588120721309,
+          23.143133988564315,
+          896.8000000000036
+        ]
+      ]
+    },
+    {
+      "identity": "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/W03_Waist_rear_shell_actual_housing_boss_clearances",
+      "reference_method": "Captured visible root-context physical-body bounds plus exact native before-body signature",
+      "native_before_signature_pass": true,
+      "world_bounds_pass": true,
+      "native_actual": {
+        "volume_mm3": 91980.11034677787,
+        "area_mm2": 50951.24603797758,
+        "centroid_mm": [
+          0.003319198101660462,
+          61.414857339403135,
+          837.7208795708075
+        ],
+        "bounds_mm": [
+          [
+            -88.05588120721309,
+            23.543134011435694,
+            763.5210190773662
+          ],
+          [
+            88.05588120721309,
+            82.96528044215593,
+            896.8000000000035
+          ]
+        ],
+        "solid": true,
+        "face_count": 91,
+        "edge_count": 290,
+        "vertex_count": 197
+      },
+      "world_bounds_mm": [
+        [
+          -88.05588120721309,
+          23.543134011435694,
+          763.5210190773662
+        ],
+        [
+          88.05588120721309,
+          82.96528044215593,
+          896.8000000000035
+        ]
+      ]
+    },
+    {
+      "identity": "<root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1/W04_exact_scalloped_fixed_mount",
+      "reference_method": "Captured visible root-context physical-body bounds plus exact native before-body signature",
+      "native_before_signature_pass": true,
+      "world_bounds_pass": true,
+      "native_actual": {
+        "volume_mm3": 35126.80967680874,
+        "area_mm2": 15362.863670967476,
+        "centroid_mm": [
+          6.596660532630721e-09,
+          23.343134000000006,
+          899.8
+        ],
+        "bounds_mm": [
+          [
+            -49.0,
+            -25.656866,
+            896.8
+          ],
+          [
+            49.0,
+            72.343134,
+            902.7999999999998
+          ]
+        ],
+        "solid": true,
+        "face_count": 47,
+        "edge_count": 122,
+        "vertex_count": 90
+      },
+      "world_bounds_mm": [
+        [
+          -49.0,
+          -25.656866,
+          896.8
+        ],
+        [
+          49.0,
+          72.343134,
+          902.7999999999998
+        ]
+      ]
+    }
+  ],
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "source_signatures_before": {
+    "<root>/Right_leg:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": []
+    },
+    "<root>/Right_leg:1/Right_leg_H01_roll_aluminum_tube_110OD_106ID:1": {
+      "root_matrix_cm": [
+        1.0,
+        -3.979021973021802e-17,
+        -2.107689023311821e-16,
+        -0.9999999999999818,
+        -5.1282762758564354e-17,
+        0.9999999999999996,
+        -5.551115123125784e-17,
+        -3.552713678800501e-15,
+        -2.5934115965853266e-16,
+        -2.775557561562892e-17,
+        0.9999999999999997,
+        1.5987211554602254e-14,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false,
+      "bodies": [
+        {
+          "name": "H01_roll_110OD_106ID_tube",
+          "bounds_world_mm": [
+            [
+              65.00000000000041,
+              -2.705657033375096,
+              698.5966417555273
+            ],
+            [
+              175.00000000000043,
+              43.308541095317935,
+              808.6025783986938
+            ]
+          ],
+          "volume_mm3": 31214.864606068182,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Right_leg:1/Right_H02_Hip_pitch_roll_bearing_REFERENCES:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false,
+      "bodies": [
+        {
+          "name": "Pitch_40x52x7_-34",
+          "bounds_world_mm": [
+            [
+              5.005467294187216,
+              -2.709577164960071,
+              812.446687184094
+            ],
+            [
+              33.32577141395995,
+              49.29080461087871,
+              862.5330197639249
+            ]
+          ],
+          "volume_mm3": 6069.557006735559,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        },
+        {
+          "name": "Pitch_40x52x7_21",
+          "bounds_world_mm": [
+            [
+              54.85239558120295,
+              -2.7065768897518083,
+              789.2026829819896
+            ],
+            [
+              83.1726997009757,
+              49.29380488608697,
+              839.2890155618203
+            ]
+          ],
+          "volume_mm3": 6069.55700673547,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Right_leg:1/Right_leg_H01_roll_aluminum_tube_110OD_106ID:1/C27_Right_hip_roll_front_cap:1": {
+      "root_matrix_cm": [
+        1.0,
+        6.47593943800207e-33,
+        0.0,
+        1.1102230246251565e-16,
+        -2.0703746902162895e-33,
+        1.0,
+        0.0,
+        0.0,
+        4.930380657631324e-32,
+        0.0,
+        1.0,
+        -3.1554436208840472e-30,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_Right_hip_roll_front_cap_cosmetic_skin",
+          "bounds_world_mm": [
+            [
+              61.54583942191194,
+              -31.612359533401417,
+              695.1458394219119
+            ],
+            [
+              178.45416057808805,
+              -25.999999999999943,
+              812.0541605780882
+            ]
+          ],
+          "volume_mm3": 17871.049767478726,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_pelvis_front_nose_hip_motion_relief_skin",
+          "bounds_world_mm": [
+            [
+              -115.01039487414641,
+              -55.02519356506823,
+              782.0
+            ],
+            [
+              -0.25000000000000355,
+              -42.5,
+              901.0000000000002
+            ]
+          ],
+          "volume_mm3": 30488.51822238808,
+          "faces": 10,
+          "edges": 24,
+          "vertices": 16
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_right:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_pelvis_front_nose_right_hip_motion_relief_skin",
+          "bounds_world_mm": [
+            [
+              0.2499999999999858,
+              -55.02519356506823,
+              782.0
+            ],
+            [
+              115.01039487414641,
+              -42.5,
+              901.0
+            ]
+          ],
+          "volume_mm3": 30506.41063636526,
+          "faces": 16,
+          "edges": 46,
+          "vertices": 32
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W02_Waist_front_shell_actual_housing_boss_clearances",
+          "bounds_world_mm": [
+            [
+              -88.05588120721309,
+              -36.27901244215594,
+              763.5210190773662
+            ],
+            [
+              88.05588120721309,
+              23.143133988564315,
+              896.8000000000036
+            ]
+          ],
+          "volume_mm3": 93397.38828026749,
+          "faces": 91,
+          "edges": 287,
+          "vertices": 195
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W03_Waist_rear_shell_actual_housing_boss_clearances",
+          "bounds_world_mm": [
+            [
+              -88.05588120721309,
+              23.543134011435694,
+              763.5210190773662
+            ],
+            [
+              88.05588120721309,
+              82.96528044215593,
+              896.8000000000035
+            ]
+          ],
+          "volume_mm3": 91980.11034677787,
+          "faces": 91,
+          "edges": 290,
+          "vertices": 197
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W04_exact_scalloped_fixed_mount",
+          "bounds_world_mm": [
+            [
+              -49.0,
+              -25.656866,
+              896.8
+            ],
+            [
+              49.0,
+              72.343134,
+              902.7999999999998
+            ]
+          ],
+          "volume_mm3": 35126.80967680874,
+          "faces": 47,
+          "edges": 122,
+          "vertices": 90
+        }
+      ]
+    }
+  },
+  "before_capture_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "native_axis_audit": {
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\hip_axis_alignment.json",
+    "sha256": "2acaebb3fa31a04e11bfdcd3bc24985e1036921039f16da3c1c2128b31e7c15e",
+    "row": {
+      "joint": "Right_Hip_pitch",
+      "owner_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "joint_origin_mm": [
+        19.165619354073602,
+        23.290613722959318,
+        837.4898535935013
+      ],
+      "axis": [
+        0.9063077870366536,
+        5.455045833169682e-05,
+        -0.4226182582200769
+      ],
+      "bearing": "H02_Hip_pitch_roll_bearing_REFERENCES",
+      "bearing_faces": [
+        {
+          "origin_mm": [
+            19.165619354073584,
+            23.290613722959318,
+            837.4898535935013
+          ],
+          "axis": [
+            0.9063077870366555,
+            5.455045833203471e-05,
+            -0.4226182582200725
+          ],
+          "line_distance_mm": 7.507208396985234e-15,
+          "axis_alignment": 1.0000000000000002
+        },
+        {
+          "origin_mm": [
+            69.01254764108933,
+            23.29361399816758,
+            814.2458493913965
+          ],
+          "axis": [
+            0.9063077870366477,
+            5.455045833203686e-05,
+            -0.42261825822008914
+          ],
+          "line_distance_mm": 6.12000468843591e-13,
+          "axis_alignment": 1.0000000000000002
+        }
+      ],
+      "pass": true
+    }
+  },
+  "native_signed_motion_reference": {
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Right_Hip_pitch.json",
+    "sha256": "2c77147dd7f109004c3993d9443ccfcc703c8072afd200deff2a45f644969c69",
+    "joint": "Right_Hip_pitch",
+    "origin_mm": [
+      19.165619354073602,
+      23.290613722959318,
+      837.4898535935013
+    ],
+    "axis_world": [
+      0.9063077870366534,
+      5.4550458331696805e-05,
+      -0.4226182582200768
+    ],
+    "degrees": 10,
+    "pass": true
+  },
+  "started_epoch": 1790770391.0575032,
+  "memory_before_bytes": 12721786880,
+  "stages": [
+    {
+      "stage": "read actual joint geometry and root-context bearing calibration",
+      "seconds": 0.0042781829833984375,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "copy and rotate ONLY temporary new C27 roll-cap solid",
+      "seconds": 0.014109134674072266,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "temporary intersection <root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_hip_motion_relief_skin",
+      "seconds": 0.01813054084777832,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "temporary intersection <root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_right:1/C27_pelvis_front_nose_right_hip_motion_relief_skin",
+      "seconds": 0.023307085037231445,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "temporary intersection <root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1/W02_Waist_front_shell_actual_housing_boss_clearances",
+      "seconds": 0.03885793685913086,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "temporary intersection <root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/W03_Waist_rear_shell_actual_housing_boss_clearances",
+      "seconds": 0.051178693771362305,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "temporary intersection <root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1/W04_exact_scalloped_fixed_mount",
+      "seconds": 0.05799150466918945,
+      "private_bytes": 12721786880
+    },
+    {
+      "stage": "read-only source pose and selected signatures postcheck",
+      "seconds": 0.060804128646850586,
+      "private_bytes": 12721786880
+    }
+  ],
+  "document_modified_before": true,
+  "scope": "One sampled hip-pitch pose of a temporary copy of the new roll cap against BOTH fixed new pelvis panels and original W02/W03/W04. Does not certify continuous sweep, other body collisions, source structural qualification, minimum clearance or printing.",
+  "source_pose_changed": false,
+  "source_preservation_complete": false,
+  "bearing_occurrence_root_matrix_cm": [
+    1.0,
+    0.0,
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "leg_owner_root_matrix_cm": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "frame_policy": "raw_joint_geometry",
+  "frame_selection_reason": "Raw and owner-transformed candidates are identity-equivalent within measurement tolerances",
+  "axis_calibration_pass": true,
+  "sampled_cap_bounds_world_mm": [
+    [
+      83.08526306404804,
+      -76.52280149714878,
+      749.1900007691875
+    ],
+    [
+      194.65191943023433,
+      6.14386506762389,
+      838.9352766195047
+    ]
+  ],
+  "temporary_rotation_matrix_cm": [
+    0.9476874566005234,
+    -0.29882175574485725,
+    -0.11222318341408748,
+    10.194812182656856,
+    0.29885071673647023,
+    0.7071067820581253,
+    0.6408496296897588,
+    -53.56110588238301,
+    -0.11214603741608113,
+    -0.6408631344218232,
+    0.7594193237144464,
+    21.855931933810176,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "source_signatures_after": {
+    "<root>/Right_leg:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": []
+    },
+    "<root>/Right_leg:1/Right_leg_H01_roll_aluminum_tube_110OD_106ID:1": {
+      "root_matrix_cm": [
+        1.0,
+        -3.979021973021802e-17,
+        -2.107689023311821e-16,
+        -0.9999999999999818,
+        -5.1282762758564354e-17,
+        0.9999999999999996,
+        -5.551115123125784e-17,
+        -3.552713678800501e-15,
+        -2.5934115965853266e-16,
+        -2.775557561562892e-17,
+        0.9999999999999997,
+        1.5987211554602254e-14,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false,
+      "bodies": [
+        {
+          "name": "H01_roll_110OD_106ID_tube",
+          "bounds_world_mm": [
+            [
+              65.00000000000041,
+              -2.705657033375096,
+              698.5966417555273
+            ],
+            [
+              175.00000000000043,
+              43.308541095317935,
+              808.6025783986938
+            ]
+          ],
+          "volume_mm3": 31214.864606068182,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Right_leg:1/Right_H02_Hip_pitch_roll_bearing_REFERENCES:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": false,
+      "bodies": [
+        {
+          "name": "Pitch_40x52x7_-34",
+          "bounds_world_mm": [
+            [
+              5.005467294187216,
+              -2.709577164960071,
+              812.446687184094
+            ],
+            [
+              33.32577141395995,
+              49.29080461087871,
+              862.5330197639249
+            ]
+          ],
+          "volume_mm3": 6069.557006735559,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        },
+        {
+          "name": "Pitch_40x52x7_21",
+          "bounds_world_mm": [
+            [
+              54.85239558120295,
+              -2.7065768897518083,
+              789.2026829819896
+            ],
+            [
+              83.1726997009757,
+              49.29380488608697,
+              839.2890155618203
+            ]
+          ],
+          "volume_mm3": 6069.55700673547,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Right_leg:1/Right_leg_H01_roll_aluminum_tube_110OD_106ID:1/C27_Right_hip_roll_front_cap:1": {
+      "root_matrix_cm": [
+        1.0,
+        6.47593943800207e-33,
+        0.0,
+        1.1102230246251565e-16,
+        -2.0703746902162895e-33,
+        1.0,
+        0.0,
+        0.0,
+        4.930380657631324e-32,
+        0.0,
+        1.0,
+        -3.1554436208840472e-30,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_Right_hip_roll_front_cap_cosmetic_skin",
+          "bounds_world_mm": [
+            [
+              61.54583942191194,
+              -31.612359533401417,
+              695.1458394219119
+            ],
+            [
+              178.45416057808805,
+              -25.999999999999943,
+              812.0541605780882
+            ]
+          ],
+          "volume_mm3": 17871.049767478726,
+          "faces": 4,
+          "edges": 4,
+          "vertices": 4
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_pelvis_front_nose_hip_motion_relief_skin",
+          "bounds_world_mm": [
+            [
+              -115.01039487414641,
+              -55.02519356506823,
+              782.0
+            ],
+            [
+              -0.25000000000000355,
+              -42.5,
+              901.0000000000002
+            ]
+          ],
+          "volume_mm3": 30488.51822238808,
+          "faces": 10,
+          "edges": 24,
+          "vertices": 16
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1/C27_pelvis_front_nose:1/C27_pelvis_front_nose_right:1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "C27_pelvis_front_nose_right_hip_motion_relief_skin",
+          "bounds_world_mm": [
+            [
+              0.2499999999999858,
+              -55.02519356506823,
+              782.0
+            ],
+            [
+              115.01039487414641,
+              -42.5,
+              901.0
+            ]
+          ],
+          "volume_mm3": 30506.41063636526,
+          "faces": 16,
+          "edges": 46,
+          "vertices": 32
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W02_Waist_front_shell (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W02_Waist_front_shell_actual_housing_boss_clearances",
+          "bounds_world_mm": [
+            [
+              -88.05588120721309,
+              -36.27901244215594,
+              763.5210190773662
+            ],
+            [
+              88.05588120721309,
+              23.143133988564315,
+              896.8000000000036
+            ]
+          ],
+          "volume_mm3": 93397.38828026749,
+          "faces": 91,
+          "edges": 287,
+          "vertices": 195
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W03_Waist_rear_shell (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W03_Waist_rear_shell_actual_housing_boss_clearances",
+          "bounds_world_mm": [
+            [
+              -88.05588120721309,
+              23.543134011435694,
+              763.5210190773662
+            ],
+            [
+              88.05588120721309,
+              82.96528044215593,
+              896.8000000000035
+            ]
+          ],
+          "volume_mm3": 91980.11034677787,
+          "faces": 91,
+          "edges": 290,
+          "vertices": 197
+        }
+      ]
+    },
+    "<root>/Waist_pitch_roll_battery_v21:1/W04_PA12CF_fixed_yaw_mount (1):1": {
+      "root_matrix_cm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ground_to_parent": true,
+      "bodies": [
+        {
+          "name": "W04_exact_scalloped_fixed_mount",
+          "bounds_world_mm": [
+            [
+              -49.0,
+              -25.656866,
+              896.8
+            ],
+            [
+              49.0,
+              72.343134,
+              902.7999999999998
+            ]
+          ],
+          "volume_mm3": 35126.80967680874,
+          "faces": 47,
+          "edges": 122,
+          "vertices": 90
+        }
+      ]
+    }
+  },
+  "document_modified_after": true,
+  "selected_source_signatures_preserved": true,
+  "finished_epoch": 1790770391.3209705,
+  "memory_after_bytes": 12721786880
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "leg": "Right_leg",
+    "connected_solid": true,
+    "estimated_shell_retained": true
+  },
+  {
+    "leg": "Left_leg",
+    "connected_solid": true,
+    "estimated_shell_retained": true
+  }
+]

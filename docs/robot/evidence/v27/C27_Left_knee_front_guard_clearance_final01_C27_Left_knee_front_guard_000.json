@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Left_knee_front_guard",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      -180.10523179298886,
+      -21.0,
+      395.6739869311011
+    ],
+    [
+      -59.89476820701114,
+      -15.999999999999943,
+      465.5260130688989
+    ]
+  ],
+  "skin_volume_mm3": 12469.951057439055,
+  "skin_lumps": 1,
+  "candidate_count": 0,
+  "skin_face_count": 3,
+  "skin_edge_count": 2,
+  "candidate_ids": [],
+  "batch_start": 0,
+  "batch_size": 12,
+  "checks": [],
+  "excluded_original_cosmetic_ids": [],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 1,
+    "cut_planes_world_z_mm": [],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 69.8520261377978,
+    "full_bounds_mm": [
+      [
+        -180.10523179298886,
+        -21.0,
+        395.6739869311011
+      ],
+      [
+        -59.89476820701114,
+        -15.999999999999943,
+        465.5260130688989
+      ]
+    ],
+    "footprint_mm": [
+      120.21046358597772,
+      5.000000000000057
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769507.4255285,
+  "memory_before_bytes": 12771180544,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": true,
+  "memory_after_bytes": 12771221504,
+  "elapsed_seconds": 0.06377911567687988
+}

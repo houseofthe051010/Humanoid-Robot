@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "document": "Humanoid_complete_v26",
+  "created_epoch": 1790754244.5900753,
+  "fresh_after_epoch": 1790750272.0,
+  "qualification_sha256": {
+    "whole_robot_motion.json": "29d94c51d9a14ee1f0aedb289833858125c8d34bc914c387238ad37ba4cba5ed",
+    "head_clearance.json": "556d0aa4d70f732719460ea648ebaab7083533a87eba21121337fe916f792c13",
+    "head_self_fit.json": "4d2f15b8d4047a8fd9800ce9298f1fb642f66ce727555972632b464f4e06a93d",
+    "rest_pose.json": "6e82be5e48838c268ff9d1f309d4434bcffd07cd13715ee34f8e377251dbfab6"
+  },
+  "files": [
+    {
+      "key": "full",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Humanoid_complete_v26.f3d",
+      "bytes": 213031628,
+      "baseline": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\release26_baseline_full.json",
+      "native_meshes_included": false,
+      "baseline_mesh_count": 8,
+      "reopen_pass": false,
+      "reopen_error": "3 : New design cannot be created from a local file containing external references"
+    }
+  ],
+  "stages": {
+    "save": {
+      "complete": true,
+      "finished_epoch": 1790754253.7392304,
+      "actual_angles_rad": {
+        "Left_Ankle_pitch": 0.0,
+        "Left_Ankle_roll": 0.0,
+        "Left_Hip_pitch": 0.0,
+        "Left_Hip_roll": 0.0,
+        "Left_Hip_yaw": 0.0,
+        "Left_Knee_pitch": 0.0,
+        "Right_Ankle_pitch": 0.0,
+        "Right_Ankle_roll": 0.0,
+        "Right_Hip_pitch": 0.0,
+        "Right_Hip_roll": 0.0,
+        "Right_Hip_yaw": 0.0,
+        "Right_Knee_pitch": 0.0,
+        "WJ00_waist_yaw": 0.0,
+        "WJ01_lower_waist_pitch": 0.0,
+        "WJ02_upper_waist_roll": 0.0,
+        "V24_L_shoulder_pitch": 0.0,
+        "V24_L_shoulder_roll": 0.10471975511965978,
+        "V24_R_shoulder_pitch": 0.0,
+        "V24_R_shoulder_roll": -0.10471975511965978,
+        "V24_neck_yaw": 0.0,
+        "V25_R_elbow_pitch": 0.0,
+        "V25_L_elbow_pitch": 0.0,
+        "V26_head_pitch": 0.0
+      },
+      "private_bytes": 12718120960
+    },
+    "archive:full": {
+      "complete": true,
+      "finished_epoch": 1790754304.3445346,
+      "actual_angles_rad": {
+        "Left_Ankle_pitch": 0.0,
+        "Left_Ankle_roll": 0.0,
+        "Left_Hip_pitch": 0.0,
+        "Left_Hip_roll": 0.0,
+        "Left_Hip_yaw": 0.0,
+        "Left_Knee_pitch": 0.0,
+        "Right_Ankle_pitch": 0.0,
+        "Right_Ankle_roll": 0.0,
+        "Right_Hip_pitch": 0.0,
+        "Right_Hip_roll": 0.0,
+        "Right_Hip_yaw": 0.0,
+        "Right_Knee_pitch": 0.0,
+        "WJ00_waist_yaw": 0.0,
+        "WJ01_lower_waist_pitch": 0.0,
+        "WJ02_upper_waist_roll": 0.0,
+        "V24_L_shoulder_pitch": 0.0,
+        "V24_L_shoulder_roll": 0.10471975511965978,
+        "V24_R_shoulder_pitch": 0.0,
+        "V24_R_shoulder_roll": -0.10471975511965978,
+        "V24_neck_yaw": 0.0,
+        "V25_R_elbow_pitch": 0.0,
+        "V25_L_elbow_pitch": 0.0,
+        "V26_head_pitch": 0.0
+      },
+      "private_bytes": 12378431488
+    }
+  },
+  "save_requested": true,
+  "validation_scope": "Fresh 23-body joint qualification; nine discrete head samples. Native archive reopen checks volumes/solid flags, mesh counts/bounds, owner-local placement and joint state; no dynamics or full-workspace guarantee.",
+  "cloud_save": true,
+  "data_file_id": "urn:adsk.wipprod:dm.lineage:mYos55HxTZOEOQZzqMfz1Q",
+  "version": 3,
+  "compact_modules_reopen_pass": false,
+  "full_archive_reopen_pass": false,
+  "full_archive_validation": "Full archive portability unverified/failed; compact files have separate reopen results"
+}

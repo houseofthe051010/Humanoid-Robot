@@ -1,0 +1,44 @@
+component,body,group,size_X_native_mm,size_Y_native_mm,size_Z_native_mm,volume_mm3,color_role,print_ready,evidence
+C27_Left_ankle_front_guard,C27_Left_ankle_front_guard_large_curved_skin,joint_guards,113.99,11.0,81.693,16320.119703263139,Graphite,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_calf_blue_mark,C27_Left_calf_blue_mark,marks,10.0,1.5,50.0,741.9524311274062,Blue accent,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_forearm_front,C27_Left_forearm_front_mirrored_skin,forearm,94.0,32.7,178.0,55215.1296627957,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_forearm_rear,C27_Left_forearm_rear_mirrored_skin,forearm,94.0,32.7,178.0,55184.12278444145,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_hip_roll_front_cap,C27_Left_hip_roll_front_cap_cosmetic_skin,hip_caps,116.908,5.612,116.908,17871.049767465047,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_knee_front_guard,C27_Left_knee_front_guard_large_curved_skin,joint_guards,120.21,5.0,69.852,12469.951057439055,Graphite,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_shin_front,C27_Left_shin_front_lower_print_skin,shin,121.63,48.7,137.75,63226.000433596026,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_shin_front_upper,C27_Left_shin_front_upper_print_skin,shin,121.644,48.7,137.75,64065.49000382174,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_shin_rear,C27_Left_shin_rear_lower_print_skin,shin,121.63,66.046,137.75,69113.6513168533,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_shin_rear_upper,C27_Left_shin_rear_upper_print_skin,shin,121.644,66.047,137.75,72678.28057568203,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_thigh_front,C27_Left_thigh_front_trimmed_service_skin,thigh,137.165,66.208,166.0,95961.192525697,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_thigh_rear,C27_Left_thigh_rear_trimmed_service_skin,thigh,137.165,68.104,166.0,96907.22950445524,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_upper_arm_front,C27_Left_upper_arm_front_mirrored_skin,upper_arm,78.161,49.7,172.0,61121.55313625585,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Left_upper_arm_rear,C27_Left_upper_arm_rear_mirrored_skin,upper_arm,78.161,49.7,172.0,61133.197956826225,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_ankle_front_guard,C27_Right_ankle_front_guard_large_curved_skin,joint_guards,113.99,11.0,81.693,16320.119703264041,Graphite,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_calf_blue_mark,C27_Right_calf_blue_mark,marks,10.0,1.5,50.0,741.9524311274062,Blue accent,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_forearm_front,C27_Right_forearm_front_2p5mm_skin,forearm,94.0,32.7,178.0,55215.1296627957,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_forearm_rear,C27_Right_forearm_rear_2p5mm_skin,forearm,94.0,32.7,178.0,55184.12278444157,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_hip_roll_front_cap,C27_Right_hip_roll_front_cap_cosmetic_skin,hip_caps,116.908,5.612,116.908,17871.049767478726,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_knee_front_guard,C27_Right_knee_front_guard_large_curved_skin,joint_guards,120.21,5.0,69.852,12469.951057438786,Graphite,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_shin_front,C27_Right_shin_front_lower_print_skin,shin,121.63,48.7,137.75,63224.52544580027,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_shin_front_upper,C27_Right_shin_front_upper_print_skin,shin,121.644,48.7,137.75,64061.0778922505,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_shin_rear,C27_Right_shin_rear_lower_print_skin,shin,121.63,66.046,137.75,69102.50814930465,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_shin_rear_upper,C27_Right_shin_rear_upper_print_skin,shin,121.644,66.047,137.75,72710.65026926874,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_thigh_front,C27_Right_thigh_front_mirrored_skin,thigh,137.165,66.208,166.0,95961.192525697,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_thigh_rear,C27_Right_thigh_rear_mirrored_skin,thigh,137.165,68.104,166.0,96907.2295044548,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_upper_arm_front,C27_Right_upper_arm_front_2p5mm_skin,upper_arm,78.161,49.7,172.0,61121.55313625585,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Right_upper_arm_rear,C27_Right_upper_arm_rear_2p5mm_skin,upper_arm,78.161,49.7,172.0,61133.19795682645,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_blue_identifier,Blue_chest_identifier,marks,68.0,1.6,13.0,1392.4247719319117,Blue accent,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_lower_front,C27_Torso_lower_front_left_print_skin,torso,109.4,59.379,187.8,63595.75681178898,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_lower_front_right,C27_Torso_lower_front_right_print_skin,torso,109.4,59.379,187.8,63868.31683708797,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_lower_rear,C27_Torso_lower_rear_left_print_skin,torso,109.4,75.834,187.8,72070.86872034665,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_lower_rear_right,C27_Torso_lower_rear_right_print_skin,torso,109.4,75.834,187.8,72018.10127405247,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_middle_front,C27_Torso_middle_front_left_print_skin,torso,150.75,67.854,193.5,85507.74772610379,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_middle_front_right,C27_Torso_middle_front_right_print_skin,torso,150.75,67.854,193.5,84560.53284348485,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_middle_rear,C27_Torso_middle_rear_left_print_skin,torso,150.75,77.667,193.5,93763.80489183156,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_middle_rear_right,C27_Torso_middle_rear_right_print_skin,torso,150.75,77.667,193.5,93794.5602410166,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_upper_front,C27_Torso_upper_front_skin_with_hardware_clearance,torso,150.75,67.993,115.063,55329.88652879237,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_upper_front_right,C27_Torso_upper_front_right_skin_with_hardware_clearance,torso,150.75,67.993,115.063,55452.898440538236,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_upper_rear,C27_Torso_upper_rear_skin_with_hardware_clearance,torso,150.75,75.634,115.063,63800.31543406608,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_Torso_upper_rear_right,C27_Torso_upper_rear_right_skin_with_hardware_clearance,torso,150.75,75.634,115.063,63776.71642349333,Pale shell,False,casing_after_final.json | static_fit_aggregate27.json
+C27_pelvis_front_nose,C27_pelvis_front_nose_hip_motion_relief_skin,pelvis,114.76,12.525,119.0,30488.51822238808,Graphite,False,casing_after_final.json | static_fit_aggregate27.json
+C27_pelvis_front_nose_right,C27_pelvis_front_nose_right_hip_motion_relief_skin,pelvis,114.76,12.525,119.0,30506.41063636526,Graphite,False,casing_after_final.json | static_fit_aggregate27.json

@@ -1,0 +1,18 @@
+{
+  "source_proxy_volume_mm3": 14744.409320473656,
+  "source_root_copy_volume_mm3": 14745.743884160347,
+  "compact_volume_mm3": 14745.743884160347,
+  "same_root_frame_difference_mm3": 0.0,
+  "source_copy_topology": [
+    9,
+    21,
+    14,
+    1
+  ],
+  "compact_topology": [
+    9,
+    21,
+    14,
+    1
+  ]
+}

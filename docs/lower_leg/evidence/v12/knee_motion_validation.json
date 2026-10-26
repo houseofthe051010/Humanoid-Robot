@@ -1,0 +1,65 @@
+[
+  {
+    "command_deg": 0,
+    "measured_deg": 0.0,
+    "axis_point_error_mm": 0.0,
+    "matrix_error": 0.0,
+    "tested_pairs": 20,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 20,
+    "measured_deg": 20.0,
+    "axis_point_error_mm": 8.881784197001252e-15,
+    "matrix_error": 5.551115123125783e-17,
+    "tested_pairs": 14,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 40,
+    "measured_deg": 40.0,
+    "axis_point_error_mm": 1.1546319456101628e-13,
+    "matrix_error": 2.3092638912203256e-14,
+    "tested_pairs": 22,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 60,
+    "measured_deg": 59.99999999999999,
+    "axis_point_error_mm": 7.993605777301127e-14,
+    "matrix_error": 7.105427357601002e-15,
+    "tested_pairs": 14,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 80,
+    "measured_deg": 80.0,
+    "axis_point_error_mm": 9.441466109136565e-14,
+    "matrix_error": 7.105427357601002e-15,
+    "tested_pairs": 12,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 100,
+    "measured_deg": 100.0,
+    "axis_point_error_mm": 1.3322676295501878e-13,
+    "matrix_error": 7.105427357601002e-15,
+    "tested_pairs": 14,
+    "collisions": [],
+    "errors": []
+  },
+  {
+    "command_deg": 120,
+    "measured_deg": 119.99999999999999,
+    "axis_point_error_mm": 2.042810365310288e-13,
+    "matrix_error": 7.105427357601002e-15,
+    "tested_pairs": 18,
+    "collisions": [],
+    "errors": []
+  }
+]

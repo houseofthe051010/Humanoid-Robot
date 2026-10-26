@@ -1,0 +1,408 @@
+{
+  "document": "Humanoid_complete_v26",
+  "root_components": [
+    {
+      "name": "Left_leg",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "Right_leg",
+      "grounded_to_parent": true
+    },
+    {
+      "name": "ZZ_V15_construction_lofts_NOT_A_PART",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "ZZ_V17_motor_interface_construction",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "ZZ_V18_blended_fork_lofts_NOT_A_PART",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "ZZ_V18_final_junction_lofts_NOT_A_PART",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "ZZ_V19_construction",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "Waist_pitch_roll_battery_v21",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "Upper_body_v26",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "mg996R_v2 (1)",
+      "grounded_to_parent": false
+    },
+    {
+      "name": "STS3215_03a v1",
+      "grounded_to_parent": false
+    }
+  ],
+  "joints": [
+    {
+      "component": "Left_leg",
+      "name": "Left_Ankle_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Ankle_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Motor_A_output",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Motor_B_output",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_A_pin_swivel",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_A_bearing_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_A_lower_ball",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_B_pin_swivel",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_B_bearing_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Rod_B_lower_ball",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Hip_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Hip_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Hip_yaw",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Left_leg",
+      "name": "Left_Knee_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Ankle_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Ankle_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Motor_A_output",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 360.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Motor_B_output",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_A_pin_swivel",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_A_bearing_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_A_lower_ball",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_B_pin_swivel",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 360.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_B_bearing_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Rod_B_lower_ball",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Hip_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Hip_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Hip_yaw",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Right_leg",
+      "name": "Right_Knee_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ00_waist_yaw",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ01_lower_waist_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ02_upper_waist_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_drive_L",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_L_pin",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_L_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_L_base",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_drive_R",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_R_pin",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_R_tilt",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Waist_pitch_roll_battery_v21",
+      "name": "WJ_rod_R_base",
+      "type": 6,
+      "valid": true,
+      "angle_deg": null
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V24_L_shoulder_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V24_L_shoulder_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 6.000000000000001
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V24_R_shoulder_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V24_R_shoulder_roll",
+      "type": 1,
+      "valid": true,
+      "angle_deg": -6.000000000000001
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V24_neck_yaw",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V25_R_elbow_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V25_L_elbow_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "Upper_body_v26",
+      "name": "V26_head_pitch",
+      "type": 1,
+      "valid": true,
+      "angle_deg": 0.0
+    },
+    {
+      "component": "root",
+      "name": "V24_torso_to_spine",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "component": "root",
+      "name": "V26_pelvis_halves_rigid",
+      "type": 0,
+      "valid": true
+    },
+    {
+      "component": "root",
+      "name": "V26_waist_fixed_base_to_pelvis",
+      "type": 0,
+      "valid": true
+    }
+  ],
+  "feature_issues": [],
+  "references": [
+    {
+      "name": "STS3215_03a v1",
+      "path": "STS3215_03a v1:1",
+      "visible": false
+    }
+  ],
+  "visible_bodies": 1506,
+  "visible_meshes": 8
+}

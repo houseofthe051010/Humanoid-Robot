@@ -1,0 +1,5 @@
+{
+  "rear_lower_edge_z_mm": 1432.36343136,
+  "rear_lip_trim_mm": 8,
+  "reason": "Rear shell/torso overlap at -30 pitch; retain low servo axis and headtop."
+}

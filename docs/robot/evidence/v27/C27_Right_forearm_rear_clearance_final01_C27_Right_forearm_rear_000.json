@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Right_forearm_rear",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      181.6160098979992,
+      28.300000000000246,
+      846.3234691595624
+    ],
+    [
+      281.77287177981094,
+      61.00000000000027,
+      1031.9197005230517
+    ]
+  ],
+  "skin_volume_mm3": 55184.12278444157,
+  "skin_lumps": 1,
+  "candidate_count": 1,
+  "skin_face_count": 6,
+  "skin_edge_count": 12,
+  "candidate_ids": [
+    "<root>/Upper_body_v26:1/A25_R_forearm_fork_to_wrist:1/A26_R_forearm_fork_serviceable_wrist"
+  ],
+  "batch_start": 0,
+  "batch_size": 12,
+  "checks": [
+    {
+      "original": "<root>/Upper_body_v26:1/A25_R_forearm_fork_to_wrist:1/A26_R_forearm_fork_serviceable_wrist",
+      "actual_bounds_world_mm": [
+        [
+          182.35972109548925,
+          -0.9999999999997256,
+          817.5330969311885
+        ],
+        [
+          274.9635067241525,
+          57.0000000000003,
+          1099.705483597324
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    }
+  ],
+  "excluded_original_cosmetic_ids": [],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 2,
+    "cut_planes_world_z_mm": [
+      939.121584841307
+    ],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 92.79811568174466,
+    "full_bounds_mm": [
+      [
+        181.6160098979992,
+        28.300000000000246,
+        846.3234691595624
+      ],
+      [
+        281.77287177981094,
+        61.00000000000027,
+        1031.9197005230517
+      ]
+    ],
+    "footprint_mm": [
+      100.15686188181175,
+      32.700000000000024
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769612.848386,
+  "memory_before_bytes": 12726358016,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": true,
+  "memory_after_bytes": 12726358016,
+  "elapsed_seconds": 0.07543158531188965
+}

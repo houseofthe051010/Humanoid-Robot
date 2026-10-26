@@ -1,0 +1,43 @@
+{
+  "panels": [
+    {
+      "part": "C28_waist_front_reinforced_holder",
+      "volume_mm3": 336149.14702940773,
+      "bounds_mm": [
+        [
+          -105.74209476236655,
+          -61.54864825936889,
+          778.0
+        ],
+        [
+          105.74385627094549,
+          23.143133999999996,
+          940.0
+        ]
+      ]
+    },
+    {
+      "part": "C28_waist_rear_reinforced_holder",
+      "volume_mm3": 354587.72162807564,
+      "bounds_mm": [
+        [
+          -105.74209476236655,
+          23.543134000000016,
+          778.0
+        ],
+        [
+          105.74208572534536,
+          110.48393523463425,
+          940.0
+        ]
+      ]
+    }
+  ],
+  "nominal_added_shell_mm": 5,
+  "closed_bottom_mm": 5,
+  "output_rim_mm": 3,
+  "output_boundary_pitch_t_mm": 27.6,
+  "case_output_face_pitch_t_mm": 28.5,
+  "source_motor_placements_unchanged": true,
+  "expanded_per_user_correction": true
+}

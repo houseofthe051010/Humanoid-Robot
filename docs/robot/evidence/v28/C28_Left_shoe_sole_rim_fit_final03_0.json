@@ -1,0 +1,53 @@
+{
+  "part": "C28_Left_shoe_sole_rim",
+  "attempt": "final03",
+  "candidate_count": 10,
+  "batch": 0,
+  "size": 100,
+  "checks": [
+    {
+      "id": "Left_F01_Foot_plate/Aluminum_plate_current_mounts",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F02_Replaceable_sole/Sole_without_obsolete_holes",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_7",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

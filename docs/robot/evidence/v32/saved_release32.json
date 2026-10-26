@@ -1,0 +1,27 @@
+{
+  "document": "Humanoid_complete_v32",
+  "datafile_id": "urn:adsk.wipprod:dm.lineage:a2yHyUciTnqbR9_IxjUjHw",
+  "version": 2,
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\Humanoid_complete_v32.f3d",
+  "bytes": 273355345,
+  "photos": {
+    "front": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_front.png",
+    "threequarter": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_threequarter.png",
+    "shin": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_shin_plates.png",
+    "shin_rear": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_open_shin_rear.png",
+    "hip": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_hip_collars.png",
+    "bare": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\robot_v32_casings_off.png"
+  },
+  "step_parts": [
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C27_Left_shin_front.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C27_Left_shin_front_upper.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C27_Right_shin_front.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C27_Right_shin_front_upper.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C28_Left_hip_yaw_shroud.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v32\\deliverables\\modified_parts_STEP\\C28_Right_hip_yaw_shroud.step"
+  ],
+  "epoch": 1790911596.347083,
+  "joints": 65,
+  "body_axes": 23,
+  "height_mm": 1600.2000000390617
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "side": "L",
+    "upper_arm_mm": 275,
+    "forearm_mm": 250,
+    "elbow_unabducted_mm": [
+      -197,
+      28,
+      1060.36343136
+    ],
+    "wrist_unabducted_mm": [
+      -197,
+      28,
+      810.36343136
+    ],
+    "case_size_mm": [
+      65,
+      30,
+      48
+    ],
+    "reference_is_150kg_proxy": true,
+    "floating_old_elbow_plates_removed": true
+  },
+  {
+    "side": "R",
+    "upper_arm_mm": 275,
+    "forearm_mm": 250,
+    "elbow_unabducted_mm": [
+      197,
+      28,
+      1060.36343136
+    ],
+    "wrist_unabducted_mm": [
+      197,
+      28,
+      810.36343136
+    ],
+    "case_size_mm": [
+      65,
+      30,
+      48
+    ],
+    "reference_is_150kg_proxy": true,
+    "floating_old_elbow_plates_removed": true
+  }
+]

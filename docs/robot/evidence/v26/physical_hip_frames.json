@@ -1,0 +1,210 @@
+[
+  {
+    "joint": "Right_Hip_pitch",
+    "bearing_part": "H02_Hip_pitch_roll_bearing_REFERENCES",
+    "bearing_axis": [
+      0.9063077870366555,
+      5.455045833203471e-05,
+      -0.4226182582200725
+    ],
+    "joint_axis": [
+      0.9063077870366534,
+      5.4550458331696805e-05,
+      -0.4226182582200768
+    ],
+    "joint_origin_mm": [
+      19.165619354073602,
+      23.290613722959318,
+      837.4898535935013
+    ],
+    "geometry_primary_axis": [
+      0.9063077870366555,
+      5.455045833203471e-05,
+      -0.4226182582200725
+    ],
+    "limits_deg": [
+      -45,
+      45
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Right_Hip_roll",
+    "bearing_part": "H08_Roll_61810_bearing_references",
+    "bearing_axis": [
+      -6.12323399573677e-17,
+      0.9999999916695148,
+      0.0001290773808668272
+    ],
+    "joint_axis": [
+      -2.203438677177841e-17,
+      0.9999999916695149,
+      0.00012907738085113187
+    ],
+    "joint_origin_mm": [
+      120.00000000000003,
+      -9.198557723279237,
+      753.5958022943748
+    ],
+    "geometry_primary_axis": [
+      3.1180867554852276e-45,
+      0.9999999916695148,
+      0.0001290773808668272
+    ],
+    "limits_deg": [
+      -30,
+      30
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Right_Hip_yaw",
+    "bearing_part": "H03_Hip_yaw_6007_bearing_REFERENCE",
+    "bearing_axis": [
+      6.123233995736769e-17,
+      -0.0001290773808668272,
+      0.9999999916695148
+    ],
+    "joint_axis": [
+      1.5877267413262448e-21,
+      -0.00012907738086693644,
+      0.9999999916695148
+    ],
+    "joint_origin_mm": [
+      120.00000000000003,
+      23.31074848514049,
+      681.4999979098811
+    ],
+    "geometry_primary_axis": [
+      -3.937785693265235e-48,
+      -0.0001290773808668272,
+      0.9999999916695148
+    ],
+    "limits_deg": [
+      -45,
+      45
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Left_Hip_pitch",
+    "bearing_part": "H02_Hip_pitch_roll_bearing_REFERENCES (1)",
+    "bearing_axis": [
+      0.9063077870366555,
+      0.0,
+      0.4226182617406876
+    ],
+    "joint_axis": [
+      0.9063077870366548,
+      0.0,
+      0.42261826174068917
+    ],
+    "joint_origin_mm": [
+      -19.16561935407359,
+      23.343134,
+      837.4898569830914
+    ],
+    "geometry_primary_axis": [
+      0.9063077870366555,
+      0.0,
+      0.4226182617406876
+    ],
+    "limits_deg": [
+      -45,
+      45
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Left_Hip_roll",
+    "bearing_part": "H08_Roll_61810_bearing_references (1)",
+    "bearing_axis": [
+      -0.0,
+      -1.0,
+      0.0
+    ],
+    "joint_axis": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "joint_origin_mm": [
+      -120.0,
+      -9.15686600000007,
+      753.6
+    ],
+    "geometry_primary_axis": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "limits_deg": [
+      -30,
+      30
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Left_Hip_yaw",
+    "bearing_part": "H03_Hip_yaw_6007_bearing_REFERENCE (1)",
+    "bearing_axis": [
+      -0.0,
+      0.0,
+      -1.0
+    ],
+    "joint_axis": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "joint_origin_mm": [
+      -120.0,
+      23.343134,
+      681.5
+    ],
+    "geometry_primary_axis": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "limits_deg": [
+      -45,
+      45
+    ],
+    "frame_method": "Native cylinder face, joint frame primary Z axis; no custom-axis input."
+  },
+  {
+    "joint": "Left_Knee_pitch",
+    "joint_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "joint_origin_mm": [
+      -110.0,
+      23.343134,
+      430.6
+    ],
+    "limits_deg": [
+      0,
+      120
+    ]
+  },
+  {
+    "joint": "Right_Knee_pitch",
+    "joint_axis": [
+      1.0,
+      3.5904271497362593e-17,
+      -8.173832455792228e-23
+    ],
+    "joint_origin_mm": [
+      120.0,
+      23.343134,
+      430.6
+    ],
+    "limits_deg": [
+      0,
+      120
+    ]
+  }
+]

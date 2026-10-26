@@ -1,0 +1,159 @@
+{
+  "pass": true,
+  "component": "C28_waist_front_reinforced_holder",
+  "source_interfaces": "W02_Waist_front_shell (1)",
+  "original_interfaces_copied_without_cutting": true,
+  "nominal_envelope_section_wall_mm": 6,
+  "rib_width_mm": 8,
+  "original_volume_mm3": 93397.38828026749,
+  "new_volume_mm3": 242050.6024520208,
+  "bounds_mm": [
+    [
+      -93.65080690074825,
+      -42.40905208256791,
+      763.5210190773662
+    ],
+    [
+      93.65080690074825,
+      23.143133988564315,
+      902.0
+    ]
+  ],
+  "relieved_additions": [
+    {
+      "part": "Left_Q03_CNC_roll_to_pitch_fork",
+      "body": "Left_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "removed_mm3": 2103.852109422175
+    },
+    {
+      "part": "Left_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_21",
+      "removed_mm3": 477.74284881732575
+    },
+    {
+      "part": "Left_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "removed_mm3": 713.0538111330868
+    },
+    {
+      "part": "Left_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "removed_mm3": 4772.359132599895
+    },
+    {
+      "part": "Right_Q03_CNC_roll_to_pitch_fork",
+      "body": "Right_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "removed_mm3": 2456.714450437908
+    },
+    {
+      "part": "Right_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_21",
+      "removed_mm3": 154.67318492297454
+    },
+    {
+      "part": "Right_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "removed_mm3": 715.670258316033
+    },
+    {
+      "part": "Right_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "removed_mm3": 4553.210344757323
+    }
+  ],
+  "discarded_disconnected_additions": [
+    {
+      "volume_mm3": 67.43434737825639,
+      "bounds_mm": [
+        [
+          -79.16676456091517,
+          10.536532282201822,
+          820.4771618409903
+        ],
+        [
+          -71.57139938838573,
+          14.936532282201831,
+          825.5445001399612
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 223.88055840868594,
+      "bounds_mm": [
+        [
+          -90.9156636608764,
+          -4.186070587879551,
+          855.3973315543363
+        ],
+        [
+          -86.79456400935813,
+          23.099999999999994,
+          864.4323765467166
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 1.3485513504152697,
+      "bounds_mm": [
+        [
+          -88.19907099782513,
+          5.977383447697322,
+          863.4924214970027
+        ],
+        [
+          -85.97036436218741,
+          23.100000000000023,
+          867.078654802559
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 71.20003573354033,
+      "bounds_mm": [
+        [
+          51.00797150381147,
+          10.488131322776916,
+          801.8658854055183
+        ],
+        [
+          58.27771887524824,
+          14.888387425373155,
+          807.2658011725019
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 224.74187609043796,
+      "bounds_mm": [
+        [
+          86.79450084026587,
+          -4.241401967097982,
+          855.3934984327161
+        ],
+        [
+          90.91575951379073,
+          23.100000000000023,
+          864.4326290346291
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 8110.640526785186,
+      "bounds_mm": [
+        [
+          33.72457207517989,
+          -29.707030213223003,
+          782.0
+        ],
+        [
+          78.0924270655365,
+          23.099999999786988,
+          834.8946379676039
+        ]
+      ]
+    }
+  ],
+  "original_missing_volume_mm3": 0.0,
+  "role": "structural holder replacement; not load-qualified",
+  "legacy_source_hidden_retained": true
+}

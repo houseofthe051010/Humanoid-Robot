@@ -1,0 +1,11 @@
+{
+  "native_joint_count": 31,
+  "revolute_joints": [
+    "V24_L_shoulder_pitch",
+    "V24_L_shoulder_roll",
+    "V24_R_shoulder_pitch",
+    "V24_R_shoulder_roll",
+    "V24_neck_yaw"
+  ],
+  "limits_note": "Initial editable CAD limits, not a claimed collision-free full workspace."
+}

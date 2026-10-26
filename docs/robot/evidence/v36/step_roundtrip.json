@@ -1,0 +1,268 @@
+{
+  "pass": true,
+  "files": 15,
+  "bodies": 28,
+  "results": [
+    {
+      "name": "waist_L",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\waist_L.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 1.0054358767774829e-07,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "waist_R",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\waist_R.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 1.005415910526608e-07,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "R_shoulder_pitch",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\R_shoulder_pitch.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 7.105427357601002e-15,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "L_shoulder_pitch",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\L_shoulder_pitch.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 7.105427357601002e-15,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "L_hip_yaw",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\L_hip_yaw.step",
+      "expected_bodies": 4,
+      "actual_bodies": 4,
+      "max_bounds_error_mm": 3.907985046680551e-14,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "L_shoulder_roll",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\L_shoulder_roll.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 1.4210854715202004e-14,
+      "pass": true,
+      "errors": [],
+      "default_volume_warnings": [
+        {
+          "part": "S36_L_shoulder_roll_SEPARATE_enclosure",
+          "bounds_error_mm": 1.4210854715202004e-14,
+          "volume_error_mm3": 0.1743247119266016
+        }
+      ],
+      "geometric_equivalence": [
+        {
+          "part": "S36_L_shoulder_roll_removable_vented_lid",
+          "source_very_high_volume_mm3": 5219.3065753176725,
+          "imported_very_high_volume_mm3": 5219.306575317648,
+          "very_high_difference_mm3": 2.4556356947869062e-11,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        },
+        {
+          "part": "S36_L_shoulder_roll_SEPARATE_enclosure",
+          "source_very_high_volume_mm3": 25098.950015964412,
+          "imported_very_high_volume_mm3": 25098.95468786311,
+          "very_high_difference_mm3": 0.004671898699598387,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        }
+      ]
+    },
+    {
+      "name": "R_shoulder_roll",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\R_shoulder_roll.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 1.4210854715202004e-14,
+      "pass": true,
+      "errors": [],
+      "default_volume_warnings": [
+        {
+          "part": "S36_R_shoulder_roll_SEPARATE_enclosure",
+          "bounds_error_mm": 1.4210854715202004e-14,
+          "volume_error_mm3": 0.1889322943352454
+        }
+      ],
+      "geometric_equivalence": [
+        {
+          "part": "S36_R_shoulder_roll_removable_vented_lid",
+          "source_very_high_volume_mm3": 5219.306575317625,
+          "imported_very_high_volume_mm3": 5219.306575317648,
+          "very_high_difference_mm3": 2.2737367544323206e-11,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        },
+        {
+          "part": "S36_R_shoulder_roll_SEPARATE_enclosure",
+          "source_very_high_volume_mm3": 25098.95013215324,
+          "imported_very_high_volume_mm3": 25098.95447542195,
+          "very_high_difference_mm3": 0.004343268708907999,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        }
+      ]
+    },
+    {
+      "name": "R_hip_yaw",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\R_hip_yaw.step",
+      "expected_bodies": 4,
+      "actual_bodies": 4,
+      "max_bounds_error_mm": 2.2214663886188646e-08,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "waist_yaw",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\waist_yaw.step",
+      "expected_bodies": 2,
+      "actual_bodies": 2,
+      "max_bounds_error_mm": 5.3290705182007514e-14,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "W07_upper_roll_spine_GWK_carrier (1)",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\W07_upper_roll_spine_GWK_carrier_1.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 4.774847184307873e-12,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "S36_narrow_electronics_box",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\S36_narrow_electronics_box.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 1.5916157281026244e-12,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "S36_narrow_electronics_lid",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\S36_narrow_electronics_lid.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 2.0463630789890885e-12,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "S24_L_pitch_carrier_roll_housing",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\S24_L_pitch_carrier_roll_housing.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 5.002220859751105e-12,
+      "pass": true,
+      "errors": [],
+      "default_volume_warnings": [
+        {
+          "part": "S36_L_shoulder_roll_retained_mount_with_case_holes",
+          "bounds_error_mm": 5.002220859751105e-12,
+          "volume_error_mm3": 2.334282235970022
+        }
+      ],
+      "geometric_equivalence": [
+        {
+          "part": "S36_L_shoulder_roll_retained_mount_with_case_holes",
+          "source_very_high_volume_mm3": 162550.8389239011,
+          "imported_very_high_volume_mm3": 162550.5693884158,
+          "very_high_difference_mm3": 0.26953548527671956,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        }
+      ]
+    },
+    {
+      "name": "S24_R_pitch_carrier_roll_housing",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\S24_R_pitch_carrier_roll_housing.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 2.9558577807620168e-12,
+      "pass": true,
+      "errors": [],
+      "default_volume_warnings": [
+        {
+          "part": "S36_R_shoulder_roll_retained_mount_with_case_holes",
+          "bounds_error_mm": 2.9558577807620168e-12,
+          "volume_error_mm3": 0.25786401456571184
+        }
+      ],
+      "geometric_equivalence": [
+        {
+          "part": "S36_R_shoulder_roll_retained_mount_with_case_holes",
+          "source_very_high_volume_mm3": 162550.83892390184,
+          "imported_very_high_volume_mm3": 162550.60574522085,
+          "very_high_difference_mm3": 0.23317868099547923,
+          "source_minus_step": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "step_minus_source": {
+            "operation_succeeded": true,
+            "mm3": 0.0
+          },
+          "geometric_pass": true
+        }
+      ]
+    },
+    {
+      "name": "W04_PA12CF_fixed_yaw_mount (1)",
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\steadywin36\\deliverables\\print_parts_STEP\\W04_PA12CF_fixed_yaw_mount_1.step",
+      "expected_bodies": 1,
+      "actual_bodies": 1,
+      "max_bounds_error_mm": 1.1368683772161603e-13,
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

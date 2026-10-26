@@ -1,0 +1,202 @@
+{
+  "file_only": true,
+  "native_calls": 0,
+  "cad_mutations": 0,
+  "source_geometry_bound_separation_pass": true,
+  "source_after_sha256": "a487899a4909c3b7e17cc1d0800607cfcd79f4129b1d5e8e04c59988e2b9e8ce",
+  "rows": [
+    {
+      "mesh_name": "AmazingHand_R_Printed_shells",
+      "component_path": "<root>/Upper_body_v26:1/Hand26_R_AmazingHand:1/R_Printed_shells:1",
+      "source_stl": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\references\\AmazingHand_R_Printed_shells.stl",
+      "source_stl_sha256": "2550b20d1a990e48d2c138b37c3bad55addca38804af8d0e84b75376bc658eab",
+      "triangle_count": 245674,
+      "capture_triangle_count": 245672,
+      "zero_area_triangle_count": 6,
+      "source_native_bounds_mm": [
+        [
+          131.829833984375,
+          -13.615442276000977,
+          629.5729370117188
+        ],
+        [
+          252.42616271972656,
+          120.13629913330078,
+          794.6634521484375
+        ]
+      ],
+      "native_bounds_match_max_mm": 1.52587890625e-05,
+      "root_transform_applied_once_cm": [
+        0.9945218953682907,
+        -5.767300226709335e-17,
+        -0.10452846326748241,
+        13.961738936348905,
+        8.329252720646782e-17,
+        0.9999999999999992,
+        5.790620937598285e-17,
+        9.25820078602428e-15,
+        0.10452846326748243,
+        -1.7327840244278238e-16,
+        0.9945218953682907,
+        -1.333162771169618,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_vertex_bounds_mm": [
+        [
+          201.88506754198278,
+          -13.615442276000813,
+          635.8237248569304
+        ],
+        [
+          315.54033647729835,
+          120.13629913330085,
+          801.1946907104475
+        ]
+      ],
+      "same_side_thigh_tests": [
+        {
+          "cover": "C27_Right_thigh_front",
+          "world_bounds_mm": [
+            [
+              51.41764614455976,
+              -43.164707710880506,
+              473.0
+            ],
+            [
+              188.58235385544026,
+              23.04313400038233,
+              639.0000000000015
+            ]
+          ],
+          "axis_separation_mm": [
+            13.302713686542518,
+            -36.658576276383144,
+            -3.1762751430710523
+          ],
+          "disjoint": true
+        },
+        {
+          "cover": "C27_Right_thigh_rear",
+          "world_bounds_mm": [
+            [
+              51.417646144559754,
+              23.643134000000007,
+              473.000000000197
+            ],
+            [
+              188.58235385544026,
+              91.74706156632075,
+              638.9999999638264
+            ]
+          ],
+          "axis_separation_mm": [
+            13.302713686542518,
+            -96.49316513330085,
+            -3.176275106896014
+          ],
+          "disjoint": true
+        }
+      ]
+    },
+    {
+      "mesh_name": "AmazingHand_L_Printed_shells",
+      "component_path": "<root>/Upper_body_v26:1/Hand26_L_AmazingHand:1/L_Printed_shells:1",
+      "source_stl": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\references\\AmazingHand_L_Printed_shells.stl",
+      "source_stl_sha256": "2ec6668fc03a7da1cc18e34d7c267ae110f8f11da984fbef534aecf8dbdef413",
+      "triangle_count": 245748,
+      "capture_triangle_count": 245740,
+      "zero_area_triangle_count": 12,
+      "source_native_bounds_mm": [
+        [
+          -251.5386962890625,
+          -13.615442276000977,
+          629.5729370117188
+        ],
+        [
+          -132.7459716796875,
+          120.46282196044922,
+          794.6634521484375
+        ]
+      ],
+      "native_bounds_match_max_mm": 1.52587890625e-05,
+      "root_transform_applied_once_cm": [
+        0.9945218953682556,
+        -5.767300226709338e-17,
+        0.10452846326782528,
+        -13.961738936382226,
+        9.488524183530377e-17,
+        0.9999999999999996,
+        6.549056148974761e-17,
+        -2.0253823572970188e-14,
+        -0.10452846326782533,
+        -1.7327840244278246e-16,
+        0.9945218953682552,
+        -1.333162771164883,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_vertex_bounds_mm": [
+        [
+          -314.66009528575535,
+          -13.61544227600114,
+          635.9250046217768
+        ],
+        [
+          -202.0803292386531,
+          120.46282196044899,
+          801.1946907105462
+        ]
+      ],
+      "same_side_thigh_tests": [
+        {
+          "cover": "C27_Left_thigh_front",
+          "world_bounds_mm": [
+            [
+              -188.58235385544026,
+              -43.164707710880506,
+              473.0
+            ],
+            [
+              -51.41764614455976,
+              23.043133999999988,
+              639.0000000000015
+            ]
+          ],
+          "axis_separation_mm": [
+            13.497975383212832,
+            -36.65857627600113,
+            -3.074995378224685
+          ],
+          "disjoint": true
+        },
+        {
+          "cover": "C27_Left_thigh_rear",
+          "world_bounds_mm": [
+            [
+              -188.58235385544026,
+              23.64313399999805,
+              473.000000000197
+            ],
+            [
+              -51.41764614455976,
+              91.74706156632075,
+              638.9999999638264
+            ]
+          ],
+          "axis_separation_mm": [
+            13.497975383212832,
+            -96.81968796045095,
+            -3.0749953420496468
+          ],
+          "disjoint": true
+        }
+      ]
+    }
+  ],
+  "qualification": "Preserved import-source STL vertices transformed once by current root-context occurrence matrices. Source bounds match current native mesh bounds within 0.00002 mm; source/native triangle counts differ slightly, so this is source-geometry separation, not native vertex equality. Gross transformed-box overlaps are conservative, not collision evidence. Static rest only; no swept range qualification."
+}

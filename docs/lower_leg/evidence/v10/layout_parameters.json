@@ -1,0 +1,39 @@
+{
+  "target_height_mm": 1600.2,
+  "ground_z_mm": -14,
+  "knee_axis_z_mm": 423.6,
+  "hip_pitch_datum_z_mm": 823.6,
+  "thigh_axis_length_mm": 400,
+  "hip_height_above_ground_mm": 837.6,
+  "thigh_rail_length_mm": 351.8,
+  "knee_motor_axis_z_mm": 685.0,
+  "motor_rear_plane_x_mm": 27,
+  "rear_hub_outer_x_mm": 33,
+  "right_rail_inner_x_mm": 38,
+  "encoder_gap_mm": 5,
+  "estimated_mount_pattern_mm": [
+    40,
+    66
+  ],
+  "shell_web_mm": 8,
+  "hip_pitch_tilt_deg_PROVISIONAL": 10,
+  "internal_reduction_options": [
+    6,
+    8
+  ],
+  "primary_chain_ratio_options": [
+    2,
+    2.5
+  ],
+  "final_chain_ratio": 1,
+  "pcd_guides_mm": {
+    "motor": 40,
+    "intermediate_primary": 100,
+    "intermediate_secondary": 70,
+    "knee": 70
+  },
+  "primary_plane_x_mm": -30,
+  "secondary_plane_x_mm": -24,
+  "intermediate_center_z_mm": 577,
+  "reference_only_hip_architecture": true
+}

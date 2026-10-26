@@ -1,0 +1,569 @@
+{
+  "part": "C28_Right_shoe_upper",
+  "attempt": "final02",
+  "candidate_count": 139,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Lower_M3_nut_envelope",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Lower_M3_pinch_screw",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Lower_M3_socket_head",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_A01_PA12CF_cross_axis_block/Upper_clamp_split",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F01_Foot_plate/Aluminum_plate_current_mounts",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Balls_7",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F03_Roll_bearing_rear/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/608ZZ Standing bearing v4 (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_1 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Ball Retainer (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Ball Retainer (1)_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Balls (1)_7",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Bearing Seal (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Bearing Seal (1)_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Body (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Inner & Outer Ring (1)_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F04_Roll_bearing_front/Inner & Outer Ring (1)_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Balls_7",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_L/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1 (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Balls_7",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F06_Heel_pillow_block_R/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F07_Printed_8_to_6_bearing_sleeve_L/8OD_6ID_reducer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F07_Printed_8_to_6_bearing_sleeve_R/8OD_6ID_reducer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F08_Heel_cross_shaft_6mm/Heel_cross_shaft_6mm",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F08_Heel_cross_shaft_6mm/Wixroyd_65720_W0006_inner_ring_A",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F08_Heel_cross_shaft_6mm/Wixroyd_65720_W0006_inner_ring_B",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5_1mm_washer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5_1mm_washer (2)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5_1mm_washer (4)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5_1mm_washer (6)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F09_Purchased_bearing_M5_fasteners/M5x20_socket_screw_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F10_Heel_axial_spacers/Inner_ring_axial_spacer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F10_Heel_axial_spacers/Inner_ring_axial_spacer (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F10_Heel_axial_spacers/Inner_ring_axial_spacer (2)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5_1mm_washer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5_1mm_washer (2)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5_1mm_washer (4)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5_1mm_washer (6)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_F11_Heel_pillow_M5_hardware/M5x20_socket_screw_7",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_L01_Threaded_link_rod_A/Wixroyd_65720_W0006_lower_housing",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_L01_Threaded_link_rod_B/Wixroyd_65720_W0006_lower_housing",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Balls_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S02_Pitch_bearing_left/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Balls_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_S03_Pitch_bearing_right/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

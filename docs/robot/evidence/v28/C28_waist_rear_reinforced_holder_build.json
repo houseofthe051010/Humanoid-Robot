@@ -1,0 +1,184 @@
+{
+  "pass": true,
+  "component": "C28_waist_rear_reinforced_holder",
+  "source_interfaces": "W03_Waist_rear_shell (1)",
+  "original_interfaces_copied_without_cutting": true,
+  "nominal_envelope_section_wall_mm": 6,
+  "rib_width_mm": 8,
+  "original_volume_mm3": 91980.11034677787,
+  "new_volume_mm3": 250230.6046743892,
+  "bounds_mm": [
+    [
+      -93.65080690074826,
+      23.543134011435697,
+      763.5210190773662
+    ],
+    [
+      93.65080690074826,
+      97.5208215102578,
+      902.0
+    ]
+  ],
+  "relieved_additions": [
+    {
+      "part": "Left_DJI10018_Hip_pitch_REFERENCE",
+      "body": "Front_rotor_plate_EST",
+      "removed_mm3": 41.611527012314966
+    },
+    {
+      "part": "Left_Q03_CNC_roll_to_pitch_fork",
+      "body": "Left_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "removed_mm3": 2102.7918951188385
+    },
+    {
+      "part": "Left_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_21",
+      "removed_mm3": 477.7698741825163
+    },
+    {
+      "part": "Left_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "removed_mm3": 682.5032649582639
+    },
+    {
+      "part": "Left_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "removed_mm3": 4285.721229879652
+    },
+    {
+      "part": "Right_DJI10018_Hip_pitch_REFERENCE",
+      "body": "Front_rotor_plate_EST",
+      "removed_mm3": 39.41513298371979
+    },
+    {
+      "part": "Right_Q03_CNC_roll_to_pitch_fork",
+      "body": "Right_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "removed_mm3": 2451.7877544850626
+    },
+    {
+      "part": "Right_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_21",
+      "removed_mm3": 154.0359912072772
+    },
+    {
+      "part": "Right_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+      "body": "H05_pitch_110OD_106ID_tube",
+      "removed_mm3": 680.3712037861524
+    },
+    {
+      "part": "Right_H07_Pitch_tube_recessed_endcaps",
+      "body": "H07_pitch_front_endcap",
+      "removed_mm3": 4053.8684645672233
+    }
+  ],
+  "discarded_disconnected_additions": [
+    {
+      "volume_mm3": 71.2279414321055,
+      "bounds_mm": [
+        [
+          51.00964740913592,
+          31.701334685597512,
+          801.8678347681841
+        ],
+        [
+          58.27945418896626,
+          36.10159078679495,
+          807.2676828107521
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 222.79762407482505,
+      "bounds_mm": [
+        [
+          86.79466789490576,
+          23.599999999999994,
+          855.3973710929492
+        ],
+        [
+          90.91550944847285,
+          50.81700914649385,
+          864.4319613058035
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 1.341998615537748,
+      "bounds_mm": [
+        [
+          85.9705276594463,
+          23.599999999998012,
+          863.4939466843825
+        ],
+        [
+          88.19892168028832,
+          40.65532747203642,
+          867.0782247652301
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 7882.43234869298,
+      "bounds_mm": [
+        [
+          33.27650321374575,
+          23.59999999999999,
+          782.0000000000007
+        ],
+        [
+          75.1618297370827,
+          76.29332978417725,
+          828.6226517087289
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 1.3483960777439814,
+      "bounds_mm": [
+        [
+          -88.19904464244884,
+          23.599999999999994,
+          863.4924214970026
+        ],
+        [
+          -85.97039611436583,
+          40.70888455230248,
+          867.0785711872606
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 223.57107553438647,
+      "bounds_mm": [
+        [
+          -90.91563623432239,
+          23.599999999999994,
+          855.3973315554077
+        ],
+        [
+          -86.79458425362739,
+          50.87233858787947,
+          864.4322956344893
+        ]
+      ]
+    },
+    {
+      "volume_mm3": 67.46401063316955,
+      "bounds_mm": [
+        [
+          -79.16676456091527,
+          31.74973571779825,
+          820.4771618409903
+        ],
+        [
+          -71.57139938838571,
+          36.14973571779827,
+          825.5445001399612
+        ]
+      ]
+    }
+  ],
+  "original_missing_volume_mm3": 0.0,
+  "role": "structural holder replacement; not load-qualified",
+  "legacy_source_hidden_retained": true
+}

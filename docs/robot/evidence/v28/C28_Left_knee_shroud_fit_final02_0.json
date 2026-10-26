@@ -1,0 +1,265 @@
+{
+  "part": "C28_Left_knee_shroud",
+  "attempt": "final02",
+  "candidate_count": 63,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "Left_H01_Steel_crush_sleeves/Crush_sleeve_-14_400",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H01_Steel_crush_sleeves/Crush_sleeve_14_400",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N01_Aluminum_knee_stack_1/N01_Aluminum_knee_stack_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N01_Aluminum_knee_stack_2/N01_Aluminum_knee_stack_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N01_Aluminum_knee_stack_4/N01_Aluminum_knee_stack_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N01_Aluminum_knee_stack_5/N01_Aluminum_knee_stack_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N02_Knee_shaft_8mm/Knee_shaft_8x104",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N03_Sprocket_blank_LAYOUT/N03_Sprocket_blank_LAYOUT",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Balls_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Balls_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Balls_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_L/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/608ZZ Standing bearing v4_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Ball Retainer_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Ball Retainer_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Balls_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Balls_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Balls_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Balls_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Balls_6",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Bearing Seal_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Bearing Seal_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Body_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Inner & Outer Ring_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N04_Knee_pillow_block_R/Inner & Outer Ring_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N06_Upper_leg_oval_stub_L/N06_Upper_leg_oval_stub_L",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N06_Upper_leg_oval_stub_R/N06_Upper_leg_oval_stub_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3_rail_head",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3_rail_head (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3_stack_nut_envelope",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3_stack_nut_envelope (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3x50_rail_crossbolt",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3x50_rail_crossbolt (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3x60_stack_tie",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/M3x60_stack_tie (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/Recessed_M3_head",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N07_Knee_stack_fasteners/Recessed_M3_head (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N09_Knee_sprocket_standoff_hub/N09_Knee_sprocket_standoff_hub",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N10_Drive_side_pedestal_hardware/V17_M5_knee_bearing_mount_REFERENCE",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N10_Drive_side_pedestal_hardware/V17_M5_knee_bearing_mount_REFERENCE (2)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P01_Knee_side_rail_seat_L/P01_Knee_side_rail_seat_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P01_Knee_side_rail_seat_R/P01_Knee_side_rail_seat_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_L/Crush_sleeve",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_L/M4_socket_head",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_L/M4x25_side_screw",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_R/Crush_sleeve",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_R/M4_socket_head",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_P02_Knee_rail_screws_and_sleeves_R/M4x25_side_screw",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_S05_Continuous_oval_steel_rail_L/S05_Continuous_oval_steel_rail_L",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_S05_Continuous_oval_steel_rail_R/S05_Continuous_oval_steel_rail_R",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

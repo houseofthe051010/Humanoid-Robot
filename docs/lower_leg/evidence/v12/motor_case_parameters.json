@@ -1,0 +1,95 @@
+{
+  "new_components": [
+    {
+      "name": "P01_Knee_side_rail_seat_L",
+      "material": "6061-T6 nominal",
+      "process": "CNC side-saddle; two M4 nominal tapped interfaces into the block, matched curved oval seat. Provisional machining details."
+    },
+    {
+      "name": "P02_Knee_rail_screws_and_sleeves_L",
+      "material": "steel",
+      "process": "Two M4x25 nominal side screws and internal crush sleeves; finish threads and bolt length on measured stock."
+    },
+    {
+      "name": "P01_Knee_side_rail_seat_R",
+      "material": "6061-T6 nominal",
+      "process": "CNC side-saddle; two M4 nominal tapped interfaces into the block, matched curved oval seat. Provisional machining details."
+    },
+    {
+      "name": "P02_Knee_rail_screws_and_sleeves_R",
+      "material": "steel",
+      "process": "Two M4x25 nominal side screws and internal crush sleeves; finish threads and bolt length on measured stock."
+    },
+    {
+      "name": "P03_Circular_motor_gearbox_case",
+      "material": "PA-CF provisional",
+      "process": "124 OD /108 ID barrel, 8mm circular backplate; 33mm axial gearbox reservation from motor front X5 to X-28. No gears or ring teeth."
+    },
+    {
+      "name": "P04_Case_rail_cap_R_546",
+      "material": "PA-CF provisional",
+      "process": "Separate split cap with 0.8mm seam and M4 access; print calibration required."
+    },
+    {
+      "name": "P04_Case_rail_cap_R_634",
+      "material": "PA-CF provisional",
+      "process": "Separate split cap with 0.8mm seam and M4 access; print calibration required."
+    },
+    {
+      "name": "P04_Case_rail_cap_L_646",
+      "material": "PA-CF provisional",
+      "process": "Separate split cap with 0.8mm seam and M4 access; print calibration required."
+    },
+    {
+      "name": "P05_Gearbox_front_cover",
+      "material": "PA-CF provisional",
+      "process": "7mm front cover; output/bearing hole is a reference interface, bearing not selected."
+    },
+    {
+      "name": "P06_Gearbox_output_REFERENCE",
+      "material": "aluminum reference",
+      "process": "Independent output flange/shaft envelope; no planet carrier, reduction or output bearing designed."
+    },
+    {
+      "name": "P07_Motor_output_sprocket_BLANK",
+      "material": "aluminum reference",
+      "process": "User orange sprocket retained as 70x6 blank, now coaxial with motor. No teeth or ratio commitment."
+    },
+    {
+      "name": "P08_Sprocket_output_flange",
+      "material": "aluminum reference",
+      "process": "Flange immediately behind sprocket; shaft coupling and final fasteners require drivetrain design."
+    },
+    {
+      "name": "P09_Opposite_output_support_pin_6mm",
+      "material": "steel reference",
+      "process": "6mm smooth support pin to opposite oval rail; bearing/retention not designed, not a torque capacity claim."
+    },
+    {
+      "name": "P10_Output_support_rail_block",
+      "material": "PA-CF provisional",
+      "process": "Split support block around opposite rail. 6.6mm shaft passage; bearing interface deliberately unfinished."
+    },
+    {
+      "name": "P11_Output_support_cap",
+      "material": "PA-CF provisional",
+      "process": "Separate opposite-rail support cap; actual bearing added later."
+    }
+  ],
+  "motor_center_mm": [
+    20,
+    23.343134,
+    590.0
+  ],
+  "rail_centers_x_mm": [
+    -51,
+    51
+  ],
+  "gearbox_clear_axial_mm": 33,
+  "case_OD_mm": 124,
+  "case_ID_mm": 108,
+  "backplate_mm": 8,
+  "front_cover_mm": 7,
+  "gearbox_gears_modeled": false,
+  "support_pin_diameter_mm": 6
+}
