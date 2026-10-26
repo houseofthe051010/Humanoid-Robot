@@ -971,25 +971,25 @@ The results weren't what I expected, because there was definitely an error in th
 
 Training while standing dashboard video
 
-[![Standing training dashboard video](journal-media/local-2026-08-30-humanoid-stand-dashboard-2x.gif)](https://github.com/houseofthe051010/Humanoid-Robot/blob/main/journal-media/reviews/humanoid5ft/index.html#stand)
+![Standing training dashboard video](journal-media/local-2026-08-30-humanoid-stand-dashboard-2x.gif)
 
 Here is a video of it walking, where as you can see it is very unnatural.
 
 Walking dashboard video
 
-[![Walking training dashboard video](journal-media/local-2026-08-30-humanoid-walk-dashboard-2x.gif)](https://github.com/houseofthe051010/Humanoid-Robot/blob/main/journal-media/reviews/humanoid5ft/index.html#walk)
+![Walking training dashboard video](journal-media/local-2026-08-30-humanoid-walk-dashboard-2x.gif)
 
 Here is a video of it running at 4 m/s. According to the physics data, it was actually running at **3.984 meters per second**. That's definitely due to the way it's moving, and the joint errors.
 
 4 m/s running dashboard video
 
-[![4 m/s running training dashboard video](journal-media/local-2026-08-30-humanoid-sprint4-dashboard-2x.gif)](https://github.com/houseofthe051010/Humanoid-Robot/blob/main/journal-media/reviews/humanoid5ft/index.html#sprint)
+![4 m/s running training dashboard video](journal-media/local-2026-08-30-humanoid-sprint4-dashboard-2x.gif)
 
 Now here is a video of it getting up.
 
 Getting up dashboard video
 
-[![Getting up training dashboard video](journal-media/local-2026-08-30-humanoid-getup-refine-dashboard-2x.gif)](https://github.com/houseofthe051010/Humanoid-Robot/blob/main/journal-media/reviews/humanoid5ft/index.html#getup)
+![Getting up training dashboard video](journal-media/local-2026-08-30-humanoid-getup-refine-dashboard-2x.gif)
 
 Now, as you can see, the robot was messed up. This is a combination of the joint problem and a reward failure policy loophole. The robot kept moving after getting up due to the continuous height and upright rewards being collectable without completing the hard stationary standing check. Also, the reversed pitch-axis convention resulted in the knees bending in the wrong direction. For the running, the forward-speed reward being stronger than the gait-quality penalties caused the robot to use an unnatural movement to reach the target speed.
 
@@ -1103,6 +1103,10 @@ How much freedom do I need in my ankles? Pitch? Roll? How many degrees is good. 
 
 calculate how much I should use with the 40nm peak.
 
+  
+
+In the end I decided to go main with the 7010-8 motor because it had the highest torque in nm per amp at 0.65 nm/a which was pretty good and higher than the others and its peak current rating was higher.
+
 **Total time spent: 3h**
 
 # 2026-09-02: Improving the training
@@ -1131,37 +1135,30 @@ I wasn’t going to start the whole training again, too much time. I was instead
 
 Time to leave it training for 8 hours, I’ll check in after 2.
 
+After 8 hours, it didn't work. I decided to give up on this because I had enough data
+
 **Total time spent: 3h**
-
-# 2026-09-09: I have enough data, time to build the final design
-
-Date: 2026-09-09 (Sep 9, 2026, 4:26 PM)
-
-So I had gotten enough actuator joint data from this 5 foot robot. Here's a table of how much torque each joint needed. I was going to be using that as a reference for my final robot.
-
-**Total time spent: not recorded**
 
 # 2026-09-10: Time to start redesign, overview of current design
 
 Date: 2026-09-10 (Sep 10, 2026, 11:42 AM)
 
-You should first research the linkage stuff.
+So it has been a while and I need to reflect on my design and decide what to do. I great thing I did was I pulled up another open source robot, the asimov robot, and used it as an example for my design.
 
+  
+
+I started researching linkage joints to use on my robot.  
 ![Design screenshot 1](journal-media/local-2026-09-10-redesign-screenshot-01.png)
 
 these are very cheap from ALIEXPRESS and from this I can have a threaded 6mm or 5mm rod going down to the ball and screw into the threaded ball. The end bearing would have to be female for that. This is a very cheap alternative. For connecting the motor output to the distance away to the end bearing. I can have aluminum plate, which goes like 20mm far, and connect an 8mm rod through the sphere hole, through a hole in the aluminum plate that connects to the more output.
 
-My goal for you is from all this information, make a shin cad. Leave opening for the knee attachment for me to connect the knee. I feel like the oval salvaged steel tubes I have are the best resources not the square steel tubes.
+My goal is from all this information, is to currently finish the shin, leaving opening for the knee attachment for me to connect the knee. I feel like the oval salvaged steel tubes I have are the best resources not the square steel tubes.
 
-Directory for CAD: E:\\Aditya\\ChatGPT Resources
+  
 
-Location of steadywin 7010 motor:
+From my foldable canopy I've salvaged a lot of strong steel. You can find the canopies themselves on amazon for like 50.
 
-"C:\\Users\\rshan\\Downloads\\GWK7010-8\_3D\_model.stp"\`
-
-I have a lot of these metal pieces:
-
-From a foldable canopy/tent thingy, I have salvaged a lot of:
+I got:
 
 1 inch square steel tube
 
@@ -1169,25 +1166,29 @@ From a foldable canopy/tent thingy, I have salvaged a lot of:
 
 18x10 mm steel oval tube.
 
--   Overall length: 18.0 mm
--   Overall width: 10.0 mm
--   End radius: approximately R5.0 mm
--   Straight section between the curved ends: 8.0 mm
--   Typical wall thickness: about 0.45–0.6 mm, depending on the canopy.
+ length: 18.0 mm
 
-Things to consider:
+width: 10.0 m
 
-I have seen many times that as an AI, AI is very conservative on the maximum strength of plastic and estimates lower than what it can actually handle.
+End radius: approximately R5.0 mm
 
-Explanation of cad resources:
+Straight section between the curved ends: 8.0 mm
 
-foot
+wall thickness: about 0.45–0.6 mm
+
+yeah I'll have to print and guess dimensions for it so it fits tight. 
+
+  
+
+Reflection on current cad:
+
+  
 
 This cad is my original ankle cad for my 2-dof ankle.
 
 ![Design screenshot 2](journal-media/local-2026-09-10-redesign-screenshot-02.png)
 
-It has properly labelled directories, though the bodies aren’t labelled, I put them in folders with correct names
+It has properly labelled directories, though the bodies aren’t labelled, I put them in folders with correct names. When making my final draft I should utilize good cad naming skills.
 
 ![Design screenshot 3](journal-media/local-2026-09-10-redesign-screenshot-03.png)
 
@@ -1223,7 +1224,7 @@ Things to consider:
 
 To connect the linkage rods, I have two steel m5 threaded balls, with printed covers to lock the commercial spheres into place. I can actually print a layer of aluminum with a hole for the ball, and then 4 screws at corners, and then put that on top, which makes it contact the sphere instead of plastic, and print something below to support it from below, which could be helpful as the plastic might not be strong enough to keep the sphere ball in place.
 
-The asimov uses a different approach but I think my approach is very good and might be cheaper. The asimov uses gobilda parts (atleast from what I could tel for their pillow blocksl) which are expensive. Also they don’t use the sphere solution, instead use rods that come with sphere balls in them, I think they call it a RSU linkage.
+The asimov uses a different approach but I think my approach is very good and might be cheaper. The asimov uses gobilda parts (atleast from what I could tel for their pillow blocksl) which are expensive. Also they don’t use the sphere solution, instead use rods that come with sphere balls in them, I think they call it a RSU linkage.)
 
 foot v2
 
@@ -1241,7 +1242,7 @@ To support it though, I have a thick 100 percent infill nylon-cf piece, that tha
 
 shin
 
-I used steadywin 6010-48 reduction motors but those are not the motors you will be using, this is a previous iteration. You will be using the 7010, which the step file I gave. But it is also in the shin f3z. The shin attachment is printed and connects to the metal tube and the pillow bearing blocks below.
+I used steadywin 6010-48 reduction motors but those are not the motors you will be using, this is a previous iteration. I will be using the 7010-8.  The shin attachment is printed and connects to the metal tube and the pillow bearing blocks below.
 
 ![Design screenshot 8](journal-media/local-2026-09-10-redesign-screenshot-08.png)
 
@@ -1251,7 +1252,7 @@ I haven’t designed the coupler for the knee part, which is how the knee connec
 
 But this design is very bad, and it might look good, but the plastic shin motor holder is in pieces, not strongly connected. The square tube is a 1 inch metal tube that is very cheap to get. It’s from my available list of resources I listed. I plan on mounting my odrive v3 dual axis which has a length of 140mm behind it, beneath the motor. I think I’ll have space for that based on my shin height.
 
-A lot of the stuff isn’t labeled correctly don’t spend too much time trying to investigate it as it’s not good anyways
+A lot of the stuff isn’t labeled correctly I have to fix that.
 
 ![Design screenshot 9](journal-media/local-2026-09-10-redesign-screenshot-09.png)
 
@@ -1261,7 +1262,7 @@ A lot of the stuff isn’t labeled correctly don’t spend too much time trying 
 
 ASIMOV Robot example
 
-This is the Asimov robot example. I have hidden the f3z that is unrelated to the legs. Also remember in the f3z I have a lot of previous parts from my previous iterations for the shin and the foot but have hidden them not deleted them so you will see them.
+This is the Asimov robot example. I have hidden the f3z that is unrelated to the legs. 
 
 ![Design screenshot 12](journal-media/local-2026-09-10-redesign-screenshot-12.png)
 
@@ -1273,12 +1274,709 @@ This is the Asimov robot example. I have hidden the f3z that is unrelated to the
 
 ![Design screenshot 16](journal-media/local-2026-09-10-redesign-screenshot-16.png)
 
-As you can see they use my same 3d printed thing to combine the roll and the pitch which is a conformation that my system works. But they haven’t use the same sphere method as me for the ankle linkage. They also have a complete knee attachment in pretty sure that one thin part is CNCed. Their entire shin holder is printed.
-
-Below is the holder I created for the 7010. It should be in the shin f3z but hidden. It’s the testing rig I made to test its torque.
-
-![Design screenshot 17](journal-media/local-2026-09-10-redesign-screenshot-17.png)
-
-![Design screenshot 18](journal-media/local-2026-09-10-redesign-screenshot-18.png)
+I can see they use my same 3d printed thing to combine the roll and the pitch which is a conformation that my system works. But they haven’t use the same sphere method as me for the ankle linkage. They also have a complete knee attachment in pretty sure that one thin part is CNCed. Their entire shin holder is printed.
 
 **Total time spent: 3h**
+
+# 2026-10-20: Cadding the shin
+
+Date: 2026-10-20 (Oct 20, 2026, 8:40 PM)
+
+I spent a while thinking about how this should be.
+
+  
+
+So for the pitch to roll adapter its gonna be plastic. For cnc I would need a 4 axis cnc. I was thinking of using engineering grade PA-6 CF for this part so it can actually hold the forces of the entire robot and. So basically to make it stronger I was using m3 screws, and at the same time they locked in my 8mm shaft so they don't move.
+
+  
+
+![Pasted picture](journal-media/pasted-76997b4e7780d5f5b55dcae7e0c9b45150bbf1e3d31d424c245e4e11b0ddd222.png)  
+
+The yellow part is the cap for the sphere rod linkage. Its supposed to be milled aluminum. The bottom part is supposed to be filmant which would make the thing a lot cheaper. The bottom baseplate is also supposed to be cnced while the one below that should be the printed plastic piece (Later I was going to reinforce it with metal, and not make it printed). 
+
+  
+
+For my motors, they are the same 7010-8s I discussed earlier. The roll and pitch ratio reduction in the linkage is around 2. I will reduce the roll reduction because I currently don't need the amount I have and it looks like a triangle and the rods aren't parallel which doesn't look great. 
+
+  
+
+![Pasted picture](journal-media/pasted-4ae1fc729c2228f009b269b65d781250713b87840520a04271424e417172b037.png)
+
+**Total time spent: 4.5h**
+
+# 2026-10-20: CADDing the shin
+
+Date: 2026-10-20 (Oct 20, 2026, 8:40 PM)
+
+
+
+**Total time spent: not recorded**
+
+# 2026-10-20: More cadding the shin
+
+Date: 2026-10-20 (Oct 20, 2026, 8:49 PM)
+
+I decided it would be a great idea to switch the shin around.
+
+  
+
+![Pasted picture](journal-media/pasted-26632ff70dbdfe0235e660dd0aca2899d6e8aec2974867be044791b7d5576a34.png)I rotated it 180 degrees. It looked much more natural now. 
+
+  
+
+(Info about the RSU linkages: They use m6 rod end bearings with m6 threaded rods. The yellow motor output attachment is supposed to be cnced but i'll first be using plastic to prototype). 
+
+If you look at it this way it looks so much more natural and like a calf. 
+
+  
+
+New design of the plastic ankle joint to shin adapter is much stronger
+
+  
+
+![Pasted picture](journal-media/pasted-130c4721f274e5ed24645702820eb6399dd64ab71c9765db82d158322c058e1f.png)  
+
+I joined the threaded ball joints together. I did this because it would be much stronger this way, as a lot more area is covered by the plastic and the screws
+
+  
+
+![Pasted picture](journal-media/pasted-bd2daec0d71da99bf7245fc9db4d5069361b0f999fcd2a1a2c407dc03bd46541.png)
+
+Also the aluminum in yellow cap actually covers the sphere with good tolerance
+
+![Pasted picture](journal-media/pasted-ddc0e46a5fed6b813ca10ce6d848ba26c13a14f46e494f2f632a853faf8d4a65.png)  
+
+  
+
+Currently I'm designing a mount for my odrive motor controller to go behind it and sit compactly. It should be resistant to the shocks created by the robot jumping around and thus should be in tpu.
+
+  
+
+![Pasted picture](journal-media/pasted-3606b167d8811c6452a1c242d8ce5bde68eefc8fc93aff2869dfe9c3dd804287.png)  
+
+Also I was thinking of having 4 different rods at first but realized it would be much stronger if I had 2 straight beam rods. 
+
+  
+
+Now I wanted to improve the strength between the motor mount and the shin casing because if the motor was going to do up to 40-50nm of torque, it should be strong and in pa-cf filament.
+
+  
+
+![Pasted picture](journal-media/pasted-cf93f43a7cf7a1a868e2c983b4e149bef39d277f1deb9a351ed160931e42bd78.png)  
+
+So I was thinking of making the lids 1 pieces in the beginning but now i'm thinking 2 pieces so they are modular and easy to print.
+
+  
+
+New mount with m3 screws (not threaded)
+
+  
+
+![Pasted picture](journal-media/pasted-9fb269848e0ca7f5033c1c776cd8812fb9fcc5ab1d7e8addfa1e280831249576.png)Also I built the odrive holder:
+
+To keep it not rigid to the shock heavy case I only screwed it at the top using 2 screws from a tpu mount and the bottom held by a lip
+
+![Pasted picture](journal-media/pasted-d4a8d146384e342f5f62580852858642138a781b0d09f92af0e09a13a3de4627.png)  
+  
+
+After adding motion limits to the jacobian differntial linkage (adding joints/motion to it) I realized that the ankle roll to pitch adapter meshed/interfered with the ankle joint to shin interfere so I had to cut some space at the top which seemed to fix it.
+
+  
+
+![Pasted picture](journal-media/pasted-ad36838fdb89d12740620ef6480189f71b08e44e28696e8fb49a77e6f1615938.png)
+
+**Total time spent: 4h**
+
+# 2026-10-20: Cadding the shin again and then making the knee system
+
+Date: 2026-10-20 (Oct 20, 2026, 9:03 PM)
+
+Ok so the problem was that the 6mm rods are way too thin to handle the torque and the pressure of the foot slamming on the ground
+
+  
+
+![Pasted picture](journal-media/pasted-003ca8f2be95da912764894b0d645adb6fbcbca3f7c3fa4b47e1d096cd707644.png)  
+
+So my sigma brain devised an amazing idea that would cost NO MONEY!!
+
+  
+
+Use the existing oval tubes, and put them around the 6mm, to reinforce them from buckling/bending
+
+  
+
+I added threads to the rods, and then added around them a 3d printed adapter to adapter the geometry of the rod to the bigger tubes, and now they look like they can actually handle the robot
+
+  
+
+![Pasted picture](journal-media/pasted-c275d00597f5c9c9e69ef2183b372a48e6bfcac4f15f027d532a3afab2868a7a.png)So I think I'm good with the lower leg part here. I'll come back to it later to redesign to foot to use LESS cnc parts and more of what I have making it even cheaper.
+
+  
+
+So here is what I had devised for the knee system:
+
+  
+
+I have an adapter that adapts to the two oval rods:
+
+  
+
+![Pasted picture](journal-media/pasted-6665b972800f366e109cfde7e855ca050df88a774679f1523277410cc704156c.png)  
+
+So basically, I will use the exact same pillow blocks which I used for my ankles, making it even more cheaper, and the same 8mm rod (I was kind of worried on whether these 8mm rods and pillow block bearings can handle the load and after deflection calculations of the stainless steel rod, using normal physics 1, and the yield strength of steel, the bending stress was near the limits for both the ankle and the knees. Good thing I had a way to mitigate this which I'll explain later after I add my adapters for the knee and re calculate, because the adapters are basically the savior that stop the rods from bending too much).
+
+  
+
+So basically, I was going to have a huge cnc block that will connect to the oval rod, and it will then also connect to the 8mm rod that connects to the pillow block bearings. And I also thought out about how I will cnc that big aluminum blob! I will cnc it in 4 thin pieces because getting a cnc block that thick and big is going to be too expensive, also I would need a 4 axis cnc for but splitting it into pieces cuts my requirments to only 3.
+
+  
+
+This is what it looks pre cut and also with the adapters for the pillow block to knee, the while line represents the oval steel rods which will be the structural frame of the hip on both sides.
+
+  
+
+![Pasted picture](journal-media/pasted-a70902ad7937bd738d187eb95c06cd7051c12d24aabb1a31620e172b393c3813.png)  
+
+  
+
+So here is what I meant by bug aluminum blob:  
+  
+
+![Pasted picture](journal-media/pasted-ba3755bea05d9944a4f2bf97ee82f3521e9c37a79d9358a8f10b7856ac73e0ef.png)  
+
+  
+
+This adapter, split into pieces so its easier to machine, makes not only the attachment strong but also makes the 8mm steel rod deflection less as it reduces the distance from end to end for the rod bending. And how will I drive the knee? Not a motor in the knee. The motor will be above the knee, driven by a chain sprocket. The sprocket was a problem because I wanted like a 2 reduction ratio after my qdd 8 reduction from my 10018 motor and yeah thats a low of troque for the sprocket and chain and I'll have to do some extensive calculations to determine the max load of this thing while at the same time keeping the view look good because currently it looks ugly the sprocket is too big.
+
+  
+
+Also for the shin I made the motors go forward a little bit and based on the 10mm gap in the first motor I think it's enough for an encoder magnet.
+
+  
+
+![Pasted picture](journal-media/pasted-4a070b81eec185f6b16c84e71963ddc53cd5178c1e46fce76dec48d13e23fdef.png)  
+
+I can actually make it shorter this might be too far away.
+
+  
+
+Remember when I said the 8mm rod was too thin?
+
+  
+
+![Pasted picture](journal-media/pasted-34fb72bbd8552e6b112d3a70c2f7bcb4db1abecd0d4795c04e0ac1b0c4c933ab.png)  
+
+  
+
+This was my fix, to use this bushings to over them to make them event stronger.
+
+  
+
+I also started to make my bom in github, and tried finding cheap parts on aliexpress that matched what I was using
+
+  
+
+![Pasted picture](journal-media/pasted-5f273e1af0951ab7ae517a2584ef9702cec88d873eb0e4cc002fe99e514f4959.png)  
+
+  
+
+![Pasted picture](journal-media/pasted-ad98905c1faf1f684d8a4c3ce70de3a0041763a99419d33963f5740920fc1bbf.png)
+
+**Total time spent: 4h**
+
+# 2026-10-21: Continue working on upper leg
+
+Date: 2026-10-21 (Oct 21, 2026, 6:27 PM)
+
+So I had to decide what motor I was going to use on my upper leg. A choice I was contemplating for a while was the 10018 dji motor. In fact it is literally the cheapest available.
+
+  
+
+![Pasted picture](journal-media/pasted-6ca642814954b18dd4ab2d414118e9f368ab3383932b3efa7a38cabc0dc48be9.png)  
+
+What a steal! According to my calculations, this motor can give up to 16NM of torque at 150A! Even more at 200. Reduce that by 16 and I would be getting like 360NM of torque at my knees. Yeah that's a lot. But the problem is:
+
+  
+
+![Pasted picture](journal-media/pasted-2732c79438b4773943acfa7827ffe2179f29a65709b5af5e22e8c987558a1fe3.png)If you look at the picture of the motor, you would find that it needs HEAVY post processing. Also there are literally NO dimensions of it! I would have to email DJI and kindly ask them, and make guesses for my design. 
+
+And if I want a QDD gear reduction I will need to heavily mod the motor by milling out the center of the stator, and do a lot of tricks with it while at the same time being careful as to not scratch and short circuit the windings   
+  
+
+(P.S: After a lot of contemplation, I eventually bought the 4 10018s, because they are literally cheaper even if I add a CNC machine to my cart than buying motors of the spec I need). I bought them during design review even when they weren't confirmed because they were honestly my only option. I only needed the stator and rotor to work. I could design everything else from scratch and scrap the other parts of the motor. Even so I have been given a lot more and I feel like I will learn more by taking measurments IRL.
+
+  
+
+So here is some info on the other motors I compared:
+
+  
+
+This robostride module is cheap but its torque and RPM also is way too low
+
+  
+
+![Pasted picture](journal-media/pasted-13bc81952d8984e9e23826c7875730e95e8a5d4345219af1cc99ac7533d955ec.png)  
+
+This one costs 1k bruh
+
+![Pasted picture](journal-media/pasted-54417ef4f355810de5f41e21b604a95972fec666cc68e49eedd5a94fbf3e3c39.png)  
+
+This one is too low power but might work for my hip roll joint:
+
+  
+
+![Pasted picture](journal-media/pasted-528ecdaa2eeff370df1f06e66fb8ac2b5a3b85c23c6e8079978a919d6bf93fd5.png)  
+
+This one is better but has less stator space for a QDD reduction in there
+
+![Pasted picture](journal-media/pasted-c957f37fb9bfa17dfe151c68245063176251b052b40ab18dcbf8c6288aa009ae.png)  
+
+Yeah so the 10018 is my cheapest and best option though it will require heavy mods.
+
+  
+
+I used chatgpt to help me evaluate which motor would have enough specs for my needs. The only problem with the other motors was that their inner stator space would be too low for me to put an integrated gearbox it.
+
+  
+
+The setup I was going for was a lot similar to how boston dynamics did it with their robot:
+
+  
+
+![Pasted picture](journal-media/pasted-9777897ca9c065b6b61d127ebf3f27c6b5d905216f3b8d1c5c4d553664c6a68e.png)
+
+So after picking my knee motor, I got to replicating it, because although I don't have its exact dimensions I can atleast use visual cues to replicate it. Also I have some dimensions like the height and OD.
+
+  
+
+So I replicated the motor and replaced it with what was placeholder there
+
+  
+
+![Pasted picture](journal-media/pasted-dfe43c9606b5bc05894233aa44490de9f5b1e3770c6ec283de10c819efeee85c.png)  
+
+As you can see the orange circles are actually sprockets (not modelled yet) that I will be using to drive my ankles. 
+
+  
+
+At first, I was thinking of having a 2x sprocket reduction, where I have that sprocket drive a sprocket, which creates a reduction, which then drives the knee sprocket, creating a knee reduction, but I realized that would not only be much more complex, it would be much harder to put an encoder and a place for my motor driver as the big space aboe the knee would be taken up by sprockets and chains. And I would have to try and limit myself to this 1x sprocket reduction.
+
+  
+
+  
+
+I tried to replicate the back mounting holes and their locations as best as I could as they are crucual to determining the motors mount position
+
+  
+
+![Pasted picture](journal-media/pasted-b33cceb1bba0154f153f32df7eb7e35f3cb71f7c17bfee1401f95e1fa17e5ac6.png)  
+
+So for now I put a rough sketch of the hip roll and pitch and yaw motors. I have decided what yaw motor to use. Its pretty clear from my isaac lab sims!
+
+  
+
+![Pasted picture](journal-media/pasted-a67f2faf1396118d8e0f6d9be162a095eb73cd9afdd3cc6efa81a16b438ced0e.png)  
+
+So based on my simulation runs for my robot, the hip yaw took at max 50NM of torque! Averaging like 18. The 7010-8 motors I am already using in my ankles can provide just that! So I will be re-using them for my leg's yaw, which is very beneficial as then I can buy the motors literally in bulk and make it cheaper.
+
+  
+
+The system isn't fully done yet, but basically it uses a cross roller bearing or a cheaper bearing option to connect to the hip roll motor up there and it connects to its casing for now I might change that later.
+
+  
+
+![Pasted picture](journal-media/pasted-426013dbfd02acf5abc042db84bd029c1a81184d0eb0274b5e8f172a3251e390.png)  
+
+  
+
+And here is a label of what each motor is if its confusing.
+
+  
+
+![Pasted picture](journal-media/pasted-54129053fce54c0cd51c5493b35d913e7b6f78e11dfaf80e519163bc002c8724.png)
+
+**Total time spent: 3h**
+
+# 2026-10-21: More Upper Leg: Defining the hip motors
+
+Date: 2026-10-21 (Oct 21, 2026, 6:59 PM)
+
+So heres a more refined version. I mirrored the entire thing and made it an actual bipedal. 
+
+  
+
+  
+
+![Pasted picture](journal-media/pasted-e559639bdeed09d9c34398f21b907173bff1b7c8e232ed18c098a6a9836928b7.png)  
+
+  
+
+![Pasted picture](journal-media/pasted-ce60bc30c889791511dc5463f0c376e628adf0d9c78e3a14ea14429823886c29.png)  
+
+I made the oval rod attachments stronger and be more to the edges for more space for the motors. In fact due to limited space for the sprocket which I will calculate in this journal, might want me to move it even farther apart (the oval rods).
+
+  
+
+![Pasted picture](journal-media/pasted-b9e27685579262415f5db2defb19fed44945421b89672049da72fcae3a57467f.png)So thats how my yaw was going to be joined
+
+  
+
+![Pasted picture](journal-media/pasted-5f449aa943f188cf7f4e134605000ec8a2ad1ed9d86c3d4b81a6f0be79f78fee.png)  
+
+Thats roll and pitch, its currently just a rough sketch but I chose the same 1008 motors for these.
+
+  
+
+Why?
+
+  
+
+Because more of the same motor = cheaper whole robot as I buy parts in bulk and I was starting to trust this 10018 motor I bought and if I failed to work with it than my entire robot project will be cooked so I am putting my trust in it. 
+
+  
+
+![Pasted picture](journal-media/pasted-5fab7b1906b8370674e97f373950b62ad8d8c586ed05bd02e076248e7d140094.png)  
+
+The 7010 was being used for my yaw. So currently I'm only using two different types of motors for my bipedal system which is good simplicity.
+
+  
+
+So here is what I chose:
+
+  
+
+So basically, I had a long conversation with chatgpt, where I researched how much torque each type of chain could handle and I settled on #40H chains which were cheap but were in fact lower than the max tension in newtons this motor will output. The operating range of the ANSI 40H chain is in fact less than the max torque this motor can produce. That doesn't mean it will break as it breaks are 3x the max torque the motor can provide. I would be #50chains but they are in fact too big for my aesthetics.
+
+  
+
+Chatgpt was very useful in helping me decide the chain and sprocket values to use
+
+  
+
+![Pasted picture](journal-media/pasted-ebc08443cfc678238deca3b9236c244a720295e978065e3ca288b881afc8350e.png)So here are my constraints: I needed atleast 17mm of space for my chain, its 17mm wide.
+
+**Total time spent: 4h**
+
+# 2026-10-21: more work on upper leg
+
+Date: 2026-10-21 (Oct 21, 2026, 7:18 PM)
+
+So my knee motors were going to be outputting up to 120NM of torque. To make sure my "3D PRINTED PLASTIC CASE BECAUSE IM TOO BROKE FOR ALUMINUM" handle it, I had it support the motor from both sides of the ovals. This had another effect: It made the frame stronger as the ovals were connected side to side. 
+
+The grey things, although I was thinking of 3d printing the covers, I might using long diameter aluminum tubing because I found it for pretty cheap on aliexpress
+
+![Pasted picture](journal-media/pasted-23b8ea5424f2ca7ca728a7c1f95a60a2bec6a91d60c4d83900185124016c243c.png)
+
+![Pasted picture](journal-media/pasted-ffeef0826ac0ca9bf8a71c8f5f1b0cb3f57d6a7ea1f62b4c5497bb6da2fae47d.png)  
+
+  
+
+So I had 17mm space for my chain but not really as it would interfere with the top side. I needed to actually build the chain and edit it later. I'll leave that up to the final design review and continue working on the rest of the robot.
+
+  
+
+![Pasted picture](journal-media/pasted-b96e2092db90fa433eb27446fc9eaa2f2ac8340c38db0c5c44d838a266329b7b.png)  
+
+As you can see in the pic the chain might clash with the aluminum.
+
+  
+
+  
+
+So now I was thinking about my waist.
+
+  
+
+![Pasted picture](journal-media/pasted-900a99ac465a53caeedcc237fd714093209bc92862d7ad941144cce4c11dbcbd.png)  
+
+  
+
+See how I used another one of my 7010 motors!
+
+  
+
+So currently, my ENTIRE leg portion of my robot only uses 2 types of motors!
+
+  
+
+6 10018s, and 6 7010-8s, with another 7010-8 for the waist which is part of the waist.
+
+  
+
+I feel like a genius with these design Ideas. Also according to my simulation report the waist yaw can INDEED handle that 7010 motors torque.
+
+  
+
+Currently I am still thinking of a design for the waist.
+
+  
+
+I cannot use the same 8mm pillow block bearings as the one in my knees and ankles. The joints you see below are supposed to be 3d printed and possible have screws length wise with a nut to make them stronger. 
+
+![Pasted picture](journal-media/pasted-7154ece991047ff7101f5e55aeebd8d33ad52103e7961b1f97fc953e23b5c878.png)
+
+  
+
+After a while of thinking, I was first thinking of having 3 motors, and each motor controls its own joint, but then I look at robots like the unitree H2
+
+  
+
+![Pasted picture](journal-media/pasted-5e2b0ec7ac9e6a43cac5623e7ace5e5fb3d7ce6f1e20784e81fe548757c4a632.png)  
+
+I was wondering how they did it.
+
+  
+
+I realized they did it by using a differential system similar to my ankles. I also realized why it was much better: It added the torques, doubled them in fact, and added another reduction.
+
+  
+
+I couldn't imagine how they did the differential waist system at first but I imagined it after a while.
+
+  
+
+So this time, I was thinking of using cheaper 6010-8 motors. I had initially thought about using these for my ankles, but they were too weak, and I could try using tehmth
+
+![Pasted picture](journal-media/pasted-347f2ccf600e96be9e00ba6bb0d6985ea16761674b813e1bb1e5d1d24a0b1350.png)I kept running deep researches with chatgpt to find better alternatives, but this repeatingly turned out to be a better option. No other motors were comparable in specs and price.
+
+**Total time spent: 3h**
+
+# 2026-10-21: Working more on waist and upper legs
+
+Date: 2026-10-21 (Oct 21, 2026, 9:32 PM)
+
+![Pasted picture](journal-media/pasted-c3ee9dd988052d5dae143f3605f2174879573ac436cad7d2ba40b81b639db704.png)
+
+So here I have done some things to reduce the distance between the left and right leg and added the 10018 motors inside their casings.
+
+  
+
+![Pasted picture](journal-media/pasted-ebaace6a29d35f4ad3a8021e0ae7daea5c703601c81f589d5633143c95b0626d.png)  
+
+What I did allows for the motors to be closer, and at the same time have more space for encoders and motor drivers, there is a lot of space in the center triangle area.
+
+  
+
+Added an attachment adapter from hip pitch to roll which again I was deciding on milling in pieces and screwing them together
+
+  
+
+![Pasted picture](journal-media/pasted-00725106bbec99b250e5b37c478d9b5d6225da0e1db74c61be2c4d44ab17042f.png)  
+
+  
+
+This is my spine. I spent a while thinking about this idea.
+
+  
+
+![Pasted picture](journal-media/pasted-a8c29f83c5fea3b1c7ed75bc9f016ac553a5d2b3588a6a3fc5b194e8baef39ba.png)  
+
+I wanted to make it a V shape, but then I was thinking about how I would design the shoulders and realized it would interfere with the shoulders when I designed that but the current spine was kind of thin. But it was steel, and using chat again to research, I calculated that the steel oval tube would be strong enough to support the robot's sideways weight.
+
+  
+
+The black part was the 12s 3p battery pack that I would be using. I decided on using that much after calculating the amount of current/power required, which also came from my sim, and using that to calculate what size battery pack I would need. I would need max burst current of 200A. These 21700 cells that I'm using could handle 70A continous per cell so I was thinking it would be enough for things like running.
+
+  
+
+![Pasted picture](journal-media/pasted-a09dc2d7cc3c15e540e938272472c7205eb775342fb019a793ceec01112667a5.png)Here on my differential roll/pitch waist system:
+
+  
+
+![Pasted picture](journal-media/pasted-1ddabbfbfb0ba0e4742f13ea4ba5ca6691e1b63324605c349401b81f2c60f053.png)This is a differential system, so the pitch torque and roll torque get multiplied. Without this, my 6010-8 motors would not have had the torque required for such the waist of this robot. Why did I have them point outwards instead of inwards? Well honestly I might have them point inwards but the limitations are the encoder space and the fact that my max angles/degrees  is pretty limited because of how short my rods are. So moving them farther apart by making the motors face outwards by moving them inwards would make the range of motion even more limited. 
+
+  
+
+For my head I head a temporary egg, I was using a FEETECH serial bus servo motor for it which has uart and force control which is good
+
+  
+
+![Pasted picture](journal-media/pasted-0f79b9b40a0b85532301ebb7598427fa5397d5a08be0c36ee2fa8236d9c35532.png)
+
+**Total time spent: 3h**
+
+# 2026-10-21: Making shoulders
+
+Date: 2026-10-21 (Oct 21, 2026, 9:46 PM)
+
+So heres what I was thinking for the shoulders
+
+  
+
+![Pasted picture](journal-media/pasted-4ca20650b2bf139cd0aed22b934445c7db84c4c60f7ceb8c93f8c65c88c7b29e.png)  
+
+I thought of first having a chain drive system. The shoulders I decided on using the same 6010-8 motors.
+
+  
+
+I had done a lot of research with other motors, such as 5650, 6007, 5010, and other stator types, but there were the problems with them: Need to make custom gearboxes, gear ratio systems, adds complexity, and might be more expensive than just the 6010. Though I do admit in my design above I actually have a planetary system i'm planning to put there to multiply the torque as its currently not enough but after that multiplication my robot will literally be able to do pull ups.
+
+Also I'm planning to put the same motor in the shoulders too! this would be even more efficient bulk use of my motors.
+
+  
+
+![Pasted picture](journal-media/pasted-af909b742a6911ea5a29ee26ce11d56bc721882a7688584d5e75787377d71b05.png)
+
+This time without a gearbox though as my shoulder roll doesn't need as much torque as my shoulder pitch unless its going to be working out at the gym with 20lb dumbbells. 
+
+  
+
+I planned to mount/put the electronics here
+
+  
+
+![Pasted picture](journal-media/pasted-9f59b9d59ed5d6854ef5d313465c06ed603660f00923a2838150a733d2d8cf2f.png)
+
+I actually did a lot of research for the shoulders. I thought of using tendon drive, then capstan drive, then chain drive. All of those options would require me to mount the motor in another place, which would require more complex routing and jeopordize the structural frame of the robot and increase the 3d printing load.
+
+**Total time spent: 3h**
+
+# 2026-10-21: Working more on upper body
+
+Date: 2026-10-21 (Oct 21, 2026, 9:55 PM)
+
+For the arms, I hadn't decided yet on what motors to put. In fact I was literally thinking of using the same 6010-8 motors! Maybe it would help my robot do pull ups.
+
+  
+
+![Pasted picture](journal-media/pasted-6c2b15f1112f5a87bef73cc7b392fca28b9641a8763b2bbb809a39dd4cabcecb.png)I actually had an idea in mind:
+
+  
+
+A DC brushed servo but it was DC and made so much noise. 160kg servo hobby motor would work fine, one like this
+
+  
+
+![Pasted picture](journal-media/pasted-365a4957c93b3e470036c37b6ac769500c7026f6c156a818cdc3aba9154eb81f.png)But the brushless option would definetely be better.
+
+  
+
+So I made the head
+
+  
+
+![Pasted picture](journal-media/pasted-5cfd40efda1f1a143d327175610d965620b90e52e2afdb81aa9ac988605d68c5.png)  
+
+  
+
+So this is how I picked what sensors to use in the head:
+
+  
+
+I went searching for different stereo vision cams, and used help of chatgpt to search prices and compare and contrast different ones.
+
+These are the ones i compared
+
+  
+
+| Camera considered | Edits |
+| --- | --- |
+| **Yahboom AI VIEW** | **Selected** at $199 with onboard MX6000 depth processing. |
+| **Luxonis OAK-D Lite** | Main alternative |
+| **Orbbec Gemini 2 / 2L** |  no final selection. |
+| **Intel RealSense D435** |  no final selection. |
+| **Stereolabs ZED Mini** | no final selection. |
+| **Arducam and Sipeed options** |  but no specific model was documented |
+
+So I was stuck between this: Whether or not I wanted on board stereo vision processing. I eventually went it yes for on board processing. This is because it might make my hardware signifcantly cheaper. I have an esp32 p4 and those are very powerful. I can essentially run the entire nueral network on that and the camera processing is done on the camera so no need for expensive hardware like a raspberry pi.
+
+Also there was another motor in there for head pitch.
+
+  
+
+![Pasted picture](journal-media/pasted-9b58ffdb6742c8719ce2a32bcf8c5c90369c1abfb14591df270407b46ed2207d.png)![Pasted picture](journal-media/pasted-02b29a385551d854e4d4b25eef3e56976422ffccd2abe0f688c5b60f5fcb0f06.png)Actually, I was thinking that there is enough space to put the main computer systems in the head. 
+
+  
+
+![Pasted picture](journal-media/pasted-d849151f5152bc67d4723aacbe56fe12d54d5cc522ffaeeb5ceba413ffb6e96b.png)  
+
+Currently I had made a box to put my electronics since I had extra space, but I might not need it, it all depends on the electronics layout which I only have a rough idea of and have not chosen yet.
+
+**Total time spent: 4h**
+
+# 2026-10-22: Improving hip area
+
+Date: 2026-10-22 (Oct 22, 2026, 9:53 PM)
+
+I created much better hip pitch and roll joints. The current aluminum adapters were just drafts and were cantilevered very bad. This new design utilize more surface area and was able to handle the ~2600 newton loads of the robot which I estimated would be at the hip.
+
+  
+
+![Pasted picture](journal-media/pasted-d62cbcd763f6823960ec07426f605a2182a089e0438cf779c9b9070d2309bf64.png)I though a lot about how I would connect the hip joints.
+
+  
+
+At first, I was thinking of having the leg connect to the casing of the hip roll motor, but then after thinking in my head HOW I was going to design the motor output to move the entire casing, I gave up on that as it would be much more complex and fragile with the parts I am using.
+
+  
+
+Also Instead of being canti levered, its connected from both ends for more strength
+
+  
+
+![Pasted picture](journal-media/pasted-37e6a3596a6df26e07decb42ef37a1ed833196320e3d0806c4ace5ae0cdf9644.png)  
+
+I also improved the yaw adapter to use less metal. The two plates would be screwed together and have space for a bearing
+
+  
+
+![Pasted picture](journal-media/pasted-8285b3538e8b0190e003b8f829ec7bdbb1cb20b1d78ff01cc3cb06dfa0688d8f.png)  
+
+I was working on the elbows now, and decided to use the 160kg cheap brushed dc motors I talked about earlier for them.
+
+  
+
+![Pasted picture](journal-media/pasted-ba8fa522d8f2c6b84ac8f7e41a160f06f5a96afac366810fb669d8eeeea4fc67.png)Now, I needed to make the forearm and the hands.
+
+  
+
+For the hands, I thought of using an already established hand as there are many open source ones I can use.
+
+  
+
+I used chatgpt to research what hands to use. After some comparison with different prices and types of arm architectures, I chose the **Pollen Robotics AmazingHand. This hand is not cadded by me and is imported.** 
+
+**![Pasted picture](journal-media/pasted-1bf66f91b2d2cddbde293756dc4c0a9dd7860a002022eb472189f9506584eca8.png)  
+**
+
+Its pretty cheap at around 100 dollars per hand to make. It has 4 fingers.
+
+  
+
+For the wrist I have 2 joints but not actually added motors to them yet.
+
+I'll do that later. I wanna make the casings so the robot looks good now.
+
+**Total time spent: 4h**
+
+# 2026-10-22: Making casings for the robot
+
+Date: 2026-10-22 (Oct 22, 2026, 10:02 PM)
+
+Made the casings for my torso, pelvis, and arms. The hands already came with them so I didn't make anything for that.
+
+  
+
+![Pasted picture](journal-media/pasted-2f0187c2b471b3b8af317fe824f877d0e106c0b04d2ed5911b1c49ddcad44f7a.png)The casings restricted some, not all of the freedom of movement of the arm, but I actually wanted that, because of a key design detail:
+
+I wasn't planning to have output encoders on my motors. 
+
+![Pasted picture](journal-media/pasted-27c067fea0062d0082074867cd52d87f584938e737ae0a31ae1bef59928523f2.png)
+
+Thats crucial because then I can use the limits that I KNOW to home the arm myself and figure out its position relative to its encoder as the only encoders will be the motor's FOC encoder. Adding a 360 degree single rotation encoder is a lot more complex especially since I haven't had an easy time testing out magneting encoders so I'm trying to limit them as much as possible. The casings give me a known limit to my freedom or rotation.
+
+  
+
+![Pasted picture](journal-media/pasted-af713c1009f75b9283a71307f7fa0e654b8c633e17ba0e88991e16d3406114bf.png)  
+
+  
+
+And also because my 3d printer couldn't print the whole thing it was in pieces and supposed to be attached together.
+
+Same goes for the waist which was in two pieces.
+
+  
+
+![Pasted picture](journal-media/pasted-ffe5f43c0a63d9fa57ab02e1d85e90c625206f679e076ec0da2de196f3421a24.png)I am still working on casings for the legs.
+
+**Total time spent: 4h**
