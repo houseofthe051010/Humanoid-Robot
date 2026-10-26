@@ -1,0 +1,433 @@
+{
+  "part": "C28_waist_front_reinforced_holder",
+  "attempt": "final02",
+  "candidate_count": 105,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Black_rotor_can_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (10)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (11)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (12)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (13)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (14)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (15)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (16)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (17)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (18)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (19)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (20)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (21)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (22)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (23)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (24)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (25)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (26)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (27)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (9)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Front_central_shaft_boss_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Front_rotor_plate_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Mount_boss_and_4p2_bore_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Mount_boss_and_4p2_bore_EST (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Rear_bearing_hub_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Rear_stator_ring_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Stator_mount_spoke_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_pitch_REFERENCE/Stator_mount_spoke_EST (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Black_rotor_can_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (19)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (20)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (21)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (22)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (23)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_DJI10018_Hip_roll_REFERENCE/Rear_stator_ring_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H02_Hip_pitch_roll_bearing_REFERENCES/Pitch_40x52x7_-34",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H02_Hip_pitch_roll_bearing_REFERENCES/Pitch_40x52x7_21",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H05_DJI10018_pitch_gearbox_shell_ESTIMATE/H05_pitch_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H06_Roll_tube_recessed_endcaps/H06_roll_endcap_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H07_Pitch_tube_recessed_endcaps/H07_pitch_conical_rear_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H07_Pitch_tube_recessed_endcaps/H07_pitch_front_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H08_Roll_61810_bearing_references/Roll_50x65x7_-36",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_Q02_CNC_yaw_to_roll_cradle/Left_Q02_CNC_yaw_to_roll_cradle_actual_yaw_locator_relief",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_Q03_CNC_roll_to_pitch_fork/Left_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Left_hip_roll_front_cap/C27_Left_hip_roll_front_cap_cosmetic_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_leg_H01_roll_aluminum_tube_110OD_106ID/H01_roll_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Black_rotor_can_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (10)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (11)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (12)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (13)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (14)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (15)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (16)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (17)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (18)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (19)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (20)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (21)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (22)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (23)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (24)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (25)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (26)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (27)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Copper_winding_visual_EST (9)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Front_central_shaft_boss_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Front_rotor_plate_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Mount_boss_and_4p2_bore_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Mount_boss_and_4p2_bore_EST (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Rear_bearing_hub_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Rear_stator_ring_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Stator_mount_spoke_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_pitch_REFERENCE/Stator_mount_spoke_EST (1)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Black_rotor_can_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (19)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (20)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (21)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (22)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Copper_winding_visual_EST (23)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_DJI10018_Hip_roll_REFERENCE/Rear_stator_ring_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H02_Hip_pitch_roll_bearing_REFERENCES/Pitch_40x52x7_-34",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H02_Hip_pitch_roll_bearing_REFERENCES/Pitch_40x52x7_21",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H05_DJI10018_pitch_gearbox_shell_ESTIMATE/H05_pitch_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H06_Roll_tube_recessed_endcaps/H06_roll_endcap_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H07_Pitch_tube_recessed_endcaps/H07_pitch_conical_rear_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H07_Pitch_tube_recessed_endcaps/H07_pitch_front_endcap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_H08_Roll_61810_bearing_references/Roll_50x65x7_-36",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_Q02_CNC_yaw_to_roll_cradle/Right_Q02_CNC_yaw_to_roll_cradle_actual_yaw_locator_relief",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_Q03_CNC_roll_to_pitch_fork/Right_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Right_hip_roll_front_cap/C27_Right_hip_roll_front_cap_cosmetic_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Right_leg_H01_roll_aluminum_tube_110OD_106ID/H01_roll_110OD_106ID_tube",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W01_GWK7010_Waist_yaw_REFERENCE (1)/GWK7010_vendor_fixed_waist_yaw",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W04_PA12CF_fixed_yaw_mount (1)/W04_exact_scalloped_fixed_mount",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W05_PA12CF_lower_pitch_base (1)/GWK7010_vendor_output_MOVING",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W05_PA12CF_lower_pitch_base (1)/W05_lower_pitch_base_with_30deg_rod_clearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W13_fixed_motor_M3_correct_flange_REFERENCES (1)/M3_fixed_flange_reference (4)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W13_fixed_motor_M3_correct_flange_REFERENCES (1)/M3_fixed_flange_reference (5)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W13_fixed_motor_M3_correct_flange_REFERENCES (1)/M3_fixed_flange_reference (6)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W13_fixed_motor_M3_correct_flange_REFERENCES (1)/M3_fixed_flange_reference (7)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W14_casing_M4_bolt_REFERENCES (1)/M4_shell_mount_reference (2)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W14_casing_M4_bolt_REFERENCES (1)/M4_shell_mount_reference (3)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W15_output_bolt_REFERENCES (1)/M3_output_reference (3)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W15_output_bolt_REFERENCES (1)/M3_output_reference (4)",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "W15_output_bolt_REFERENCES (1)/M3_output_reference (5)",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "part": "C28_Right_shoe_sole_rim",
+    "bounds_native_mm": [
+      [
+        60.90932944613358,
+        -164.72536443093122,
+        -5.999999999999998
+      ],
+      [
+        179.0906705538664,
+        94.00000000000003,
+        -3.0
+      ]
+    ],
+    "volume_mm3": 6562.3151062273155,
+    "final_bottom_Z_mm": -6,
+    "original_bottom_Z_mm": -10,
+    "added_volume_outside_previous_geometry_mm3": 0.0,
+    "monotonic_clearance_preservation": true
+  },
+  {
+    "part": "C28_Left_shoe_sole_rim",
+    "bounds_native_mm": [
+      [
+        -179.0906705538664,
+        -164.72536443093122,
+        -6.000000000000001
+      ],
+      [
+        -60.90932944613358,
+        94.00000000000003,
+        -3.0000000000000018
+      ]
+    ],
+    "volume_mm3": 6563.601417794391,
+    "final_bottom_Z_mm": -6,
+    "original_bottom_Z_mm": -10,
+    "added_volume_outside_previous_geometry_mm3": 0.0,
+    "monotonic_clearance_preservation": true
+  }
+]

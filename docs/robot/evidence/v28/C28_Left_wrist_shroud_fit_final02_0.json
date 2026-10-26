@@ -1,0 +1,29 @@
+{
+  "part": "C28_Left_wrist_shroud",
+  "attempt": "final02",
+  "candidate_count": 4,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "C27_Left_forearm_front/C27_Left_forearm_front_mirrored_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Left_forearm_rear/C27_Left_forearm_rear_mirrored_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "A25_L_forearm_fork_to_wrist/A26_L_forearm_fork_serviceable_wrist",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Hand26_L_forearm_wrist_adapter/Hand26_18mm_wrist_adapter",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

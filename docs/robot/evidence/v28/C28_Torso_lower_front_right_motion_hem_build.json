@@ -1,0 +1,47 @@
+{
+  "part": "C28_Torso_lower_front_right_motion_hem",
+  "source_hidden_retained": "C27_Torso_lower_front_right",
+  "source_body": "C27_Torso_lower_front_right_print_skin",
+  "world_bounds_mm": [
+    [
+      0.24999999999583383,
+      -31.628621387643836,
+      928.518248125581
+    ],
+    [
+      109.64995076378896,
+      27.749999999999993,
+      1095.8
+    ]
+  ],
+  "volume_mm3": 56956.251186424146,
+  "nominal_wall_inherited_mm": 2.5,
+  "conservative_fixed_waist_AABB_clearance_mm": 2,
+  "clearance_envelope_world_mm": [
+    [
+      -95.65080690074826,
+      -44.40905208256791,
+      761.5210190773662
+    ],
+    [
+      95.65080690074826,
+      99.5208215102578,
+      904.0
+    ]
+  ],
+  "cuts": [
+    {
+      "pitch_deg": 20,
+      "roll_deg": 0,
+      "yaw_deg": 0,
+      "removed_mm3": 4962.463256041218
+    },
+    {
+      "pitch_deg": 0,
+      "roll_deg": 30,
+      "yaw_deg": 0,
+      "removed_mm3": 2076.2546898297705
+    }
+  ],
+  "original_structural_geometry_modified": false
+}

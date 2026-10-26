@@ -1,0 +1,37 @@
+{
+  "checked_epoch": 1790803929.2752743,
+  "documents": [
+    {
+      "name": "GWK6010-8 3D Model.f3d ",
+      "modified": false,
+      "data_file_id": "urn:adsk.wipprod:dm.lineage:9ufP6d9_SfCRKURtMcg16A",
+      "version": 1,
+      "root_occurrences": 0,
+      "native_joint_count": 0
+    },
+    {
+      "name": "Humanoid_complete_v29",
+      "modified": false,
+      "data_file_id": "urn:adsk.wipprod:dm.lineage:rJYaX75CRoKLryXt6Q5RNQ",
+      "version": 1,
+      "root_occurrences": 11,
+      "native_joint_count": 3
+    },
+    {
+      "name": "Servo_RDS51150_reference",
+      "modified": true,
+      "data_file_id": null,
+      "version": null,
+      "root_occurrences": 0,
+      "native_joint_count": 0
+    },
+    {
+      "name": "Humanoid_complete_v29_revised",
+      "modified": false,
+      "data_file_id": "urn:adsk.wipprod:dm.lineage:WTKBF_3ORCqcrKBaU4opCw",
+      "version": 1,
+      "root_occurrences": 42,
+      "native_joint_count": 47
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "joint": "WJ00_waist_yaw",
+    "command_deg": -20,
+    "actual_deg": -20.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 8.881784197001252e-16,
+    "hits": []
+  },
+  {
+    "joint": "WJ00_waist_yaw",
+    "command_deg": 20,
+    "actual_deg": 20.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 3.552713678800501e-15,
+    "hits": []
+  },
+  {
+    "joint": "Left_Hip_yaw",
+    "command_deg": -30,
+    "actual_deg": -29.999999999999996,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 3.552713678800501e-15,
+    "hits": []
+  },
+  {
+    "joint": "Left_Hip_yaw",
+    "command_deg": 30,
+    "actual_deg": 29.999999999999996,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 3.552713678800501e-15,
+    "hits": []
+  },
+  {
+    "joint": "Right_Hip_yaw",
+    "command_deg": -30,
+    "actual_deg": -29.999999999999996,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 3.552713678800501e-15,
+    "hits": []
+  },
+  {
+    "joint": "Right_Hip_yaw",
+    "command_deg": 30,
+    "actual_deg": 29.999999999999996,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 1.4210854715202004e-14,
+    "hits": []
+  },
+  {
+    "joint": "V24_L_shoulder_pitch",
+    "command_deg": -45,
+    "actual_deg": -45.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 6.217248937900877e-15,
+    "hits": []
+  },
+  {
+    "joint": "V24_L_shoulder_pitch",
+    "command_deg": 90,
+    "actual_deg": 90.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 3.552713678800501e-15,
+    "hits": []
+  },
+  {
+    "joint": "V24_R_shoulder_pitch",
+    "command_deg": -45,
+    "actual_deg": -45.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": []
+  },
+  {
+    "joint": "V24_R_shoulder_pitch",
+    "command_deg": 90,
+    "actual_deg": 90.0,
+    "solid_intersection_tests": 0,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": []
+  },
+  {
+    "joint": "V24_L_shoulder_roll",
+    "command_deg": -20,
+    "actual_deg": -20.0,
+    "solid_intersection_tests": 9,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": [
+      {
+        "case": "waist_L",
+        "part": "S36_waist_L_removable_vented_lid",
+        "other_path": "left_forearm:1+A29_L_forearm_dual_servo_output_fork:1",
+        "other_body": "A29_L_forearm_dual_servo_output_fork",
+        "mm3": 1024.2139820132873
+      },
+      {
+        "case": "waist_L",
+        "part": "S36_waist_L_SEPARATE_enclosure",
+        "other_path": "left_forearm:1+A29_L_forearm_dual_servo_output_fork:1",
+        "other_body": "A29_L_forearm_dual_servo_output_fork",
+        "mm3": 1504.112724869315
+      }
+    ]
+  },
+  {
+    "joint": "V24_L_shoulder_roll",
+    "command_deg": 60,
+    "actual_deg": 59.99999999999999,
+    "solid_intersection_tests": 2,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": []
+  },
+  {
+    "joint": "V24_R_shoulder_roll",
+    "command_deg": -20,
+    "actual_deg": -20.0,
+    "solid_intersection_tests": 2,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": []
+  },
+  {
+    "joint": "V24_R_shoulder_roll",
+    "command_deg": 60,
+    "actual_deg": 21.0,
+    "solid_intersection_tests": 8,
+    "max_parent_pose_error": 1.4654943925052066e-14,
+    "hits": [
+      {
+        "case": "waist_R",
+        "part": "S36_waist_R_removable_vented_lid",
+        "other_path": "right_forearm:1+A29_R_forearm_dual_servo_output_fork:1",
+        "other_body": "A29_R_forearm_dual_servo_output_fork",
+        "mm3": 100.40437494508156
+      },
+      {
+        "case": "waist_R",
+        "part": "S36_waist_R_SEPARATE_enclosure",
+        "other_path": "right_forearm:1+A29_R_forearm_dual_servo_output_fork:1",
+        "other_body": "A29_R_forearm_dual_servo_output_fork",
+        "mm3": 1823.938655645777
+      }
+    ]
+  },
+  {
+    "joint": "WJ01_lower_waist_pitch",
+    "command_deg": -10,
+    "actual_deg": -10.0,
+    "solid_intersection_tests": 2,
+    "max_parent_pose_error": 2.842170943040401e-14,
+    "hits": []
+  },
+  {
+    "joint": "WJ01_lower_waist_pitch",
+    "command_deg": 10,
+    "actual_deg": 10.0,
+    "solid_intersection_tests": 2,
+    "max_parent_pose_error": 5.684341886080802e-14,
+    "hits": []
+  },
+  {
+    "joint": "WJ02_upper_waist_roll",
+    "command_deg": -10,
+    "actual_deg": -10.0,
+    "solid_intersection_tests": 5,
+    "max_parent_pose_error": 8.526512829121202e-14,
+    "hits": []
+  },
+  {
+    "joint": "WJ02_upper_waist_roll",
+    "command_deg": 10,
+    "actual_deg": 10.0,
+    "solid_intersection_tests": 5,
+    "max_parent_pose_error": 8.526512829121202e-14,
+    "hits": []
+  }
+]

@@ -1,0 +1,1 @@
+V30 historical checkpoint. The user rejected its separate waist cups and compound-curved hip adapters on October 1, 2026. Those parts are superseded by v31. Earlier verification does not imply user acceptance.

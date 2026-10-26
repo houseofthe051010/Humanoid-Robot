@@ -1,0 +1,25 @@
+id,assembly,item,quantity_per_leg,unit,specification,material,cad_source,status,ownership
+UL-001,Thigh,Continuous oval rail,2,each,18 x10 mm oval;233.8 mm cut length;wall inherited 0.55 mm assumption,Steel,N06 L/R,V11 shorter rail;also LL-042;measure wall before structural use,Not audited
+UL-002,Knee drive,DJI10018 77KV motor,1,each,105 mm OD x30 mm body estimated;rear boss and40x66 mount pattern estimated,Purchased motor,R01,Same motor as lower-leg BOM reference;now placed on thigh;do not double count,Not audited
+UL-003,Knee drive,Printed motor-to-rail shell,1,each,8 mm mounting web;two integrated rail saddle halves;4 estimated M4 motor clearances,PA-CF grade TBD,T01,Provisional CAD;not strength qualified,Not manufactured
+UL-004,Knee drive,Printed lower clamp cap,1,each,28 mm long;two M4 clamp holes and motor screw access,PA-CF grade TBD,T02 Lower,Provisional CAD;preload and slip check required,Not manufactured
+UL-005,Knee drive,Printed upper clamp cap,1,each,28 mm long;two M4 clamp holes and motor screw access,PA-CF grade TBD,T02 Upper,Provisional CAD;preload and slip check required,Not manufactured
+UL-006,Knee drive,M4 socket clamp screw,4,each,M4x25 nominal;no thread geometry or washer allowance finalized,Steel grade TBD,T03,Envelope only;verify clamping stack and thread protrusion,Not audited
+UL-007,Knee drive,M4 clamp nut,4,each,M4 nominal nut envelope;retention strategy TBD,Steel grade TBD,T03,Envelope only;locking and washers unresolved,Not audited
+UL-008,Knee drive,M4 motor mounting screw,4,each,M4x12 provisional;4 mm nominal boss engagement,Steel grade TBD,T03,Do not order from this estimate;actual motor thread and depth unknown,Not audited
+UL-009,Hip yaw,GWK7010 motor,1,each,Same vendor geometry as ankle motor;vertical-axis placement,Purchased motor,T04,Reference motor only;structural bearings undecided;40-50Nm peak untested,Not audited
+UL-010,Hip,Top crosshead,1,reference,108 x44 x8 mm envelope,Unselected,T05,Reference only;not manufacturing or mass BOM,Not selected
+UL-011,Hip,Half-pelvis block,1,reference,168 x123 x32 mm envelope,Unselected,T06,Reference only;not manufacturing or mass BOM,Not selected
+UL-012,Hip pitch,Motor envelope,1,reference,100 mm diameter x40 mm;user-specified25 degree tilt,Unselected,T07,Motor model undecided;not procurement BOM,Not selected
+UL-013,Knee drive,Internal planetary,TBD,set,6:1 or8:1;gear geometry and bearings TBD,7075 candidate,None,Future design;not modeled,Not selected
+UL-014,Knee drive,Primary chain and sprockets,TBD,set,2:1 or2.5:1;reference PCD40 and100 mm for2.5,7075 or6061 orcommercial candidates,T08 sketches,Only circles;pitch and tooth counts unresolved,Not selected
+UL-015,Knee drive,Final chain and sprockets,TBD,set,1:1;reference PCD70 and70 mm,7075 or6061 orcommercial candidates,T08 sketches,Only circles;no chains or hubs modeled,Not selected
+UL-016,Knee drive,Intermediate shaft bearings and supports,TBD,set,Size span and loads unresolved,Unselected,None,Future design,Not selected
+UL-017,Sensing,Knee drive encoder,TBD,each,Intermediate shaft andor final knee placement unresolved,Unselected,T08 hidden encoder keepout,Only5 mm axial by28 mm diameter rear motor space reserved,Not selected
+UL-018,Hip,Hip structural bearing support,TBD,set,Independent bearing versus motor-bearing support undecided,Unselected,None,Future load-path calculation,Not selected
+UL-019,Hip roll,Motor envelope,1,reference,90 mm diameter x36 mm;fore-aft Y axis,Unselected,T09,Separate v11 roll reference;not procurement BOM,Not selected
+UL-020,Thigh shell,Curved front fairing,1,each,Lofted motor-contoured panel;3.2 mm nominal section offset;upper vents,Printed plastic grade TBD,T10,V11 geometric prototype;print fit and normal wall thickness need validation,Not manufactured
+UL-021,Thigh shell,Curved rear fairing,1,each,Removable rear panel;0.8 mm seam;internal rail locating webs,Printed plastic grade TBD,T11,V11 geometric prototype;not structural load-bearing qualification,Not manufactured
+UL-022,Thigh shell,Circular motor service cover,1,each,122 mm OD x3 mm;30 mm center opening;4 M3 clearances,Printed plastic grade TBD,T12,Cosmetic access cover;not a motor or gearbox,Not manufactured
+UL-023,Thigh shell,Panel joining screws and nuts,4,set,M3;nominal25 mm screw arrangement;nut retention and final stack TBD,Steel grade TBD,T10/T11 holes only,Unmodeled hardware;verify print fit before purchasing,Not selected
+UL-024,Thigh shell,Motor service cover screws,4,each,M3;length and insert or screw retention TBD,Steel grade TBD,T12 holes only,Unmodeled hardware;pilot holes provisional,Not selected

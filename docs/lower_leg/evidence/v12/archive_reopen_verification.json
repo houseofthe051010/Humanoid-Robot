@@ -1,0 +1,35 @@
+{
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v12\\deliverables\\Bilateral_legs_v12.f3d",
+  "groups": 2,
+  "legs": {
+    "Right": {
+      "components": 100,
+      "joints": 97,
+      "invalid_joints": [],
+      "zero_or_nonsolid": [],
+      "knee_attachment_follow_errors": {
+        "P03_Circular_motor_gearbox_case": 0.0,
+        "Q03_CNC_roll_to_pitch_fork": 0.0,
+        "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0
+      }
+    },
+    "Left": {
+      "components": 100,
+      "joints": 97,
+      "invalid_joints": [],
+      "zero_or_nonsolid": [],
+      "knee_attachment_follow_errors": {
+        "P03_Circular_motor_gearbox_case": 0.0,
+        "Q03_CNC_roll_to_pitch_fork": 0.0,
+        "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0
+      }
+    }
+  },
+  "parametric_source": {
+    "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v12\\deliverables\\Leg_gearbox_hip_v12_parametric.f3d",
+    "components": 112,
+    "joints": 109,
+    "timeline_features": 2206,
+    "invalid_joints": []
+  }
+}

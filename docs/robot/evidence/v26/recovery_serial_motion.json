@@ -1,0 +1,1187 @@
+{
+  "native_tests": [
+    {
+      "joint": "Left_Hip_pitch",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Left_Q03_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.927791673660977e-14,
+          "matrix_motion": 13.429807007623218,
+          "pass": true
+        },
+        {
+          "part": "Left_Q02_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.927791673660977e-14,
+          "matrix_motion": 13.429807007623209,
+          "pass": true
+        },
+        {
+          "part": "Left_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.927791673660977e-14,
+          "matrix_motion": 13.429807007623221,
+          "pass": true
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.927791673660977e-14,
+          "matrix_motion": 13.42980700762322,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.927791673660977e-14,
+          "matrix_motion": 13.42980700762322,
+          "pass": true
+        },
+        {
+          "part": "Left_T06_Pelvis",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Left_DJI10018_Hip_pitch",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9063077870366548,
+        0.0,
+        0.42261826174068917
+      ],
+      "origin_mm": [
+        -19.16561935407359,
+        23.343134,
+        837.4898569830914
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 1.0569323194431486e-13,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.0569323194431486e-13,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Hip_pitch.json",
+      "fresh_started_epoch": 1790752136.2822113,
+      "fresh_finished_epoch": 1790752136.6474843
+    },
+    {
+      "joint": "Left_Hip_roll",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Left_Q02_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.950795411990839e-14,
+          "matrix_motion": 12.888627458138565,
+          "pass": true
+        },
+        {
+          "part": "Left_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.906386491005833e-14,
+          "matrix_motion": 12.888627458138577,
+          "pass": true
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.906386491005833e-14,
+          "matrix_motion": 12.888627458138576,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.906386491005833e-14,
+          "matrix_motion": 12.888627458138577,
+          "pass": true
+        },
+        {
+          "part": "Left_Q03_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Left_DJI10018_Hip_roll",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -5.2475385148298433e-17,
+        -1.0000000000000002,
+        -1.2375604525457043e-33
+      ],
+      "origin_mm": [
+        -120.0,
+        -9.156866000000077,
+        753.5999999999995
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 2.7200464103316335e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 2.7200464103316335e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Hip_roll.json",
+      "fresh_started_epoch": 1790752173.6561508,
+      "fresh_finished_epoch": 1790752174.096373
+    },
+    {
+      "joint": "Left_Hip_yaw",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Left_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 7.104167183772965e-14,
+          "matrix_motion": 2.2219628439503833,
+          "pass": true
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 7.104167183772965e-14,
+          "matrix_motion": 2.2219628439503833,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 7.104167183772967e-14,
+          "matrix_motion": 2.2219628439503833,
+          "pass": true
+        },
+        {
+          "part": "Left_Q02_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Left_V26_Hip_yaw_output",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -4.440892098500626e-16,
+        2.3043128111541826e-18,
+        -0.9999999999999993
+      ],
+      "origin_mm": [
+        -119.99999999999999,
+        23.343133999999974,
+        681.4999999999995
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 7.119756667163172e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 7.119756667163172e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Hip_yaw.json",
+      "fresh_started_epoch": 1790752175.657764,
+      "fresh_finished_epoch": 1790752176.092629
+    },
+    {
+      "joint": "Left_Knee_pitch",
+      "degrees": 20,
+      "parts": [
+        {
+          "part": "Left_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.7763568394002505e-14,
+          "matrix_motion": 14.868163695021629,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.7763568394002505e-14,
+          "matrix_motion": 14.868163695021629,
+          "pass": true
+        },
+        {
+          "part": "Left_N04_Knee_pillow_block_L",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Left_T06_Pelvis",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999993,
+        -2.775557561562889e-17,
+        -2.488586309021843e-16
+      ],
+      "origin_mm": [
+        -110.0,
+        23.343134,
+        430.6
+      ],
+      "measured_angle_deg": 20.0,
+      "reset_error_cm": 1.243449787580176e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.243449787580176e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Knee_pitch.json",
+      "fresh_started_epoch": 1790752177.1003067,
+      "fresh_finished_epoch": 1790752177.5046608
+    },
+    {
+      "joint": "Left_Ankle_pitch",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Left_A01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.190292640122607e-15,
+          "matrix_motion": 0.16698163990174072,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 0.10534009782930337,
+          "matrix_motion": 0.17209071351182523,
+          "pass": false
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999993,
+        -2.9779575658118485e-17,
+        -2.5441952531589963e-16
+      ],
+      "origin_mm": [
+        -120.0,
+        11.675,
+        31.60000000000001
+      ],
+      "measured_angle_deg": 3.0000000000000004,
+      "reset_error_cm": 6.106226635438361e-15,
+      "pass": false,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 6.106226635438361e-15,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Ankle_pitch.json",
+      "fresh_started_epoch": 1790752536.7143252,
+      "fresh_finished_epoch": 1790752537.0078254
+    },
+    {
+      "joint": "Left_Ankle_roll",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 0.16546094780368756,
+          "matrix_motion": 0.7671345407520753,
+          "pass": false
+        },
+        {
+          "part": "Left_A01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.2117643995510638,
+          "matrix_motion": 0.2117643995510638,
+          "pass": false
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -4.916569439272758e-19,
+        -0.9999924062955151,
+        0.003897095239381692
+      ],
+      "origin_mm": [
+        -120.0,
+        11.608749380930512,
+        14.600129092976243
+      ],
+      "measured_angle_deg": 3.000000000000014,
+      "reset_error_cm": 0.31197835378656974,
+      "pass": false,
+      "anatomical_angles_restored": false,
+      "post_cleanup_angle_changes_deg": {
+        "Left_Ankle_pitch": [
+          0.0,
+          -5.773819435460146
+        ]
+      },
+      "post_cleanup_matrix_error_cm": 0.31197835378656974,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Left_Ankle_roll.json",
+      "fresh_started_epoch": 1790752571.511334,
+      "fresh_finished_epoch": 1790752571.8023314
+    },
+    {
+      "joint": "Right_Hip_pitch",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Right_Q03_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.9539925233402755e-14,
+          "matrix_motion": 13.503103366466384,
+          "pass": true
+        },
+        {
+          "part": "Right_Q02_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.684341886080802e-14,
+          "matrix_motion": 13.429717227174867,
+          "pass": true
+        },
+        {
+          "part": "Right_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.3100631690576847e-14,
+          "matrix_motion": 13.429717227174875,
+          "pass": true
+        },
+        {
+          "part": "Right_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 4.674038933671909e-14,
+          "matrix_motion": 13.429754304108922,
+          "pass": true
+        },
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 4.7363155064594764e-14,
+          "matrix_motion": 13.503553510743323,
+          "pass": true
+        },
+        {
+          "part": "Right_T06_Pelvis",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Right_DJI10018_Hip_pitch",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9063077870366534,
+        5.4550458331696805e-05,
+        -0.4226182582200768
+      ],
+      "origin_mm": [
+        19.165619354073602,
+        23.290613722959318,
+        837.4898535935013
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 2.676813848703774e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 2.676813848703774e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Right_Hip_pitch.json",
+      "fresh_started_epoch": 1790752178.4903767,
+      "fresh_finished_epoch": 1790752178.9902375
+    },
+    {
+      "joint": "Right_Hip_roll",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Right_Q02_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.886579864025407e-14,
+          "matrix_motion": 12.888627458138581,
+          "pass": true
+        },
+        {
+          "part": "Right_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.1316282072803006e-14,
+          "matrix_motion": 12.88862745813859,
+          "pass": true
+        },
+        {
+          "part": "Right_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.1316282072803006e-14,
+          "matrix_motion": 12.888575074427282,
+          "pass": true
+        },
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.1530333899354446e-14,
+          "matrix_motion": 12.96011899668585,
+          "pass": true
+        },
+        {
+          "part": "Right_Q03_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Right_DJI10018_Hip_roll",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -5.458799317760577e-17,
+        0.9999999916695146,
+        0.00012907738085112
+      ],
+      "origin_mm": [
+        120.00000000000006,
+        -9.198557723279324,
+        753.5958022943747
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 3.7192471324942744e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 3.7192471324942744e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Right_Hip_roll.json",
+      "fresh_started_epoch": 1790752179.9950795,
+      "fresh_finished_epoch": 1790752180.468294
+    },
+    {
+      "joint": "Right_Hip_yaw",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "Right_N04_Knee_pillow_block_L",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.9999735374753858e-14,
+          "matrix_motion": 2.221962825440356,
+          "pass": true
+        },
+        {
+          "part": "Right_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.218048215738236e-15,
+          "matrix_motion": 2.221878386133581,
+          "pass": true
+        },
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 4.829470157119431e-15,
+          "matrix_motion": 2.147423936315107,
+          "pass": true
+        },
+        {
+          "part": "Right_Q02_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Right_V26_Hip_yaw_output",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -3.347792876430193e-17,
+        -0.0001290773808669259,
+        0.9999999916695141
+      ],
+      "origin_mm": [
+        120.00000000000009,
+        23.3107484851403,
+        681.4999979098809
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 1.0602629885170245e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.0602629885170245e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Right_Hip_yaw.json",
+      "fresh_started_epoch": 1790752181.5618076,
+      "fresh_finished_epoch": 1790752182.016862
+    },
+    {
+      "joint": "Right_Knee_pitch",
+      "degrees": 20,
+      "parts": [
+        {
+          "part": "Right_S01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.6645352591003757e-14,
+          "matrix_motion": 14.868163695021625,
+          "pass": true
+        },
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.6645352591003757e-14,
+          "matrix_motion": 15.123983737159818,
+          "pass": true
+        },
+        {
+          "part": "Right_N04_Knee_pillow_block_L",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Right_T06_Pelvis",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999991,
+        -1.2207188346254616e-17,
+        -2.980932213588486e-16
+      ],
+      "origin_mm": [
+        120.0,
+        23.343134,
+        430.6
+      ],
+      "measured_angle_deg": 20.0,
+      "reset_error_cm": 2.042810365310288e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 2.042810365310288e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_Right_Knee_pitch.json",
+      "fresh_started_epoch": 1790752183.0232542,
+      "fresh_finished_epoch": 1790752183.454066
+    },
+    {
+      "joint": "WJ00_waist_yaw",
+      "degrees": 10,
+      "parts": [
+        {
+          "part": "W08_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.661338147750939e-16,
+          "matrix_motion": 0.4053492680134969,
+          "pass": true
+        },
+        {
+          "part": "U01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 6.661338147750939e-16,
+          "matrix_motion": 0.4053492680134969,
+          "pass": true
+        },
+        {
+          "part": "W01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_mm": [
+        0.0,
+        23.343134,
+        899.0
+      ],
+      "measured_angle_deg": 10.0,
+      "reset_error_cm": 1.1476419074839894e-15,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.1476419074839894e-15,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_WJ00_waist_yaw.json",
+      "fresh_started_epoch": 1790752209.6835787,
+      "fresh_finished_epoch": 1790752210.0882573
+    },
+    {
+      "joint": "WJ01_lower_waist_pitch",
+      "degrees": 5,
+      "parts": [
+        {
+          "part": "W08_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.222508956434258e-13,
+          "matrix_motion": 8.097733374714018,
+          "pass": true
+        },
+        {
+          "part": "U01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.222508956434258e-13,
+          "matrix_motion": 8.097733374714018,
+          "pass": true
+        },
+        {
+          "part": "W05_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999997,
+        3.6265595827635725e-19,
+        1.3877787807814457e-17
+      ],
+      "origin_mm": [
+        -1.418896888349063e-14,
+        48.343134,
+        926.9999999999999
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 5.0,
+      "reset_error_cm": 1.6440182548649318e-11,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.6440182548649318e-11,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_WJ01_lower_waist_pitch.json",
+      "fresh_started_epoch": 1790753354.0934718,
+      "fresh_finished_epoch": 1790753354.5752556
+    },
+    {
+      "joint": "V24_L_shoulder_pitch",
+      "degrees": 15,
+      "parts": [
+        {
+          "part": "S24_L_upper_arm",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.241851231905457e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "A25_L_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.241851231905457e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "Hand26_L_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.241851231905457e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "S25_L_GWK6010_pitch_stator",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999997,
+        3.6265595827635725e-19,
+        1.3877787807814457e-17
+      ],
+      "origin_mm": [
+        -196.99999999999994,
+        28.000000000000007,
+        1325.3634313599996
+      ],
+      "measured_angle_deg": 14.999999999999998,
+      "reset_error_cm": 1.1723955140041653e-13,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.1723955140041653e-13,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V24_L_shoulder_pitch.json",
+      "fresh_started_epoch": 1790752211.0535324,
+      "fresh_finished_epoch": 1790752211.4552026
+    },
+    {
+      "joint": "V24_L_shoulder_roll",
+      "degrees": 15,
+      "parts": [
+        {
+          "part": "S24_L_upper_arm",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.684341886080802e-14,
+          "matrix_motion": 34.84350419152021,
+          "pass": true
+        },
+        {
+          "part": "A25_L_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.684341886080802e-14,
+          "matrix_motion": 34.84350419152021,
+          "pass": true
+        },
+        {
+          "part": "Hand26_L_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.684341886080802e-14,
+          "matrix_motion": 34.84350419152021,
+          "pass": true
+        },
+        {
+          "part": "S25_L_GWK6010_roll_stator",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -3.443519640444308e-17,
+        0.9999999999999997,
+        -8.290407088861038e-17
+      ],
+      "origin_mm": [
+        -196.99999999999994,
+        28.000000000000007,
+        1325.3634313599996
+      ],
+      "measured_angle_deg": 15.000000000000002,
+      "reset_error_cm": 2.375877272697835e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 2.375877272697835e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V24_L_shoulder_roll.json",
+      "fresh_started_epoch": 1790752212.4265559,
+      "fresh_finished_epoch": 1790752212.818101
+    },
+    {
+      "joint": "V25_L_elbow_pitch",
+      "degrees": -25,
+      "parts": [
+        {
+          "part": "A25_L_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.4868995751603507e-14,
+          "matrix_motion": 44.761865952049604,
+          "pass": true
+        },
+        {
+          "part": "Hand26_L_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.4868995751603507e-14,
+          "matrix_motion": 44.761865952049604,
+          "pass": true
+        },
+        {
+          "part": "S24_L_upper_arm",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9945218953682725,
+        3.433740535113668e-17,
+        -0.10452846326765378
+      ],
+      "origin_mm": [
+        -224.1774004495898,
+        27.999999999999904,
+        1066.7877385642491
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": -25.0,
+      "reset_error_cm": 3.019806626980426e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 3.019806626980426e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V25_L_elbow_pitch.json",
+      "fresh_started_epoch": 1790753136.883651,
+      "fresh_finished_epoch": 1790753137.2840111
+    },
+    {
+      "joint": "V24_R_shoulder_pitch",
+      "degrees": 15,
+      "parts": [
+        {
+          "part": "S24_R_upper_arm",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.4210854715202004e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "A25_R_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.4210854715202004e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "Hand26_R_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.4210854715202004e-14,
+          "matrix_motion": 34.7433853736299,
+          "pass": true
+        },
+        {
+          "part": "S25_R_GWK6010_pitch_stator",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999997,
+        3.6265595827635725e-19,
+        1.3877787807814457e-17
+      ],
+      "origin_mm": [
+        196.9999999999999,
+        28.000000000000007,
+        1325.3634313599996
+      ],
+      "measured_angle_deg": 14.999999999999998,
+      "reset_error_cm": 8.659739592076221e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 8.659739592076221e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V24_R_shoulder_pitch.json",
+      "fresh_started_epoch": 1790752365.0810459,
+      "fresh_finished_epoch": 1790752365.4429288
+    },
+    {
+      "joint": "V24_R_shoulder_roll",
+      "degrees": -15,
+      "parts": [
+        {
+          "part": "S24_R_upper_arm",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.551115123125783e-14,
+          "matrix_motion": 34.843504191520196,
+          "pass": true
+        },
+        {
+          "part": "A25_R_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.551115123125783e-14,
+          "matrix_motion": 34.843504191520196,
+          "pass": true
+        },
+        {
+          "part": "Hand26_R_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 5.551115123125783e-14,
+          "matrix_motion": 34.843504191520196,
+          "pass": true
+        },
+        {
+          "part": "S25_R_GWK6010_roll_stator",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -2.0492037740279378e-17,
+        0.9999999999999997,
+        -8.254141493033403e-17
+      ],
+      "origin_mm": [
+        196.9999999999999,
+        28.000000000000007,
+        1325.3634313599996
+      ],
+      "measured_angle_deg": -15.000000000000002,
+      "reset_error_cm": 5.861977570020827e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 5.861977570020827e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V24_R_shoulder_roll.json",
+      "fresh_started_epoch": 1790752366.0831854,
+      "fresh_finished_epoch": 1790752366.4159105
+    },
+    {
+      "joint": "V25_R_elbow_pitch",
+      "degrees": -25,
+      "parts": [
+        {
+          "part": "A25_R_forearm",
+          "expected_to_move": true,
+          "matrix_error_cm": 4.085620730620576e-14,
+          "matrix_motion": 44.76186595204961,
+          "pass": true
+        },
+        {
+          "part": "Hand26_R_AmazingHand",
+          "expected_to_move": true,
+          "matrix_error_cm": 4.085620730620576e-14,
+          "matrix_motion": 44.76186595204961,
+          "pass": true
+        },
+        {
+          "part": "S24_R_upper_arm",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9945218953682725,
+        3.0899745075739204e-17,
+        0.10452846326765378
+      ],
+      "origin_mm": [
+        224.1774004495901,
+        28.000000000000007,
+        1066.7877385642494
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": -25.0,
+      "reset_error_cm": 1.3988810110276972e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 1.3988810110276972e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V25_R_elbow_pitch.json",
+      "fresh_started_epoch": 1790753138.4081874,
+      "fresh_finished_epoch": 1790753138.8030746
+    },
+    {
+      "joint": "V24_neck_yaw",
+      "degrees": 15,
+      "parts": [
+        {
+          "part": "H01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 0.7335742877092801,
+          "pass": true
+        },
+        {
+          "part": "H26_removable",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 0.7335742877092801,
+          "pass": true
+        },
+        {
+          "part": "H25_AIView",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 0.7335742877092801,
+          "pass": true
+        },
+        {
+          "part": "N25_Feetech_pitch_case",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 0.7335742877092801,
+          "pass": true
+        },
+        {
+          "part": "N25_Feetech_yaw_case",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -1.3877787807814457e-17,
+        -1.900599341702721e-20,
+        0.9999999999999999
+      ],
+      "origin_mm": [
+        -2.015483659550535e-14,
+        28.34313400000001,
+        1396.3634313599996
+      ],
+      "measured_angle_deg": 14.999999999999998,
+      "reset_error_cm": 2.8421015653764834e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 2.8421015653764834e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V24_neck_yaw.json",
+      "fresh_started_epoch": 1790752367.0858984,
+      "fresh_finished_epoch": 1790752367.4309614
+    },
+    {
+      "joint": "V26_head_pitch",
+      "degrees": 15,
+      "parts": [
+        {
+          "part": "H01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 37.68650853178437,
+          "pass": true
+        },
+        {
+          "part": "H26_removable",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 37.68650853178437,
+          "pass": true
+        },
+        {
+          "part": "H25_AIView",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.842170943040401e-14,
+          "matrix_motion": 37.68650853178437,
+          "pass": true
+        },
+        {
+          "part": "N25_Feetech_pitch_case",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Fresh serial test from the saved pose; no zero-width limits or blanket angle preamble.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999996,
+        -2.7755575615628926e-17,
+        1.387778780781446e-17
+      ],
+      "origin_mm": [
+        -2.0931992712742962e-14,
+        28.34313400000001,
+        1452.3634313599998
+      ],
+      "measured_angle_deg": 14.999999999999998,
+      "reset_error_cm": 3.2195773937490367e-14,
+      "pass": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 3.2195773937490367e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\serial_V26_head_pitch.json",
+      "fresh_started_epoch": 1790752368.0993211,
+      "fresh_finished_epoch": 1790752368.4371421
+    }
+  ],
+  "fresh_recovery_validation": true,
+  "run_id": "recovery_bounded_01",
+  "native_pass": false
+}

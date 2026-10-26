@@ -1,0 +1,66 @@
+{
+  "ground_z_mm": -14.836568639052931,
+  "height_mm": 1600.2,
+  "shoulder_height_mm": 1340.2,
+  "shoulder_spacing_mm": 360,
+  "neck_base_height_mm": 1400.2,
+  "head_bottom_height_mm": 1420.2,
+  "head_width_mm": 150,
+  "head_height_mm": 180,
+  "upper_arm_mm": 260,
+  "forearm_mm": 240,
+  "hand_envelope_mm": 150,
+  "spine_z_mm": [
+    982,
+    1385.363431360947
+  ],
+  "spine_section_xy_mm": [
+    18,
+    10
+  ],
+  "spine_wall_mm": 0.55,
+  "battery_envelope_xyz_mm": [
+    140,
+    85,
+    160
+  ],
+  "battery_bounds_mm": [
+    [
+      -70,
+      -51.656866,
+      1056
+    ],
+    [
+      70,
+      33.343134,
+      1216
+    ]
+  ],
+  "battery_arrangement": "36 cells, 6 across X by 6 up Z; cell axes Y. 22.5 mm pitch. 134.05 x 70.15 x 134.05 raw cell envelope. Remaining space is provisional insulation, enclosure, busbar and BMS/wiring allowance.",
+  "BMS_bay_mm": [
+    134,
+    77,
+    22
+  ],
+  "material_status": "Prototype packaging, not strength-qualified. Battery is a solid envelope, not a cell/wiring design.",
+  "native_sketches": [
+    "U20_FRONT_upper_body_joint_placements",
+    "U21_FRONT_height_and_segment_annotations_mm",
+    "U22_Battery_36_cell_grid_and_BMS_reservation"
+  ],
+  "elbow_height_mm": 1080.2,
+  "wrist_height_mm": 840.2,
+  "hand_tip_height_mm": 690.2,
+  "native_tested_pitch_deg": [
+    -30,
+    20
+  ],
+  "native_tested_roll_deg": [
+    -30,
+    30
+  ],
+  "native_tested_combined_pitch_roll_deg": [
+    -10,
+    10
+  ]
+}

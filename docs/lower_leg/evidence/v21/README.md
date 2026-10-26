@@ -1,0 +1,1 @@
+Evidence snapshot, not an idempotent replay package. Scripts depend on the native bridge ROOT and earlier construction state; do not run all files blindly. Use the saved native v21 assembly for continued work and preserve later live edits.

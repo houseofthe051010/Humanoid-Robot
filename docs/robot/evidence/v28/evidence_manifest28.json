@@ -1,0 +1,504 @@
+{
+  "revision": "v28",
+  "local_only": true,
+  "files": [
+    {
+      "name": "C28_Left_ankle_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_ankle_shroud_fit_final02_0.json",
+      "bytes": 2393,
+      "sha256": "86e4374471726702295a8aedf6f1ca0633b5522c19404b4479cc351870b16738"
+    },
+    {
+      "name": "C28_Left_elbow_inner_side_guard_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_elbow_inner_side_guard_fit_final02_0.json",
+      "bytes": 609,
+      "sha256": "ee8aea9bbb32134104d3a42304c51d11f6098cab0434ae12c68d90cafc17f7b4"
+    },
+    {
+      "name": "C28_Left_elbow_outer_side_guard_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_elbow_outer_side_guard_fit_final02_0.json",
+      "bytes": 358,
+      "sha256": "f0871f817007945538f405dadfa9a4f00ffc7490c04955bec4f0e1f2cff80ea9"
+    },
+    {
+      "name": "C28_Left_hip_yaw_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_hip_yaw_shroud_fit_final02_0.json",
+      "bytes": 1189,
+      "sha256": "8baed8e04277a79bfaf403aeb15c9e653b63f08e47a086578a4930405e54fbdf"
+    },
+    {
+      "name": "C28_Left_knee_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_knee_shroud_fit_final02_0.json",
+      "bytes": 7123,
+      "sha256": "b0767c73cdbee48c914cb9bc4835f41757378a1d6428b48b19230b2d41f7ae65"
+    },
+    {
+      "name": "C28_Left_shoe_sole_rim_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_shoe_sole_rim_fit_final02_0.json",
+      "bytes": 3138,
+      "sha256": "05870159f627ee2197bd395d09beff841d8df5e065cc712fddc70f9ddcf940ff"
+    },
+    {
+      "name": "C28_Left_shoe_sole_rim_fit_final03_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_shoe_sole_rim_fit_final03_0.json",
+      "bytes": 1361,
+      "sha256": "1e525c6111ed2531effe621bca05109527b7cafe88ac4841bd80e1d282bd9c09"
+    },
+    {
+      "name": "C28_Left_shoe_upper_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_shoe_upper_fit_final02_0.json",
+      "bytes": 15410,
+      "sha256": "f6bbb679a728769ca5876e363fb990c40450ddd89e1cfda9ad4be9c79a5f2f94"
+    },
+    {
+      "name": "C28_Left_shoulder_cuff_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_shoulder_cuff_shroud_fit_final02_0.json",
+      "bytes": 2123,
+      "sha256": "5a17ea899294e25e37b9a69916062f77517c67f51c274190e35b721ae2ef32e3"
+    },
+    {
+      "name": "C28_Left_wrist_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Left_wrist_shroud_fit_final02_0.json",
+      "bytes": 694,
+      "sha256": "1bb8fe404428825162574524c1169eea20fa794d0a17c0e2c59e33bd8eab3152"
+    },
+    {
+      "name": "C28_Right_ankle_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_ankle_shroud_fit_final02_0.json",
+      "bytes": 2415,
+      "sha256": "adb47fd465dce257f6370b63c88d185b6ec312dd4e2aa91b4dcf6e7ed5f37b21"
+    },
+    {
+      "name": "C28_Right_elbow_inner_side_guard_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_elbow_inner_side_guard_fit_final02_0.json",
+      "bytes": 608,
+      "sha256": "5b2a38b94fe757e64ad9244b7b9281977ba3a02ca0354b37f4152e4e89814c8b"
+    },
+    {
+      "name": "C28_Right_elbow_outer_side_guard_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_elbow_outer_side_guard_fit_final02_0.json",
+      "bytes": 359,
+      "sha256": "e786d0dd804ffefb1b203bdd463c4ad1d5593b24496dff6570ff8a9b73033071"
+    },
+    {
+      "name": "C28_Right_hip_yaw_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_hip_yaw_shroud_fit_final02_0.json",
+      "bytes": 1199,
+      "sha256": "ffad6dc7175818de117a9cf781a7b7cb289043ee461aa6d9295c6a33f67c57e3"
+    },
+    {
+      "name": "C28_Right_knee_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_knee_shroud_fit_final02_0.json",
+      "bytes": 7187,
+      "sha256": "dc81e244184c8540f97c11894f60a849c020bd3eaf829ec520c277cc1bef8b97"
+    },
+    {
+      "name": "C28_Right_shoe_sole_rim_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_shoe_sole_rim_fit_final02_0.json",
+      "bytes": 3165,
+      "sha256": "1298b822ba5fa8e6fb78ef403dd4b45c7842a9d26b1331040382b30827201cdc"
+    },
+    {
+      "name": "C28_Right_shoe_sole_rim_fit_final03_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_shoe_sole_rim_fit_final03_0.json",
+      "bytes": 1372,
+      "sha256": "1b62d9ade9904e0c7ac738db4ad5d5c0c6e7fc39b669d741ce957ae622ac2e2c"
+    },
+    {
+      "name": "C28_Right_shoe_upper_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_shoe_upper_fit_final02_0.json",
+      "bytes": 15550,
+      "sha256": "bd01f346f29b913b075c413110906ddc470b33203208c58a55a6247967d4baf8"
+    },
+    {
+      "name": "C28_Right_shoulder_cuff_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_shoulder_cuff_shroud_fit_final02_0.json",
+      "bytes": 2122,
+      "sha256": "66bcb9d2d6376bfbdd2d08e5ab42fb5cf3bfdac78357c28875a819501b9a7d84"
+    },
+    {
+      "name": "C28_Right_wrist_shroud_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Right_wrist_shroud_fit_final02_0.json",
+      "bytes": 693,
+      "sha256": "9722778540c632b1283edaa7da2434bf9431375c083d5eb5325ac56f574955c6"
+    },
+    {
+      "name": "C28_Torso_lower_front_motion_hem_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_front_motion_hem_build.json",
+      "bytes": 1039,
+      "sha256": "c59ec0cf3f619dc7d2708f99345bf93b46b8cd8fa52652d967c7376a2a80ed09"
+    },
+    {
+      "name": "C28_Torso_lower_front_motion_hem_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_front_motion_hem_fit_final02_0.json",
+      "bytes": 3348,
+      "sha256": "1bbdcb7643af24445ddfe63353880da2b7d04fa085bf11fedc5153901f28c946"
+    },
+    {
+      "name": "C28_Torso_lower_front_right_motion_hem_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_front_right_motion_hem_build.json",
+      "bytes": 1037,
+      "sha256": "b47b8f99655a6f597d4cc77b17127627efab7e948d864b94109b793bb0cba922"
+    },
+    {
+      "name": "C28_Torso_lower_front_right_motion_hem_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_front_right_motion_hem_fit_final02_0.json",
+      "bytes": 3365,
+      "sha256": "7e9dce23ec00d96e15924870d722f40abd105b779a1e79634150aa212ac48f1e"
+    },
+    {
+      "name": "C28_Torso_lower_rear_motion_hem_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_rear_motion_hem_build.json",
+      "bytes": 1146,
+      "sha256": "ce5fd31c3897c128347209164eadf54dbeaed1779ab28cddc5137a578fdb4775"
+    },
+    {
+      "name": "C28_Torso_lower_rear_motion_hem_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_rear_motion_hem_fit_final02_0.json",
+      "bytes": 3299,
+      "sha256": "15f3c8b10918c949fd68e84b51f38ebd16c5e1b396a922a31981a7a19f37c4c3"
+    },
+    {
+      "name": "C28_Torso_lower_rear_right_motion_hem_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_rear_right_motion_hem_build.json",
+      "bytes": 1155,
+      "sha256": "133b31555a42f18c8a7b7e375c562d0639ab12b0809d822a900048a82dd4f2e8"
+    },
+    {
+      "name": "C28_Torso_lower_rear_right_motion_hem_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_Torso_lower_rear_right_motion_hem_fit_final02_0.json",
+      "bytes": 3301,
+      "sha256": "1a3a6bb6fd3bd38c70d3c90647de97b4a96353ff0e97eb5774fd37484688a466"
+    },
+    {
+      "name": "C28_neck_yaw_collar_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_neck_yaw_collar_fit_final02_0.json",
+      "bytes": 352,
+      "sha256": "00ab2224131e0c03166c07935ca52fd44c38f125d2f7cdb30afaa972e2159225"
+    },
+    {
+      "name": "C28_waist_front_reinforced_holder_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_waist_front_reinforced_holder_build.json",
+      "bytes": 3899,
+      "sha256": "a2c344dc9fd6b708ada88c4bc3ba114f07a40120c82646386940a90f5d4319b8"
+    },
+    {
+      "name": "C28_waist_front_reinforced_holder_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_waist_front_reinforced_holder_fit_final02_0.json",
+      "bytes": 13022,
+      "sha256": "e4b6c3db7b0530ce57142977cceda40f6dff5b7b6121a0ed477f8f734354b196"
+    },
+    {
+      "name": "C28_waist_rear_reinforced_holder_build.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_waist_rear_reinforced_holder_build.json",
+      "bytes": 4506,
+      "sha256": "2bd95c6a31eb4763422b16d9d44dbd8e2f7ee061e69449184a20cfa724397763"
+    },
+    {
+      "name": "C28_waist_rear_reinforced_holder_fit_final02_0.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\C28_waist_rear_reinforced_holder_fit_final02_0.json",
+      "bytes": 11525,
+      "sha256": "6bc92fc0462752955be246961310c426256ba074b16bb0e92a55d0c3789903f4"
+    },
+    {
+      "name": "Left_Ankle_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_Ankle_pitch_frame_calibration28.json",
+      "bytes": 703,
+      "sha256": "3a3eb8d0e5478574088c999ad0688289187155ec3b7b60fffa329119e3306905"
+    },
+    {
+      "name": "Left_Ankle_roll_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_Ankle_roll_frame_calibration28.json",
+      "bytes": 732,
+      "sha256": "7a1adcb7ec6d7a7ed3c2a25ac7ec346176d6f916cb2a96aa054fed3fc5f1616f"
+    },
+    {
+      "name": "Left_Hip_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_Hip_pitch_frame_calibration28.json",
+      "bytes": 719,
+      "sha256": "d3d255e50fdd102be919c3af272b96685712ad6f51b760cccdbe0bf91f984f53"
+    },
+    {
+      "name": "Left_Knee_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_Knee_pitch_frame_calibration28.json",
+      "bytes": 492,
+      "sha256": "bcf95688aad596bbb56c211465ee253ce6b93a514300fa48ba5f3e5cee19b7c2"
+    },
+    {
+      "name": "Left_ankle_motion_probe28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_ankle_motion_probe28.json",
+      "bytes": 578,
+      "sha256": "71014c4607884376b2371a9bff99236910e8816603b2f2d448c4fc4b029cf465"
+    },
+    {
+      "name": "Left_elbow_continuous_clearance28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_elbow_continuous_clearance28.json",
+      "bytes": 3930,
+      "sha256": "c201f6b9c80652dc59a2cbcc6177e9fcf78b02cbd5d1622a265c9e5508c401f3"
+    },
+    {
+      "name": "Left_hip_yaw_collar_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_hip_yaw_collar_motion28.json",
+      "bytes": 228,
+      "sha256": "495dfff3da4bb2f147accc52810e35a113f364cea0b071bad5d12b20f5d2886e"
+    },
+    {
+      "name": "Left_knee_guard_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_knee_guard_motion28.json",
+      "bytes": 222,
+      "sha256": "3276852ca990436b8d064ee7ead879accd7c7fd051525c13169e679db7684065"
+    },
+    {
+      "name": "Left_shoulder_cuff_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Left_shoulder_cuff_motion28.json",
+      "bytes": 458,
+      "sha256": "80d089f863b7191f5e371321d2b9030cc6b824875c0eb425607a4722d76e5708"
+    },
+    {
+      "name": "Right_Ankle_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_Ankle_pitch_frame_calibration28.json",
+      "bytes": 658,
+      "sha256": "563c90e291c31d7059556fd7005916a4d7045ba0f6d2671cfe4b8a0b0a9933f1"
+    },
+    {
+      "name": "Right_Ankle_roll_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_Ankle_roll_frame_calibration28.json",
+      "bytes": 735,
+      "sha256": "9bdf34ee75c9b4e0d6e4691065abd9142100102159c9a6a5c935069b7d58eba7"
+    },
+    {
+      "name": "Right_Hip_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_Hip_pitch_frame_calibration28.json",
+      "bytes": 752,
+      "sha256": "537026c2cb68a34158a476ea09982c2b25a101870d5d5add7300124a8fd64e91"
+    },
+    {
+      "name": "Right_Knee_pitch_frame_calibration28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_Knee_pitch_frame_calibration28.json",
+      "bytes": 441,
+      "sha256": "ee8dce8688d5f6dbdeb42054a540c42c9a2743889889b6c0382585a7e04fd573"
+    },
+    {
+      "name": "Right_ankle_motion_probe28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_ankle_motion_probe28.json",
+      "bytes": 514,
+      "sha256": "d3287cb393229df2421e42de38f0fc537235bdb5336ff9ac5781bb39162a81c2"
+    },
+    {
+      "name": "Right_elbow_continuous_clearance28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_elbow_continuous_clearance28.json",
+      "bytes": 3901,
+      "sha256": "7ee832d83a5c66547f159d6f9a0879461d0baec34316b810b76845f0c9551a74"
+    },
+    {
+      "name": "Right_hip_yaw_collar_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_hip_yaw_collar_motion28.json",
+      "bytes": 230,
+      "sha256": "b93b7b0fa2e2d2fbdbcf5da08b10c6f5dcfe33a231a3cb2a54cccc97dee6466f"
+    },
+    {
+      "name": "Right_knee_guard_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_knee_guard_motion28.json",
+      "bytes": 224,
+      "sha256": "0e4bd67a07605c4033a76484b6a2f65c716d018f3dc6aa071f57d9586827706e"
+    },
+    {
+      "name": "Right_shoulder_cuff_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\Right_shoulder_cuff_motion28.json",
+      "bytes": 464,
+      "sha256": "0ecf78006dd59afb950fc70e0ba3cd968a3617107158d667d2dc12b683bad9cd"
+    },
+    {
+      "name": "active_casing_visibility28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\active_casing_visibility28.json",
+      "bytes": 30619,
+      "sha256": "8f839ed3d8f072caa1dc3b6c9a49fbb5535b7973da1728988d1d25e8f902e058"
+    },
+    {
+      "name": "casing_after_final.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_after_final.json",
+      "bytes": 4144958,
+      "sha256": "a911799cca2f517179731168bf8654b318d5a7c76a8aac8b423755942b72c4cc"
+    },
+    {
+      "name": "casing_audit_policy.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_audit_policy.json",
+      "bytes": 187,
+      "sha256": "692b5093cb72a197187c39be57e40595401e9cadaa1b8da83f99121a9e446901"
+    },
+    {
+      "name": "casing_before.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_before.json",
+      "bytes": 3933019,
+      "sha256": "6a15f10030e306f5d8ba672f4441a6ed640dc200dd102bba3e1d1963ed7c6349"
+    },
+    {
+      "name": "casing_export_files28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_export_files28.json",
+      "bytes": 7106,
+      "sha256": "540be05fe9eb2b1f5fbbc295d6e719ba9bf256935bf312bc84f12e9f26bb9065"
+    },
+    {
+      "name": "casing_exports28_manifest.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_exports28_manifest.json",
+      "bytes": 64426,
+      "sha256": "f08050c1774ec75a8cd93a4593aaf536db4d31539ae4222c3284e273748454e8"
+    },
+    {
+      "name": "casing_preservation_final_result.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casing_preservation_final_result.json",
+      "bytes": 8467,
+      "sha256": "b9f12a00bd198f9d0f1eb3245c138bf8a3793aa5585a62f58bfaab3f6c9fbfd4"
+    },
+    {
+      "name": "casings_reopen28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\casings_reopen28.json",
+      "bytes": 26768,
+      "sha256": "24f79ef5c1965f30ecea0a1a89075ca136e0671a62c7b79d43481a55e3fb5d5a"
+    },
+    {
+      "name": "export_high_accuracy_diagnostic28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\export_high_accuracy_diagnostic28.json",
+      "bytes": 352,
+      "sha256": "f494813fc987882515c8d9eed3a475871d27bda21ee3eba1fe98fa7bf8fa7a26"
+    },
+    {
+      "name": "export_root_frame_diagnostic28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\export_root_frame_diagnostic28.json",
+      "bytes": 326,
+      "sha256": "3a29891af1d88d32a53195ac601debb169653213988af2fdd42c08c09421847d"
+    },
+    {
+      "name": "final_automation_shutdown28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_automation_shutdown28.json",
+      "bytes": 392,
+      "sha256": "92823ece4c58869431a67406fb44e400881ce864f6fcba8d58183f222d3fc672"
+    },
+    {
+      "name": "final_elbows.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_elbows.png",
+      "bytes": 418387,
+      "sha256": "70bf7114d5f718773bd5063354f32f6525629aee0deb4df69f68df028410287b"
+    },
+    {
+      "name": "final_feet.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_feet.png",
+      "bytes": 709848,
+      "sha256": "91e7b62a4058ba0288b9ba000912ff1a899df3f48306f51e05296148a89f8640"
+    },
+    {
+      "name": "final_front.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_front.png",
+      "bytes": 288867,
+      "sha256": "4aa3d89649192a359e4ee9762e4e09eb2d0a9f134da6bb931a8371049e400750"
+    },
+    {
+      "name": "final_iso.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_iso.png",
+      "bytes": 505869,
+      "sha256": "7fba45e45d038e2dbe1fbf2affff43142930f8551f318430a49b58e27e586eea"
+    },
+    {
+      "name": "final_native_handoff28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_native_handoff28.json",
+      "bytes": 1314,
+      "sha256": "52f1e35d79a881367c15aa7d6d0ab91dad30ad08573667e9a388bbada06d4217"
+    },
+    {
+      "name": "final_previews28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_previews28.json",
+      "bytes": 835,
+      "sha256": "6bb10299765d9e3be8fb9b680aafab123c66bd87e2af42ce9e8eacb74774fe7a"
+    },
+    {
+      "name": "final_rear.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_rear.png",
+      "bytes": 310655,
+      "sha256": "1f94132e2d20d8c6bc8ad723898cf4ce4c11ed159aeb62a40fe8eb282933e378"
+    },
+    {
+      "name": "final_side.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_side.png",
+      "bytes": 163679,
+      "sha256": "61444d98dbf7989b6eed0de695cf0cf7cba3138371058c6952a46c9b4f17a42e"
+    },
+    {
+      "name": "final_waist.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\final_waist.png",
+      "bytes": 639016,
+      "sha256": "20e08af87d8983544033097493b9c8adeecacfcf64ee2b0d887b8f287c592a02"
+    },
+    {
+      "name": "full_archive_integrity28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\full_archive_integrity28.json",
+      "bytes": 103640,
+      "sha256": "504f2c3a97e25c6fa73bfc8063879e11aa5abd6b1ddb6146852cdc98aa3f8a8a"
+    },
+    {
+      "name": "handoff_iso.png",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\handoff_iso.png",
+      "bytes": 506135,
+      "sha256": "8b73597207456bf0aa931f52fdf3a6eacc31c45a53604ff49741933d2959565b"
+    },
+    {
+      "name": "hip_caps_waist_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\hip_caps_waist_motion28.json",
+      "bytes": 2227,
+      "sha256": "05beb33abfc99c917b2cb4978c39650f1b686f7c8badbc4be3a83d4ca7dca40d"
+    },
+    {
+      "name": "native_final_save_status28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\native_final_save_status28.json",
+      "bytes": 202,
+      "sha256": "839ab330aa55ad4b3d82299f8379a3f36c6e5ea874acb19f745cac936b882d89"
+    },
+    {
+      "name": "neck_collar_head_motion_final28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\neck_collar_head_motion_final28.json",
+      "bytes": 112,
+      "sha256": "c6668d29749190ced187d73531b940460a68cac2e618b76c844f0321b3880a83"
+    },
+    {
+      "name": "shoe_ground_margin28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\shoe_ground_margin28.json",
+      "bytes": 10348,
+      "sha256": "2f4307866e766060d705fbd921ac2d338996914ddc8cac39c36e45da8910ed94"
+    },
+    {
+      "name": "shoe_rim_ground_refinement28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\shoe_rim_ground_refinement28.json",
+      "bytes": 986,
+      "sha256": "1fd1d9ab1d5f557fb7093aeca21b7e55c8107505c366136b9703f032e57684da"
+    },
+    {
+      "name": "shoulder_cuff_refinement05.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\shoulder_cuff_refinement05.json",
+      "bytes": 735,
+      "sha256": "22bda7ee548a1a9c27cb49c768aa6894e09157cd01abcf38afe4a3a7fb960dca"
+    },
+    {
+      "name": "static_fit_final_progress28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\static_fit_final_progress28.json",
+      "bytes": 3783,
+      "sha256": "632bafa63bbb32b0208b33d168cdd4c26e95d5398fe18b8567865c7706f5d5b4"
+    },
+    {
+      "name": "static_fit_final_summary28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\static_fit_final_summary28.json",
+      "bytes": 80,
+      "sha256": "2938bdcb0199a20719373845a7b8d966c844987b39ef1d67ccc0a04fccdd94c2"
+    },
+    {
+      "name": "torso_hem_refinement28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\torso_hem_refinement28.json",
+      "bytes": 4792,
+      "sha256": "4af9532f1500179ed373ed41c1614d54673fafba86b995b450919ac40f352eef"
+    },
+    {
+      "name": "waist_torso_motion28.json",
+      "source_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v28\\waist_torso_motion28.json",
+      "bytes": 111,
+      "sha256": "700dcba47223a3d9ebfb2a39252e259691a224ac242c9cb7dc19448894165c43"
+    }
+  ]
+}

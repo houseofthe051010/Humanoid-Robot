@@ -1,0 +1,78 @@
+{
+  "generated_epoch": 1790803883.2167342,
+  "mutation_count": 0,
+  "archive": {
+    "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.f3d",
+    "bytes": 178961497,
+    "sha256": "3e809affb85bda0ab33a346bd533cbb598c48e21c97178491a401ce42dda0461",
+    "zip_crc_errors": [],
+    "manifests": {
+      "Manifest.dat": {
+        "bytes": 571,
+        "sha256": "6d2b211ac8ac6b32f0d316e301c6ef008d7d8eec6f71b6afc68ba029ea71cc14",
+        "original_design_literal_count": 0,
+        "strings": {
+          "ascii": [
+            "3-2-0-0",
+            "FusionDocType",
+            "Application",
+            "ParaMesh",
+            "SimCommon5u",
+            "SimFEACSObjects",
+            "SimFluidDynamics",
+            "SimStructuralAttributes"
+          ],
+          "utf16": [
+            "Fusion Document",
+            "A Fusion Document$",
+            "503d0026-a581-4de0-ae71-723c3278144d$",
+            "07a9d3c4-84ab-4ac3-9881-aaa73089a96d",
+            "39996eb2-8e29-46c2-9831-86ef1d67eb74",
+            "FusionAssetName",
+            "NA_EXPORT"
+          ]
+        }
+      },
+      "FusionAssetName[Active]/Manifest.dat": {
+        "bytes": 589,
+        "sha256": "bf4e18e56e39f7ed631aa62631ccbd781f8e6faad3e487079dfacddab4329bfa",
+        "original_design_literal_count": 0,
+        "strings": {
+          "ascii": [
+            "FusionAssetType",
+            "Application",
+            "ParaMesh",
+            "Server$",
+            "VolField",
+            "Neutron3DAssetType",
+            "physicalChangeGuid$",
+            "FusionDesignSegmentType",
+            "FusionACTSegmentType",
+            "FusionBrowserSegmentType"
+          ],
+          "utf16": [
+            "FusionAssetName$",
+            "39996eb2-8e29-46c2-9831-86ef1d67eb74$",
+            "f2977ed7-0e86-49bb-8dc4-545f71742e34",
+            "8133b12d-67ee-41da-aa68-89dca46024a3"
+          ]
+        }
+      }
+    },
+    "reference_markers": {
+      "original_design_marker_count": 0,
+      "gwk6010_model_name": false,
+      "gwk6010_lineage": false,
+      "sts3215_model_name": false,
+      "sts3215_lineage": false
+    },
+    "entry_count": 750,
+    "compression_methods": [
+      0,
+      93
+    ],
+    "file_stable_while_reading": true,
+    "zip_payload_crc_pass": true,
+    "interpretation": "CRC-valid native archive payload is separate from native reopen usability. String markers are direct manifest evidence, not a decoded proprietary reference schema."
+  }
+}

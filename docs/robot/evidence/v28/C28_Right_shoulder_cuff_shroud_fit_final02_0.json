@@ -1,0 +1,81 @@
+{
+  "part": "C28_Right_shoulder_cuff_shroud",
+  "attempt": "final02",
+  "candidate_count": 17,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "S24_R_6005_rear_support_bearing/S24_R_6005_rear_support_bearing",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_drive_and_retainer_fasteners/Fastener_0_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_drive_and_retainer_fasteners/Fastener_0_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_drive_and_retainer_fasteners/Fastener_1_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_drive_and_retainer_fasteners/Fastener_1_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_pitch_carrier_roll_housing/S24_R_pitch_carrier_roll_housing_fit_v25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_rear_bearing_cap/S24_R_rear_bearing_cap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_rear_journal_washer/S24_R_rear_journal_washer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_roll_driven_output/S24_R_roll_driven_output_fit_v25",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Right_upper_arm_front/C27_Right_upper_arm_front_2p5mm_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Right_upper_arm_rear/C27_Right_upper_arm_rear_2p5mm_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_upper_arm_fork_to_elbow/S25_R_upper_arm_with_dual_elbow_bearing_seats",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S25_R_GWK6010_roll_rotating_hub/actual_GWK6010_roll_output",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S25_R_GWK6010_roll_stator/actual_GWK6010_roll_fixed",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S25_R_motor_mount_fasteners/roll_M2_5_4",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S25_R_motor_mount_fasteners/roll_M2_5_5",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S25_R_motor_mount_fasteners/roll_M2_5_6",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

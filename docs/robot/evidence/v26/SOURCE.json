@@ -1,0 +1,354 @@
+{
+  "repository": "https://github.com/pollen-robotics/AmazingHand",
+  "commit": "3e8241074df3436a3044ced4881e3bb2133aa725",
+  "mechanical_license": "CC BY 4.0",
+  "code_license": "Apache 2.0",
+  "files": [
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/bushing_0608_04.stl",
+      "bytes": 43284
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/custom_servo_horn.stl",
+      "bytes": 86084
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/dist.stl",
+      "bytes": 134684
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/dist_shell.stl",
+      "bytes": 1194284
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/distal.stl",
+      "bytes": 177884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/distal_shell.stl",
+      "bytes": 1195884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/finger_frame_1.stl",
+      "bytes": 157284
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/finger_frame_2.stl",
+      "bytes": 94884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/gimbal.stl",
+      "bytes": 120784
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/link.stl",
+      "bytes": 97884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/m2_rod_l18.stl",
+      "bytes": 14484
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/parallel_pin_2_x_10__fee063fca0c8b40e46bbc4ffff61d999.stl",
+      "bytes": 28884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/parallel_pin_2_x_16__da4b7ddbe9d803fe3fbc70f2e822b99b.stl",
+      "bytes": 28884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/part_1.stl",
+      "bytes": 43284
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/part_1__2.stl",
+      "bytes": 36184
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/ph_pan_head_screw_m2x0_40_x_10__2803432263e518bbd16bccbbef8784ed.stl",
+      "bytes": 218484
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/plain_washer_large_grade_a_m2_5__9a369f0dc77bf9c598cdf3fb468977e5.stl",
+      "bytes": 28884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/prox.stl",
+      "bytes": 227084
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/prox_shell.stl",
+      "bytes": 360084
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/proximal.stl",
+      "bytes": 270484
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/proximal_shell.stl",
+      "bytes": 357784
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/r_hand_plate.stl",
+      "bytes": 725084
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/r_wrist_interface.stl",
+      "bytes": 825984
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/rotule_ball.stl",
+      "bytes": 201684
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/rotule_lever.stl",
+      "bytes": 215084
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/scs0009.stl",
+      "bytes": 394384
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/spacer.stl",
+      "bytes": 28884
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/std00333_plast_tcb_torx_2_5x8__configuration_copy_of_default.stl",
+      "bytes": 177584
+    },
+    {
+      "path": "Demo/AHSimulation/AHSimulation/AH_Right/mjcf/assets/std00447_thermoplastique_m2_5x6__configuration_default.stl",
+      "bytes": 177584
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Distal.step",
+      "bytes": 49811
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Distal_Shell.step",
+      "bytes": 888424
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Finger_Frame-1.step",
+      "bytes": 29695
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Finger_Frame-2.step",
+      "bytes": 19778
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Gimbal.step",
+      "bytes": 45917
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - L-Hand_Plate.step",
+      "bytes": 393446
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - L-Palm_Shell.step",
+      "bytes": 842925
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - L-Top_Shell.step",
+      "bytes": 411221
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - L-Wrist_Interface.step",
+      "bytes": 223630
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Link.step",
+      "bytes": 20747
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Proximal.step",
+      "bytes": 80879
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - Proximal_Shell.step",
+      "bytes": 136599
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - R-Hand_Plate.step",
+      "bytes": 393156
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - R-Palm_Shell.step",
+      "bytes": 843634
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - R-Top_Shell.step",
+      "bytes": 412433
+    },
+    {
+      "path": "cad/step/Amazing Hand Parts - R-Wrist_Interface.step",
+      "bytes": 223822
+    },
+    {
+      "path": "cad/step/Amazing Hand base.STEP",
+      "bytes": 3498670
+    },
+    {
+      "path": "cad/step/BallJoint_Rod - Length_Toolings.step",
+      "bytes": 16661
+    },
+    {
+      "path": "cad/step/BallJoint_Rod - Spacer.step",
+      "bytes": 5932
+    },
+    {
+      "path": "cad/step/SO-ARM_Interface.step",
+      "bytes": 71736
+    },
+    {
+      "path": "cad/stl/Amazing Hand Parts - L-Palm_Shell.stl",
+      "bytes": 4459284
+    },
+    {
+      "path": "cad/stl/Amazing Hand Parts - L-Top_Shell.stl",
+      "bytes": 1614284
+    },
+    {
+      "path": "cad/stl/Amazing Hand Parts - R-Palm_Shell.stl",
+      "bytes": 4455184
+    },
+    {
+      "path": "cad/stl/Amazing Hand Parts - R-Top_Shell.stl",
+      "bytes": 1614684
+    },
+    {
+      "path": "docs/AmazingHand_Assembly.pdf",
+      "bytes": 24745114
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357
+    },
+    {
+      "path": "README.md",
+      "bytes": 10279
+    }
+  ],
+  "left_assembly": {
+    "commit": "3e8241074df3436a3044ced4881e3bb2133aa725",
+    "assembly": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/robot.xml",
+    "files": [
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/bushing_0608_04.stl",
+        "bytes": 43284,
+        "sha256": "a4654c50399a5a2e2e929aaa9cc81b9243b4542a85bf3896838c65fb935709ca"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/custom_servo_horn.stl",
+        "bytes": 86084,
+        "sha256": "ac1bf3bf06f64f2b8b85e48c1605a92c0fbd5643f0a01345aad81db8bb850dfa"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/distal.stl",
+        "bytes": 177884,
+        "sha256": "e3aeab19ecad616e5b859d5326c2966d8dd5db196f9217c340ed5b762e85567b"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/distal_shell.stl",
+        "bytes": 1195884,
+        "sha256": "0a1e136158fb5464704b68d37d30eae450c1a3b507bf694f429d914e4419557b"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/finger_frame_1.stl",
+        "bytes": 157284,
+        "sha256": "50c439686722f30d165c1604a1ffdb3289c6b4af3d68ff79ca0daabd25251f49"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/finger_frame_2.stl",
+        "bytes": 94884,
+        "sha256": "0e618d270bfcb5055bfdf6bb41c52c2098ef78e25d43e7972df346e5085cf91f"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/gimbal.stl",
+        "bytes": 120784,
+        "sha256": "54cdf9367ab1b30419c750b37c18c38d03425056beba1a56192287414496c50e"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/l_hand_plate.stl",
+        "bytes": 718884,
+        "sha256": "90ab794d14a277a7d2db17a4c1956a4b025967bf4ba0d934aa271f119179bc1c"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/l_wrist_interface.stl",
+        "bytes": 825584,
+        "sha256": "d130a3c6be00cba6186ccfd7d65bf09c558c9e632996729ff06989e117bef1e7"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/link.stl",
+        "bytes": 97884,
+        "sha256": "77acb1b7675a799fed66ca06224d484dc371c76c3308e626fd339ecc6086917b"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/m2_rod_l18.stl",
+        "bytes": 14484,
+        "sha256": "f78dcdda6669f36df4de6241f7869362e80fc4e7bd9fa0cf68eb22564d5d131e"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/parallel_pin_2_x_10__fee063fca0c8b40e46bbc4ffff61d999.stl",
+        "bytes": 28884,
+        "sha256": "01c8bb5014a46b355171bf4672a4b81602caab7d43751eefa7cef2362c12fb0f"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/parallel_pin_2_x_16__da4b7ddbe9d803fe3fbc70f2e822b99b.stl",
+        "bytes": 28884,
+        "sha256": "34bf98bac12bf7d6ec7d0024f691e2aa866a7e309344a9fd4f3b8fcc49d73f7e"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/ph_pan_head_screw_m2x0_40_x_10__2803432263e518bbd16bccbbef8784ed.stl",
+        "bytes": 218484,
+        "sha256": "3026c6ffc1b7012cce54aa32a0b33aab7719539ea4df675f84e34223340c05c1"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/plain_washer_large_grade_a_m2_5__9a369f0dc77bf9c598cdf3fb468977e5.stl",
+        "bytes": 28884,
+        "sha256": "d48a6eb3cb410a29a68ad034b9e51f8fd45e8f4f0da6323a4840e6e19020e0c7"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/proximal.stl",
+        "bytes": 270484,
+        "sha256": "167f17b5994a179f13b0ca5887740f5f9580604ea7f767d72ff9ad3516f16485"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/proximal_shell.stl",
+        "bytes": 357784,
+        "sha256": "da46e0edefe0f245db0fc6b2230f97dd47a104da7c6c9cf10a923e8d27c742fa"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/rotule_ball.stl",
+        "bytes": 201684,
+        "sha256": "c78afd69e2d4c0fada853805771e25fc0547dd85b1764e3e58d8bf5b1188c64e"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/rotule_lever.stl",
+        "bytes": 215084,
+        "sha256": "e50867e9e235a312d5b3aa279aae7cc8a29c705ef0dbfb6d89b0bb30364c5f84"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/scs0009.stl",
+        "bytes": 394384,
+        "sha256": "8a663fa3796995ac1b2c7186f8d67b1ae7af8e6c7a415d16b7ee832233449ac2"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/spacer.stl",
+        "bytes": 28884,
+        "sha256": "216a38b439575331c784abe34b81b6ecca092a816588dd06ed24c9bd45cd2cc8"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/std00333_plast_tcb_torx_2_5x8__configuration_copy_of_default.stl",
+        "bytes": 177584,
+        "sha256": "5b16f1bdd7f88c443697e30353512139e38c2d98a333c9653f2b9cb56fb84d4a"
+      },
+      {
+        "path": "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/assets/std00447_thermoplastique_m2_5x6__configuration_default.stl",
+        "bytes": 177584,
+        "sha256": "62340db6254431a4db1fcc862c6d91dd18119a28c9af4b10d6fd4eea112e05b3"
+      }
+    ],
+    "source_transform": "Official left assembly, proper rotation, no reflection"
+  }
+}

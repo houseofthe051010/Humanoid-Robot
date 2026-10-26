@@ -1,0 +1,48 @@
+{
+  "waist_axis": "vertical yaw",
+  "motor": "duplicate vendor GWK7010",
+  "motor_base_z": 876,
+  "motor_output_top_z": 904.0000004842847,
+  "skin_section_offset": 5,
+  "pitch_sleeve_radial_wall": 6,
+  "split_gap": 0.4,
+  "shell_volume_mm3": 646082.8173896952,
+  "shell_sections": [
+    [
+      734,
+      90,
+      30
+    ],
+    [
+      752,
+      112,
+      50
+    ],
+    [
+      800,
+      118,
+      66
+    ],
+    [
+      840,
+      113,
+      64
+    ],
+    [
+      870,
+      86,
+      56
+    ],
+    [
+      888,
+      54,
+      46
+    ],
+    [
+      902,
+      47,
+      43
+    ]
+  ],
+  "articulated_hip_pelvis": false
+}

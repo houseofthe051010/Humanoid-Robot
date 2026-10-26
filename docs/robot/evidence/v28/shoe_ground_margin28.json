@@ -1,0 +1,331 @@
+{
+  "pass": true,
+  "minimum_margin_mm": 0.7936458298294582,
+  "checks": [
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -49.22747286000829,
+      "casing_min_Z_mm": -42.75640876170505,
+      "casing_ground_margin_mm": 6.471064098303238,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -49.22747286000829,
+      "casing_min_Z_mm": -45.856291443780634,
+      "casing_ground_margin_mm": 3.3711814162276568,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -42.844601821561255,
+      "casing_min_Z_mm": -36.936579701778285,
+      "casing_ground_margin_mm": 5.90802211978297,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -42.844601821561255,
+      "casing_min_Z_mm": -40.033047706400964,
+      "casing_ground_margin_mm": 2.811554115160291,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -49.233605749626655,
+      "casing_min_Z_mm": -43.58578163459735,
+      "casing_ground_margin_mm": 5.647824115029302,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -49.233605749626655,
+      "casing_min_Z_mm": -46.67890196146686,
+      "casing_ground_margin_mm": 2.5547037881597916,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -22.62930628934313,
+      "casing_min_Z_mm": -11.859444113668282,
+      "casing_ground_margin_mm": 10.769862175674849,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -22.62930628934313,
+      "casing_min_Z_mm": -15.331599871258643,
+      "casing_ground_margin_mm": 7.297706418084488,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -14.836568639052723,
+      "casing_min_Z_mm": -2.5000000000000004,
+      "casing_ground_margin_mm": 12.336568639052723,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -14.836568639052723,
+      "casing_min_Z_mm": -5.999999999999998,
+      "casing_ground_margin_mm": 8.836568639052725,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -22.636252163703663,
+      "casing_min_Z_mm": -13.105292574381027,
+      "casing_ground_margin_mm": 9.530959589322636,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -22.636252163703663,
+      "casing_min_Z_mm": -16.566277902633942,
+      "casing_ground_margin_mm": 6.069974261069721,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -85.23012414975551,
+      "casing_min_Z_mm": -80.0315087745612,
+      "casing_ground_margin_mm": 5.198615375194308,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -85.23012414975551,
+      "casing_min_Z_mm": -83.58837270273895,
+      "casing_ground_margin_mm": 1.64175144701656,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -80.44826719369262,
+      "casing_min_Z_mm": -74.01809558826109,
+      "casing_ground_margin_mm": 6.430171605431525,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -80.44826719369262,
+      "casing_min_Z_mm": -77.57208958623055,
+      "casing_ground_margin_mm": 2.8761776074620684,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -85.23641929757999,
+      "casing_min_Z_mm": -80.89302113173656,
+      "casing_ground_margin_mm": 4.343398165843425,
+      "pass": true
+    },
+    {
+      "part": "C28_Right_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -85.23641929757999,
+      "casing_min_Z_mm": -84.44277346775017,
+      "casing_ground_margin_mm": 0.7936458298298135,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -49.22747286000812,
+      "casing_min_Z_mm": -42.75640876170505,
+      "casing_ground_margin_mm": 6.471064098303067,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -49.22747286000812,
+      "casing_min_Z_mm": -45.85629144378064,
+      "casing_ground_margin_mm": 3.371181416227479,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -42.84460182156103,
+      "casing_min_Z_mm": -36.93657970177823,
+      "casing_ground_margin_mm": 5.9080221197828,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -42.84460182156103,
+      "casing_min_Z_mm": -40.033047706400936,
+      "casing_ground_margin_mm": 2.8115541151600922,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -49.23360574962635,
+      "casing_min_Z_mm": -43.585781634597254,
+      "casing_ground_margin_mm": 5.6478241150290955,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": -27.7767123252,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -49.23360574962635,
+      "casing_min_Z_mm": -46.678901961466764,
+      "casing_ground_margin_mm": 2.5547037881595855,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -22.62930628934296,
+      "casing_min_Z_mm": -11.859444113668324,
+      "casing_ground_margin_mm": 10.769862175674636,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -22.62930628934296,
+      "casing_min_Z_mm": -15.331599871258682,
+      "casing_ground_margin_mm": 7.297706418084278,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -14.836568639052501,
+      "casing_min_Z_mm": -2.4999999999999996,
+      "casing_ground_margin_mm": 12.336568639052501,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -14.836568639052501,
+      "casing_min_Z_mm": -6.000000000000001,
+      "casing_ground_margin_mm": 8.836568639052501,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 0.0,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -22.636252163703357,
+      "casing_min_Z_mm": -13.105292574380979,
+      "casing_ground_margin_mm": 9.530959589322379,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 0.0,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -22.636252163703357,
+      "casing_min_Z_mm": -16.5662779026339,
+      "casing_ground_margin_mm": 6.069974261069458,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -85.2301241497552,
+      "casing_min_Z_mm": -80.0315087745612,
+      "casing_ground_margin_mm": 5.198615375193995,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": -9.3527987807,
+      "sole_min_Z_mm": -85.2301241497552,
+      "casing_min_Z_mm": -83.58837270273897,
+      "casing_ground_margin_mm": 1.641751447016233,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -80.44826719369225,
+      "casing_min_Z_mm": -74.01809558826103,
+      "casing_ground_margin_mm": 6.430171605431212,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 0.0,
+      "sole_min_Z_mm": -80.44826719369225,
+      "casing_min_Z_mm": -77.57208958623052,
+      "casing_ground_margin_mm": 2.8761776074617273,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_upper",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -85.23641929757954,
+      "casing_min_Z_mm": -80.89302113173645,
+      "casing_ground_margin_mm": 4.343398165843098,
+      "pass": true
+    },
+    {
+      "part": "C28_Left_shoe_sole_rim",
+      "pitch_deg": 25.2232876748,
+      "roll_deg": 10.6472012193,
+      "sole_min_Z_mm": -85.23641929757954,
+      "casing_min_Z_mm": -84.44277346775009,
+      "casing_ground_margin_mm": 0.7936458298294582,
+      "pass": true
+    }
+  ],
+  "scope": "Sole remains below shoe casings at nine selected pitch/roll orientations per foot; not a contact/load simulation."
+}

@@ -1,0 +1,505 @@
+{
+  "schema": 1,
+  "file_only": true,
+  "native_calls": 0,
+  "raw_validation_sha256": "4cce2a9a7610357b63039d549db1ab7d06309f34249b642d4b12d16c1436940e",
+  "parts": [
+    {
+      "name": "C27_Right_shin_rear",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Right_shin_rear.stl",
+      "raw_sha256": "659a666641ef7955b1fcc0333f9b9f52a7855401a5791474e3120becc95dd2f6",
+      "raw_triangles": 13466,
+      "exact_zero_area_facets": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "remaining_boundary_edges": 10,
+      "remaining_nonmanifold_edges": 0,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [
+        [
+          [
+            151.42745971679688,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            150.4063262939453,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            150.4063262939453,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            148.3640594482422,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            148.3640594482422,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            144.27952575683594,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            144.27952575683594,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            136.11045837402344,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            136.11045837402344,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            119.7723388671875,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            119.7723388671875,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            103.43421173095703,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            103.43421173095703,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            95.26515197753906,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ]
+        ],
+        [
+          [
+            151.93922424316406,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            95.26515197753906,
+            94.34628295898438,
+            261.75
+          ],
+          [
+            91.18061828613281,
+            94.34628295898438,
+            261.75
+          ]
+        ]
+      ],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        7.62939453125e-06,
+        3.0517578125e-05
+      ]
+    },
+    {
+      "name": "C27_Torso_middle_rear_right",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Torso_middle_rear_right.stl",
+      "raw_sha256": "103d1f9683530602d6559f6db5f8eca1a9aa08f70060a3d6a0802dc1f5a49630",
+      "raw_triangles": 9268,
+      "exact_zero_area_facets": [
+        1399,
+        1449
+      ],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [
+        1399,
+        1449
+      ],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [
+        1399,
+        1449
+      ],
+      "remaining_boundary_edges": 0,
+      "remaining_nonmanifold_edges": 0,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [
+        [
+          [
+            112.5810775756836,
+            101.4706039428711,
+            1289.7999267578125
+          ],
+          [
+            112.58052062988281,
+            101.47122192382812,
+            1289.800048828125
+          ],
+          [
+            112.5810775756836,
+            101.4706039428711,
+            1289.7999267578125
+          ]
+        ],
+        [
+          [
+            114.20343017578125,
+            101.34870147705078,
+            1289.7999267578125
+          ],
+          [
+            112.5810775756836,
+            101.4706039428711,
+            1289.7999267578125
+          ],
+          [
+            112.5810775756836,
+            101.4706039428711,
+            1289.7999267578125
+          ]
+        ]
+      ],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        7.62939453125e-06,
+        0.0001220703125
+      ]
+    },
+    {
+      "name": "C27_Torso_upper_front",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Torso_upper_front.stl",
+      "raw_sha256": "61ebfc6d7b2bcf96a284d4ace32859f4e76ab0bacaeb0e479b18e7195916203f",
+      "raw_triangles": 39144,
+      "exact_zero_area_facets": [
+        356
+      ],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [
+        356
+      ],
+      "remaining_boundary_edges": 3,
+      "remaining_nonmanifold_edges": 2,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [
+        [
+          [
+            -145.4010467529297,
+            -9.471039772033691,
+            1306.391845703125
+          ],
+          [
+            -147.92222595214844,
+            -9.471039772033691,
+            1306.391845703125
+          ],
+          [
+            -151.0,
+            -9.471039772033691,
+            1306.391845703125
+          ]
+        ]
+      ],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        3.814697265625e-06,
+        0.0001220703125
+      ]
+    },
+    {
+      "name": "C27_Torso_upper_front_right",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Torso_upper_front_right.stl",
+      "raw_sha256": "28f7beea7d617d3044258cf5446d899d7139495456ed1bed9407e5b757da5ac2",
+      "raw_triangles": 42556,
+      "exact_zero_area_facets": [],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [],
+      "remaining_boundary_edges": 0,
+      "remaining_nonmanifold_edges": 2,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        3.814697265625e-06,
+        0.0001220703125
+      ]
+    },
+    {
+      "name": "C27_Torso_upper_rear",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Torso_upper_rear.stl",
+      "raw_sha256": "96f916363a9426ee34b65f151e54c3c2c405539c9551c93872f36d39e722a75c",
+      "raw_triangles": 43054,
+      "exact_zero_area_facets": [
+        21576,
+        21593
+      ],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [
+        21576,
+        21593
+      ],
+      "remaining_boundary_edges": 6,
+      "remaining_nonmanifold_edges": 2,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [
+        [
+          [
+            -151.0,
+            63.16539764404297,
+            1348.3284912109375
+          ],
+          [
+            -145.80105590820312,
+            63.16539764404297,
+            1348.3284912109375
+          ],
+          [
+            -143.3011474609375,
+            63.16539764404297,
+            1348.3284912109375
+          ]
+        ],
+        [
+          [
+            -144.6334686279297,
+            65.47103881835938,
+            1344.3349609375
+          ],
+          [
+            -147.13330078125,
+            65.47103881835938,
+            1344.3349609375
+          ],
+          [
+            -151.0,
+            65.47103881835938,
+            1344.3349609375
+          ]
+        ]
+      ],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        7.62939453125e-06,
+        0.0001220703125
+      ]
+    },
+    {
+      "name": "C27_Torso_upper_rear_right",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_Torso_upper_rear_right.stl",
+      "raw_sha256": "ef1ed4175b4ded60d1a295b7f2838209cc7d6bf602c1042fd785bdc417f70a9c",
+      "raw_triangles": 44618,
+      "exact_zero_area_facets": [
+        22131
+      ],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [],
+      "opposed_duplicate_groups": [],
+      "permitted_remove_indices": [
+        22131
+      ],
+      "remaining_boundary_edges": 3,
+      "remaining_nonmanifold_edges": 2,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [
+        [
+          [
+            143.3011474609375,
+            63.16539764404297,
+            1348.3284912109375
+          ],
+          [
+            145.80105590820312,
+            63.16539764404297,
+            1348.3284912109375
+          ],
+          [
+            151.0,
+            63.16539764404297,
+            1348.3284912109375
+          ]
+        ]
+      ],
+      "float32_ulp_at_max_abs_coords_mm": [
+        1.52587890625e-05,
+        7.62939453125e-06,
+        0.0001220703125
+      ]
+    },
+    {
+      "name": "C27_pelvis_front_nose",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_pelvis_front_nose.stl",
+      "raw_sha256": "09a253eafe5ba8b09e9ccd5c1fc5c06750218f55431a23ae11bca3a20ef4a10a",
+      "raw_triangles": 23968,
+      "exact_zero_area_facets": [],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [
+        [
+          2314,
+          14449
+        ]
+      ],
+      "opposed_duplicate_groups": [
+        [
+          2314,
+          14449
+        ]
+      ],
+      "permitted_remove_indices": [],
+      "remaining_boundary_edges": 0,
+      "remaining_nonmanifold_edges": 1,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [],
+      "float32_ulp_at_max_abs_coords_mm": [
+        7.62939453125e-06,
+        3.814697265625e-06,
+        6.103515625e-05
+      ]
+    },
+    {
+      "name": "C27_pelvis_front_nose_right",
+      "raw_path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v27\\deliverables\\casings\\C27_pelvis_front_nose_right.stl",
+      "raw_sha256": "308590041aa5bc7c995e2078d58d9a8b92b4134a795b1ebb64486bdfb3b670f3",
+      "raw_triangles": 26798,
+      "exact_zero_area_facets": [],
+      "nonzero_near_area_facets": [],
+      "repeated_vertex_facets": [],
+      "exact_duplicate_groups": [
+        [
+          3603,
+          26290
+        ],
+        [
+          3602,
+          26291
+        ],
+        [
+          3601,
+          26292
+        ]
+      ],
+      "opposed_duplicate_groups": [
+        [
+          3603,
+          26290
+        ],
+        [
+          3602,
+          26291
+        ],
+        [
+          3601,
+          26292
+        ]
+      ],
+      "permitted_remove_indices": [],
+      "remaining_boundary_edges": 0,
+      "remaining_nonmanifold_edges": 3,
+      "remaining_inconsistent_shared_edges": 0,
+      "post_delete_area_degeneration_count": 0,
+      "zero_area_triangles_coordinates_mm": [],
+      "float32_ulp_at_max_abs_coords_mm": [
+        7.62939453125e-06,
+        3.814697265625e-06,
+        6.103515625e-05
+      ]
+    }
+  ],
+  "generated_epoch": 1790772236.0447214
+}

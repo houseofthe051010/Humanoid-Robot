@@ -1,0 +1,199 @@
+{
+  "weight_N": 400.33994537344495,
+  "diameter_mm": 8.0,
+  "E_MPa": 200000.0,
+  "assumed_yield_MPa": 250.0,
+  "shafts": {
+    "Ankle roll": {
+      "race_center_span_mm": 39.0,
+      "load_block_width_mm": 21.0,
+      "edge_arm_mm": 9.0,
+      "cases": [
+        {
+          "bodyweight_multiple": 0.5,
+          "total_joint_force_N": 200.16997268672247,
+          "edge_bending_MPa": 17.920147844059628,
+          "uniform_bending_MPa": 28.373567419761077,
+          "center_point_bending_MPa": 38.826986995462526,
+          "edge_bare_shaft_deflection_mm": 0.00395643264119629,
+          "uniform_bare_shaft_deflection_mm": 0.00537989438498126,
+          "ideal_stiff_block_stub_deflection_mm": 0.0006048049897370124,
+          "max_transverse_shear_MPa": 2.6548367176384633,
+          "edge_yield_ratio": 13.950777760065904,
+          "uniform_yield_ratio": 8.811017532673203
+        },
+        {
+          "bodyweight_multiple": 1,
+          "total_joint_force_N": 400.33994537344495,
+          "edge_bending_MPa": 35.840295688119255,
+          "uniform_bending_MPa": 56.747134839522154,
+          "center_point_bending_MPa": 77.65397399092505,
+          "edge_bare_shaft_deflection_mm": 0.00791286528239258,
+          "uniform_bare_shaft_deflection_mm": 0.01075978876996252,
+          "ideal_stiff_block_stub_deflection_mm": 0.0012096099794740248,
+          "max_transverse_shear_MPa": 5.309673435276927,
+          "edge_yield_ratio": 6.975388880032952,
+          "uniform_yield_ratio": 4.4055087663366015
+        },
+        {
+          "bodyweight_multiple": 3,
+          "total_joint_force_N": 1201.0198361203347,
+          "edge_bending_MPa": 107.52088706435775,
+          "uniform_bending_MPa": 170.24140451856644,
+          "center_point_bending_MPa": 232.96192197277512,
+          "edge_bare_shaft_deflection_mm": 0.023738595847177735,
+          "uniform_bare_shaft_deflection_mm": 0.032279366309887564,
+          "ideal_stiff_block_stub_deflection_mm": 0.0036288299384220745,
+          "max_transverse_shear_MPa": 15.929020305830779,
+          "edge_yield_ratio": 2.3251296266776507,
+          "uniform_yield_ratio": 1.4685029221122006
+        },
+        {
+          "bodyweight_multiple": 5,
+          "total_joint_force_N": 2001.6997268672249,
+          "edge_bending_MPa": 179.20147844059628,
+          "uniform_bending_MPa": 283.73567419761076,
+          "center_point_bending_MPa": 388.26986995462534,
+          "edge_bare_shaft_deflection_mm": 0.03956432641196289,
+          "uniform_bare_shaft_deflection_mm": 0.05379894384981261,
+          "ideal_stiff_block_stub_deflection_mm": 0.006048049897370124,
+          "max_transverse_shear_MPa": 26.548367176384634,
+          "edge_yield_ratio": 1.3950777760065904,
+          "uniform_yield_ratio": 0.8811017532673202
+        }
+      ],
+      "diameter_for_5BW_factor2_edge_mm": 9.020567184147554,
+      "diameter_for_5BW_factor2_uniform_mm": 10.513757692442168
+    },
+    "Ankle pitch": {
+      "race_center_span_mm": 74.3,
+      "load_block_width_mm": 28.0,
+      "edge_arm_mm": 23.15,
+      "cases": [
+        {
+          "bodyweight_multiple": 0.5,
+          "total_joint_force_N": 200.16997268672247,
+          "edge_bending_MPa": 46.09460250999782,
+          "uniform_bending_MPa": 60.03249527759975,
+          "center_point_bending_MPa": 73.97038804520167,
+          "edge_bare_shaft_deflection_mm": 0.03461363740503107,
+          "uniform_bare_shaft_deflection_mm": 0.03980085649670691,
+          "ideal_stiff_block_stub_deflection_mm": 0.010292972755693458,
+          "max_transverse_shear_MPa": 2.6548367176384633,
+          "edge_yield_ratio": 5.423628502833396,
+          "uniform_yield_ratio": 4.164411271661464
+        },
+        {
+          "bodyweight_multiple": 1,
+          "total_joint_force_N": 400.33994537344495,
+          "edge_bending_MPa": 92.18920501999564,
+          "uniform_bending_MPa": 120.0649905551995,
+          "center_point_bending_MPa": 147.94077609040335,
+          "edge_bare_shaft_deflection_mm": 0.06922727481006213,
+          "uniform_bare_shaft_deflection_mm": 0.07960171299341381,
+          "ideal_stiff_block_stub_deflection_mm": 0.020585945511386917,
+          "max_transverse_shear_MPa": 5.309673435276927,
+          "edge_yield_ratio": 2.711814251416698,
+          "uniform_yield_ratio": 2.082205635830732
+        },
+        {
+          "bodyweight_multiple": 3,
+          "total_joint_force_N": 1201.0198361203347,
+          "edge_bending_MPa": 276.5676150599869,
+          "uniform_bending_MPa": 360.1949716655985,
+          "center_point_bending_MPa": 443.82232827121004,
+          "edge_bare_shaft_deflection_mm": 0.2076818244301864,
+          "uniform_bare_shaft_deflection_mm": 0.23880513898024144,
+          "ideal_stiff_block_stub_deflection_mm": 0.061757836534160754,
+          "max_transverse_shear_MPa": 15.929020305830779,
+          "edge_yield_ratio": 0.9039380838055662,
+          "uniform_yield_ratio": 0.6940685452769108
+        },
+        {
+          "bodyweight_multiple": 5,
+          "total_joint_force_N": 2001.6997268672249,
+          "edge_bending_MPa": 460.9460250999782,
+          "uniform_bending_MPa": 600.3249527759975,
+          "center_point_bending_MPa": 739.7038804520168,
+          "edge_bare_shaft_deflection_mm": 0.34613637405031067,
+          "uniform_bare_shaft_deflection_mm": 0.3980085649670691,
+          "ideal_stiff_block_stub_deflection_mm": 0.1029297275569346,
+          "max_transverse_shear_MPa": 26.548367176384634,
+          "edge_yield_ratio": 0.5423628502833396,
+          "uniform_yield_ratio": 0.41644112716614634
+        }
+      ],
+      "diameter_for_5BW_factor2_edge_mm": 12.359569408081647,
+      "diameter_for_5BW_factor2_uniform_mm": 13.497358434357974
+    },
+    "Knee": {
+      "race_center_span_mm": 86.3,
+      "load_block_width_mm": 42.0,
+      "edge_arm_mm": 22.15,
+      "cases": [
+        {
+          "bodyweight_multiple": 0.5,
+          "total_joint_force_N": 200.16997268672247,
+          "edge_bending_MPa": 44.10347497176897,
+          "uniform_bending_MPa": 65.01031412317187,
+          "center_point_bending_MPa": 85.91715327457476,
+          "edge_bare_shaft_deflection_mm": 0.04681533333021538,
+          "uniform_bare_shaft_deflection_mm": 0.05972138647386577,
+          "ideal_stiff_block_stub_deflection_mm": 0.009015898812223632,
+          "max_transverse_shear_MPa": 2.6548367176384633,
+          "edge_yield_ratio": 5.668487577453415,
+          "uniform_yield_ratio": 3.8455436398343994
+        },
+        {
+          "bodyweight_multiple": 1,
+          "total_joint_force_N": 400.33994537344495,
+          "edge_bending_MPa": 88.20694994353794,
+          "uniform_bending_MPa": 130.02062824634373,
+          "center_point_bending_MPa": 171.83430654914952,
+          "edge_bare_shaft_deflection_mm": 0.09363066666043077,
+          "uniform_bare_shaft_deflection_mm": 0.11944277294773153,
+          "ideal_stiff_block_stub_deflection_mm": 0.018031797624447263,
+          "max_transverse_shear_MPa": 5.309673435276927,
+          "edge_yield_ratio": 2.8342437887267073,
+          "uniform_yield_ratio": 1.9227718199171997
+        },
+        {
+          "bodyweight_multiple": 3,
+          "total_joint_force_N": 1201.0198361203347,
+          "edge_bending_MPa": 264.6208498306138,
+          "uniform_bending_MPa": 390.06188473903114,
+          "center_point_bending_MPa": 515.5029196474486,
+          "edge_bare_shaft_deflection_mm": 0.2808919999812922,
+          "uniform_bare_shaft_deflection_mm": 0.3583283188431946,
+          "ideal_stiff_block_stub_deflection_mm": 0.054095392873341794,
+          "max_transverse_shear_MPa": 15.929020305830779,
+          "edge_yield_ratio": 0.9447479295755692,
+          "uniform_yield_ratio": 0.6409239399723999
+        },
+        {
+          "bodyweight_multiple": 5,
+          "total_joint_force_N": 2001.6997268672249,
+          "edge_bending_MPa": 441.0347497176897,
+          "uniform_bending_MPa": 650.1031412317187,
+          "center_point_bending_MPa": 859.1715327457476,
+          "edge_bare_shaft_deflection_mm": 0.4681533333021538,
+          "uniform_bare_shaft_deflection_mm": 0.5972138647386578,
+          "ideal_stiff_block_stub_deflection_mm": 0.09015898812223634,
+          "max_transverse_shear_MPa": 26.548367176384634,
+          "edge_yield_ratio": 0.5668487577453415,
+          "uniform_yield_ratio": 0.3845543639834399
+        }
+      ],
+      "diameter_for_5BW_factor2_edge_mm": 12.178980052075067,
+      "diameter_for_5BW_factor2_uniform_mm": 13.860558733602025
+    }
+  },
+  "limitations": [
+    "Bare smooth shaft; no collar/composite stiffness credit.",
+    "Symmetric transverse loads only, roll center offset 0.025 mm neglected.",
+    "250 MPa is an assumption, not certification of the purchased shaft.",
+    "Actuator forces, joint moments, axial loading, fatigue and contact compliance excluded.",
+    "Models are sensitivity cases, not rigorous bounds on the actual contact assembly.",
+    "Elastic deflections above yield are extrapolations, not permanent-set predictions."
+  ]
+}

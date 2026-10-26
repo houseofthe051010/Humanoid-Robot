@@ -1,0 +1,41 @@
+{
+  "fixed_PCD_mm": 48,
+  "output_PCD_mm": 25,
+  "lower_axis": "roll Y",
+  "upper_axis": "pitch X",
+  "roll_center_mm": [
+    0,
+    33.343134,
+    927.0
+  ],
+  "pitch_center_mm": [
+    0,
+    33.343134,
+    954.0
+  ],
+  "axis_separation_mm": 27.0,
+  "rod_anchor_centers_mm": [
+    [
+      -35,
+      5.843133999999999,
+      918
+    ],
+    [
+      35,
+      5.843133999999999,
+      918
+    ]
+  ],
+  "fillets": [
+    {
+      "part": "W05_PA12CF_yaw_output_lower_roll_base",
+      "success": false,
+      "error": "3 : Fillet1 / Compute Failed // ASM_BL_UNFIN_SHEET -   The fillet/chamfer could not be created at the requested size.\n    Try adjusting the size, deselecting some of the edges (try disabling Tangent Chain), or using multiple separate operations."
+    },
+    {
+      "part": "W06_PA12CF_roll_to_pitch_short_link",
+      "success": true,
+      "radius": 2.0
+    }
+  ]
+}

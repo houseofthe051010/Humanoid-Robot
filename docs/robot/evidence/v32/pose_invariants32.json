@@ -1,0 +1,12 @@
+{
+  "pass_": true,
+  "original_occurrences_compared": 439,
+  "added_occurrences": [
+    "Casings:1+Covers_left_thigh:1+C28_Left_hip_yaw_shroud:1"
+  ],
+  "max_transform_error": 0.0,
+  "joints_preserved": 65,
+  "body_axes": 23,
+  "unchanged_other_visible_shapes": 1553,
+  "height_mm": 1600.2000000390617
+}

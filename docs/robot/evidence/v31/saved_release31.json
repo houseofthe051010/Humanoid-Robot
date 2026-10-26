@@ -1,0 +1,30 @@
+{
+  "document": "Humanoid_complete_v31",
+  "datafile_id": "urn:adsk.wipprod:dm.lineage:ap3dItj1RheHnaLN8acWcQ",
+  "version": 2,
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\Humanoid_complete_v31.f3d",
+  "bytes": 272355278,
+  "photos": {
+    "threequarter": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_threequarter.png",
+    "front": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_front.png",
+    "waist": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_waist.png",
+    "rear": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_rear.png",
+    "bare": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_casings_off.png",
+    "hip_carriers": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_hip_carriers.png",
+    "ankle_holders": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\robot_v31_ankle_holders.png"
+  },
+  "step_parts": [
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\C28_waist_front_reinforced_holder.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\C28_waist_rear_reinforced_holder.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Left_Q02_CNC_yaw_to_roll_cradle.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Left_Q03_CNC_roll_to_pitch_fork.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Left_S06_Dual_7010_motor_carrier.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Right_Q02_CNC_yaw_to_roll_cradle.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Right_Q03_CNC_roll_to_pitch_fork.step",
+    "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v31\\deliverables\\modified_parts_STEP\\Right_S06_Dual_7010_motor_carrier.step"
+  ],
+  "epoch": 1790909394.0356708,
+  "native_joint_count": 65,
+  "body_axes": 23,
+  "height_mm": 1600.2000000390617
+}

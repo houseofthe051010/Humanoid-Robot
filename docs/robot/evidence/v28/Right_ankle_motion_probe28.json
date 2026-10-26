@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "pass": true,
+  "side": "Right",
+  "pitch_origin_mm": [
+    120.0,
+    11.675,
+    31.60000000000001
+  ],
+  "pitch_axis": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "roll_origin_mm": [
+    119.99999999999997,
+    11.608749380930512,
+    14.60012909297626
+  ],
+  "roll_axis": [
+    -6.004290432074705e-17,
+    0.9999924062955154,
+    -0.0038970952393817537
+  ],
+  "samples_per_foot": 15,
+  "selected_fixed_bodies": 93,
+  "hits": [],
+  "persistent_pose_mutations": 0
+}

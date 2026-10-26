@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "joint": "Right_Hip_pitch",
+  "origin_world_mm": [
+    19.165619354073613,
+    23.29061372295923,
+    837.489853593501
+  ],
+  "axis_world": [
+    0.9063077870366535,
+    5.455045833169681e-05,
+    -0.42261825822007687
+  ],
+  "independent_actual_cylinder_faces": [
+    {
+      "part": "Right_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_-34",
+      "axis_alignment": 1.0,
+      "line_distance_mm": 2.134213792924912e-13,
+      "radius_mm": 19.999999999999996
+    },
+    {
+      "part": "Right_H02_Hip_pitch_roll_bearing_REFERENCES",
+      "body": "Pitch_40x52x7_21",
+      "axis_alignment": 1.0,
+      "line_distance_mm": 3.777620003729629e-13,
+      "radius_mm": 20.0
+    }
+  ]
+}

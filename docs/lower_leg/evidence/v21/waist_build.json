@@ -1,0 +1,35 @@
+{
+  "mount_PCD_mm": 40.5,
+  "mount_thread": "8-M2.5",
+  "mount_clearance_mm": 2.8,
+  "output_PCD_mm": 25,
+  "lower_pitch_center_mm": [
+    0,
+    48.343134,
+    927
+  ],
+  "upper_roll_center_mm": [
+    0,
+    48.343134,
+    954
+  ],
+  "spine_rearward_shift_mm": 15,
+  "axis_separation_mm": 27,
+  "retained_crank_radius_mm": 26,
+  "retained_rod_center_spacing_mm": 60,
+  "rod_end_tilt_limit_deg": 35,
+  "joint_count": 26,
+  "history_note": "Waist component solids copied at the current state; native joints reconstructed. Original waist history preserved in hidden named group and source backup.",
+  "base_pin_length_mm": 102,
+  "base_pin_support_x_mm": [
+    [
+      -47,
+      -40
+    ],
+    [
+      40,
+      47
+    ]
+  ],
+  "pin_support_shift_each_mm": 4
+}

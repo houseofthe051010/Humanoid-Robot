@@ -1,0 +1,8 @@
+{
+  "spacing_mm": 260,
+  "components_per_leg": 104,
+  "joints": {
+    "Right": 101,
+    "Left": 101
+  }
+}

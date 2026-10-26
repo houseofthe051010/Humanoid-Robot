@@ -1,0 +1,789 @@
+{
+  "scope": "23 anatomical output joints; wrist and fingers static",
+  "fixture": "fixed base, gravity off, no contact dynamics, 1kg/link proxy masses, test-only PD drives; hardware torque/velocity limits pending",
+  "native_joint_map_source": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\native_joint_map_saved.json",
+  "native_archive_sha256": "3e809affb85bda0ab33a346bd533cbb598c48e21c97178491a401ce42dda0461",
+  "started": 1790804668.8079288,
+  "joints": [
+    {
+      "name": "waist_yaw",
+      "native_name": "WJ00_waist_yaw",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20941033959388733,
+          "tracking_error_rad": 2.917064543223047e-05,
+          "other_joint_motion_rad": 1.786658503988292e-05,
+          "fk_max_position_error_m": 1.2174659746691831e-07,
+          "fk_max_rotation_error_rad": 2.621531035207468e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2094356119632721,
+          "tracking_error_rad": 3.898276047464844e-06,
+          "other_joint_motion_rad": 2.191027078879415e-06,
+          "fk_max_position_error_m": 1.7607016271104053e-07,
+          "fk_max_rotation_error_rad": 2.82369015626487e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.9138269383111037e-05,
+      "pass": true
+    },
+    {
+      "name": "waist_pitch",
+      "native_name": "WJ01_lower_waist_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.5235987755982988,
+        0.3490658503988659
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20944643020629883,
+          "tracking_error_rad": 6.919966979268555e-06,
+          "other_joint_motion_rad": 5.538645950764476e-07,
+          "fk_max_position_error_m": 1.5532719808681424e-07,
+          "fk_max_rotation_error_rad": 2.98949381730206e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2094447910785675,
+          "tracking_error_rad": 5.2808392479453126e-06,
+          "other_joint_motion_rad": 3.0059916866775893e-07,
+          "fk_max_position_error_m": 1.6368238441272298e-07,
+          "fk_max_rotation_error_rad": 3.004342828252052e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 5.363206128095044e-06,
+      "pass": true
+    },
+    {
+      "name": "waist_roll",
+      "native_name": "WJ02_upper_waist_roll",
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.2094566524028778,
+          "tracking_error_rad": 1.7142163558248047e-05,
+          "other_joint_motion_rad": 1.0333635600545676e-06,
+          "fk_max_position_error_m": 1.2793633560426e-07,
+          "fk_max_rotation_error_rad": 2.7486571282939453e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20944909751415253,
+          "tracking_error_rad": 9.587274832967285e-06,
+          "other_joint_motion_rad": 5.85407804010174e-07,
+          "fk_max_position_error_m": 1.1489779310523163e-07,
+          "fk_max_rotation_error_rad": 1.7014837427952496e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 1.6782058082753792e-05,
+      "pass": true
+    },
+    {
+      "name": "left_ankle_pitch",
+      "native_name": "Left_Ankle_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20937955379486084,
+          "tracking_error_rad": 5.9956444458719726e-05,
+          "other_joint_motion_rad": 5.506468005478382e-05,
+          "fk_max_position_error_m": 1.4563760023480992e-07,
+          "fk_max_rotation_error_rad": 3.400725254304358e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943570137023926,
+          "tracking_error_rad": 3.8088690803017577e-06,
+          "other_joint_motion_rad": 1.2930205230077263e-05,
+          "fk_max_position_error_m": 6.977842218409486e-08,
+          "fk_max_rotation_error_rad": 2.6901055229859213e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 6.346682494040579e-05,
+      "pass": true
+    },
+    {
+      "name": "left_ankle_roll",
+      "native_name": "Left_Ankle_roll",
+      "axis": [
+        0.9999924062955156,
+        0.0,
+        0.003897095239380199
+      ],
+      "limits_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "samples": [
+        {
+          "command_rad": -0.10663961729685355,
+          "measured_rad": -0.10661006718873978,
+          "tracking_error_rad": 2.9550108113771123e-05,
+          "other_joint_motion_rad": 4.580645509122405e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 0.0004152736697613202,
+          "pass": true
+        },
+        {
+          "command_rad": 0.12025318546240932,
+          "measured_rad": 0.12019006162881851,
+          "tracking_error_rad": 6.312383359080576e-05,
+          "other_joint_motion_rad": 9.880062862066552e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 0.0004681111307021205,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 3.331371772219427e-05,
+      "pass": true
+    },
+    {
+      "name": "left_hip_pitch",
+      "native_name": "Left_Hip_pitch",
+      "axis": [
+        0.0,
+        0.9063077870366641,
+        0.42261826174066924
+      ],
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.2094118297100067,
+          "tracking_error_rad": 2.7680529312845703e-05,
+          "other_joint_motion_rad": 2.5245277356589213e-05,
+          "fk_max_position_error_m": 1.38562190525898e-07,
+          "fk_max_rotation_error_rad": 3.2560739910649326e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2094491720199585,
+          "tracking_error_rad": 9.661780638936524e-06,
+          "other_joint_motion_rad": 7.602158348163357e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 2.6941065122338134e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.765193312370684e-05,
+      "pass": true
+    },
+    {
+      "name": "left_hip_roll",
+      "native_name": "Left_Hip_roll",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.2094174325466156,
+          "tracking_error_rad": 2.2077692703958984e-05,
+          "other_joint_motion_rad": 2.490769247742719e-06,
+          "fk_max_position_error_m": 2.1642712589677264e-07,
+          "fk_max_rotation_error_rad": 1.3431972170279968e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20939451456069946,
+          "tracking_error_rad": 4.499567862009668e-05,
+          "other_joint_motion_rad": 5.629862698697252e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 1.4117175323314547e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.312494871148374e-05,
+      "pass": true
+    },
+    {
+      "name": "left_hip_yaw",
+      "native_name": "Left_Hip_yaw",
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20943519473075867,
+          "tracking_error_rad": 4.315508560892578e-06,
+          "other_joint_motion_rad": 7.389463462459389e-06,
+          "fk_max_position_error_m": 1.5924765754666773e-07,
+          "fk_max_rotation_error_rad": 3.5063184136670957e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20942293107509613,
+          "tracking_error_rad": 1.65791642234292e-05,
+          "other_joint_motion_rad": 2.09664704016177e-05,
+          "fk_max_position_error_m": 1.7934027451788124e-07,
+          "fk_max_rotation_error_rad": 3.044911219608791e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 7.465149792551529e-06,
+      "pass": true
+    },
+    {
+      "name": "left_knee_pitch",
+      "native_name": "Left_Knee_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limits_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "samples": [
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943571627140045,
+          "tracking_error_rad": 3.79396791910791e-06,
+          "other_joint_motion_rad": 7.081903731886996e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 2.659529124929754e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 1.961144334927667e-05,
+      "pass": true
+    },
+    {
+      "name": "left_shoulder_pitch",
+      "native_name": "V24_L_shoulder_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        -2.8421709430403604e-13
+      ],
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20943640172481537,
+          "tracking_error_rad": 3.108514504190918e-06,
+          "other_joint_motion_rad": 1.563609089316742e-06,
+          "fk_max_position_error_m": 1.8014054826061065e-07,
+          "fk_max_rotation_error_rad": 2.5846981885745672e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943677425384521,
+          "tracking_error_rad": 2.7359854743447265e-06,
+          "other_joint_motion_rad": 2.3318380044656806e-06,
+          "fk_max_position_error_m": 1.315757826687556e-07,
+          "fk_max_rotation_error_rad": 3.140898185238738e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.448420900691417e-06,
+      "pass": true
+    },
+    {
+      "name": "left_shoulder_roll",
+      "native_name": "V24_L_shoulder_roll",
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.3665191429188092,
+        1.6406094968746698
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.2094365805387497,
+          "tracking_error_rad": 2.929700569864746e-06,
+          "other_joint_motion_rad": 3.907339760189643e-06,
+          "fk_max_position_error_m": 1.317090407989898e-07,
+          "fk_max_rotation_error_rad": 1.7300714597048943e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943838357925415,
+          "tracking_error_rad": 1.1266600654091796e-06,
+          "other_joint_motion_rad": 1.013337623589905e-05,
+          "fk_max_position_error_m": 9.296815098012709e-08,
+          "fk_max_rotation_error_rad": 1.459719201069214e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 3.9788661524653435e-05,
+      "pass": true
+    },
+    {
+      "name": "right_shoulder_pitch",
+      "native_name": "V24_R_shoulder_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        -2.8421709430403604e-13
+      ],
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20943640172481537,
+          "tracking_error_rad": 3.108514504190918e-06,
+          "other_joint_motion_rad": 1.5700652511441149e-06,
+          "fk_max_position_error_m": 2.6511650010874346e-07,
+          "fk_max_rotation_error_rad": 2.684857904784454e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943675935268402,
+          "tracking_error_rad": 2.750886635538574e-06,
+          "other_joint_motion_rad": 2.333358224859694e-06,
+          "fk_max_position_error_m": 1.325102388571506e-07,
+          "fk_max_rotation_error_rad": 3.055060793197006e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.4522803414583905e-06,
+      "pass": true
+    },
+    {
+      "name": "right_shoulder_roll",
+      "native_name": "V24_R_shoulder_roll",
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limits_rad": [
+        -1.6406094968746698,
+        0.3665191429188092
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.2094348520040512,
+          "tracking_error_rad": 4.658235268351074e-06,
+          "other_joint_motion_rad": 1.664028241066262e-05,
+          "fk_max_position_error_m": 2.4097233569363826e-07,
+          "fk_max_rotation_error_rad": 3.4818639360679804e-09,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943683385849,
+          "tracking_error_rad": 2.676380829569336e-06,
+          "other_joint_motion_rad": 3.5966265841125278e-06,
+          "fk_max_position_error_m": 1.0234407530052229e-07,
+          "fk_max_rotation_error_rad": 1.129609128458499e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 3.1770738132763654e-05,
+      "pass": true
+    },
+    {
+      "name": "head_yaw",
+      "native_name": "V24_neck_yaw",
+      "axis": [
+        0.0,
+        1.7229273563402628e-13,
+        1.0
+      ],
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20938047766685486,
+          "tracking_error_rad": 5.903257246470117e-05,
+          "other_joint_motion_rad": 4.094936798537674e-07,
+          "fk_max_position_error_m": 1.82182311736107e-07,
+          "fk_max_rotation_error_rad": 3.090299890897686e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2093198299407959,
+          "tracking_error_rad": 0.00011968029852366113,
+          "other_joint_motion_rad": 1.2913635600853013e-06,
+          "fk_max_position_error_m": 1.5118283939557011e-07,
+          "fk_max_rotation_error_rad": 2.7037730303465713e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 5.8959056332241744e-05,
+      "pass": true
+    },
+    {
+      "name": "right_elbow_pitch",
+      "native_name": "V25_R_elbow_pitch",
+      "axis": [
+        0.0,
+        0.9945218953682856,
+        0.10452846326753656
+      ],
+      "limits_rad": [
+        -2.356194490192345,
+        0.0
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20942798256874084,
+          "tracking_error_rad": 1.1527670578714844e-05,
+          "other_joint_motion_rad": 5.0297248890274204e-06,
+          "fk_max_position_error_m": 1.8017246184460044e-07,
+          "fk_max_rotation_error_rad": 1.3325202692993263e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 1.2534126653918065e-05,
+      "pass": true
+    },
+    {
+      "name": "left_elbow_pitch",
+      "native_name": "V25_L_elbow_pitch",
+      "axis": [
+        0.0,
+        0.9945218953682524,
+        -0.1045284632678531
+      ],
+      "limits_rad": [
+        -2.356194490192345,
+        0.0
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20942796766757965,
+          "tracking_error_rad": 1.1542571739908691e-05,
+          "other_joint_motion_rad": 5.037516530137509e-06,
+          "fk_max_position_error_m": 1.8024747598223967e-07,
+          "fk_max_rotation_error_rad": 1.2576907190671035e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 1.2537074326246511e-05,
+      "pass": true
+    },
+    {
+      "name": "head_pitch",
+      "native_name": "V26_head_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        -2.8421709430404023e-13
+      ],
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20938092470169067,
+          "tracking_error_rad": 5.858553762888574e-05,
+          "other_joint_motion_rad": 4.14764826928149e-06,
+          "fk_max_position_error_m": 2.3345220235292034e-07,
+          "fk_max_rotation_error_rad": 2.8366231073773785e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2093210518360138,
+          "tracking_error_rad": 0.00011845840330576562,
+          "other_joint_motion_rad": 7.506531801482197e-06,
+          "fk_max_position_error_m": 1.4219729310717435e-07,
+          "fk_max_rotation_error_rad": 2.52860498403686e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 5.852560207131319e-05,
+      "pass": true
+    },
+    {
+      "name": "right_ankle_pitch",
+      "native_name": "Right_Ankle_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limits_rad": [
+        -0.4852015320544236,
+        0.43982297150257105
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20937955379486084,
+          "tracking_error_rad": 5.9956444458719726e-05,
+          "other_joint_motion_rad": 5.540470374398865e-05,
+          "fk_max_position_error_m": 1.8981633415637584e-07,
+          "fk_max_rotation_error_rad": 2.5516581676273694e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20943573117256165,
+          "tracking_error_rad": 3.7790667579140624e-06,
+          "other_joint_motion_rad": 1.3104818208375946e-05,
+          "fk_max_position_error_m": 6.977836610095077e-08,
+          "fk_max_rotation_error_rad": 2.5039507184314084e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 6.389131885953248e-05,
+      "pass": true
+    },
+    {
+      "name": "right_ankle_roll",
+      "native_name": "Right_Ankle_roll",
+      "axis": [
+        -0.9999924062955156,
+        0.0,
+        -0.003897095239381309
+      ],
+      "limits_rad": [
+        -0.16406094968746698,
+        0.18500490071139894
+      ],
+      "samples": [
+        {
+          "command_rad": -0.10663961729685355,
+          "measured_rad": -0.10661006718873978,
+          "tracking_error_rad": 2.9550108113771123e-05,
+          "other_joint_motion_rad": 4.641299710783642e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 0.0004152742703148436,
+          "pass": true
+        },
+        {
+          "command_rad": 0.12025318546240932,
+          "measured_rad": 0.12019006162881851,
+          "tracking_error_rad": 6.312383359080576e-05,
+          "other_joint_motion_rad": 9.995645086746663e-06,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 0.00046811242657052865,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 3.3313925086986274e-05,
+      "pass": true
+    },
+    {
+      "name": "right_hip_pitch",
+      "native_name": "Right_Hip_pitch",
+      "axis": [
+        -5.455045833118702e-05,
+        0.9063077870366548,
+        -0.4226182582200738
+      ],
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20940859615802765,
+          "tracking_error_rad": 3.0914081291910644e-05,
+          "other_joint_motion_rad": 2.0829791537835263e-05,
+          "fk_max_position_error_m": 6.977836634741295e-08,
+          "fk_max_rotation_error_rad": 2.1703143490624408e-08,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20935791730880737,
+          "tracking_error_rad": 8.159293051218652e-05,
+          "other_joint_motion_rad": 7.781975000398234e-06,
+          "fk_max_position_error_m": 1.4953494092655676e-07,
+          "fk_max_rotation_error_rad": 1.8587984349026764e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 3.10621180688031e-05,
+      "pass": true
+    },
+    {
+      "name": "right_hip_roll",
+      "native_name": "Right_Hip_roll",
+      "axis": [
+        -0.9999999916695149,
+        0.0,
+        0.00012907738090670726
+      ],
+      "limits_rad": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20941488444805145,
+          "tracking_error_rad": 2.4625791268106934e-05,
+          "other_joint_motion_rad": 2.514613015591749e-06,
+          "fk_max_position_error_m": 2.243500257962855e-06,
+          "fk_max_rotation_error_rad": 2.698180864490542e-05,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20939457416534424,
+          "tracking_error_rad": 4.493607397532129e-05,
+          "other_joint_motion_rad": 6.355867299134843e-06,
+          "fk_max_position_error_m": 2.231093998665894e-06,
+          "fk_max_rotation_error_rad": 2.6979601660100376e-05,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.4425422452623025e-05,
+      "pass": true
+    },
+    {
+      "name": "right_hip_yaw",
+      "native_name": "Right_Hip_yaw",
+      "axis": [
+        0.00012907738086820005,
+        0.0,
+        0.9999999916695148
+      ],
+      "limits_rad": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "samples": [
+        {
+          "command_rad": -0.20943951023931956,
+          "measured_rad": -0.20943130552768707,
+          "tracking_error_rad": 8.204711632486816e-06,
+          "other_joint_motion_rad": 1.1260583960392978e-05,
+          "fk_max_position_error_m": 1.8777085962504886e-05,
+          "fk_max_rotation_error_rad": 2.6958547118544956e-05,
+          "pass": true
+        },
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.20941725373268127,
+          "tracking_error_rad": 2.2256506638285156e-05,
+          "other_joint_motion_rad": 2.8798678613384254e-05,
+          "fk_max_position_error_m": 1.879386281074183e-05,
+          "fk_max_rotation_error_rad": 2.695674744696167e-05,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 1.4870636732666753e-05,
+      "pass": true
+    },
+    {
+      "name": "right_knee_pitch",
+      "native_name": "Right_Knee_pitch",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limits_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "samples": [
+        {
+          "command_rad": 0.20943951023931956,
+          "measured_rad": 0.2094298154115677,
+          "tracking_error_rad": 9.694827751871582e-06,
+          "other_joint_motion_rad": 1.8864990124711767e-05,
+          "fk_max_position_error_m": 7.185906841968962e-08,
+          "fk_max_rotation_error_rad": 2.85896239940199e-08,
+          "pass": true
+        }
+      ],
+      "reset_error_rad": 2.178211616410408e-05,
+      "pass": true
+    }
+  ],
+  "usd": "E:\\Aditya\\robot_sim\\physical_v29\\assets\\usd\\humanoid_physical_v29.usd",
+  "runtime": {
+    "isaaclab": "0.54.4",
+    "isaacsim": "5.1.0.0",
+    "device": "cpu"
+  },
+  "disabled_collision_prims": 0,
+  "rest_fk_max_position_error_m": 6.977836634741295e-08,
+  "rest_fk_max_rotation_error_rad": 0.0,
+  "all_pass": true,
+  "finished": 1790804682.9598284
+}

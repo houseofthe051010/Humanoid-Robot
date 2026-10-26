@@ -1,0 +1,16 @@
+{
+  "roll_center_abs_x_mm": 158,
+  "outward_shift_mm": 18,
+  "thigh_spacing_mm": 260,
+  "pitch_flange": "complete round flange without case-cut fins",
+  "fillets": [
+    {
+      "leg": "Right_leg",
+      "success": true
+    },
+    {
+      "leg": "Left_leg",
+      "success": true
+    }
+  ]
+}

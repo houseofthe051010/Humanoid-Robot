@@ -1,0 +1,25 @@
+{
+  "part": "C28_Right_elbow_inner_side_guard",
+  "attempt": "final02",
+  "candidate_count": 3,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "C27_Right_upper_arm_front/C27_Right_upper_arm_front_2p5mm_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "C27_Right_upper_arm_rear/C27_Right_upper_arm_rear_2p5mm_skin",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "S24_R_upper_arm_fork_to_elbow/S25_R_upper_arm_with_dual_elbow_bearing_seats",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

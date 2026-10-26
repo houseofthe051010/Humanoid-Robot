@@ -1,0 +1,109 @@
+{
+  "revision": 29,
+  "targets": [
+    {
+      "part": "Left_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "side": "Left",
+      "axis": [
+        0.9063077870366548,
+        0.0,
+        0.42261826174068917
+      ],
+      "origin_mm": [
+        -19.16561935407359,
+        23.343133999999996,
+        867.4898569830908
+      ],
+      "axial_interval_mm": [
+        -134.6601202508516,
+        -30.05173816540546
+      ],
+      "envelope_radius_mm": 67.13662930143684,
+      "radial_clearance_mm": 3,
+      "bound_corners_checked": 8
+    },
+    {
+      "part": "Right_Q03_CNC_roll_to_pitch_fork_clear_endcap_seats",
+      "side": "Right",
+      "axis": [
+        0.9063077870366534,
+        5.4550458331696805e-05,
+        -0.4226182582200768
+      ],
+      "origin_mm": [
+        19.165619354073613,
+        23.29061372295923,
+        867.489853593501
+      ],
+      "axial_interval_mm": [
+        20.986423850183442,
+        125.60118821528393
+      ],
+      "envelope_radius_mm": 70.44378152361864,
+      "radial_clearance_mm": 3,
+      "bound_corners_checked": 8
+    }
+  ],
+  "holders": [
+    {
+      "part": "C28_waist_front_reinforced_holder",
+      "before_volume_mm3": 242050.60245202394,
+      "after_volume_mm3": 130006.7889617033,
+      "removed_mm3": 112043.81349032064,
+      "lumps": 1,
+      "bounds_mm": [
+        [
+          -92.49175038768533,
+          -42.40905208256791,
+          800.4150944457999
+        ],
+        [
+          91.01673095298574,
+          23.143133999999996,
+          932.0
+        ]
+      ]
+    },
+    {
+      "part": "C28_waist_rear_reinforced_holder",
+      "before_volume_mm3": 250230.60467438877,
+      "after_volume_mm3": 142356.31286478843,
+      "removed_mm3": 107874.29180960034,
+      "lumps": 1,
+      "bounds_mm": [
+        [
+          -93.53371096187394,
+          23.543134000000016,
+          800.4150944457999
+        ],
+        [
+          93.02812547921774,
+          97.5208215102578,
+          932.0
+        ]
+      ]
+    }
+  ],
+  "sweep_deg": [
+    -45,
+    -40,
+    -35,
+    -30,
+    -25,
+    -20,
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+  ],
+  "method": "Continuous axisymmetric cylinder enclosing the complete pitch-output fork sweep, plus a 3mm flange envelope. Original v28 holders preserved in source checkpoint."
+}

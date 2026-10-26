@@ -1,0 +1,86 @@
+{
+  "mounts": [
+    {
+      "component": "F03_Roll_bearing_rear",
+      "xy_mm": [
+        -20.9,
+        -7.7
+      ]
+    },
+    {
+      "component": "F03_Roll_bearing_rear",
+      "xy_mm": [
+        20.9,
+        -7.7
+      ]
+    },
+    {
+      "component": "F04_Roll_bearing_front",
+      "xy_mm": [
+        20.9,
+        31.0
+      ]
+    },
+    {
+      "component": "F04_Roll_bearing_front",
+      "xy_mm": [
+        -20.9,
+        31.0
+      ]
+    },
+    {
+      "component": "F06_Heel_pillow_block_L",
+      "xy_mm": [
+        -41.0,
+        71.55
+      ]
+    },
+    {
+      "component": "F06_Heel_pillow_block_L",
+      "xy_mm": [
+        -41.0,
+        29.75
+      ]
+    },
+    {
+      "component": "F06_Heel_pillow_block_R",
+      "xy_mm": [
+        41.0,
+        29.75
+      ]
+    },
+    {
+      "component": "F06_Heel_pillow_block_R",
+      "xy_mm": [
+        41.0,
+        71.55
+      ]
+    }
+  ],
+  "through_diameter_mm": 5.4,
+  "aluminum_z_mm": [
+    -4,
+    0
+  ],
+  "sole_pad_z_mm": [
+    -14,
+    -4
+  ],
+  "nut_z_mm": [
+    -13,
+    -9
+  ],
+  "washer_below_plastic_z_mm": [
+    -9,
+    -8
+  ],
+  "remaining_plastic_above_nut_washer_mm": 4,
+  "bolt": "M5x20",
+  "bolt_tip_z_mm": -13.8,
+  "bottom_access_diameter_mm": 11.4,
+  "sole_z_mm": [
+    -14,
+    -4
+  ],
+  "flat_ground_surface": true
+}

@@ -1,0 +1,397 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Right_shin_rear",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      59.184956005064535,
+      28.29999999999999,
+      124.00000000000004
+    ],
+    [
+      180.81504399493548,
+      94.34628485176675,
+      261.75
+    ]
+  ],
+  "skin_volume_mm3": 69102.50814930465,
+  "skin_lumps": 1,
+  "candidate_count": 63,
+  "skin_face_count": 6,
+  "skin_edge_count": 12,
+  "candidate_ids": [
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body10",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body11",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body12",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body13",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body3",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body4",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body5",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body6",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body8",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body9",
+    "<root>/Right_leg:1/Right_E05_TPU_board_spacer_1:1/Body1",
+    "<root>/Right_leg:1/Right_E05_TPU_board_spacer_2:1/Body1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_top_socket_head_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_top_socket_head_1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_washer_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_washer_1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3x10_top_screw_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3x10_top_screw_1",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_6",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_7",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_6",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_7",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_A:1/M6x1_steel_core",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_B:1/M6x1_steel_core",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_B:1/Wixroyd_65720_W0006_upper_housing",
+    "<root>/Right_leg:1/Right_L02_Oval_steel_reinforcement_A:1/Body1",
+    "<root>/Right_leg:1/Right_L02_Oval_steel_reinforcement_B:1/Body1",
+    "<root>/Right_leg:1/Right_L03_Threaded_oval_plug_B_upper:1/Body1",
+    "<root>/Right_leg:1/Right_L04_Central_rod_guide_A:1/Body1",
+    "<root>/Right_leg:1/Right_L04_Central_rod_guide_B:1/Body1",
+    "<root>/Right_leg:1/Right_M01_GWK7010_B:1/GWK7010_vendor_fixed_region",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Body1",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/GWK7010_vendor_visible_rotating_output",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/M6_upper_rod_end_pin",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_0",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_2",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_3",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_4",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_5",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Upper_inner_ring_spacer_4p5mm",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Wixroyd_65720_W0006_upper_inner_ring",
+    "<root>/Right_leg:1/Right_S06_Dual_7010_motor_carrier:1/Body7",
+    "<root>/Right_leg:1/Right_S10_Separate_motor_plate_B:1/Flat_lower_cover_edge_above_ODrive"
+  ],
+  "batch_start": 0,
+  "batch_size": 12,
+  "checks": [
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body10",
+      "actual_bounds_world_mm": [
+        [
+          130.9675555070126,
+          26.911638120137553,
+          184.31296959926237
+        ],
+        [
+          138.26755540822484,
+          28.71163765204178,
+          191.01296959926236
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body11",
+      "actual_bounds_world_mm": [
+        [
+          106.21753491387094,
+          18.21163812183852,
+          122.21296471996598
+        ],
+        [
+          118.21753499255132,
+          28.711637444312284,
+          132.71296525331306
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body12",
+      "actual_bounds_world_mm": [
+        [
+          106.21755780205204,
+          18.211638121838657,
+          184.112981504586
+        ],
+        [
+          118.21755788073244,
+          28.711637444312423,
+          194.61298203793305
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body13",
+      "actual_bounds_world_mm": [
+        [
+          106.21753491387146,
+          18.211638121838586,
+          151.21296471996598
+        ],
+        [
+          118.21753499255183,
+          28.711637444312345,
+          161.7129652533131
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body3",
+      "actual_bounds_world_mm": [
+        [
+          106.21754635796177,
+          18.21163812183862,
+          168.21298760818598
+        ],
+        [
+          118.21754643664215,
+          28.711637444312387,
+          178.71298814153306
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body4",
+      "actual_bounds_world_mm": [
+        [
+          106.21753491387112,
+          18.211638121838547,
+          133.212972349366
+        ],
+        [
+          118.21753499255152,
+          28.711637444312306,
+          143.71297288271305
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body5",
+      "actual_bounds_world_mm": [
+        [
+          122.11748263248302,
+          25.91163992388188,
+          181.21306500203048
+        ],
+        [
+          128.31748293248302,
+          28.71163940388188,
+          184.71306308203037
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body6",
+      "actual_bounds_world_mm": [
+        [
+          126.1174597443027,
+          30.482121388148407,
+          165.4130501832303
+        ],
+        [
+          132.31745750430295,
+          31.632121628148404,
+          179.5130499232303
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body8",
+      "actual_bounds_world_mm": [
+        [
+          93.21749383657327,
+          28.72179727033747,
+          56.46306694083101
+        ],
+        [
+          143.21748273657076,
+          30.432121510337467,
+          196.96306788083012
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body9",
+      "actual_bounds_world_mm": [
+        [
+          126.14641742718207,
+          30.48212138814829,
+          123.39199614204028
+        ],
+        [
+          140.2885532271821,
+          32.03212082814829,
+          137.5341344820403
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E05_TPU_board_spacer_1:1/Body1",
+      "actual_bounds_world_mm": [
+        [
+          93.71748075657324,
+          26.72179727033747,
+          190.96306780083094
+        ],
+        [
+          100.71748075657324,
+          28.72179727033747,
+          197.96306780083097
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_E05_TPU_board_spacer_2:1/Body1",
+      "actual_bounds_world_mm": [
+        [
+          137.21748011657326,
+          26.72179727033747,
+          190.96306780083015
+        ],
+        [
+          144.21748011657326,
+          28.72179727033747,
+          197.96306780083017
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    }
+  ],
+  "excluded_original_cosmetic_ids": [],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 1,
+    "cut_planes_world_z_mm": [],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 137.74999999999994,
+    "full_bounds_mm": [
+      [
+        59.184956005064535,
+        28.29999999999999,
+        124.00000000000004
+      ],
+      [
+        180.81504399493548,
+        94.34628485176675,
+        261.75
+      ]
+    ],
+    "footprint_mm": [
+      121.63008798987094,
+      66.04628485176676
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769540.211512,
+  "memory_before_bytes": 12748427264,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": false,
+  "memory_after_bytes": 12748427264,
+  "elapsed_seconds": 0.22921538352966309
+}

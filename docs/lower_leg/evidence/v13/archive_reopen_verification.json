@@ -1,0 +1,38 @@
+{
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\Bilateral_legs_v13.f3d",
+  "groups": 2,
+  "legs": {
+    "Right": {
+      "components": 104,
+      "joints": 101,
+      "invalid_joints": [],
+      "zero_or_nonsolid": [],
+      "knee_attachment_follow_errors": {
+        "P03_Circular_motor_gearbox_case": 0.0,
+        "Q03_CNC_roll_to_pitch_fork": 0.0,
+        "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+        "measured_knee_vs_expected": 5.551115123125783e-17
+      }
+    },
+    "Left": {
+      "components": 104,
+      "joints": 101,
+      "invalid_joints": [],
+      "zero_or_nonsolid": [],
+      "knee_attachment_follow_errors": {
+        "P03_Circular_motor_gearbox_case": 0.0,
+        "Q03_CNC_roll_to_pitch_fork": 0.0,
+        "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+        "measured_knee_vs_expected": 5.551115123125783e-17
+      }
+    }
+  },
+  "source_with_reconstructed_joints": {
+    "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v13\\deliverables\\Leg_chain_v13_source.f3d",
+    "components": 104,
+    "joints": 101,
+    "timeline_features": 125,
+    "invalid_joints": [],
+    "zero_or_nonsolid": []
+  }
+}

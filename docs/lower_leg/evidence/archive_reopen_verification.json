@@ -1,0 +1,12 @@
+{
+  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v9\\deliverables\\Compact_shin_392mm_v9.f3d",
+  "components": 66,
+  "native_joints": 63,
+  "timeline_features": 1510,
+  "invalid_joints": [],
+  "feature_warnings": [],
+  "sole_thickness_mm": 10.000000000000002,
+  "knee_shaft_length_mm": 104.0,
+  "empty_center_bodies": 0,
+  "motor_bodies": 56
+}

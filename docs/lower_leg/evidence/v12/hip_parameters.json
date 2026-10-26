@@ -1,0 +1,41 @@
+{
+  "new_components": [
+    {
+      "name": "Q01_CNC_rail_to_yaw_crosshead",
+      "material": "6061-T6 nominal",
+      "process": "8mm fixed yaw annulus with two 26.5mm slotted oval rail sockets and M4 pinch provisions. Four provisional M2 clearance locations at R20.25 follow visible donor geometry; measure motor mounting before CNC."
+    },
+    {
+      "name": "Q02_CNC_yaw_to_roll_cradle",
+      "material": "6061-T6 nominal",
+      "process": "Integral 10mm roll backplate and floor on yaw output hub. Roll motor 100x36 reference, provisional 80 PCD M5; yaw output pattern and bearing/fastener access require vendor confirmation. Layout only, no hip joint qualification."
+    },
+    {
+      "name": "Q03_CNC_roll_to_pitch_fork",
+      "material": "6061-T6 nominal",
+      "process": "Opposed curved cheeks and 8mm tilted pitch mounting flange, 25 degrees. Reference M5 80 PCD pitch and M4 26 PCD roll output. Output bearing, access, motor interfaces and final CNC split/stock plan remain to design."
+    },
+    {
+      "name": "P12_Case_clamp_and_cover_hardware",
+      "material": "steel reference",
+      "process": "M4 clamp, cover and output flange hardware shown as nominal cylinders; lengths provisional."
+    },
+    {
+      "name": "P13_Sprocket_M4_mount_screws",
+      "material": "steel reference",
+      "process": "Four nominal M4 bolts connect blank to output shoulder; thread/retention detail pending."
+    }
+  ],
+  "pitch_deg": 25,
+  "roll_center_mm": [
+    0,
+    26.343134,
+    758.6
+  ],
+  "pitch_center_mm": [
+    -78,
+    23.343134,
+    803.6
+  ],
+  "manufacturing_ready": false
+}

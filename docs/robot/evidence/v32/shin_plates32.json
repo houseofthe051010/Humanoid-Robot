@@ -1,0 +1,138 @@
+[
+  {
+    "part": "C27_Left_shin_front",
+    "bounds_mm": [
+      [
+        -168.0,
+        -7.5,
+        118.0
+      ],
+      [
+        -72.0,
+        9.0,
+        262.0
+      ]
+    ],
+    "volume_mm3": 31477.768166345784,
+    "previous_volume_mm3": 63226.000433596026,
+    "perforations": 25,
+    "mounts_xz": [
+      [
+        -130,
+        244
+      ],
+      [
+        -110,
+        244
+      ]
+    ],
+    "thickness_mm": 2.5,
+    "conformal_mount_support": true
+  },
+  {
+    "part": "C27_Left_shin_front_upper",
+    "bounds_mm": [
+      [
+        -168.0,
+        -7.5,
+        263.0
+      ],
+      [
+        -72.0,
+        -2.4409715080670793,
+        384.0
+      ]
+    ],
+    "volume_mm3": 24051.391326973968,
+    "previous_volume_mm3": 64065.49000382174,
+    "perforations": 51,
+    "mounts_xz": [
+      [
+        -130,
+        314
+      ],
+      [
+        -130,
+        366
+      ],
+      [
+        -110,
+        314
+      ],
+      [
+        -110,
+        366
+      ]
+    ],
+    "thickness_mm": 2.5,
+    "conformal_mount_support": true
+  },
+  {
+    "part": "C27_Right_shin_front",
+    "bounds_mm": [
+      [
+        72.0,
+        -7.5,
+        118.0
+      ],
+      [
+        168.0,
+        9.0,
+        262.0
+      ]
+    ],
+    "volume_mm3": 31477.768166345784,
+    "previous_volume_mm3": 63224.52544580027,
+    "perforations": 25,
+    "mounts_xz": [
+      [
+        110,
+        244
+      ],
+      [
+        130,
+        244
+      ]
+    ],
+    "thickness_mm": 2.5,
+    "conformal_mount_support": true
+  },
+  {
+    "part": "C27_Right_shin_front_upper",
+    "bounds_mm": [
+      [
+        72.0,
+        -7.5,
+        263.0
+      ],
+      [
+        168.0,
+        -2.440971508067066,
+        384.0
+      ]
+    ],
+    "volume_mm3": 24051.391326973942,
+    "previous_volume_mm3": 64061.0778922505,
+    "perforations": 51,
+    "mounts_xz": [
+      [
+        110,
+        314
+      ],
+      [
+        110,
+        366
+      ],
+      [
+        130,
+        314
+      ],
+      [
+        130,
+        366
+      ]
+    ],
+    "thickness_mm": 2.5,
+    "conformal_mount_support": true
+  }
+]

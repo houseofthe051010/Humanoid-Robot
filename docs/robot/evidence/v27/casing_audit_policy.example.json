@@ -1,0 +1,16 @@
+{
+  "authorized_original_cosmetic_body_ids": [],
+  "allow_cosmetic_body_removal": false,
+  "allowed_added_patterns": ["C27_*", "Casings_v27"],
+  "allowed_new_joint_patterns": ["C27_*"],
+  "tolerances": {
+    "distance_mm": 0.002,
+    "volume_absolute_mm3": 0.01,
+    "volume_relative": 1e-7,
+    "area_absolute_mm2": 0.01,
+    "area_relative": 1e-7,
+    "matrix_entry": 1e-7,
+    "angle_rad": 1e-6
+  },
+  "note": "Review exact added component/joint names and any authorized pre-existing cosmetic body IDs before use. This example authorizes no changes to original skeleton geometry. Do not use a broad original-body wildcard."
+}

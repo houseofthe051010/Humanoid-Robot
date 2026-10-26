@@ -1,0 +1,344 @@
+{
+  "solids": [
+    {
+      "component": "N01_Oval_spine_6005_servo_adapter",
+      "name": "N01_Oval_spine_6005_servo_adapter_fit_v25",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 48928.97307569359,
+      "reference": false
+    },
+    {
+      "component": "H01_Defined_vision_head_v25",
+      "name": "H26_printed_face_shell",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 133504.29449363504,
+      "reference": false
+    },
+    {
+      "component": "N04_Head_yaw_output_ENVELOPE",
+      "name": "N26_compact_yaw_hub_external_pitch_cradle",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 28076.238603772334,
+      "reference": false
+    },
+    {
+      "component": "N25_Feetech_yaw_case",
+      "name": "N25_Feetech_yaw_case",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 34806.47576141292,
+      "reference": true
+    },
+    {
+      "component": "N25_Feetech_yaw_ac1",
+      "name": "N25_Feetech_yaw_ac1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 849.3118177546095,
+      "reference": true
+    },
+    {
+      "component": "N25_Feetech_yaw_ac2",
+      "name": "N25_Feetech_yaw_ac2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 559.1249525226887,
+      "reference": true
+    },
+    {
+      "component": "N25_Feetech_pitch_case",
+      "name": "N25_Feetech_pitch_case",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 34806.47576141293,
+      "reference": true
+    },
+    {
+      "component": "N25_dual_side_head_pitch_yoke",
+      "name": "N26_dual_sided_pitch_yoke_serviceable",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 26665.48507411642,
+      "reference": false
+    },
+    {
+      "component": "N25_Feetech_pitch_ac1",
+      "name": "N25_Feetech_pitch_ac1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 849.3118177546011,
+      "reference": true
+    },
+    {
+      "component": "N25_Feetech_pitch_ac2",
+      "name": "N25_Feetech_pitch_ac2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 559.1249525226674,
+      "reference": true
+    },
+    {
+      "component": "H25_camera_visor_bezel",
+      "name": "H25_complete_flat_visor_bezel",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 4090.623270010653,
+      "reference": false
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_0_00_Gemini Asm_20200420_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 1103.6767571409935,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_1_00_Gemini Asm_20200420_Body2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 13.044322720325082,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_2_00_Gemini Asm_20200420_Body3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 8.794448810753945,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_3_00_Gemini Asm_20200420_Body4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 267.9966512577072,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_4_00_Gemini Asm_20200420_Body5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 11.117656578095072,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_5_00_Gemini Asm_20200420_Body28",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 2264.1102100834923,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_6_00_Gemini Asm_20200420_Body29",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 84.11023450414524,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_7_00_Gemini Asm_20200420_Body30",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 13.04432272032509,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_8_00_Gemini Asm_20200420_Body31",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 17.451573898034276,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_9_00_Gemini Asm_20200420_Body32",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 13.044322720325395,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_10_00_Gemini Asm_20200420_Body33",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 11.117656578095444,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_11_00_Gemini Asm_20200420_Body34",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 47.72184128569842,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_12_00_Gemini Asm_20200420_Body35",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 6.720192412151885,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_13_00_Gemini Asm_20200420_Body36",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 3.4402649846574707,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_14_00_Gemini Asm_20200420_Body37",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 13.044322720325185,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_15_00_Gemini Asm_20200420_Body38",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 7458.620701124699,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_16_00_Gemini Asm_20200420_Body39",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 84.11023450410431,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_17_00_Gemini Asm_20200420_Body40",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 3.6040049964323266,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_18_00_Gemini Asm_20200420_Body57",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.9606952529652,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_19_Gemini\u00cd\u00e2\u00bf\u00c7_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 6834.200711763277,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_20_Gemini\u00c2\u00c1\u00ba\u00cf\u00bd\u00f0\u00ba\u00f3\u00b8\u00c7_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 2254.631085279247,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_21_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 23.67527492359355,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_22_fmcr tapping screws-scrape point a gb_GB_CROSS_SCREWS_TYPE143 ST1.9X6-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 24.0136783221775,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_23_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 23.675274923593324,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_24_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 23.67527492359372,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_25_cross recessed pan head screws gb_GB_CROSS_SCREWS_TYPE1 M1.6X8-8  H type-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 23.67527492359396,
+      "reference": true
+    },
+    {
+      "component": "H25_AIView_official_camera_CAD",
+      "name": "AIView_26_fmcr tapping screws-scrape point a gb_GB_CROSS_SCREWS_TYPE143 ST1.9X6-N_Body1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 24.0136791569855,
+      "reference": true
+    },
+    {
+      "component": "N25_yaw_servo_retaining_clamp",
+      "name": "N25_removable_yaw_servo_clamp",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 12975.61735556483,
+      "reference": false
+    },
+    {
+      "component": "N25_yaw_6005_outer_race_retainer",
+      "name": "N25_6005_top_retainer",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 5039.3345278432325,
+      "reference": false
+    },
+    {
+      "component": "H26_removable_rear_head_shell",
+      "name": "H26_rear_service_shell_tilt_relief",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 87201.56836386975,
+      "reference": false
+    },
+    {
+      "component": "N26_pitch_servo_removable_clamp",
+      "name": "N26_pitch_servo_service_clamp",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 3244.3199150374853,
+      "reference": false
+    }
+  ],
+  "intersections": [],
+  "scope": "Exact neutral BRep fit of current head, neck cradle, horns, camera and split shells. Threaded fasteners excluded.",
+  "solid_pass": true,
+  "fit_pass": true
+}

@@ -1,0 +1,397 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Right_shin_rear",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      59.184956005064535,
+      28.29999999999999,
+      124.00000000000004
+    ],
+    [
+      180.81504399493548,
+      94.34628485176675,
+      261.75
+    ]
+  ],
+  "skin_volume_mm3": 69102.50814930465,
+  "skin_lumps": 1,
+  "candidate_count": 63,
+  "skin_face_count": 6,
+  "skin_edge_count": 12,
+  "candidate_ids": [
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body10",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body11",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body12",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body13",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body3",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body4",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body5",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body6",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body8",
+    "<root>/Right_leg:1/Right_E03_ODrive_board_no_connectors:1/Body9",
+    "<root>/Right_leg:1/Right_E05_TPU_board_spacer_1:1/Body1",
+    "<root>/Right_leg:1/Right_E05_TPU_board_spacer_2:1/Body1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_top_socket_head_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_top_socket_head_1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_washer_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3_washer_1",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3x10_top_screw_0",
+    "<root>/Right_leg:1/Right_E06_ODrive_M3_top_fasteners:1/M3x10_top_screw_1",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_casing_socket_head_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_6",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_7",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_0",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_3",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_4",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_5",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_6",
+    "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_motor_case_screw_247_7",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_A:1/M6x1_steel_core",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_B:1/M6x1_steel_core",
+    "<root>/Right_leg:1/Right_L01_Threaded_link_rod_B:1/Wixroyd_65720_W0006_upper_housing",
+    "<root>/Right_leg:1/Right_L02_Oval_steel_reinforcement_A:1/Body1",
+    "<root>/Right_leg:1/Right_L02_Oval_steel_reinforcement_B:1/Body1",
+    "<root>/Right_leg:1/Right_L03_Threaded_oval_plug_B_upper:1/Body1",
+    "<root>/Right_leg:1/Right_L04_Central_rod_guide_A:1/Body1",
+    "<root>/Right_leg:1/Right_L04_Central_rod_guide_B:1/Body1",
+    "<root>/Right_leg:1/Right_M01_GWK7010_B:1/GWK7010_vendor_fixed_region",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Body1",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/GWK7010_vendor_visible_rotating_output",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/M6_upper_rod_end_pin",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_0",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_2",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_3",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_4",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Output_crank_1mm_M3_washer_5",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Upper_inner_ring_spacer_4p5mm",
+    "<root>/Right_leg:1/Right_M02_Aluminum_crank_B:1/Wixroyd_65720_W0006_upper_inner_ring",
+    "<root>/Right_leg:1/Right_S06_Dual_7010_motor_carrier:1/Body7",
+    "<root>/Right_leg:1/Right_S10_Separate_motor_plate_B:1/Flat_lower_cover_edge_above_ODrive"
+  ],
+  "batch_start": 24,
+  "batch_size": 12,
+  "checks": [
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_4",
+      "actual_bounds_world_mm": [
+        [
+          96.34999999999998,
+          38.0,
+          213.61090763726918
+        ],
+        [
+          100.64999999999998,
+          43.0,
+          217.91090763726916
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_insert_installed_envelope_247_5",
+      "actual_bounds_world_mm": [
+        [
+          139.35,
+          38.0,
+          213.61090763726918
+        ],
+        [
+          143.65,
+          43.0,
+          217.91090763726916
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_0",
+      "actual_bounds_world_mm": [
+        [
+          94.8268912197291,
+          46.49999999999999,
+          259.18440237676214
+        ],
+        [
+          100.82689121972912,
+          48.0,
+          265.18440237676214
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_3",
+      "actual_bounds_world_mm": [
+        [
+          139.17310878027087,
+          46.49999999999999,
+          259.18440237676214
+        ],
+        [
+          145.17310878027087,
+          48.0,
+          265.18440237676214
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_4",
+      "actual_bounds_world_mm": [
+        [
+          139.17310878027087,
+          46.49999999999999,
+          240.8155976232379
+        ],
+        [
+          145.17310878027087,
+          48.0,
+          246.8155976232379
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_5",
+      "actual_bounds_world_mm": [
+        [
+          126.18440237676214,
+          46.49999999999999,
+          227.8268912197291
+        ],
+        [
+          132.18440237676214,
+          48.0,
+          233.82689121972913
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_6",
+      "actual_bounds_world_mm": [
+        [
+          107.81559762323784,
+          46.49999999999999,
+          227.82689121972913
+        ],
+        [
+          113.81559762323784,
+          48.0,
+          233.82689121972916
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3_motor_case_flush_head_247_7",
+      "actual_bounds_world_mm": [
+        [
+          94.8268912197291,
+          46.49999999999999,
+          240.8155976232379
+        ],
+        [
+          100.82689121972912,
+          48.0,
+          246.8155976232379
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_0",
+      "actual_bounds_world_mm": [
+        [
+          161.50000000000003,
+          36.0,
+          251.50000000000003
+        ],
+        [
+          164.5,
+          48.0,
+          254.5
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_3",
+      "actual_bounds_world_mm": [
+        [
+          75.49999999999999,
+          36.0,
+          251.50000000000003
+        ],
+        [
+          78.50000000000001,
+          48.0,
+          254.5
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_4",
+      "actual_bounds_world_mm": [
+        [
+          96.99999999999997,
+          36.0,
+          214.26090763726918
+        ],
+        [
+          99.99999999999999,
+          48.0,
+          217.26090763726916
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Right_leg:1/Right_H02_M3_motor_plate_hardware:1/M3x12_casing_screw_247_5",
+      "actual_bounds_world_mm": [
+        [
+          140.0,
+          36.0,
+          214.26090763726918
+        ],
+        [
+          143.0,
+          48.0,
+          217.26090763726916
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    }
+  ],
+  "excluded_original_cosmetic_ids": [],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 1,
+    "cut_planes_world_z_mm": [],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 137.74999999999994,
+    "full_bounds_mm": [
+      [
+        59.184956005064535,
+        28.29999999999999,
+        124.00000000000004
+      ],
+      [
+        180.81504399493548,
+        94.34628485176675,
+        261.75
+      ]
+    ],
+    "footprint_mm": [
+      121.63008798987094,
+      66.04628485176676
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769541.7187283,
+  "memory_before_bytes": 12748427264,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": false,
+  "memory_after_bytes": 12748427264,
+  "elapsed_seconds": 0.13352417945861816
+}

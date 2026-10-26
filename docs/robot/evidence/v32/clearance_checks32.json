@@ -1,0 +1,283 @@
+{
+  "all_sampled_clear": true,
+  "records": [
+    {
+      "part": "C27_Left_shin_front",
+      "body": "C27_Left_shin_front_V32_perforated_plate_fitted",
+      "kind": "neutral",
+      "bodies_compared": 585
+    },
+    {
+      "part": "C27_Left_shin_front_upper",
+      "body": "C27_Left_shin_front_upper_V32_perforated_plate_fitted",
+      "kind": "neutral",
+      "bodies_compared": 585
+    },
+    {
+      "part": "C27_Right_shin_front",
+      "body": "C27_Right_shin_front_V32_perforated_plate_fitted",
+      "kind": "neutral",
+      "bodies_compared": 582
+    },
+    {
+      "part": "C27_Right_shin_front_upper",
+      "body": "C27_Right_shin_front_upper_V32_perforated_plate_fitted",
+      "kind": "neutral",
+      "bodies_compared": 582
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "body": "C28_Left_hip_yaw_shroud_V32_front_clear",
+      "kind": "neutral",
+      "bodies_compared": 585
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "body": "C28_Left_hip_yaw_shroud_V32_rear_clear",
+      "kind": "neutral",
+      "bodies_compared": 585
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "body": "C28_Right_hip_yaw_shroud_V32_front_clear",
+      "kind": "neutral",
+      "bodies_compared": 582
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "body": "C28_Right_hip_yaw_shroud_V32_rear_clear",
+      "kind": "neutral",
+      "bodies_compared": 582
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -45,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -40,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -35,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -25,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -20,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -15,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -10,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -5,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 0,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 5,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 10,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 15,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 20,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 25,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 35,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 40,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Left_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 45,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -45,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -40,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -35,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -25,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -20,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -15,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -10,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": -5,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 0,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 5,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 10,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 15,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 20,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 25,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 35,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 40,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "part": "C28_Right_hip_yaw_shroud",
+      "kind": "hip_yaw_sweep",
+      "offset_deg": 45,
+      "max_overlap_mm3": 0.0
+    }
+  ],
+  "failures": [],
+  "scope": "Neutral new-cover fit against visible ipsilateral mechanism; discrete hip-yaw samples. No full robot collision/strength qualification."
+}

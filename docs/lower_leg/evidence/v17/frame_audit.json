@@ -1,0 +1,1178 @@
+{
+  "waist": [
+    {
+      "part": "W03_Waist_rear_shell",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": false,
+      "body_visibility": [
+        {
+          "name": "W03_Waist_rear_shell_v17_DJI_seats_open_outputs",
+          "light": true,
+          "effective": false
+        }
+      ]
+    },
+    {
+      "part": "W06_PA12CF_roll_to_pitch_short_link",
+      "transform": [
+        0.928743093621036,
+        0.3679312082654235,
+        -0.045419071277484444,
+        3.342397343435144,
+        -0.3707239755550819,
+        0.9217466124021534,
+        -0.1137845177250416,
+        10.707735820831388,
+        -3.2645501563696684e-17,
+        0.12251452366813267,
+        0.9924667205960426,
+        0.41084105057325687,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": false,
+      "body_visibility": [
+        {
+          "name": "W06_nylon_roll_to_pitch_short_link",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W08_spine_oval_REFERENCE",
+      "transform": [
+        1.0,
+        9.71445146547012e-17,
+        -2.7755575615628914e-17,
+        -3.552713678800501e-15,
+        -6.938893903907228e-18,
+        1.0,
+        1.3877787807814457e-17,
+        -1.7763568394002505e-15,
+        0.0,
+        1.3877787807814457e-17,
+        1.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W08_spine_oval_reference",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W10_lower_roll_pin",
+      "transform": [
+        1.0,
+        4.1746910752502226e-33,
+        1.232595164407831e-32,
+        -1.1102230246251565e-16,
+        -5.551115123125783e-17,
+        1.0,
+        0.0,
+        0.0,
+        6.162975822039155e-33,
+        -6.162975822039155e-33,
+        1.0,
+        -1.6155871338926322e-27,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W10_lower_roll_nylon_pin",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W12_upper_pitch_pin",
+      "transform": [
+        1.0,
+        6.996311101540914e-17,
+        -8.88634651086008e-19,
+        4.440892098500626e-16,
+        -4.5908854802508955e-17,
+        0.9999999999999999,
+        -1.3877787807814457e-17,
+        0.0,
+        1.4585336158574776e-18,
+        0.0,
+        1.0,
+        -1.1102230246251565e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W12_upper_pitch_nylon_pin",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W16_spine_crossbolt_REFERENCES",
+      "transform": [
+        1.0000000000000002,
+        -3.8163916471489756e-17,
+        2.7755575615628914e-17,
+        0.0,
+        -5.204170427930421e-17,
+        1.0000000000000002,
+        1.3877787807814457e-17,
+        1.7763568394002505e-15,
+        2.7755575615628914e-17,
+        0.0,
+        1.0000000000000002,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "M4_spine_reference",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M4_spine_reference (1)",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W13_fixed_motor_M3_correct_flange_REFERENCES",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "M3_fixed_flange_reference",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (1)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (2)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (3)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (4)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (5)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (6)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_fixed_flange_reference (7)",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W14_casing_M4_bolt_REFERENCES",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "M4_shell_mount_reference",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M4_shell_mount_reference (1)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M4_shell_mount_reference (2)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M4_shell_mount_reference (3)",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W05_PA12CF_yaw_output_lower_roll_base",
+      "transform": [
+        1.0,
+        5.551115123125783e-17,
+        1.232595164407831e-32,
+        1.1102230246251565e-16,
+        -5.551115123125783e-17,
+        1.0,
+        6.162975822039155e-33,
+        -2.7755575615628914e-17,
+        0.0,
+        0.0,
+        1.0,
+        -1.6155871338926322e-27,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "GWK7010_vendor_output_MOVING",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "W05_nylon_base_with_R3_outer_root_blends",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W07_PA12CF_pitch_oval_socket",
+      "transform": [
+        1.0,
+        -3.469446951953614e-17,
+        0.0,
+        0.0,
+        -8.673617379884035e-17,
+        1.0,
+        0.0,
+        -1.7763568394002505e-15,
+        -5.551115123125783e-17,
+        -1.3877787807814457e-17,
+        1.0,
+        -8.881784197001252e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W07_nylon_pitch_eye_oval_socket",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W09_lower_roll_bushings",
+      "transform": [
+        1.0,
+        -2.3206770537272542e-17,
+        -1.98635980831057e-18,
+        4.440892098500626e-16,
+        -5.611023817955766e-17,
+        1.0,
+        -1.3877787807814457e-17,
+        3.552713678800501e-15,
+        2.085805134272379e-18,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W09_lower_roll_bushing_0",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "W09_lower_roll_bushing_1",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W11_upper_pitch_bushings",
+      "transform": [
+        1.0,
+        9.71445146547012e-17,
+        -2.7755575615628914e-17,
+        -3.552713678800501e-15,
+        -6.938893903907228e-18,
+        1.0,
+        1.3877787807814457e-17,
+        -1.7763568394002505e-15,
+        0.0,
+        1.3877787807814457e-17,
+        1.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W11_upper_pitch_bushing_0",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "W11_upper_pitch_bushing_1",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W15_output_bolt_REFERENCES",
+      "transform": [
+        1.0,
+        4.1746910752502226e-33,
+        1.232595164407831e-32,
+        0.0,
+        -5.551115123125783e-17,
+        1.0,
+        0.0,
+        -2.7755575615628914e-17,
+        6.162975822039155e-33,
+        -6.162975822039155e-33,
+        1.0,
+        -1.6155871338926322e-27,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "M3_output_reference",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_output_reference (1)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_output_reference (2)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_output_reference (3)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_output_reference (4)",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "M3_output_reference (5)",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W01_GWK7010_Waist_yaw_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "GWK7010_vendor_fixed_waist_yaw",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W02_Waist_front_shell",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W02_Waist_front_shell_v17_DJI_seats_open_outputs",
+          "light": true,
+          "effective": false
+        }
+      ]
+    },
+    {
+      "part": "W04_PA12CF_fixed_yaw_mount",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W04_exact_scalloped_fixed_mount",
+          "light": true,
+          "effective": false
+        }
+      ]
+    },
+    {
+      "part": "W17_M3_pin_reinforcement_REFERENCES",
+      "transform": [
+        1.0,
+        -6.415325335018598e-33,
+        0.0,
+        0.0,
+        -2.8689760770672886e-33,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W17_roll_M3_through_reference",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W19_GIM6010_8_floating_REFERENCE",
+      "transform": [
+        1.0,
+        2.3175721161522727e-33,
+        0.0,
+        0.0,
+        9.088198850630154e-33,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "GIM6010_vendor_solid_0",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "GIM6010_vendor_solid_1",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W20_GIM6010_8_floating_REFERENCE",
+      "transform": [
+        1.0,
+        2.3175721161522727e-33,
+        0.0,
+        0.0,
+        9.088198850630154e-33,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "GIM6010_vendor_solid_0",
+          "light": true,
+          "effective": true
+        },
+        {
+          "name": "GIM6010_vendor_solid_1",
+          "light": true,
+          "effective": true
+        }
+      ]
+    },
+    {
+      "part": "W18_M3_upper_pitch_pin_reinforcement_REFERENCE",
+      "transform": [
+        1.0,
+        5.6630879594004024e-33,
+        0.0,
+        -1.5777218104420236e-30,
+        -7.582928497860486e-33,
+        1.0,
+        1.232595164407831e-32,
+        -1.5777218104420236e-30,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "visible": true,
+      "body_visibility": [
+        {
+          "name": "W17_pitch_M3_through_reference",
+          "light": true,
+          "effective": true
+        }
+      ]
+    }
+  ],
+  "hips": [
+    {
+      "leg": "Right_leg",
+      "part": "T04_GWK7010_Hip_yaw_REFERENCE",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "T05_Hip_crosshead_REFERENCE",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "T07_Hip_pitch_motor_ENVELOPE_REFERENCE",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "T09_Hip_roll_motor_ENVELOPE_REFERENCE",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "Q01_CNC_rail_to_yaw_crosshead",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "Q02_CNC_yaw_to_roll_cradle",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "Q03_CNC_roll_to_pitch_fork",
+      "transform": [
+        1.0,
+        -6.123233995736773e-17,
+        6.123233995736772e-17,
+        -1.6172096450746426e-15,
+        6.124024315733863e-17,
+        0.9999999916695157,
+        -0.00012907738086682732,
+        0.005558091466085445,
+        -6.122443573720653e-17,
+        0.00012907738086682732,
+        0.9999999916695157,
+        -0.000300948349126989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "H01_Hip_roll_117OD_106ID_case",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "H02_Hip_pitch_roll_bearing_REFERENCES",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "H03_Hip_yaw_6007_bearing_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Right_leg",
+      "part": "H04_Hip_yaw_bearing_retainer",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "T04_GWK7010_Hip_yaw_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "T05_Hip_crosshead_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "T07_Hip_pitch_motor_ENVELOPE_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "T09_Hip_roll_motor_ENVELOPE_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "Q01_CNC_rail_to_yaw_crosshead",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "Q02_CNC_yaw_to_roll_cradle",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "Q03_CNC_roll_to_pitch_fork",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "H01_Hip_roll_117OD_106ID_case",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "H02_Hip_pitch_roll_bearing_REFERENCES",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "H03_Hip_yaw_6007_bearing_REFERENCE",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "leg": "Left_leg",
+      "part": "H04_Hip_yaw_bearing_retainer",
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "hidden_replaced_user_reference_bodies": [
+    "ZZ_User_rough_hip_output_sketch_replaced_v17"
+  ]
+}

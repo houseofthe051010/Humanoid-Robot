@@ -1,0 +1,288 @@
+{
+  "tests": [
+    {
+      "joint": "Left_Ankle_pitch",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Left_A01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.1530333899354446e-14,
+          "matrix_motion": 0.1669816399017392,
+          "pass": true
+        },
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 3.175237850427948e-14,
+          "matrix_motion": 0.16698163990173903,
+          "pass": true
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Intact motor/rod loops; Left_S01_Ankle_to_oval_rail_adapter temporarily grounded; Left companion roll temporarily rigid and restored.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.9999999999999993,
+        -2.9779575658118485e-17,
+        -2.5441952531589963e-16
+      ],
+      "origin_mm": [
+        -120.0,
+        11.675,
+        31.60000000000001
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 3.0000000000000004,
+      "reset_error_cm": 3.2420068725694726e-14,
+      "pass": true,
+      "paired_angles_after_reset_deg": [
+        0.0,
+        0.0
+      ],
+      "companion_roll_rigid": true,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 3.2420068725694726e-14,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\pair_Left_Ankle_pitch.json",
+      "fresh_started_epoch": 1790753173.4791172,
+      "fresh_finished_epoch": 1790753185.1066685
+    },
+    {
+      "joint": "Left_Ankle_roll",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Left_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.0547118733938987e-14,
+          "matrix_motion": 0.6823693312035826,
+          "pass": true
+        },
+        {
+          "part": "Left_A01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Left_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Intact motor/rod loops; Left_A01_PA12CF_cross_axis_block, Left_S01_Ankle_to_oval_rail_adapter temporarily grounded; paired commands verified; no suppressed companion.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        9.09929924644494e-19,
+        -0.9999924062955154,
+        0.0038970952393817537
+      ],
+      "origin_mm": [
+        -120.00000000000028,
+        11.6087493809305,
+        14.600129092976594
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 3.0000000000000004,
+      "reset_error_cm": 3.6637359812630166e-15,
+      "pass": true,
+      "paired_angles_after_reset_deg": [
+        0.0,
+        0.0
+      ],
+      "companion_roll_rigid": false,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 3.6637359812630166e-15,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\pair_Left_Ankle_roll.json",
+      "fresh_started_epoch": 1790753216.505514,
+      "fresh_finished_epoch": 1790753232.8086202
+    },
+    {
+      "joint": "Right_Ankle_pitch",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Right_A01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.9984014443252818e-15,
+          "matrix_motion": 0.16698163990173945,
+          "pass": true
+        },
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 2.4702462297909733e-15,
+          "matrix_motion": 0.16698163990173973,
+          "pass": true
+        },
+        {
+          "part": "Right_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Intact motor/rod loops; Right_S01_Ankle_to_oval_rail_adapter temporarily grounded; paired commands verified; no suppressed companion.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "origin_mm": [
+        130.0,
+        11.675000000000004,
+        31.60000000000001
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 3.0000000000000004,
+      "reset_error_cm": 5.328841693170091e-15,
+      "pass": true,
+      "paired_angles_after_reset_deg": [
+        0.0,
+        0.0
+      ],
+      "companion_roll_rigid": false,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 0.0,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\pair_Right_Ankle_pitch.json",
+      "fresh_started_epoch": 1790753279.7167482,
+      "fresh_finished_epoch": 1790753288.2281134
+    },
+    {
+      "joint": "Right_Ankle_roll",
+      "degrees": 3,
+      "parts": [
+        {
+          "part": "Right_F01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 8.770761894538737e-15,
+          "matrix_motion": 0.6823693312035789,
+          "pass": true
+        },
+        {
+          "part": "Right_A01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        },
+        {
+          "part": "Right_S01_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Intact motor/rod loops; Right_A01_PA12CF_cross_axis_block, Right_S01_Ankle_to_oval_rail_adapter temporarily grounded; paired commands verified; no suppressed companion.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        0.0,
+        0.9999924062955154,
+        -0.0038970952393817537
+      ],
+      "origin_mm": [
+        129.99999999999997,
+        11.608749380930512,
+        14.60012909297626
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 3.0000000000000004,
+      "reset_error_cm": 1.096345236817342e-15,
+      "pass": true,
+      "paired_angles_after_reset_deg": [
+        0.0,
+        0.0
+      ],
+      "companion_roll_rigid": false,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 0.0,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\pair_Right_Ankle_roll.json",
+      "fresh_started_epoch": 1790753289.1374424,
+      "fresh_finished_epoch": 1790753305.6270792
+    },
+    {
+      "joint": "WJ02_upper_waist_roll",
+      "degrees": 5,
+      "parts": [
+        {
+          "part": "W08_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.7763568394002505e-14,
+          "matrix_motion": 8.314657858126571,
+          "pass": true
+        },
+        {
+          "part": "U01_",
+          "expected_to_move": true,
+          "matrix_error_cm": 1.7763568394002505e-14,
+          "matrix_motion": 8.314657858126571,
+          "pass": true
+        },
+        {
+          "part": "W06_",
+          "expected_to_move": false,
+          "matrix_error_cm": 0.0,
+          "matrix_motion": 0.0,
+          "pass": true
+        }
+      ],
+      "fixture": "Intact motor/rod loops; W06_PA12CF_pitch_to_roll_bridge temporarily grounded; paired commands verified; no suppressed companion.",
+      "fresh_recovery_validation": true,
+      "run_id": "recovery_bounded_01",
+      "axis_world": [
+        -2.7392919657352557e-17,
+        0.9999999999999999,
+        3.370270158809338e-20
+      ],
+      "origin_mm": [
+        -1.456366915430162e-14,
+        48.343134,
+        953.9999999999999
+      ],
+      "origin_provenance": "AsBuiltJoint.createForAssemblyContext(owner).transform.translation; current placed pivot, verified against physical elbow bearing axes.",
+      "axis_provenance": "Assembly-context AsBuiltJoint.jointMotion.rotationAxisVector; current placed axis.",
+      "measured_angle_deg": 5.0,
+      "reset_error_cm": 5.995204332975845e-15,
+      "pass": true,
+      "paired_angles_after_reset_deg": [
+        0.0,
+        0.0
+      ],
+      "companion_roll_rigid": false,
+      "anatomical_angles_restored": true,
+      "post_cleanup_angle_changes_deg": {},
+      "post_cleanup_matrix_error_cm": 5.995204332975845e-15,
+      "source_report": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\recovery_bounded\\recovery_bounded_01\\pair_WJ02_upper_waist_roll.json",
+      "fresh_started_epoch": 1790753331.7803054,
+      "fresh_finished_epoch": 1790753336.1325626
+    }
+  ],
+  "pass": true,
+  "fresh_recovery_validation": true,
+  "run_id": "recovery_bounded_01",
+  "fixture": "Fresh bounded native jobs from one run ID; intact motor/rod loops. Five explicit paired differential rows supersede corresponding serial fixture rows. Nominal limit/rest setup was audited separately; no zero-width fixture limits. Post-cleanup anatomical angles and sampled transforms must restore in every passing job."
+}

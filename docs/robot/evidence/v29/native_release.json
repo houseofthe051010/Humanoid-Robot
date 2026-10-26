@@ -1,0 +1,6 @@
+{
+  "native_archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.f3d",
+  "step": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\deliverables\\Humanoid_complete_v29_revised.step",
+  "joints": 47,
+  "note": "STEP omits static mesh hands; F3D and URDF mesh export retain them."
+}

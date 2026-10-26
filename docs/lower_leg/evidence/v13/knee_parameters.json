@@ -1,0 +1,45 @@
+{
+  "pivot_z_mm": 435.6,
+  "pivot_raise_mm": 12,
+  "shin_tube_length_mm": 366.6,
+  "thigh_tube_length_mm": 234.8,
+  "hip_height_changed": false,
+  "chain_plane_x_mm": -31.0,
+  "driven_teeth": 16,
+  "PD_mm": 65.1,
+  "OD_mm": 71.37,
+  "face_mm": 7.21,
+  "chain_side_clearance_x_mm": -12,
+  "crown_radius_mm": 24,
+  "tie_pattern_yz_mm": [
+    [
+      18.5,
+      420.6
+    ],
+    [
+      18.5,
+      450.6
+    ],
+    [
+      36,
+      420.6
+    ],
+    [
+      36,
+      450.6
+    ]
+  ],
+  "dowel_pattern_yz_mm": [
+    [
+      36,
+      427.6
+    ],
+    [
+      36,
+      443.6
+    ]
+  ],
+  "strength_validated": false,
+  "driver_move_from_released_v12_mm": 10,
+  "custom_drive_side_pedestal": true
+}

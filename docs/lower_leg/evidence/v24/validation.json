@@ -1,0 +1,1959 @@
+{
+  "bodies": [
+    {
+      "part": "T01_Torso_shell_2p5mm_concept",
+      "name": "T01_torso_shell_mating_to_complete_frame",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 890819.056349901,
+      "bounds": [
+        [
+          -151.0,
+          -40.242745,
+          908.0
+        ],
+        [
+          151.0,
+          106.017398,
+          1405.363431
+        ]
+      ]
+    },
+    {
+      "part": "N01_Oval_spine_6005_servo_adapter",
+      "name": "N01_neck_adapter",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 56267.94512599936,
+      "bounds": [
+        [
+          -29.5,
+          -1.156866,
+          1347.363431
+        ],
+        [
+          29.5,
+          88.343134,
+          1402.363431
+        ]
+      ]
+    },
+    {
+      "part": "N02_6005_25x47x12_REFERENCE",
+      "name": "6005_reference",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 14928.848289859905,
+      "bounds": [
+        [
+          -23.5,
+          4.843134,
+          1390.363431
+        ],
+        [
+          23.5,
+          51.843134,
+          1402.363431
+        ]
+      ]
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 30798.428868363408,
+      "bounds": [
+        [
+          -10.249101,
+          -8.656866,
+          1342.863431
+        ],
+        [
+          10.249101,
+          45.343134,
+          1382.863431
+        ]
+      ]
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound (1)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 119.27637057367568,
+      "bounds": [
+        [
+          -3.7,
+          38.543134,
+          1346.563431
+        ],
+        [
+          3.7,
+          44.343134,
+          1351.163431
+        ]
+      ]
+    },
+    {
+      "part": "N03_DS3230_MG996_imported_PACKAGING_REFERENCE",
+      "name": "Compound (2)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 382.1105205564783,
+      "bounds": [
+        [
+          -3.0,
+          25.343134,
+          1370.863431
+        ],
+        [
+          3.0,
+          31.343134,
+          1386.363431
+        ]
+      ]
+    },
+    {
+      "part": "H01_Head_oval_REFERENCE",
+      "name": "H01_oval_head_with_yaw_flange_socket",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 1970941.803628166,
+      "bounds": [
+        [
+          -75.0,
+          -41.656866,
+          1408.622438
+        ],
+        [
+          75.0,
+          98.343134,
+          1585.363431
+        ]
+      ]
+    },
+    {
+      "part": "N04_Head_yaw_output_ENVELOPE",
+      "name": "N04_neck_yaw_output_flange",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 16599.79521730831,
+      "bounds": [
+        [
+          -20.0,
+          8.343134,
+          1387.363431
+        ],
+        [
+          20.0,
+          48.343134,
+          1415.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_6810_pitch_bearing",
+      "name": "S24_L_6810_pitch_bearing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 9483.682823024645,
+      "bounds": [
+        [
+          -138.0,
+          -4.5,
+          1292.863431
+        ],
+        [
+          -131.0,
+          60.5,
+          1357.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_pitch_outer_race_retainer",
+      "name": "S24_L_pitch_outer_race_retainer",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 16938.69789795672,
+      "bounds": [
+        [
+          -154.0,
+          -14.0,
+          1283.363431
+        ],
+        [
+          -138.0,
+          70.0,
+          1367.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_pitch_carrier_roll_housing",
+      "name": "S24_L_pitch_carrier_roll_housing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 174870.16550181346,
+      "bounds": [
+        [
+          -237.0,
+          -2.0,
+          1285.363431
+        ],
+        [
+          -125.0,
+          70.0,
+          1365.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_roll_driven_output",
+      "name": "S24_L_roll_driven_output",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 28729.86481707989,
+      "bounds": [
+        [
+          -227.0,
+          -12.0,
+          1295.363431
+        ],
+        [
+          -167.0,
+          8.0,
+          1355.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_6005_rear_support_bearing",
+      "name": "S24_L_6005_rear_support_bearing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 14928.848289859328,
+      "bounds": [
+        [
+          -220.5,
+          58.0,
+          1301.863431
+        ],
+        [
+          -173.5,
+          70.0,
+          1348.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_rear_bearing_cap",
+      "name": "S24_L_rear_bearing_cap",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 7101.004706762405,
+      "bounds": [
+        [
+          -228.0,
+          70.0,
+          1294.363431
+        ],
+        [
+          -166.0,
+          73.0,
+          1356.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_rear_journal_washer",
+      "name": "S24_L_rear_journal_washer",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 1099.3061013441836,
+      "bounds": [
+        [
+          -210.5,
+          70.0,
+          1311.863431
+        ],
+        [
+          -183.5,
+          72.0,
+          1338.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -224.5,
+          -21.0,
+          1321.863431
+        ],
+        [
+          -217.5,
+          -2.0,
+          1328.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -212.5,
+          -21.0,
+          1342.648041
+        ],
+        [
+          -205.5,
+          -2.0,
+          1349.648041
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -188.5,
+          -21.0,
+          1342.648041
+        ],
+        [
+          -181.5,
+          -2.0,
+          1349.648041
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -176.5,
+          -21.0,
+          1321.863431
+        ],
+        [
+          -169.5,
+          -2.0,
+          1328.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -188.5,
+          -21.0,
+          1301.078822
+        ],
+        [
+          -181.5,
+          -2.0,
+          1308.078822
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_0_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          -212.5,
+          -21.0,
+          1301.078822
+        ],
+        [
+          -205.5,
+          -2.0,
+          1308.078822
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270798,
+      "bounds": [
+        [
+          -218.841883,
+          63.0,
+          1341.705314
+        ],
+        [
+          -213.341883,
+          75.5,
+          1347.205314
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270798,
+      "bounds": [
+        [
+          -180.658117,
+          63.0,
+          1341.705314
+        ],
+        [
+          -175.158117,
+          75.5,
+          1347.205314
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270798,
+      "bounds": [
+        [
+          -180.658117,
+          63.0,
+          1303.521548
+        ],
+        [
+          -175.158117,
+          75.5,
+          1309.021548
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_drive_and_retainer_fasteners",
+      "name": "Fastener_1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270798,
+      "bounds": [
+        [
+          -218.841883,
+          63.0,
+          1303.521548
+        ],
+        [
+          -213.341883,
+          75.5,
+          1309.021548
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_6810_pitch_bearing",
+      "name": "S24_R_6810_pitch_bearing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 9483.682823024645,
+      "bounds": [
+        [
+          131.0,
+          -4.5,
+          1292.863431
+        ],
+        [
+          138.0,
+          60.5,
+          1357.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_pitch_outer_race_retainer",
+      "name": "S24_R_pitch_outer_race_retainer",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 16938.697897956055,
+      "bounds": [
+        [
+          138.0,
+          -14.0,
+          1283.363431
+        ],
+        [
+          154.0,
+          70.0,
+          1367.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_pitch_carrier_roll_housing",
+      "name": "S24_R_pitch_carrier_roll_housing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 174870.16550181346,
+      "bounds": [
+        [
+          125.0,
+          -2.0,
+          1285.363431
+        ],
+        [
+          237.0,
+          70.0,
+          1365.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_roll_driven_output",
+      "name": "S24_R_roll_driven_output",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 28729.86481707989,
+      "bounds": [
+        [
+          167.0,
+          -12.0,
+          1295.363431
+        ],
+        [
+          227.0,
+          8.0,
+          1355.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_6005_rear_support_bearing",
+      "name": "S24_R_6005_rear_support_bearing",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 14928.848289859328,
+      "bounds": [
+        [
+          173.5,
+          58.0,
+          1301.863431
+        ],
+        [
+          220.5,
+          70.0,
+          1348.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_rear_bearing_cap",
+      "name": "S24_R_rear_bearing_cap",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 7101.004706762405,
+      "bounds": [
+        [
+          166.0,
+          70.0,
+          1294.363431
+        ],
+        [
+          228.0,
+          73.0,
+          1356.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_rear_journal_washer",
+      "name": "S24_R_rear_journal_washer",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 1099.3061013441836,
+      "bounds": [
+        [
+          183.5,
+          70.0,
+          1311.863431
+        ],
+        [
+          210.5,
+          72.0,
+          1338.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          217.5,
+          -21.0,
+          1321.863431
+        ],
+        [
+          224.5,
+          -2.0,
+          1328.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          205.5,
+          -21.0,
+          1342.648041
+        ],
+        [
+          212.5,
+          -2.0,
+          1349.648041
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          181.5,
+          -21.0,
+          1342.648041
+        ],
+        [
+          188.5,
+          -2.0,
+          1349.648041
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          169.5,
+          -21.0,
+          1321.863431
+        ],
+        [
+          176.5,
+          -2.0,
+          1328.863431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          181.5,
+          -21.0,
+          1301.078822
+        ],
+        [
+          188.5,
+          -2.0,
+          1308.078822
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_0_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 316.51545984918516,
+      "bounds": [
+        [
+          205.5,
+          -21.0,
+          1301.078822
+        ],
+        [
+          212.5,
+          -2.0,
+          1308.078822
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270792,
+      "bounds": [
+        [
+          213.341883,
+          63.0,
+          1341.705314
+        ],
+        [
+          218.841883,
+          75.5,
+          1347.205314
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270792,
+      "bounds": [
+        [
+          175.158117,
+          63.0,
+          1341.705314
+        ],
+        [
+          180.658117,
+          75.5,
+          1347.205314
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270792,
+      "bounds": [
+        [
+          175.158117,
+          63.0,
+          1303.521548
+        ],
+        [
+          180.658117,
+          75.5,
+          1309.021548
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_drive_and_retainer_fasteners",
+      "name": "Fastener_1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 130.08157081270792,
+      "bounds": [
+        [
+          213.341883,
+          63.0,
+          1303.521548
+        ],
+        [
+          218.841883,
+          75.5,
+          1309.021548
+        ]
+      ]
+    },
+    {
+      "part": "T24_spine_clamp_cap_1",
+      "name": "T24_spine_clamp_cap_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 8314.911066307102,
+      "bounds": [
+        [
+          -25.0,
+          79.443134,
+          1244.0
+        ],
+        [
+          25.0,
+          89.343134,
+          1274.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_spine_clamp_cap_2",
+      "name": "T24_spine_clamp_cap_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 18101.39759561335,
+      "bounds": [
+        [
+          -25.0,
+          79.443134,
+          1301.363431
+        ],
+        [
+          25.0,
+          92.0,
+          1340.363431
+        ]
+      ]
+    },
+    {
+      "part": "E24_electronics_box",
+      "name": "E24_electronics_box",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 160820.31772788093,
+      "bounds": [
+        [
+          -75.0,
+          -23.0,
+          1230.0
+        ],
+        [
+          75.0,
+          63.0,
+          1320.0
+        ]
+      ]
+    },
+    {
+      "part": "E24_electronics_lid",
+      "name": "E24_electronics_lid",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 34367.22876291192,
+      "bounds": [
+        [
+          -75.0,
+          -23.0,
+          1320.0
+        ],
+        [
+          75.0,
+          63.0,
+          1323.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_-20_1252",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          -23.5,
+          65.0,
+          1248.5
+        ],
+        [
+          -16.5,
+          98.0,
+          1255.5
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_-20_1266",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          -23.5,
+          65.0,
+          1262.5
+        ],
+        [
+          -16.5,
+          98.0,
+          1269.5
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_20_1252",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          16.5,
+          65.0,
+          1248.5
+        ],
+        [
+          23.5,
+          98.0,
+          1255.5
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_0_20_1266",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          16.5,
+          65.0,
+          1262.5
+        ],
+        [
+          23.5,
+          98.0,
+          1269.5
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_-20_1309.36343136",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          -23.5,
+          65.0,
+          1305.863431
+        ],
+        [
+          -16.5,
+          98.0,
+          1312.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_-20_1332.36343136",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          -23.5,
+          65.0,
+          1328.863431
+        ],
+        [
+          -16.5,
+          98.0,
+          1335.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_20_1309.36343136",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          16.5,
+          65.0,
+          1305.863431
+        ],
+        [
+          23.5,
+          98.0,
+          1312.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Clamp_M4_1_20_1332.36343136",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 518.3627878423375,
+      "bounds": [
+        [
+          16.5,
+          65.0,
+          1328.863431
+        ],
+        [
+          23.5,
+          98.0,
+          1335.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          56.975953,
+          1340.613431
+        ],
+        [
+          -112.0,
+          63.975953,
+          1347.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          24.5,
+          1359.363431
+        ],
+        [
+          -112.0,
+          31.5,
+          1366.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          -7.975953,
+          1340.613431
+        ],
+        [
+          -112.0,
+          -0.975953,
+          1347.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          -7.975953,
+          1303.113431
+        ],
+        [
+          -112.0,
+          -0.975953,
+          1310.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          24.5,
+          1284.363431
+        ],
+        [
+          -112.0,
+          31.5,
+          1291.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_-1_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          -158.0,
+          56.975953,
+          1303.113431
+        ],
+        [
+          -112.0,
+          63.975953,
+          1310.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          56.975953,
+          1340.613431
+        ],
+        [
+          158.0,
+          63.975953,
+          1347.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          24.5,
+          1359.363431
+        ],
+        [
+          158.0,
+          31.5,
+          1366.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          -7.975953,
+          1340.613431
+        ],
+        [
+          158.0,
+          -0.975953,
+          1347.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          -7.975953,
+          1303.113431
+        ],
+        [
+          158.0,
+          -0.975953,
+          1310.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          24.5,
+          1284.363431
+        ],
+        [
+          158.0,
+          31.5,
+          1291.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_frame_shell_clamp_hardware",
+      "name": "Shoulder_M4_1_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 681.7256058289558,
+      "bounds": [
+        [
+          112.0,
+          56.975953,
+          1303.113431
+        ],
+        [
+          158.0,
+          63.975953,
+          1310.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          56.475953,
+          1340.113431
+        ],
+        [
+          -114.0,
+          64.475953,
+          1348.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          24.0,
+          1358.863431
+        ],
+        [
+          -114.0,
+          32.0,
+          1366.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          -8.475953,
+          1340.113431
+        ],
+        [
+          -114.0,
+          -0.475953,
+          1348.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          -8.475953,
+          1302.613431
+        ],
+        [
+          -114.0,
+          -0.475953,
+          1310.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          24.0,
+          1283.863431
+        ],
+        [
+          -114.0,
+          32.0,
+          1291.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_-1_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          -118.0,
+          56.475953,
+          1302.613431
+        ],
+        [
+          -114.0,
+          64.475953,
+          1310.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_0",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          56.475953,
+          1340.113431
+        ],
+        [
+          118.0,
+          64.475953,
+          1348.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_1",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          24.0,
+          1358.863431
+        ],
+        [
+          118.0,
+          32.0,
+          1366.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_2",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          -8.475953,
+          1340.113431
+        ],
+        [
+          118.0,
+          -0.475953,
+          1348.113431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_3",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          -8.475953,
+          1302.613431
+        ],
+        [
+          118.0,
+          -0.475953,
+          1310.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          24.0,
+          1283.863431
+        ],
+        [
+          118.0,
+          32.0,
+          1291.863431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Shoulder_M4_nut_1_5",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 164.74511875425478,
+      "bounds": [
+        [
+          114.0,
+          56.475953,
+          1302.613431
+        ],
+        [
+          118.0,
+          64.475953,
+          1310.613431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569218,
+      "bounds": [
+        [
+          -24.0,
+          65.0,
+          1248.0
+        ],
+        [
+          -16.0,
+          68.0,
+          1256.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (1)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569218,
+      "bounds": [
+        [
+          -24.0,
+          65.0,
+          1262.0
+        ],
+        [
+          -16.0,
+          68.0,
+          1270.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (2)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569215,
+      "bounds": [
+        [
+          16.0,
+          65.0,
+          1248.0
+        ],
+        [
+          24.0,
+          68.0,
+          1256.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (3)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569215,
+      "bounds": [
+        [
+          16.0,
+          65.0,
+          1262.0
+        ],
+        [
+          24.0,
+          68.0,
+          1270.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (4)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569218,
+      "bounds": [
+        [
+          -24.0,
+          65.0,
+          1305.363431
+        ],
+        [
+          -16.0,
+          68.0,
+          1313.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (5)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569218,
+      "bounds": [
+        [
+          -24.0,
+          65.0,
+          1328.363431
+        ],
+        [
+          -16.0,
+          68.0,
+          1336.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (6)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569215,
+      "bounds": [
+        [
+          16.0,
+          65.0,
+          1305.363431
+        ],
+        [
+          24.0,
+          68.0,
+          1313.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Clamp_nut (7)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 123.55883906569215,
+      "bounds": [
+        [
+          16.0,
+          65.0,
+          1328.363431
+        ],
+        [
+          24.0,
+          68.0,
+          1336.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 193.99334635917816,
+      "bounds": [
+        [
+          -62.75,
+          56.0,
+          1255.25
+        ],
+        [
+          -57.25,
+          74.0,
+          1260.75
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (1)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 193.99334635917816,
+      "bounds": [
+        [
+          -62.75,
+          56.0,
+          1309.25
+        ],
+        [
+          -57.25,
+          74.0,
+          1314.75
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (2)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 193.99334635917816,
+      "bounds": [
+        [
+          57.25,
+          56.0,
+          1255.25
+        ],
+        [
+          62.75,
+          74.0,
+          1260.75
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_mount (3)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 193.99334635917816,
+      "bounds": [
+        [
+          57.25,
+          56.0,
+          1309.25
+        ],
+        [
+          62.75,
+          74.0,
+          1314.75
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 149.02930150465022,
+      "bounds": [
+        [
+          -67.75,
+          -15.75,
+          1312.0
+        ],
+        [
+          -62.25,
+          -10.25,
+          1326.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (1)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 149.02930150465025,
+      "bounds": [
+        [
+          -67.75,
+          50.25,
+          1312.0
+        ],
+        [
+          -62.25,
+          55.75,
+          1326.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (2)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 149.02930150465022,
+      "bounds": [
+        [
+          62.25,
+          -15.75,
+          1312.0
+        ],
+        [
+          67.75,
+          -10.25,
+          1326.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Electronics_M3_lid (3)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 149.02930150465025,
+      "bounds": [
+        [
+          62.25,
+          50.25,
+          1312.0
+        ],
+        [
+          67.75,
+          55.75,
+          1326.0
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Rear_shell_M4",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 455.53093477053875,
+      "bounds": [
+        [
+          -68.5,
+          82.0,
+          1254.5
+        ],
+        [
+          -61.5,
+          110.0,
+          1261.5
+        ]
+      ]
+    },
+    {
+      "part": "T24_nuts_washers_electronics_screws",
+      "name": "Rear_shell_M4 (1)",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 455.53093477053875,
+      "bounds": [
+        [
+          61.5,
+          82.0,
+          1254.5
+        ],
+        [
+          68.5,
+          110.0,
+          1261.5
+        ]
+      ]
+    },
+    {
+      "part": "N24_lower_yaw_retaining_collar",
+      "name": "N24_lower_yaw_collar",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 508.9380098814911,
+      "bounds": [
+        [
+          -14.5,
+          13.843134,
+          1387.363431
+        ],
+        [
+          14.5,
+          42.843134,
+          1390.363431
+        ]
+      ]
+    },
+    {
+      "part": "T24_internal_shoulder_spine_frame",
+      "name": "T24_spine_shoulder_frame_complete_backing_rings",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 288507.3908922713,
+      "bounds": [
+        [
+          -131.0,
+          -14.0,
+          1244.0
+        ],
+        [
+          131.0,
+          96.0,
+          1367.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_L_upper_arm_fork_to_elbow",
+      "name": "S24_L_upper_arm_fork_to_elbow",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 334777.62916968635,
+      "bounds": [
+        [
+          -230.0,
+          -18.0,
+          1035.363431
+        ],
+        [
+          -164.0,
+          70.0,
+          1358.363431
+        ]
+      ]
+    },
+    {
+      "part": "S24_R_upper_arm_fork_to_elbow",
+      "name": "S24_R_upper_arm_fork_to_elbow",
+      "solid": true,
+      "lumps": 1,
+      "volume_mm3": 334777.62916968623,
+      "bounds": [
+        [
+          164.0,
+          -18.0,
+          1035.363431
+        ],
+        [
+          230.0,
+          70.0,
+          1358.363431
+        ]
+      ]
+    }
+  ],
+  "neutral_intersections": [],
+  "motion_samples": [],
+  "retained": {
+    "W08_": [
+      [
+        -9.0,
+        73.343134,
+        982.0
+      ],
+      [
+        9.0,
+        83.343134,
+        1385.363431
+      ]
+    ],
+    "U01_": [
+      [
+        -70.0,
+        -11.656866,
+        1056.0
+      ],
+      [
+        70.0,
+        73.343134,
+        1216.0
+      ]
+    ],
+    "W19_": [
+      [
+        -75.5,
+        -10.406866,
+        961.25
+      ],
+      [
+        -48.5,
+        57.093134,
+        1028.75
+      ]
+    ],
+    "W20_": [
+      [
+        48.5,
+        -10.406866,
+        961.25
+      ],
+      [
+        75.5,
+        57.093134,
+        1028.75
+      ]
+    ]
+  },
+  "feature_issues": [],
+  "solid_pass": true,
+  "neutral_pass": true
+}

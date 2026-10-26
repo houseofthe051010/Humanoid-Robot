@@ -1,0 +1,45 @@
+{
+  "part": "C28_Left_hip_yaw_shroud",
+  "attempt": "final02",
+  "candidate_count": 8,
+  "batch": 0,
+  "size": 2000,
+  "checks": [
+    {
+      "id": "Left_H03_Hip_yaw_6007_bearing_REFERENCE/6007_35x62x14_reference",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_H04_Hip_yaw_bearing_retainer/Removable_outer_race_retainer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N06_Upper_leg_oval_stub_L/N06_Upper_leg_oval_stub_L",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_N06_Upper_leg_oval_stub_R/N06_Upper_leg_oval_stub_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_Q01_CNC_rail_to_yaw_crosshead/Q01_v17_finished_6007_seat",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_Q02_CNC_yaw_to_roll_cradle/Left_Q02_CNC_yaw_to_roll_cradle_actual_yaw_locator_relief",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_T04_GWK7010_Hip_yaw_REFERENCE/GWK7010_vendor_fixed_yaw",
+      "overlap_mm3": 0.0
+    },
+    {
+      "id": "Left_V26_Hip_yaw_output_hub/GWK7010_yaw_output_hub",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "hits": [],
+  "pass": true,
+  "neutral_only": true,
+  "geometry_mutations": 0
+}

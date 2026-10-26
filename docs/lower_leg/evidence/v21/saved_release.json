@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\Waist_battery_v21.f3d",
+      "bytes": 6082780
+    },
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\Battery_12S3P_21700_140x85x160.step",
+      "bytes": 9929
+    },
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\Humanoid_waist_battery_v21.f3d",
+      "bytes": 109551841
+    },
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\U20_FRONT_upper_body_joint_placements.dxf",
+      "bytes": 8802
+    },
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\U21_FRONT_height_and_segment_annotations_mm.dxf",
+      "bytes": 1525628
+    },
+    {
+      "path": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v21\\deliverables\\U22_Battery_36_cell_grid_and_BMS_reservation.dxf",
+      "bytes": 8044
+    }
+  ],
+  "retired_groups": [
+    {
+      "name": "ZZ_V21_preserved_prior_waist_history",
+      "removed": true
+    },
+    {
+      "name": "GWK6010-8 3D Model",
+      "removed": true
+    }
+  ]
+}

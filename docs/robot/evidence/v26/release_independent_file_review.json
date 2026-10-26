@@ -1,0 +1,31 @@
+{
+  "generated_epoch": 1790757095.258116,
+  "native_calls": 0,
+  "saved_source_version": 4,
+  "independent_offline_recomparison": {
+    "pass": true,
+    "body_count_match": true,
+    "geometry_match": true,
+    "mesh_count_match": true,
+    "mesh_geometry_match": true,
+    "joint_match": true,
+    "joint_state_match": true,
+    "occurrence_count_match": true,
+    "occurrence_pose_match": true,
+    "joint_state_mismatches": [],
+    "occurrence_pose_mismatches": [],
+    "pose_tolerances": {
+      "translation_mm": 0.002,
+      "matrix_entry": 1e-07,
+      "rotation_rad": 1e-06,
+      "angular_value_comparison": "wrapped modulo 2 pi; limit and rest configuration compared numerically"
+    }
+  },
+  "counts": {
+    "bodies": 1785,
+    "meshes": 8,
+    "joints": 333,
+    "occurrences": 367
+  },
+  "scope": "Recomputed native snapshot comparison from saved-source evidence and full baseline; solid names/counts/flags/volumes, mesh names/counts/bounds, native joint frames/states and occurrence placement/grounds. This does not decode or reopen archives or revalidate complete BRep shapes."
+}

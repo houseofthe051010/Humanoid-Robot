@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "joint": "Right_Knee_pitch",
+  "origin_world_mm": [
+    120.0,
+    23.343134,
+    430.6
+  ],
+  "axis_world": [
+    1.0,
+    -1.2207188346254627e-17,
+    -2.9809322135884884e-16
+  ],
+  "independent_actual_cylinder_faces": [
+    {
+      "part": "Right_N02_Knee_shaft_8mm",
+      "body": "Knee_shaft_8x104",
+      "axis_alignment": 1.0,
+      "line_distance_mm": 0.0,
+      "radius_mm": 4.0
+    }
+  ]
+}

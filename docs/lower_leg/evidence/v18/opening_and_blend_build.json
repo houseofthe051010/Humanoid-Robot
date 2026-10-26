@@ -1,0 +1,24 @@
+{
+  "clear_opening_mm": 50.0,
+  "roll_fork_end_OD_mm": 72,
+  "arm_width_mm": 40,
+  "pitch_flange_thickness_mm": 12,
+  "construction": "native three-section elliptical lofts plus broad arms and flange",
+  "roll_bearing_status": "old 40x52 references and narrow journals removed; enlarged gearbox/output/bearing interface remains provisional",
+  "parts": [
+    "Right_leg",
+    "Left_leg"
+  ],
+  "fillets": [
+    {
+      "leg": "Right_leg",
+      "success": true,
+      "radius_mm": 1.5
+    },
+    {
+      "leg": "Left_leg",
+      "success": true,
+      "radius_mm": 1.5
+    }
+  ]
+}

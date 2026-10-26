@@ -1,0 +1,242 @@
+[
+  {
+    "a": "F03_Roll_bearing_rear/Inner & Outer Ring_0",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 9.138071200542575,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 2.5698839284622332,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F03_Roll_bearing_rear/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 1.2288643505094332,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F04_Roll_bearing_front/Inner & Outer Ring (1)_0",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 9.138070037894925,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 2.5699316675068506,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F04_Roll_bearing_front/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw (1)_0 (1)",
+    "b": "A01_PA12CF_cross_axis_block/Roll_shaft_8mm",
+    "volume_mm3": 1.2288616510409849,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S02_Pitch_bearing_left/Inner & Outer Ring_0",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 9.138239656492216,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S02_Pitch_bearing_left/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 2.569883736544934,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S02_Pitch_bearing_left/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 1.2288722400722776,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S03_Pitch_bearing_right/Inner & Outer Ring_0",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 9.138039937008502,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S03_Pitch_bearing_right/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 2.5698842323332,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "S03_Pitch_bearing_right/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "b": "A01_PA12CF_cross_axis_block/Pitch_shaft_8mm",
+    "volume_mm3": 1.2288640111388613,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_0",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629703,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_1",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.23670983362971,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_2",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629668,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_3",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.23670983362966,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_4",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629654,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_5",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629668,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_6",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.23670983362971,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_247_7",
+    "b": "M01_GWK7010_B/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629703,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_0",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.23670983362969,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_1",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.23670983362969,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_2",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629646,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_3",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629646,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_4",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629646,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_5",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629646,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_6",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629696,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "H02_M3_motor_plate_hardware/M3x12_motor_case_screw_329_7",
+    "b": "M01_GWK7010_A/GWK7010_vendor_fixed_region",
+    "volume_mm3": 16.236709833629696,
+    "interpretation": "Inherited simplified motor screw/vendor solid overlap; actual threaded interface requires hardware verification."
+  },
+  {
+    "a": "N01_Aluminum_knee_stack_2/Body1",
+    "b": "N07_Knee_stack_fasteners/M3x10_shaft_set_screw",
+    "volume_mm3": 21.59844949343073,
+    "interpretation": "M3 nominal major diameter in2.5 mm tap pilot; threads not modeled."
+  },
+  {
+    "a": "N01_Aluminum_knee_stack_4/Body1",
+    "b": "N07_Knee_stack_fasteners/M3x10_shaft_set_screw (1)",
+    "volume_mm3": 21.59844949343083,
+    "interpretation": "M3 nominal major diameter in2.5 mm tap pilot; threads not modeled."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_L/Inner & Outer Ring_0",
+    "volume_mm3": 9.13720510824545,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "volume_mm3": 2.5698842736570153,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "volume_mm3": 1.2288722400722039,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_R/Inner & Outer Ring_0",
+    "volume_mm3": 9.137009779521433,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "volume_mm3": 2.5698842455164024,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "N02_Knee_shaft_8mm/Knee_shaft_8x104",
+    "b": "N04_Knee_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "volume_mm3": 1.2288640111388869,
+    "interpretation": "Inherited supplier ring/set-screw envelope fit to8 mm shaft; actual bore, collar and shaft fit must be checked."
+  },
+  {
+    "a": "F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "b": "F07_Printed_8_to_6_bearing_sleeve_L/8OD_6ID_reducer",
+    "volume_mm3": 2.183017151472953,
+    "interpretation": "Inherited collar set-screw/reducer contact; retention and printed reducer strength unqualified."
+  },
+  {
+    "a": "F06_Heel_pillow_block_L/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "b": "F07_Printed_8_to_6_bearing_sleeve_L/8OD_6ID_reducer",
+    "volume_mm3": 1.232900130599771,
+    "interpretation": "Inherited collar set-screw/reducer contact; retention and printed reducer strength unqualified."
+  },
+  {
+    "a": "F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0",
+    "b": "F07_Printed_8_to_6_bearing_sleeve_R/8OD_6ID_reducer",
+    "volume_mm3": 2.1828499758631574,
+    "interpretation": "Inherited collar set-screw/reducer contact; retention and printed reducer strength unqualified."
+  },
+  {
+    "a": "F06_Heel_pillow_block_R/91385A205_Alloy Steel Thread-Locking Cup-Point Set Screw_0 (1)",
+    "b": "F07_Printed_8_to_6_bearing_sleeve_R/8OD_6ID_reducer",
+    "volume_mm3": 1.2329103577826666,
+    "interpretation": "Inherited collar set-screw/reducer contact; retention and printed reducer strength unqualified."
+  }
+]

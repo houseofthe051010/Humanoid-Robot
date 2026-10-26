@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "side": "Right",
+  "joint": "Right_Knee_pitch",
+  "angles_deg": [
+    0,
+    30,
+    60,
+    90,
+    120
+  ],
+  "selected_moving_bodies": 48,
+  "hits": [],
+  "persistent_pose_mutations": 0
+}

@@ -1,0 +1,9 @@
+{
+  "waist_geometry_issues": [],
+  "waist_feature_issues": [],
+  "waist_invalid_joints": [],
+  "pitch_rear_rim_x_mm": [
+    9.325873406851315e-14,
+    -5.3290705182007514e-14
+  ]
+}

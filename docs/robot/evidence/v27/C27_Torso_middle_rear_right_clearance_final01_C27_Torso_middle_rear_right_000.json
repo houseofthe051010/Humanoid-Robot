@@ -1,0 +1,360 @@
+{
+  "schema": 1,
+  "read_only": true,
+  "native_mutations": 0,
+  "pass": true,
+  "panel": "C27_Torso_middle_rear_right",
+  "before_sha256": "3141f0ba686cfbfad734d1dd33dad66783bae2802685c0a441a8178806b9c842",
+  "skin_bounds_mm": [
+    [
+      0.250000000024566,
+      28.350000000000026,
+      1096.3
+    ],
+    [
+      151.00000000005684,
+      106.01739823161856,
+      1289.8
+    ]
+  ],
+  "skin_volume_mm3": 93794.5602410166,
+  "skin_lumps": 1,
+  "candidate_count": 22,
+  "skin_face_count": 16,
+  "skin_edge_count": 33,
+  "candidate_ids": [
+    "<root>/Upper_body_v26:1/E24_electronics_box:1/E24_electronics_box",
+    "<root>/Upper_body_v26:1/S24_R_pitch_carrier_roll_housing:1/S24_R_pitch_carrier_roll_housing_fit_v25",
+    "<root>/Upper_body_v26:1/S24_R_pitch_outer_race_retainer:1/S24_R_pitch_outer_race_retainer",
+    "<root>/Upper_body_v26:1/S25_R_pitch_motor_face_mount:1/S25_R_pitch_motor_face_mount_fit_v25",
+    "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Clamp_M4_0_20_1252",
+    "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Clamp_M4_0_20_1266",
+    "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Shoulder_M4_1_4",
+    "<root>/Upper_body_v26:1/T24_internal_shoulder_spine_frame:1/T24_internal_shoulder_spine_frame_fit_v25",
+    "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Clamp_nut (2)",
+    "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Clamp_nut (3)",
+    "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Electronics_M3_mount (2)",
+    "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Rear_shell_M4 (1)",
+    "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Shoulder_M4_nut_1_4",
+    "<root>/Upper_body_v26:1/T24_spine_clamp_cap_1:1/T24_spine_clamp_cap_1",
+    "<root>/Waist_pitch_roll_battery_v21:1/U01_Battery_12S3P_21700_ENVELOPE:1/Battery_pack_140x85x160_BMS_included",
+    "<root>/Waist_pitch_roll_battery_v21:1/U02_Battery_lower_cradle:1/Battery_lower_cradle_rearward_C_sleeve",
+    "<root>/Waist_pitch_roll_battery_v21:1/U04_Battery_upper_restraint:1/Battery_upper_restraint_rearward_C_sleeve",
+    "<root>/Waist_pitch_roll_battery_v21:1/U05_Battery_cradle_M4_REFERENCES:1/Crush_sleeve_1192",
+    "<root>/Waist_pitch_roll_battery_v21:1/U05_Battery_cradle_M4_REFERENCES:1/Crush_sleeve_1210",
+    "<root>/Waist_pitch_roll_battery_v21:1/U05_Battery_cradle_M4_REFERENCES:1/M4_lateral_cradle_1192",
+    "<root>/Waist_pitch_roll_battery_v21:1/U05_Battery_cradle_M4_REFERENCES:1/M4_lateral_cradle_1210",
+    "<root>/Waist_pitch_roll_battery_v21:1/W08_spine_18X10Y_extended_REFERENCE:1/W08_rearward_spine_with_cradle_and_neck_holes"
+  ],
+  "batch_start": 0,
+  "batch_size": 12,
+  "checks": [
+    {
+      "original": "<root>/Upper_body_v26:1/E24_electronics_box:1/E24_electronics_box",
+      "actual_bounds_world_mm": [
+        [
+          -74.99999999993685,
+          -22.999999999999986,
+          1229.999999999988
+        ],
+        [
+          75.00000000006315,
+          63.00000000000001,
+          1319.9999999999889
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/S24_R_pitch_carrier_roll_housing:1/S24_R_pitch_carrier_roll_housing_fit_v25",
+      "actual_bounds_world_mm": [
+        [
+          117.69999989952659,
+          -1.9999999999997398,
+          1285.363431359967
+        ],
+        [
+          237.00000000006415,
+          70.00000000000027,
+          1365.363431359967
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/S24_R_pitch_outer_race_retainer:1/S24_R_pitch_outer_race_retainer",
+      "actual_bounds_world_mm": [
+        [
+          138.0000000000691,
+          -13.999999999999977,
+          1283.363431359974
+        ],
+        [
+          154.00000000006122,
+          70.00000000000003,
+          1367.3634313599737
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/S25_R_pitch_motor_face_mount:1/S25_R_pitch_motor_face_mount_fit_v25",
+      "actual_bounds_world_mm": [
+        [
+          112.00000000007111,
+          -13.999999999999977,
+          1283.3634313599807
+        ],
+        [
+          119.00000000007083,
+          70.00000000000003,
+          1367.3634313599805
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Clamp_M4_0_20_1252",
+      "actual_bounds_world_mm": [
+        [
+          16.500000000051426,
+          65.00000000000001,
+          1248.4999999999966
+        ],
+        [
+          23.500000000051426,
+          98.0,
+          1255.4999999999966
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Clamp_M4_0_20_1266",
+      "actual_bounds_world_mm": [
+        [
+          16.500000000053838,
+          65.00000000000001,
+          1262.4999999999966
+        ],
+        [
+          23.50000000005384,
+          98.0,
+          1269.4999999999964
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_frame_shell_clamp_hardware:1/Shoulder_M4_1_4",
+      "actual_bounds_world_mm": [
+        [
+          112.00000000005727,
+          24.50000000000002,
+          1284.3634313599737
+        ],
+        [
+          158.000000000057,
+          31.50000000000002,
+          1291.3634313599734
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_internal_shoulder_spine_frame:1/T24_internal_shoulder_spine_frame_fit_v25",
+      "actual_bounds_world_mm": [
+        [
+          -130.99999999993418,
+          -13.999999999999977,
+          1243.9999999999984
+        ],
+        [
+          131.00000000006648,
+          95.99999999999997,
+          1367.3634313599773
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Clamp_nut (2)",
+      "actual_bounds_world_mm": [
+        [
+          16.000000000051426,
+          65.00000000000001,
+          1247.9999999999966
+        ],
+        [
+          24.000000000051426,
+          68.00000000000003,
+          1255.9999999999966
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Clamp_nut (3)",
+      "actual_bounds_world_mm": [
+        [
+          16.00000000005384,
+          65.00000000000001,
+          1261.9999999999964
+        ],
+        [
+          24.00000000005384,
+          68.00000000000003,
+          1269.9999999999966
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Electronics_M3_mount (2)",
+      "actual_bounds_world_mm": [
+        [
+          57.25000000005246,
+          56.000000000000014,
+          1255.2499999999895
+        ],
+        [
+          62.75000000005247,
+          74.00000000000003,
+          1260.7499999999895
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    },
+    {
+      "original": "<root>/Upper_body_v26:1/T24_nuts_washers_electronics_screws:1/Rear_shell_M4 (1)",
+      "actual_bounds_world_mm": [
+        [
+          61.50000000005246,
+          82.0,
+          1254.4999999999889
+        ],
+        [
+          68.50000000005245,
+          110.0,
+          1261.4999999999886
+        ]
+      ],
+      "intersection_mm3": 0.0,
+      "method": "TemporaryBRep intersection of actual root-context proxies",
+      "pass": true
+    }
+  ],
+  "excluded_original_cosmetic_ids": [
+    "<root>/Upper_body_v26:1/T01_Torso_shell_2p5mm_concept:1/T01_torso_shell_with_neck_retainer_clearance"
+  ],
+  "minimum_clearance_target_mm": 0,
+  "angles_before_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "print_split": {
+    "planning_only": true,
+    "printer_size_is_assumed": true,
+    "usable_height_mm": 180,
+    "piece_count": 2,
+    "cut_planes_world_z_mm": [
+      1193.05
+    ],
+    "suggested_split_gap_mm": 0.4,
+    "segment_height_before_gap_mm": 96.75,
+    "full_bounds_mm": [
+      [
+        0.250000000024566,
+        28.350000000000026,
+        1096.3
+      ],
+      [
+        151.00000000005684,
+        106.01739823161856,
+        1289.8
+      ]
+    ],
+    "footprint_mm": [
+      150.7500000000323,
+      77.66739823161853
+    ],
+    "scope": "Separate upper/lower PRINTED skin parts only; do not cut, drill or lengthen any original frame/rail. Front and rear calf panels each require this split.",
+    "remaining": "Add removable cosmetic joining lips/retention, check actual oriented bed dimensions and seam hardware clearance before claiming print-ready."
+  },
+  "scope": "Actual static pose only; optional native minimum distance is explicitly recorded. Not swept clearance, minimum 2.5 mm wall, fit/strength/thermal or manufacturing qualification.",
+  "started_epoch": 1790769571.7852376,
+  "memory_before_bytes": 12726427648,
+  "angles_after_rad": {
+    "Left_Ankle_pitch": 0.0,
+    "Left_Ankle_roll": 0.0,
+    "Left_Hip_pitch": 0.0,
+    "Left_Hip_roll": 0.0,
+    "Left_Hip_yaw": 0.0,
+    "Left_Knee_pitch": 0.0,
+    "Right_Ankle_pitch": 0.0,
+    "Right_Ankle_roll": 0.0,
+    "Right_Hip_pitch": 0.0,
+    "Right_Hip_roll": 0.0,
+    "Right_Hip_yaw": 0.0,
+    "Right_Knee_pitch": 0.0,
+    "WJ00_waist_yaw": 0.0,
+    "WJ01_lower_waist_pitch": 0.0,
+    "WJ02_upper_waist_roll": 0.0,
+    "V24_L_shoulder_pitch": 0.0,
+    "V24_L_shoulder_roll": 0.10471975511965978,
+    "V24_R_shoulder_pitch": 0.0,
+    "V24_R_shoulder_roll": -0.10471975511965978,
+    "V24_neck_yaw": 0.0,
+    "V25_R_elbow_pitch": 0.0,
+    "V25_L_elbow_pitch": 0.0,
+    "V26_head_pitch": 0.0
+  },
+  "has_pending_snapshot_after": false,
+  "batch_complete": true,
+  "all_candidates_covered_by_this_job": false,
+  "memory_after_bytes": 12726427648,
+  "elapsed_seconds": 0.19483304023742676
+}

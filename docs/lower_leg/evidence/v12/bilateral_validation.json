@@ -1,0 +1,185 @@
+{
+  "spacing_mm": 260,
+  "legs": {
+    "Right": {
+      "components": 100,
+      "visible_components": 78,
+      "visible_bodies": 527,
+      "joints": 97,
+      "invalid_joints": [],
+      "empty_bodies": [],
+      "pose_angle_rebases": {
+        "Ankle_pitch": {
+          "source_pose_offset_deg": -0.22328767477048314,
+          "current_copy_angle_deg": 0.0
+        },
+        "Ankle_roll": {
+          "source_pose_offset_deg": -0.6472012193004273,
+          "current_copy_angle_deg": 0.0
+        },
+        "Motor_A_output": {
+          "source_pose_offset_deg": -1.0358813745587185,
+          "current_copy_angle_deg": 0.0
+        },
+        "Knee_pitch": {
+          "source_pose_offset_deg": 0.0,
+          "current_copy_angle_deg": 0.0
+        },
+        "Motor_B_output": {
+          "source_pose_offset_deg": -0.2601396198157579,
+          "current_copy_angle_deg": 0.0
+        },
+        "Rod_A_pin_swivel": {
+          "source_pose_offset_deg": 1.0360891114355855,
+          "current_copy_angle_deg": 0.0,
+          "continuous_full_turn_pin": true
+        },
+        "Rod_A_bearing_tilt": {
+          "source_pose_offset_deg": -0.012147273005700152,
+          "current_copy_angle_deg": 0.0
+        },
+        "Rod_B_pin_swivel": {
+          "source_pose_offset_deg": 0.2601638134677158,
+          "current_copy_angle_deg": 179.73983618650007,
+          "continuous_full_turn_pin": true
+        },
+        "Rod_B_bearing_tilt": {
+          "source_pose_offset_deg": -0.015837252855624633,
+          "current_copy_angle_deg": 0.0
+        }
+      },
+      "knee_native_samples": [
+        {
+          "command_deg": 0,
+          "measured_deg": 0.0,
+          "knee_matrix_error": 0.0,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        },
+        {
+          "command_deg": 45,
+          "measured_deg": 45.0,
+          "knee_matrix_error": 3.552713678800501e-15,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        },
+        {
+          "command_deg": 90,
+          "measured_deg": 90.0,
+          "knee_matrix_error": 7.105427357601002e-15,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        }
+      ]
+    },
+    "Left": {
+      "components": 100,
+      "visible_components": 78,
+      "visible_bodies": 527,
+      "joints": 97,
+      "invalid_joints": [],
+      "empty_bodies": [],
+      "pose_angle_rebases": {
+        "Ankle_pitch": {
+          "source_pose_offset_deg": -0.22328767477048314,
+          "current_copy_angle_deg": 0.0
+        },
+        "Ankle_roll": {
+          "source_pose_offset_deg": -0.6472012193004273,
+          "current_copy_angle_deg": 0.0
+        },
+        "Motor_A_output": {
+          "source_pose_offset_deg": -1.0358813745587185,
+          "current_copy_angle_deg": 0.0
+        },
+        "Knee_pitch": {
+          "source_pose_offset_deg": 0.0,
+          "current_copy_angle_deg": 0.0
+        },
+        "Motor_B_output": {
+          "source_pose_offset_deg": -0.2601396198157579,
+          "current_copy_angle_deg": 0.0
+        },
+        "Rod_A_pin_swivel": {
+          "source_pose_offset_deg": 1.0360891114355855,
+          "current_copy_angle_deg": 0.0,
+          "continuous_full_turn_pin": true
+        },
+        "Rod_A_bearing_tilt": {
+          "source_pose_offset_deg": -0.012147273005700152,
+          "current_copy_angle_deg": 0.0
+        },
+        "Rod_B_pin_swivel": {
+          "source_pose_offset_deg": 0.2601638134677158,
+          "current_copy_angle_deg": 179.73983618650007,
+          "continuous_full_turn_pin": true
+        },
+        "Rod_B_bearing_tilt": {
+          "source_pose_offset_deg": -0.015837252855624633,
+          "current_copy_angle_deg": 0.0
+        }
+      },
+      "knee_native_samples": [
+        {
+          "command_deg": 0,
+          "measured_deg": 0.0,
+          "knee_matrix_error": 0.0,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        },
+        {
+          "command_deg": 45,
+          "measured_deg": 45.0,
+          "knee_matrix_error": 3.552713678800501e-15,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        },
+        {
+          "command_deg": 90,
+          "measured_deg": 90.0,
+          "knee_matrix_error": 7.105427357601002e-15,
+          "attachment_matrix_errors": {
+            "P03_Circular_motor_gearbox_case": 0.0,
+            "R01_DJI_10018_77KV_ESTIMATED_REFERENCE": 0.0,
+            "Q01_CNC_rail_to_yaw_crosshead": 0.0,
+            "Q03_CNC_roll_to_pitch_fork": 0.0
+          }
+        }
+      ]
+    }
+  },
+  "neutral_global_x_ranges_mm": {
+    "Right": [
+      12.742931172231984,
+      197.0
+    ],
+    "Left": [
+      -197.0,
+      -12.742931172231984
+    ]
+  },
+  "neutral_sagittal_gap_mm": 25.485862344463968,
+  "neutral_pair_separated": true,
+  "hip_range_checked": false,
+  "volume_symmetry_error_mm3": 2.7768289905907295
+}
