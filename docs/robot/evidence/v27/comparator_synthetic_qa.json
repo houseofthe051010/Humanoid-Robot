@@ -1,9 +1,0 @@
-{
-  "scope": "Synthetic file-only comparator behavior; not native CAD preservation evidence",
-  "pass": true,
-  "tests": 24,
-  "failures": 0,
-  "errors": 0,
-  "native_calls": 0,
-  "cad_mutations": 0
-}

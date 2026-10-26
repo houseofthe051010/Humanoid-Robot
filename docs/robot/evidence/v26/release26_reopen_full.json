@@ -1,9 +1,0 @@
-{
-  "key": "full",
-  "archive": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v26\\deliverables\\Humanoid_complete_v26.f3d",
-  "attempted": true,
-  "pass": false,
-  "scope": "Fresh 23-body joint qualification; nine discrete head samples. Native archive reopen checks volumes/solid flags, mesh counts/bounds, owner-local placement and joint state; no dynamics or full-workspace guarantee.",
-  "error": "3 : New design cannot be created from a local file containing external references",
-  "finished_epoch": 1790755579.1486652
-}

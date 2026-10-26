@@ -1,0 +1,121 @@
+{
+  "skill": "sprint",
+  "task": "Isaac-Humanoid5ft-Sprint4-Play-v0",
+  "duration_s": 15.0,
+  "dt_s": 0.02,
+  "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\rsl_rl\\humanoid5ft_sprint4\\2026-08-30_16-33-31\\model_7796.pt",
+  "video": "video/sprint-step-0.mp4",
+  "csv": "telemetry.csv",
+  "joints": [
+    {
+      "name": "left_hip_yaw",
+      "slug": "left_hip_yaw",
+      "effort_limit_nm": 50.0
+    },
+    {
+      "name": "right_hip_yaw",
+      "slug": "right_hip_yaw",
+      "effort_limit_nm": 50.0
+    },
+    {
+      "name": "waist_yaw",
+      "slug": "waist_yaw",
+      "effort_limit_nm": 50.0
+    },
+    {
+      "name": "left_hip_roll",
+      "slug": "left_hip_roll",
+      "effort_limit_nm": 132.25
+    },
+    {
+      "name": "right_hip_roll",
+      "slug": "right_hip_roll",
+      "effort_limit_nm": 132.25
+    },
+    {
+      "name": "waist_pitch",
+      "slug": "waist_pitch",
+      "effort_limit_nm": 60.0
+    },
+    {
+      "name": "left_hip_pitch",
+      "slug": "left_hip_pitch",
+      "effort_limit_nm": 226.8000030517578
+    },
+    {
+      "name": "right_hip_pitch",
+      "slug": "right_hip_pitch",
+      "effort_limit_nm": 226.8000030517578
+    },
+    {
+      "name": "head_yaw",
+      "slug": "head_yaw",
+      "effort_limit_nm": 7.0
+    },
+    {
+      "name": "left_shoulder_pitch",
+      "slug": "left_shoulder_pitch",
+      "effort_limit_nm": 32.0
+    },
+    {
+      "name": "right_shoulder_pitch",
+      "slug": "right_shoulder_pitch",
+      "effort_limit_nm": 32.0
+    },
+    {
+      "name": "left_knee_pitch",
+      "slug": "left_knee_pitch",
+      "effort_limit_nm": 243.0
+    },
+    {
+      "name": "right_knee_pitch",
+      "slug": "right_knee_pitch",
+      "effort_limit_nm": 243.0
+    },
+    {
+      "name": "head_pitch",
+      "slug": "head_pitch",
+      "effort_limit_nm": 7.0
+    },
+    {
+      "name": "left_shoulder_roll",
+      "slug": "left_shoulder_roll",
+      "effort_limit_nm": 30.0
+    },
+    {
+      "name": "right_shoulder_roll",
+      "slug": "right_shoulder_roll",
+      "effort_limit_nm": 30.0
+    },
+    {
+      "name": "left_ankle_pitch",
+      "slug": "left_ankle_pitch",
+      "effort_limit_nm": 115.0
+    },
+    {
+      "name": "right_ankle_pitch",
+      "slug": "right_ankle_pitch",
+      "effort_limit_nm": 115.0
+    },
+    {
+      "name": "left_elbow_pitch",
+      "slug": "left_elbow_pitch",
+      "effort_limit_nm": 26.0
+    },
+    {
+      "name": "right_elbow_pitch",
+      "slug": "right_elbow_pitch",
+      "effort_limit_nm": 26.0
+    },
+    {
+      "name": "left_ankle_roll",
+      "slug": "left_ankle_roll",
+      "effort_limit_nm": 65.0
+    },
+    {
+      "name": "right_ankle_roll",
+      "slug": "right_ankle_roll",
+      "effort_limit_nm": 65.0
+    }
+  ]
+}
