@@ -643,6 +643,8 @@ What the journals above are:
 
 It had been a month since I last worked on this project and I had new cad and design skills, I was going to shift my design approach and instead build a mock-up of a 5 foot robot and test it in ISAAC-lab first, and then design my actual robot around that mockup and its actuator specs/limits.
 
+![Pasted picture](journal-media/pasted-d48881ddbee3a264bd0378df65aa44825c8e0746a51f4a8ba1715ca5b77e534d.png)
+
 **Total time spent: 0.05h**
 
 # 2026-08-25: Learning how to simulate the robot
@@ -1303,14 +1305,6 @@ For my motors, they are the same 7010-8s I discussed earlier. The roll and pitch
 ![Pasted picture](journal-media/pasted-4ae1fc729c2228f009b269b65d781250713b87840520a04271424e417172b037.png)
 
 **Total time spent: 4.5h**
-
-# 2026-10-20: CADDing the shin
-
-Date: 2026-10-20 (Oct 20, 2026, 8:40 PM)
-
-
-
-**Total time spent: not recorded**
 
 # 2026-10-20: More cadding the shin
 
