@@ -38,66 +38,58 @@ These gearboxes were built by me as a part of prototyping and learning on how to
 
 [Download BOM CSV](bom.csv)
 
-| Item | Quantity | Unit | Unit price (USD) | Final price (USD) | Product link | Notes |
-|---|---:|---|---:|---:|---|---|
-| SteadyWin GWK7010-8 motor | 7 | motor | $81.61 | $571.27 | [Product](https://www.aliexpress.com/item/3256803276650569.html) |  |
-| SteadyWin GWK6010-8 motor | 6 | motor | $72.58167 | $435.49 | [Product](https://www.aliexpress.com/item/3256806290989080.html) |  |
-| DJI 10018 77 KV motor | 6 | motor | $64.68375 | $388.10 | [Product](https://www.aliexpress.com/item/3256811842519170.html) |  |
-| Feetech STS3215-C018 12 V servo | 6 | servo | $37.39 | $224.34 | [Product](https://www.aliexpress.us/item/3256811423365280.html) |  |
-| RDS51160 24 V elbow servo | 2 | servo | $39.99 | $79.98 | [Product](https://www.ebay.com/itm/186554276132) |  |
-| Feetech SCS0009 hand servo | 16 | servo | $8.00 | $128.00 | [Product](https://www.seeedstudio.com/Feetech-SCS0009-Servo-p-6535.html) |  |
-| 6810 / 61810 bearing, 50 x 65 x 7 mm | 2 | bearing |  |  |  |  |
-| 6005 bearing, 25 x 47 x 12 mm | 3 | bearing |  |  |  |  |
-| 6007 bearing, 35 x 62 x 14 mm | 2 | bearing |  |  |  |  |
-| 61810 / 6810 bearing, 50 x 65 x 7 mm | 4 | bearing |  |  |  |  |
-| 40 x52 x7mm hip-pitch bearing | 4 | bearing | $19.99 | $79.96 | [Product](https://vxb.com/products/6808rs-ball-bearing-40x52x7-sealed) |  |
-| M 2 ball joints with included screws and nuts | 32 | ball joint |  |  |  |  |
-| 6 mm ID bushings | 16 | bushing |  |  |  |  |
-| 2×10 mm parallel pins | 16 | pin |  |  |  |  |
-| 2×16 mm parallel pins | 16 | pin |  |  |  |  |
-| M 2.5 large washers | 8 | washer |  |  |  |  |
-| Thermoplastic 2.5×6 mm screws | 32 | screw |  |  |  |  |
-| Thermoplastic 2.5×8 mm screws | 8 | screw |  |  |  |  |
-| M 2 threaded rod cut pieces, nominal 18 mm | 16 | piece |  |  |  |  |
-| M 2 threaded rod cut pieces, nominal 25 mm | 8 | piece |  |  |  |  |
-| Waist M 6 spherical rod ends | 4 | rod end |  |  |  |  |
-| Ampace JP40 21700 4000mAh cell | 36 | cell | $5.99 | $215.64 | [Product](https://21700supply.com/products/ampace-jp40-battery) |  |
-| Yahboom AI VIEW depth camera | 1 | camera | $199.00 | $199.00 | [Product](https://www.yahboom.store/products/aiview-depth-camera) |  |
-| Waist seam M 4 x 25 screw references | 4 | screw |  |  |  |  |
-| M4 hip-carrier clamp screw | 16 | screw |  |  |  |  |
-| M 4 nut envelopes for new waist/hip bolts | 20 | nut |  |  |  |  |
-| 688 roll output bearing 8 x 16 x 5 mm | 4 | bearing |  |  |  |  |
-| MR 128 carrier bearing 8 x 12 x 3.5 mm | 4 | bearing |  |  |  |  |
-| Arbite JCS 00040002010002 AS 5047 P differential-SPI encoder board | 4 | board |  |  | [Product](https://jcsdoc.arbite.io/devices/JCS0004_dev_encoder_absolute/on_axis_differential_spi/JCS00040002010002/hw_reference/oa_ae_diff_hw_installation/) |  |
-| M2.5 x6mm encoder screw | 16 | screw |  |  |  |  |
-| GDZ468H motor driver | 15 | controller | $85.00 | $1,275.00 | [Product](https://steadywin-motor.com/products/steadywin-driver-board) |  |
-| M3 x4mm PCB screw | 45 | screw |  |  |  |  |
-| M2 x6mm lid screw | 27 | screw |  |  |  |  |
-| M4 x25mm waist-support screw | 4 | screw |  |  |  |  |
-| ODrive motor controller | 2 | board |  |  |  |  |
-| M3 x20mm shoulder crossbolt | 6 | bolt |  |  |  |  |
-| M3 shoulder crossbolt nut | 6 | nut |  |  |  |  |
-| Waveshare ESP32-P4-Module-DEV-KIT with ESP32-C6 | 1 | board | $19.99 | $19.99 | [Product](https://www.waveshare.com/product/mcu-tools/development-boards/esp32-p4-module-dev-kit.htm) |  |
-| Adafruit 4754 BNO085 IMU | 1 | board | $29.50 | $29.50 | [Product](https://www.adafruit.com/product/4754) |  |
-| 6808/61808-2RS bearing,40 x52 x7mm | 1 | bearing | $19.99 | $19.99 | [Product](https://vxb.com/products/6808rs-ball-bearing-40x52x7-sealed) |  |
-| M2.5 female-female10mm standoff | 4 | standoff |  |  |  |  |
-| M2 female-female10mm standoff | 4 | standoff |  |  |  |  |
-| ANSI40 roller chain,36pitches per loop | 2 | closed loops | $6.015 | $12.03 | [Product](https://www.ebay.com/itm/145702524459) |  |
-| 12S battery management system | 1 | board |  |  |  |  |
-| 5V logic DC/DC converter | 1 | converter | $8.25 | $8.25 | [Product](https://www.aliexpress.us/item/3256806656135785.html) |  |
-| 12V neck/wrist DC/DC converter | 1 | converter | $29.69 | $29.69 | [Product](https://www.aliexpress.us/item/3256807940510408.html) |  |
-| 24V elbow DC/DC converter | 1 | converter | $7.75 | $7.75 | [Product](https://www.aliexpress.us/item/3256806469175071.html) |  |
-| Hand-servo DC/DC converter | 1 | converter |  |  |  |  |
-| CAN transceiver module | 3 | module |  |  |  |  |
-| Encoder magnet for10018 motor | 6 | magnet |  |  |  |  |
-| Main fuse and holder | 1 | set |  |  |  |  |
-| Battery service disconnect | 1 | switch |  |  |  |  |
-| Emergency-stop switch | 1 | switch |  |  |  |  |
-| Motor-power contactor | 1 | contactor |  |  |  |  |
-| Precharge circuit | 1 | set |  |  |  |  |
-| Cell interconnects and insulation | 1 | set |  |  |  |  |
-| M6 waist tie rod | 2 | rod |  |  |  |  |
-| Wrist axle/sleeve/nut hardware | 2 | set |  |  |  |  |
+| Type | Buy / Fabricate | Item | Quantity | Unit price (USD) | Final price (USD) | Product link | Notes |
+|---|---|---|---:|---:|---:|---|---|
+| Electrical | Buy | SteadyWin GWK7010-8 motor | 7 | $81.61 | $571.27 | [Product](https://www.aliexpress.com/item/3256803276650569.html) |  |
+| Electrical | Buy | SteadyWin GWK6010-8 motor | 6 | $72.58167 | $435.49 | [Product](https://www.aliexpress.com/item/3256806290989080.html) |  |
+| Electrical | Buy | DJI 10018 77 KV motor | 6 | $64.68375 | $388.10 | [Product](https://www.aliexpress.com/item/3256811842519170.html) |  |
+| Electrical | Buy | Feetech STS3215-C018 12 V servo | 6 | $37.39 | $224.34 | [Product](https://www.aliexpress.us/item/3256811423365280.html) |  |
+| Electrical | Buy | RDS51160 24 V elbow servo | 2 | $39.99 | $79.98 | [Product](https://www.ebay.com/itm/186554276132) |  |
+| Electrical | Buy | Feetech SCS0009 hand servo | 16 | $8.00 | $128.00 | [Product](https://www.seeedstudio.com/Feetech-SCS0009-Servo-p-6535.html) |  |
+| Mechanical | Buy | 6810 / 61810 bearing, 50 x 65 x 7 mm | 2 |  |  |  |  |
+| Mechanical | Buy | 6005 bearing, 25 x 47 x 12 mm | 3 |  |  |  |  |
+| Mechanical | Buy | 6007 bearing, 35 x 62 x 14 mm | 2 |  |  |  |  |
+| Mechanical | Buy | 61810 / 6810 bearing, 50 x 65 x 7 mm | 4 |  |  |  |  |
+| Mechanical | Buy | 40 x52 x7mm hip-pitch bearing | 4 | $19.99 | $79.96 | [Product](https://vxb.com/products/6808rs-ball-bearing-40x52x7-sealed) |  |
+| Mechanical | Buy | M2 ball joints with supplied hardware | 32 |  |  |  |  |
+| Mechanical | Buy | 6 mm ID bushings | 16 |  |  |  |  |
+| Mechanical | Buy | 2×10 mm parallel pins | 16 |  |  |  |  |
+| Mechanical | Buy | 2×16 mm parallel pins | 16 |  |  |  |  |
+| Mechanical | Buy | M 2.5 large washers | 8 |  |  |  |  |
+| Mechanical | Fabricate - Cut | M 2 threaded rod cut pieces, nominal 18 mm | 16 |  |  |  |  |
+| Mechanical | Fabricate - Cut | M 2 threaded rod cut pieces, nominal 25 mm | 8 |  |  |  |  |
+| Mechanical | Buy | Waist M 6 spherical rod ends | 4 |  |  |  |  |
+| Electrical | Buy | Ampace JP40 21700 4000mAh cell | 36 | $5.99 | $215.64 | [Product](https://21700supply.com/products/ampace-jp40-battery) |  |
+| Electrical | Buy | Yahboom AI VIEW depth camera | 1 | $199.00 | $199.00 | [Product](https://www.yahboom.store/products/aiview-depth-camera) |  |
+| Mechanical | Buy | 688 roll output bearing 8 x 16 x 5 mm | 4 |  |  |  |  |
+| Mechanical | Buy | MR 128 carrier bearing 8 x 12 x 3.5 mm | 4 |  |  |  |  |
+| Electrical | Buy | Arbite JCS 00040002010002 AS 5047 P differential-SPI encoder board | 4 |  |  | [Product](https://jcsdoc.arbite.io/devices/JCS0004_dev_encoder_absolute/on_axis_differential_spi/JCS00040002010002/hw_reference/oa_ae_diff_hw_installation/) |  |
+| Electrical | Buy | GDZ468H motor driver | 15 | $85.00 | $1,275.00 | [Product](https://steadywin-motor.com/products/steadywin-driver-board) |  |
+| Electrical | Buy | ODrive motor controller | 2 |  |  |  |  |
+| Electrical | Buy | Waveshare ESP32-P4-Module-DEV-KIT with ESP32-C6 | 1 | $19.99 | $19.99 | [Product](https://www.waveshare.com/product/mcu-tools/development-boards/esp32-p4-module-dev-kit.htm) |  |
+| Electrical | Buy | Adafruit 4754 BNO085 IMU | 1 | $29.50 | $29.50 | [Product](https://www.adafruit.com/product/4754) |  |
+| Mechanical | Buy | 6808/61808-2RS bearing,40 x52 x7mm | 1 | $19.99 | $19.99 | [Product](https://vxb.com/products/6808rs-ball-bearing-40x52x7-sealed) |  |
+| Mechanical | Buy | M2.5 female-female10mm standoff | 4 |  |  |  |  |
+| Mechanical | Buy | M2 female-female10mm standoff | 4 |  |  |  |  |
+| Mechanical | Buy | ANSI40 roller chain,36pitches per loop | 2 | $6.015 | $12.03 | [Product](https://www.ebay.com/itm/145702524459) |  |
+| Electrical | Buy | 12S battery management system | 1 |  |  |  |  |
+| Electrical | Buy | 5V logic DC/DC converter | 1 | $8.25 | $8.25 | [Product](https://www.aliexpress.us/item/3256806656135785.html) |  |
+| Electrical | Buy | 12V neck/wrist DC/DC converter | 1 | $29.69 | $29.69 | [Product](https://www.aliexpress.us/item/3256807940510408.html) |  |
+| Electrical | Buy | 24V elbow DC/DC converter | 1 | $7.75 | $7.75 | [Product](https://www.aliexpress.us/item/3256806469175071.html) |  |
+| Electrical | Buy | Hand-servo DC/DC converter | 1 |  |  |  |  |
+| Electrical | Buy | CAN transceiver module | 3 |  |  |  |  |
+| Electrical | Buy | Encoder magnet for10018 motor | 6 |  |  |  |  |
+| Electrical | Buy | Main fuse and holder | 1 |  |  |  |  |
+| Electrical | Buy | Battery service disconnect | 1 |  |  |  |  |
+| Electrical | Buy | Emergency-stop switch | 1 |  |  |  |  |
+| Electrical | Buy | Motor-power contactor | 1 |  |  |  |  |
+| Electrical | Buy | Precharge circuit | 1 |  |  |  |  |
+| Electrical | Buy | Cell interconnects and insulation | 1 |  |  |  |  |
+| Mechanical | Buy | M6 waist tie rod | 2 |  |  |  |  |
+| Mechanical | Buy | Wrist axle/sleeve/nut hardware | 2 |  |  |  |  |
+| Mechanical | Buy | Metric screw, nut and washer kit | 1 |  |  |  |  |
+| Mechanical | Buy | Oval steel tubing | TBD length |  |  |  |  |
+| Mechanical | Buy | EONO3D PETG filament, 1.75 mm, 1 kg spool | TBD | $10.00 |  | [Product](https://www.amazon.com/dp/B0G2BQQ5RT) |  |
 
 ## Assembly instructions
 
