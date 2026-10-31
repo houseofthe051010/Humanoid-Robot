@@ -1,0 +1,20 @@
+{
+  "schematic_only_pin_net_labels_changed": true,
+  "kicad_erc_violations": 0,
+  "idf_version": "6.0.1",
+  "target": "esp32p4",
+  "minimum_chip_revision": "3.1",
+  "build_passed": true,
+  "binary_bytes": 1871728,
+  "binary_sha256": "def3515e0de815cdf607648e03b66c6bd18a905f7f67d7e0f8480d6874501e13",
+  "flashed": false,
+  "hardware_tested": false,
+  "policy_runtime_selftest_executed": false,
+  "policy_selftest": "Included at boot; not executed on P4 during this task",
+  "outstanding": [
+    "Differential kinematics and hardware calibration",
+    "PWM elbow feedback",
+    "Camera descriptor/format match",
+    "Motor/servo firmware bench validation"
+  ]
+}

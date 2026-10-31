@@ -12,6 +12,8 @@ An ESP32-P4/C6 connects the motors, servos, IMU and depth camera. Three CAN buse
 
 [Schematic PDF](Schematics/Humanoid_Electronics.pdf) · [KiCad project](Schematics/Humanoid_Electronics.kicad_pro)
 
+[ESP32-P4 firmware](firmware/ESP32-P4%20Host%20controller/) · [Isaac Lab training](firmware/ISAAC%20Lab%20training/)
+
 ## Bill of materials
 
 [Download CSV](bom.csv)
