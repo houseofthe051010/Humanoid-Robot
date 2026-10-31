@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Robot")(type "KiCad")(uri "${KIPRJMOD}/Robot.kicad_sym")(options "")(descr "System modules")))
