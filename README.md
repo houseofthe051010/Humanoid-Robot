@@ -2,7 +2,7 @@
 
 A human-sized humanoid robot built with oval steel tubes, printed PETG parts, aluminum parts and electric actuators. Designed in Fusion 360.
 
-[CAD](CAD/) · [Build journal](JOURNAL.md)
+[CAD](CAD/) · [Build instructions](instructions.md) · [Build journal](JOURNAL.md)
 
 ## Electronics
 
@@ -59,7 +59,7 @@ An ESP32-P4/C6 connects the motors, servos, IMU and depth camera. Three CAN buse
 | Mechanical | PETG filament, price per kg | 7.73 | $8.00 | $61.83 | [Product](https://a.co/d/05x3dOF7) |  |
 | Mechanical | KP08 8mm pillow block bearing | 12 | $1.58 | $19.00 | [Product](https://www.aliexpress.us/item/2255800723272765.html) |  |
 | Mechanical | SI6 M6 right-hand female rod ends, ankles | 8 | $1.59 | $12.72 | [Product](https://www.aliexpress.us/item/3256805716018286.html) |  |
-| Mechanical | M6x1 threaded rod, price per metre | 0.9759666 m | $5.00 | $4.88 | [Product](https://www.albanycountyfasteners.com/metric-zinc-threaded-rod-m6-100-x-1-meter-8408-026-0012) |  |
+| Mechanical | M6x1 threaded rod, price per metre | ~0.98 m | $5.00 | $4.88 | [Product](https://www.albanycountyfasteners.com/metric-zinc-threaded-rod-m6-100-x-1-meter-8408-026-0012) |  |
 | Mechanical | 8mm smooth steel shaft stock, 330mm | 2 | $5.62 | $11.24 | [Product](https://www.aliexpress.us/item/3256803408580273.html) |  |
 | Electrical | 26AWG signal wire, black, 20m roll | 1 | $5.02 | $5.02 | [Product](https://www.aliexpress.us/item/3256810592963671.html) |  |
 | Electrical | 22AWG silicone wire, 5m red + 5m black | 1 | $4.05 | $4.05 | [Product](https://www.aliexpress.us/item/3256807281772727.html) |  |
@@ -71,5 +71,3 @@ An ESP32-P4/C6 connects the motors, servos, IMU and depth camera. Three CAN buse
 | Mechanical | CNC parts, 7075 aluminum (allowance) | 6.07 kg |  | $100.00 |  |  |
 
 **Total: $3,759.62**
-
-[Previous README](archive/README-2026-10-30.md)
