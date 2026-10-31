@@ -12,7 +12,7 @@ Current complete portable native file: [Humanoid_complete_v29_revised.f3d](E:/Ad
 
 The [v26 mechanical checkpoint](../docs/robot/history/v26/BUILD_REPORT.md), [v26 export index](../docs/robot/history/v26/EXPORTS.md) and saved Fusion source remain intact. Earlier verified v25 upper and waist compact archives remain under `E:/Aditya/robot_sim/outputs/shin_cad_20260912/v25/deliverables`.
 
-[Dated physical revisions](../docs/lower_leg/README.md), [Assembly](Assembly/), [Actuators](Actuators/README.md) and the [earlier CAD index](../docs/archive/CAD_INDEX_BEFORE_V26.md) retain source context. Historical full standalone F3D imports have legacy external-reference limitations; the current full backup uses F3Z with its dependencies.
+[Dated physical revisions](../docs/lower_leg/README.md), [Assembly](Deprecated%20CAD/Assembly/), [Actuators](Deprecated%20CAD/Actuators/README.md) and the [earlier CAD index](../docs/archive/CAD_INDEX_BEFORE_V26.md) retain source context. Historical full standalone F3D imports have legacy external-reference limitations; the current full backup uses F3Z with its dependencies.
 
 ## Separate simulation assets
 
