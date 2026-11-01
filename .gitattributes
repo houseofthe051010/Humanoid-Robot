@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+CAD/Full[[:space:]]humanoid[[:space:]]assembly/Humanoid[[:space:]]robot[[:space:]]full[[:space:]]assembly.step filter=lfs diff=lfs merge=lfs -text
+CAD/Individual[[:space:]]STEP[[:space:]]files/Torso[[:space:]]&[[:space:]]Head/153-C[[:space:]]ELX[[:space:]][[:space:]]ESP32-P4[[:space:]]C6[[:space:]]main[[:space:]]board[[:space:]][[:space:]]\[PCB\].step filter=lfs diff=lfs merge=lfs -text
+CAD/Full[[:space:]]humanoid[[:space:]]assembly/Humanoid[[:space:]]robot[[:space:]]full[[:space:]]assembly.f3z filter=lfs diff=lfs merge=lfs -text
