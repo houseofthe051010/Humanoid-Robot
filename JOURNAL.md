@@ -1296,18 +1296,6 @@ I can see they use my same 3d printed thing to combine the roll and the pitch wh
 
 **Total time spent: 3h**
 
-# 2026-10-20: Making a motor mount to test 7010-8 motor
-
-Date: 2026-10-20 (Oct 20, 2026, 8:19 PM)
-
-Below is the holder I created for the 7010. It should be in the shin f3z but hidden. It’s the testing rig I made to test its torque.
-
-I have also attached the lapse recording for this here: https://lapse.hackclub.com/timelapse/qh4kLAhgvvr5 
-
-![Pasted picture](media/pasted-6168890e9c18b6331a94edce9821b1c72572d7affb46fde7edee36db0bfb5f2d.png)![Pasted picture](media/pasted-f3d2dbb23a54102c6fc11d5fe24319cdc795841538657b086b413a0b561da68a.png)
-
-**Total time spent: 1.3h**
-
 # 2026-10-20: Cadding the shin
 
 Date: 2026-10-20 (Oct 20, 2026, 8:40 PM)
@@ -2029,7 +2017,7 @@ Same goes for the waist which was in two pieces.
 
 ![Pasted picture](media/pasted-ffe5f43c0a63d9fa57ab02e1d85e90c625206f679e076ec0da2de196f3421a24.png)I am still working on casings for the legs.
 
-**Total time spent: 4h**
+**Total time spent: 3h**
 
 # 2026-11-01: Buying some parts and measuring them
 
@@ -2067,9 +2055,13 @@ I later though about feetech motors because they were much simpler and probably 
 
 https://youtu.be/AoHroBzGvws?si=MZ7ELZSoG7Uv3MJD 
 
-I used an older design (one of my earlier prototypes) to talk about it. I made this video like 2 journals ago but wanted to claim my hours for it so I am mentioning it here.
+I used an older design (one of my earlier prototypes) to talk about it. I made this video like 2 journals ago but wanted to claim my hours for it so I am mentioning it here.  
 
-**Total time spent: 1h**
+  
+
+![Pasted picture](media/pasted-ccc0e459641b692ffe4600724184498cdc44958da6998e12b56f27cc631de8f2.png)
+
+**Total time spent: 2h**
 
 # 2026-11-01: Making the wrist systems; Color coding the robot and each part gets its own number
 
@@ -2095,7 +2087,7 @@ I renamed all the parts such that they had their own number, this was crucial fo
 
 SHD meant shoulder, TOR mean torso, NCK meant neck, its simple. And then at the end it was indicated whether its a PLASTIC, commercial, or ALUMINUM cnc part.
 
-**Total time spent: 3h**
+**Total time spent: 4.5h**
 
 # 2026-11-01: Making casings better also adding electronics
 
@@ -2168,7 +2160,7 @@ I made holes for its access so I can program it 
 
 Well I was gonna be using OTA updates anyways so no need for usb ports
 
-**Total time spent: 3h**
+**Total time spent: 5h**
 
 # 2026-11-01: Making arm and hip casing
 
@@ -2220,11 +2212,33 @@ I liked the initial prototype, just needed some lofts sharp angles, but the knee
 
 ![Pasted picture](media/pasted-5bfbd7d61cfced8509c7549b43ccb15ff274ffd04815df399f51ae9d87b58cb8.png)![Pasted picture](media/pasted-507cb91e0d0f4502f5ce2cd39a9ac91e1739bd923d7c471be0ca184c13684dc7.png)![Pasted picture](media/pasted-6358d3d70cea9d1877ce0f1318f74e67db438f02a33982e88ad23a94825ba959.png)
 
-**Total time spent: 1h**
+**Total time spent: 4h**
 
-# 2026-11-01: Final robot reveal making the github repo
+# 2026-11-06: Testing motors and measuring them, testing motor drivers
 
-Date: 2026-11-01 (Nov 1, 2026, 5:01 PM)
+Date: 2026-11-06 (Nov 6, 2026, 6:32 PM)
+
+So a few weeks back, I had ordered the motors (the 10018s for the legs) and the motor drivers because I needed to test them... As they had very little documentation and I needed to see if they were fit for my robot. 
+
+  
+
+Lapse 1: 23 minutes https://lapse.hackclub.com/timelapse/yY5giGaEiHn6
+
+Lapse 2: 3 hours and 8 minutes: https://lapse.hackclub.com/timelapse/7cTpQm4VtyIW 
+
+  
+
+  
+
+Worked on taking measurments for the new motor, testing the odrives, and evaluating whether they are a fit choice for my robot.
+
+![Pasted picture](media/pasted-e95b75e1d17ef1437924357656aaf9c871c16a71d727457e5fea3f109ba31912.png)pic of odrive from my lapse; same one that is used in the shin of my robot
+
+**Total time spent: 5h**
+
+# 2026-11-11: Final robot reveal making the github repo
+
+Date: 2026-11-11 (Nov 11, 2026, 5:01 PM)
 
 Added a filesystem for my cad
 
