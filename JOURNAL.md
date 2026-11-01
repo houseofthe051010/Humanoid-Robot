@@ -697,13 +697,21 @@ In the screenshot, you can see all the data I had collected from one hour of pus
 
 How did I test the robot? Well, I tested it by applying 0.15-second pushes from 25 to 400 newtons in four directions. I also tested the Unitree H1 with a leftward push sweep, and that robot, though taller, actually withstood much more force, recovering from up to 600 newtons. I think its training policy was better suited for recovery, though.
 
-This is the dashboard I used to evaluate the torque it was consuming at different physical positions and states.
+This is the dashboard I used to evaluate the torque it was consuming at different physical positions and states. (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
+  
 
 ![G1 maximum trained-speed walking torque dashboard](media/local-2026-08-26-g1-walking-dashboard.png)
 
 I also learned about how the PD controller interacts with the motors. For the G1, the ankle pitch torque limit was 20 Nm. This is extremely low, much lower than my budget of 140 Nm. But the robot was able to walk with it. When it was pushed, though, it demanded up to 85 Nm of torque. Also, the knees and hip pitch demanded an impossible 300 Nm and roughly 279 Nm. This was much more than what they were rated for, but it was just the training policy. The Unitree G1 was literally being shoved so hard that it started shaking on the ground after falling instantly. The torque requests were tremendously high. Here are two GIFs with parallel visuals of the robots and the data statistics:
 
+  
+
+(These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
 ![Unitree G1 maximum trained-speed walking with synchronized actuator data at 2x speed](media/local-2026-08-26-g1-max-speed-dashboard.gif)
+
+(These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
 
 ![Unitree H1 maximum trained-speed walking with synchronized actuator data at 2x speed](media/local-2026-08-26-h1-max-speed-dashboard.gif)
 
@@ -971,25 +979,33 @@ Ok, so overnight, I trained my robot.
 
 The results weren't what I expected, because there was definitely an error in the way I made the joints. As you can see in the video results below, the final outcome actually sort of matched the results but the robot's knees were literally moving backwards, and the robot seemed to be moving backward. This is due to the way that the robot was converted and its joints made, as the leg pitch joints were exported around each link's local `-Y` axis while the controller assumed the opposite positive pitch direction, leading to the joints not being correct.
 
-Training while standing dashboard video
+Training while standing dashboard video (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
+  
 
 ![Standing training dashboard video](media/local-2026-08-30-humanoid-stand-dashboard-2x.gif)
 
 Here is a video of it walking, where as you can see it is very unnatural.
 
-Walking dashboard video
+Walking dashboard video (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
+  
 
 ![Walking training dashboard video](media/local-2026-08-30-humanoid-walk-dashboard-2x.gif)
 
 Here is a video of it running at 4 m/s. According to the physics data, it was actually running at **3.984 meters per second**. That's definitely due to the way it's moving, and the joint errors.
 
-4 m/s running dashboard video
+4 m/s running dashboard video (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
+  
 
 ![4 m/s running training dashboard video](media/local-2026-08-30-humanoid-sprint4-dashboard-2x.gif)
 
 Now here is a video of it getting up.
 
-Getting up dashboard video
+Getting up dashboard video (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
+
+  
 
 ![Getting up training dashboard video](media/local-2026-08-30-humanoid-getup-refine-dashboard-2x.gif)
 
@@ -1279,6 +1295,18 @@ This is the Asimov robot example. I have hidden the f3z that is unrelated to the
 I can see they use my same 3d printed thing to combine the roll and the pitch which is a conformation that my system works. But they haven’t use the same sphere method as me for the ankle linkage. They also have a complete knee attachment in pretty sure that one thin part is CNCed. Their entire shin holder is printed.
 
 **Total time spent: 3h**
+
+# 2026-10-20: Making a motor mount to test 7010-8 motor
+
+Date: 2026-10-20 (Oct 20, 2026, 8:19 PM)
+
+Below is the holder I created for the 7010. It should be in the shin f3z but hidden. It’s the testing rig I made to test its torque.
+
+I have also attached the lapse recording for this here: https://lapse.hackclub.com/timelapse/qh4kLAhgvvr5 
+
+![Pasted picture](media/pasted-6168890e9c18b6331a94edce9821b1c72572d7affb46fde7edee36db0bfb5f2d.png)![Pasted picture](media/pasted-f3d2dbb23a54102c6fc11d5fe24319cdc795841538657b086b413a0b561da68a.png)
+
+**Total time spent: 1.3h**
 
 # 2026-10-20: Cadding the shin
 
@@ -1785,7 +1813,17 @@ For my head I head a temporary egg, I was using a FEETECH serial bus servo motor
 
   
 
-![Pasted picture](media/pasted-0f79b9b40a0b85532301ebb7598427fa5397d5a08be0c36ee2fa8236d9c35532.png)
+![Pasted picture](media/pasted-0f79b9b40a0b85532301ebb7598427fa5397d5a08be0c36ee2fa8236d9c35532.png)  
+
+  
+
+  
+
+here is a sketch of how I want the robot looking like
+
+  
+
+![Pasted picture](media/pasted-a9dc815c219a24805c91a857212fec2db15304f8a7a6ecb6956736c25b536bb9.png)
 
 **Total time spent: 3h**
 
@@ -1896,7 +1934,25 @@ I created much better hip pitch and roll joints. The current aluminum adapters w
 
   
 
-![Pasted picture](media/pasted-d62cbcd763f6823960ec07426f605a2182a089e0438cf779c9b9070d2309bf64.png)I though a lot about how I would connect the hip joints.
+Revision 1:
+
+  
+
+![Pasted picture](media/pasted-2f4320845509fbebdf498f0afad73ddfe4847a2420cfe17350063a0dfb141d70.png)  
+
+  
+
+![Pasted picture](media/pasted-d62cbcd763f6823960ec07426f605a2182a089e0438cf779c9b9070d2309bf64.png)I thought a lot about how I would connect the hip joints.
+
+  
+
+![Pasted picture](media/pasted-80b1a40a62f7fc3080c237ab467261dea0a0bc1b467eb5f0c50b107f02cb8316.png)  
+
+  
+
+![Pasted picture](media/pasted-ee44b08ddcad8dc079b839deec5baedecb36f648b584527ce8398e4726d8c00f.png)  
+
+  
 
   
 
@@ -1974,3 +2030,226 @@ Same goes for the waist which was in two pieces.
 ![Pasted picture](media/pasted-ffe5f43c0a63d9fa57ab02e1d85e90c625206f679e076ec0da2de196f3421a24.png)I am still working on casings for the legs.
 
 **Total time spent: 4h**
+
+# 2026-11-01: Buying some parts and measuring them
+
+Date: 2026-11-01 (Nov 1, 2026, 3:59 PM)
+
+So a week earlier I bought some parts that im using in my ankles for my RSU diff because I needed some info that wasn't available in datasheets.
+
+  
+
+I bought the pillow block bearings and everything needed for my ankle diff system.
+
+  
+
+![Pasted picture](media/pasted-83a556ef68ed6dd2ec0885f36920c8048e08395ebdf5d2c2693630aaabe0738a.png)  
+
+So I was measuring the max tilt the bearing could maintain and I used chatgpt and sent it pictures for it to calculate how much tilt it could withstand, I got 35 degrees consistently across pictures.
+
+  
+
+![Pasted picture](media/pasted-e15ebe9fcfcdb821fa03de8bde77bcbb55e58688c91c3556f22a34e72e2621a1.png)  
+
+  
+
+For my wrists I was investigating what motors to use. My first thought was using a 555 motor with this cheap gearbox.
+
+  
+
+![Pasted picture](media/pasted-09c1d85d66c826401054785f120fe425332102a82931b4ba72646af4a74c3449.png)  
+
+  
+
+I later though about feetech motors because they were much simpler and probably cheaper. Also today, I created a youtube video on my humanoid robot here:
+
+  
+
+https://youtu.be/AoHroBzGvws?si=MZ7ELZSoG7Uv3MJD 
+
+I used an older design (one of my earlier prototypes) to talk about it. I made this video like 2 journals ago but wanted to claim my hours for it so I am mentioning it here.
+
+**Total time spent: 1h**
+
+# 2026-11-01: Making the wrist systems; Color coding the robot and each part gets its own number
+
+Date: 2026-11-01 (Nov 1, 2026, 4:08 PM)
+
+So today I updated my entire file structure. I renamed all my robots part, and I color coded it such that all parts that were zinc/steel alloys (NOT aluminum) were colored dark blue, such as the oval rods, whereas 7075 aluminum parts were orange, and light blue parts were plastic, and the motors were red.
+
+  
+
+![Pasted picture](media/pasted-3fc116305dd1be68554e7bfbdf35bed8af08746191f1686278cc862d91b3735a.png)I made the wrist systems. I honestly had thought of how I'd do it a while back while watching youtube shorts.
+
+  
+
+![Pasted picture](media/pasted-52ddfcb45b427e8f361d1432e7537181fc57fe81f70e7f4cbc088643135b18d6.png)Yeah I took from that design above.
+
+So they use feetech servo motors (the same ones in my head, more rudandency) And I used multiple spur gears to move the motion. 
+
+And I was going to remake the casings cuz they looked crap rn. 
+
+I renamed all the parts such that they had their own number, this was crucial for the assembly build guide.
+
+![Pasted picture](media/pasted-a9cbab5fcd289668f2e557524e77424d432d83a84b9a05195653886bdb2d4dc4.png)
+
+SHD meant shoulder, TOR mean torso, NCK meant neck, its simple. And then at the end it was indicated whether its a PLASTIC, commercial, or ALUMINUM cnc part.
+
+**Total time spent: 3h**
+
+# 2026-11-01: Making casings better also adding electronics
+
+Date: 2026-11-01 (Nov 1, 2026, 4:14 PM)
+
+So I made the shin look more human, and made its foot like like a shoe/foot. I made it more round.
+
+![Pasted picture](media/pasted-fd7f59793cadf86bf8bf4ccb210d033dd861ffd98c650a19162dbf2c56c3b5a6.png)  
+The circular holes aren't there for show! they are for cooling the two motors in there, and also the odrive in there.
+
+![Pasted picture](media/pasted-2ff2b8db4be8c8b623fb3a6467bbd16c369ebc2ab2f3815f491f92596f69719f.png)  
+  
+![Pasted picture](media/pasted-df883c09ded0b761c7298fe864d0f14a6dba85e46b6eed01250294f5ffef7977.png)Also this foot casing is just there for show no mechanical load
+
+  
+
+![Pasted picture](media/pasted-df3ec93c4161753cc1bec6c7b08b1acea6ae7c66a4b69c850cabf0e5a7a3a6d0.png)  
+  
+For the knee I added some clearance for the chain
+
+  
+
+![Pasted picture](media/pasted-a668631ab351bf84ac2b843608571752b6e9803c3a97965202ac52aba19fb474.png)  
+The current odrives were the only electronics. My other 15 bldc motors didn't have a driver and I choose the gd68 from steadywin which is like 42.99 on aliexpress and imported its cad and used that as my driver. I made space for it in the motors and put it behind their casings. It came with an encoder.
+
+  
+
+![Pasted picture](media/pasted-7a8854c2ac5d75e9d4eca8c16a9ee885a73bd93b2631a690c59c2c1111718818.png)Above was the driver for the knee, this is the one for the hip yaw.
+
+  
+
+![Pasted picture](media/pasted-fa9682d4812824ae4cd14b39de7e2c622e5b1b7708f4600d670fb903d904957d.png)  
+  
+
+  
+
+![Pasted picture](media/pasted-75cee8ee9989b0f4e3eaa07f7699509dcdcdb16084a5ca1948996ee5690d73d0.png)![Pasted picture](media/pasted-43cb750b44886d1239753449f55cd18aa839e9218783e60e33da76b989406a8f.png)The white stuff is the bearings btw they are supposed to be white.
+
+  
+
+![Pasted picture](media/pasted-13da01fa6cfa553e842f44d40050902a53021b0f204c38539e153bb7edb3436f.png)![Pasted picture](media/pasted-65ab875a82fcf13fa74171f6bac98b279d40de380b3c3693f274e91c660d9698.png)![Pasted picture](media/pasted-98f5e9df2d1d030cc2c97753b99f41c895129c6bec7676e5082e92248585fd1e.png)Hip roll, and waist yaw.
+
+  
+
+Waist motors:
+
+  
+
+![Pasted picture](media/pasted-34ff3645308eb519bb28c8d51d6e26cb20a721484ece108a0d93afd311f49f19.png)  
+
+Shoulder pitch (literally the same as waist) beware these motors are 6010s, and I've switched from a mix of 7010s and 10018s for the legs to 6010s ( i explained ts earlier).
+
+  
+
+![Pasted picture](media/pasted-461353d5c5f449031bab701b6fba1d30efd99c83c5d00765f26ed73a1310dbe4.png)Same design in the shoulder roll
+
+  
+
+![Pasted picture](media/pasted-df6f3486782c6214f73a7593d950de5c74942b31d9a1dacffdde756c60753c13.png)I found a 3d model of my BNO85 IMU but couldn't find one for my esp32 p4 but I know it is the same dimensions as a raspberry pi 5 so I just imported that instead (it even has the same ports lol)
+
+  
+
+![Pasted picture](media/pasted-814015ba656fe6287f9c0dca848e33bed2b61e9ef4295d57bdbe96305929d8a4.png)![Pasted picture](media/pasted-173e8faf31fdade71b0fa3e92dc3102c37032b09ef6cda0ef9496f038ed5f0cc.png)  
+
+I made holes for its access so I can program it 
+
+  
+
+![Pasted picture](media/pasted-14861029c4b7bc93af3c3a5b2d416b1f7cffa71a6bfbc4cecd769940916547c4.png)  
+
+Well I was gonna be using OTA updates anyways so no need for usb ports
+
+**Total time spent: 3h**
+
+# 2026-11-01: Making arm and hip casing
+
+Date: 2026-11-01 (Nov 1, 2026, 4:36 PM)
+
+Ok so I spent today making the casing for the arms. This was the final result.
+
+  
+
+![Pasted picture](media/pasted-42934eb32e6f13f3a30851283f6cefb43373f80dda5615d2348278d29bbc0990.png)  
+
+  
+
+I started out at the joints first. I abandoned the earlier design cuz it was too big and could use with much improvement.
+
+  
+
+So I started with a rough design
+
+![Pasted picture](media/pasted-3891e3010f7c522a8b021ca0c5c9ef12b7363f39fb7a839583f14b0bf55331a2.png)![Pasted picture](media/pasted-0080b3630181a18314532733e633b8f328674ebe7f2cd481c5d9d000c4ed7c85.png)And then factored in the 135 degree range of motion for the elbow to make sure it doesn't collide with the plastic while moving.
+
+  
+
+For the rest I just offset around the arm and extruded it and turned it into a shell.
+
+  
+
+![Pasted picture](media/pasted-7fa9f35ecc145125868805acbbcfa83dd9a702d832c7275ef38ac1d939fac030.png)  
+
+So because of my wrist motors I had it thicker near the fore-arm but it didn't really look that bad so I kept it.
+
+  
+
+This was the final design for the hip casing.![Pasted picture](media/pasted-e15fe0a86b0c4376c682e31ae6a8871ff9b9effa545f858aa7353b5363050618.png)![Pasted picture](media/pasted-1414a09e87c9a0b9a221a48216c80b1820fa785da28e37e27a099a24720d89d5.png)So ik it looks weird that I don't have cooling holes for the hip casing like the shin casings but I was too lazy to make them and will probably add them when I print them out for real.
+
+  
+
+So I started with this prototype, and I had the unitree h2 to in mind I was tryna copy that and the boston dynamics atlas robot in their casinsg.
+
+![Pasted picture](media/pasted-42b7d4a957f8518d4d59a447b488cb69fad88cea2759ba6aebfc36776caf3c4a.png)![Pasted picture](media/pasted-56e67712ac739e52c494e333f0c9b8553d085b111a16a3528942b20216299987.png)yeah like that so I started making it at first I had the motor bulge very round
+
+  
+
+![Pasted picture](media/pasted-315e2b2875038ab9a396bc16c28ee498c9cca568c092fa9ad7b695923d28e6c5.png)  
+
+I liked the initial prototype, just needed some lofts sharp angles, but the knee cap needed some improvement.
+
+  
+
+![Pasted picture](media/pasted-5bfbd7d61cfced8509c7549b43ccb15ff274ffd04815df399f51ae9d87b58cb8.png)![Pasted picture](media/pasted-507cb91e0d0f4502f5ce2cd39a9ac91e1739bd923d7c471be0ca184c13684dc7.png)![Pasted picture](media/pasted-6358d3d70cea9d1877ce0f1318f74e67db438f02a33982e88ad23a94825ba959.png)
+
+**Total time spent: 1h**
+
+# 2026-11-01: Final robot reveal making the github repo
+
+Date: 2026-11-01 (Nov 1, 2026, 5:01 PM)
+
+Added a filesystem for my cad
+
+![Pasted picture](media/pasted-29a00a64744d534b078a7852970699a8063edb59c0c1a3eb3c5e4d04757315a5.png)  
+
+  
+
+Made a schematic, it was a schematic and no pcb, its closer to a pinout/wiring guide as the components were assembled pcbs.
+
+  
+
+![Pasted picture](media/pasted-5aaccd2d2ef20302b3451e00a6e393981dcc504cf54e186e87073d1ffbe9a369.png)  
+
+Made BOM
+
+![Pasted picture](media/pasted-128a76a0345f2e5073b3e6edffddc811da06ecd19da2669e8b914dad768e9dec.png)Final price was like 3.8k, with my methods I could bring it down to 3k with all the aliexpress discounts and coupons I get anyways I will be paying for most of it.
+
+![Pasted picture](media/pasted-40bbf14d9365a83b4d6b6e8aed615a05fbf58379d833ea82c9d37aced6a021e0.png)For the firmware I added my earlier ISAAC Lab setup.
+
+  
+
+For the esp32 firmware, I put the c++ transformed version of the nueral network into esp32's esp-idf using edge impulse. The rest, like the can bus and single bus uart code was done by AI
+
+  
+
+![Pasted picture](media/pasted-74ccd357832f24ce24f85258c7226f9655b5a736e6c875cd6edbb8a528b34c2f.png)
+
+**Total time spent: 1h**
