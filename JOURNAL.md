@@ -15,21 +15,21 @@ I also looks into MIT's robot dog, that Katz made, using the now popular QDD (qu
 
 Looking online, I found the best and cheapest motors that were available and had high torque would be pancake style drone motors- such as the 10018 DJI 77kv motor with 15+ NM of torque at the shaft, and the 8318 motor with 5+ NM, and the 6374 which is more for skateboards, not a pancake, but also the cheapest ($40) producing 5+ nm advertised torque at 170kv. I also explored some other options, such as the 5065 motor, which was a little too weak for my taste.
 
-My goals were to maximize torque. Currently, I was only interested in building the LEGs of the robot. Researching, I found out that the unitree g1 and similar humanoids use 12-DOF legs, 2 for ankle, 1 knee, and 3 for hips. I found out that I also wanted to do the same. I contemplated a lot on whether to use 2-DOF for ankle or only 1-DOF, and after a lot of thinking, I thought of using a differential system, for my ankles. I wanted to start building it from the ankles and up, which would be the easiest for me, and how I do it in previous projects. I learned about torque, the lever arm, and how my differential system idea is very good, as the weight of the motors will be in the calves, reducing hip load, and how I will use 2 actuators per calve to control both ROLL and PITCH using a rod linkage systems. Big companies do not say their specific specs of their joints, motors, and linkage systems. I found that the new 1X Neo uses a tendon-drive system, which I will look into later, but right now I have chosen this direct drive gearbox motor system as best. I did explore different option for my knees too, from placing the knee motor in the knee, to placing it where your quads were. I'll have flexibility on that regardless on how I design my ankles, and the 3 hip motors, I knew where to place them, I won't have much flexibility on that, but due to the lever arm effect, I decided on placing my knee motors in the quads/lower glutes are.
+My goals were to maximize torque. Currently, I was only interested in building the LEGs of the robot. Researching, I found out that the unitree g1 and similar humanoids use 12 DOF legs, 2 for ankle, 1 knee, and 3 for hips. I found out that I also wanted to do the same. I contemplated a lot on whether to use 2 DOF for ankle or only 1 DOF, and after a lot of thinking, I thought of using a differential system, for my ankles. I wanted to start building it from the ankles and up, which would be the easiest for me, and how I do it in previous projects. I learned about torque, the lever arm, and how my differential system idea is very good, as the weight of the motors will be in the calves, reducing hip load, and how I will use 2 actuators per calve to control both ROLL and PITCH using a rod linkage systems. Big companies do not say their specific specs of their joints, motors, and linkage systems. I found that the new 1X Neo uses a tendon drive system, which I will look into later, but right now I have chosen this direct drive gearbox motor system as best. I did explore different option for my knees too, from placing the knee motor in the knee, to placing it where your quads were. I'll have flexibility on that regardless on how I design my ankles, and the 3 hip motors, I knew where to place them, I won't have much flexibility on that, but due to the lever arm effect, I decided on placing my knee motors in the quads/lower glutes are.
 
-Right now though, I had to research into actuators. Before I even start building my robot, I had to make a compact actuator targeted towards my ankles. My decision came down to using either a C6374 motor, or a 5065 motor, as they are not pancake-style wide, and to place in the calves, they can't be too wide. ![image](media/entry-21-media-01.png)
+Right now though, I had to research into actuators. Before I even start building my robot, I had to make a compact actuator targeted towards my ankles. My decision came down to using either a C6374 motor, or a 5065 motor, as they are not pancake style wide, and to place in the calves, they can't be too wide. ![image](media/entry-21-media-01.png)
 
 ![image](media/entry-21-media-02.png)
 
 A change that i'm not sure to make:
 
-The cyclodial motor I made can be a sub-project in forge but I do not want to do that as it will lose its "imported from macondo" and the timeline of me making it was before forge.
+The cyclodial motor I made can be a sub project in forge but I do not want to do that as it will lose its "imported from macondo" and the timeline of me making it was before forge.
 
 ![Macondo project in the review queue](media/local-2026-07-15-macondo-review-queue.png)
 
 **Total time spent: 2.8h**
 
-# 2026-06-15: Designing bottom-up, researching optimal design choices
+# 2026-06-15: Designing bottom up, researching optimal design choices
 
 Date: 2026-06-15 (Jun 15, 2026, 10:41 PM)
 
@@ -61,7 +61,7 @@ I finished my ankle design with the 2 joint bearing system here and will print i
 
 After heavy contemplating, I decided on prototyping with the C6374 motor as it was the same price and more torque, though it was a little bit bigger.
 
-I did not have a CNC machine and did not have enough budget to get one. I had to make do with my core-XY printer and I had to tune it for tolerances, and carbon fiber reinforced nylon to try and make a high torque gearbox. I was thinking of doing both a planetary and cyclodial gearbox. Capstan gearboxes, linear actuators, worm, spur, harmonic, and belt gears did come into my mine but belt and spur would be too big and spur would be too weak, same goes for belt, linear actuators would be too slow, harmonic is too expesive to fabricate, worm would have no backdrive which was needed, and it would be hard to angle it. I learned about minimizing backlash and having the highest backdrivability, which is what new robots like unitree and boston dynamics are chasing after current. I was curious on the performance of planetary and cyclodial 3d printed gearboxes and did a lot of research into their specs. I found out that for plastic, a cyclodial mixed with metal bearings and bushings would be the cheapest and strongest,
+I did not have a CNC machine and did not have enough budget to get one. I had to make do with my core XY printer and I had to tune it for tolerances, and carbon fiber reinforced nylon to try and make a high torque gearbox. I was thinking of doing both a planetary and cyclodial gearbox. Capstan gearboxes, linear actuators, worm, spur, harmonic, and belt gears did come into my mine but belt and spur would be too big and spur would be too weak, same goes for belt, linear actuators would be too slow, harmonic is too expesive to fabricate, worm would have no backdrive which was needed, and it would be hard to angle it. I learned about minimizing backlash and having the highest backdrivability, which is what new robots like unitree and boston dynamics are chasing after current. I was curious on the performance of planetary and cyclodial 3d printed gearboxes and did a lot of research into their specs. I found out that for plastic, a cyclodial mixed with metal bearings and bushings would be the cheapest and strongest,
 
 these are some research papers I read to decide on the gearboxes to use:
 
@@ -107,7 +107,7 @@ After cadding for a while this is what I had came up with for my planetary actua
 
 ![image](media/entry-17-media-01.png)
 
-I had tried to make it as slim as possible, but it was really long (136mm). That's way to long to fit on a human calve, and this was without the encoders. It was a dual stage planetary gear. I was going to be using plastic so I used 4 planet gears. I tried to maximize planet strength. This was the smallest I could go according to what I had read on plastic strength and watched on youtube if I wanted my gears not to break if I printed them out of engineering grade plastic such as nylon-CF. When I print it and test it I can try making it smaller with smaller gear heights but I felt like a cyclodial gear would be much more compact for a 10 or 16 reduction. I wanted a 10 reduction to satisfy the requirments of a quasi direct drive, but I had to go for 16 as this motors commercial torque rating was around 4-5nm and according to the physics based torque calculations I did, I wanted to get 100nm for the calves. Factoring in 2 motors, I needed that 16 gear ratio to get that torque and cover any efficiency loses.
+I had tried to make it as slim as possible, but it was really long (136mm). That's way to long to fit on a human calve, and this was without the encoders. It was a dual stage planetary gear. I was going to be using plastic so I used 4 planet gears. I tried to maximize planet strength. This was the smallest I could go according to what I had read on plastic strength and watched on youtube if I wanted my gears not to break if I printed them out of engineering grade plastic such as nylon CF. When I print it and test it I can try making it smaller with smaller gear heights but I felt like a cyclodial gear would be much more compact for a 10 or 16 reduction. I wanted a 10 reduction to satisfy the requirments of a quasi direct drive, but I had to go for 16 as this motors commercial torque rating was around 4-5nm and according to the physics based torque calculations I did, I wanted to get 100nm for the calves. Factoring in 2 motors, I needed that 16 gear ratio to get that torque and cover any efficiency loses.
 
 ![image](media/entry-17-media-02.png)
 
@@ -133,7 +133,7 @@ For building my cyclodial drive, I imported the base of my planetary gearbox and
 
 ![image](media/entry-16-media-01.png)
 
-I researched cyclodial drives for a while and there was even research on plastic cyclodial drives, specially NA-CF filament which i'll be using.
+I researched cyclodial drives for a while and there was even research on plastic cyclodial drives, specially NA CF filament which i'll be using.
 
 For my cyclodial drive, I chose a 30mm id, 42mm od bearing for my eccentric shaft, as it was very cheap online and a big size for 3d printing an eccentric shaft to maximize strength.
 
@@ -171,7 +171,7 @@ Over here I have finished cadding my cyclodial drive. On the bottom right you ca
 
 Also, the image shows the eccentric shaft I made, and I made it pretty big, so the plastc which will be experiencing a peak of 7-8nm of input will be able to withstand the stress (I think I can probably get away with smaller for future designs).
 
-The bottom left shows my bottom output disk/pin holder, it is to hold my output pins from the other side to make them more stable, less wobbly, and stronger, reducing backlash and increasing gearbox strength but also at the same time increasing the total gearbox length. To minimize the increase in gearbox length I used the same ball-bearing balls inside them, so I can put the balls in them to reduce friction (like a custom sliding radial bearing).
+The bottom left shows my bottom output disk/pin holder, it is to hold my output pins from the other side to make them more stable, less wobbly, and stronger, reducing backlash and increasing gearbox strength but also at the same time increasing the total gearbox length. To minimize the increase in gearbox length I used the same ball bearing balls inside them, so I can put the balls in them to reduce friction (like a custom sliding radial bearing).
 
 ![image](media/entry-15-media-01.png)
 
@@ -211,7 +211,7 @@ Here is the GUI I used for controlling my odrive. It was mounted to the C6374 mo
 
 ![image](media/entry-14-media-01.png)
 
-In this gui in split screen you can see multiple data points that i'm visualizing directly and logging as I run my motor tests (total current, voltage, bus voltage, power, q-axis current, and the important FET temp which was how hot my Xdrive was getting while pushing current surges).
+In this gui in split screen you can see multiple data points that i'm visualizing directly and logging as I run my motor tests (total current, voltage, bus voltage, power, q axis current, and the important FET temp which was how hot my Xdrive was getting while pushing current surges).
 
 I spent a while building this setup:
 
@@ -237,7 +237,7 @@ Here i've linked a video of my lever arm testing, where you can see the lever ar
 
 ![image](media/entry-14-media-04.png)
 
-You can see here the scale is reading 956 grams which was the peak value I got at 22.5 inches length and 100A current limit before my xdrive overloaded and broke. Although it broke, the mosfets are rated for over 300A, i'm sure the reason it broke was probably because of no brake resistor and the motor giving back-emf.
+You can see here the scale is reading 956 grams which was the peak value I got at 22.5 inches length and 100A current limit before my xdrive overloaded and broke. Although it broke, the mosfets are rated for over 300A, i'm sure the reason it broke was probably because of no brake resistor and the motor giving back emf.
 
 This is the video of my full lever arm setup, you can see it run here:
 
@@ -349,7 +349,7 @@ Right now I wanted to complete how my ankle will look like. Here is what I had s
 
 Both these images show how I made my bearing setup. I chose 608 bearings because they were extremely cheap and were strong enough. Most 608 bearings can handle 1.37kN static to 3.3kN dynamic (while moving). This is enough, as I had 2 for each axis, and I can upgrade to 4 if needed but, 2 will be more than enough, so 2.6k newton and 6.6k newton static not moving and dynamic while moving capacity. On a normal 100 lb human ankle, 222N is loaded on the ankles when standing on one feet. Walking puts 500+ N on one ankle, and running puts over a 1000. Jumping puts up to 3k. 608 bearings will work fantastic for my ankles. Now, 8mm wide steel rods will also work (the ID size of a 608 bearing), as my load is spread evenly around a long center distance and they can withstands thousands of pounds of load at that 80MM length I have them cadded to be.
 
-I have cadded mounts for 2 23x23 mm sized encoders, currently i'm using a AS5600 but i'll probably use much more robust 14-bit MT6818 or AS5047P encoders as they are better at handling misalignment. The encoders is the reason I chose this bearing setup instead of ball bearings as I can better measure both of my axis with this. I have a pulley to measure my pitch axis, and the other roll axis is being measured directly. The pulley system is not robust and I plan on rotating the bearing assembly 90 degrees and having a encoder mount the same way I did for the ankle roll. For my differential linkages i'm using ball bearings though. This is my first prototype, but I plan to bring the assembly back to the heel a little bit motor. To map out the motion before actually cadding it though, I used motiongen which was helpful in helping me find max angles of my roll and pitch. I targeted angles of +/- 35 degrees for my pitch and +/- 20 degrees for my roll. This is similar to a real human.
+I have cadded mounts for 2 23x23 mm sized encoders, currently i'm using a AS5600 but i'll probably use much more robust 14 bit MT6818 or AS5047P encoders as they are better at handling misalignment. The encoders is the reason I chose this bearing setup instead of ball bearings as I can better measure both of my axis with this. I have a pulley to measure my pitch axis, and the other roll axis is being measured directly. The pulley system is not robust and I plan on rotating the bearing assembly 90 degrees and having a encoder mount the same way I did for the ankle roll. For my differential linkages i'm using ball bearings though. This is my first prototype, but I plan to bring the assembly back to the heel a little bit motor. To map out the motion before actually cadding it though, I used motiongen which was helpful in helping me find max angles of my roll and pitch. I targeted angles of +/- 35 degrees for my pitch and +/- 20 degrees for my roll. This is similar to a real human.
 
 ![image](media/entry-11-media-01.png)
 
@@ -411,9 +411,9 @@ This is the github to their open source robot:
 
 Thanks to their robot, I was able to learn more about what actuators I should use and how much they should weigh.
 
-Their differential linkage system used a RSU type linkage where the ratio was reduced 2 times in the linkage so effectively they had 2x pitch torque and 0.8x roll torque, which would be 150NM pitch torque which is kind of more than my C6734 motors which were aimed at around 140NM torque. Considering the fact that their motor's torque size is way smaller than mine, and way lighter, I needed a better setup. My current c6734 motors were too beefy. Not only that, the reason why the torque was not as high is because I was targetting what the MIT cheetah robot did, a quasi-direct-drive setup where the ratio is less then 10 (well currently it was 16 but I want to maximize backdrivability). So I needed to abandon that as I didn't have enough resources to make a QDD actuator that is small has has enough torque for the ankles. I was now going to choose a much higher gear ratio. The ASIMOV robot had very little rpm though due to the fact that they choose to reduce their ankle rpm to get that 150NM, their current ankle movement capability is less than what a human typically uses during dyanmic movements. I wanted a motor that could move fast enough (over 70+rpm at the ankles based on what i'd found from research on human ankle speed). So it was time to look for new motors.
+Their differential linkage system used a RSU type linkage where the ratio was reduced 2 times in the linkage so effectively they had 2x pitch torque and 0.8x roll torque, which would be 150NM pitch torque which is kind of more than my C6734 motors which were aimed at around 140NM torque. Considering the fact that their motor's torque size is way smaller than mine, and way lighter, I needed a better setup. My current c6734 motors were too beefy. Not only that, the reason why the torque was not as high is because I was targetting what the MIT cheetah robot did, a quasi direct drive setup where the ratio is less then 10 (well currently it was 16 but I want to maximize backdrivability). So I needed to abandon that as I didn't have enough resources to make a QDD actuator that is small has has enough torque for the ankles. I was now going to choose a much higher gear ratio. The ASIMOV robot had very little rpm though due to the fact that they choose to reduce their ankle rpm to get that 150NM, their current ankle movement capability is less than what a human typically uses during dyanmic movements. I wanted a motor that could move fast enough (over 70+rpm at the ankles based on what i'd found from research on human ankle speed). So it was time to look for new motors.
 
-I haven't even finished the shin part yet, but I needed a rough estimate of how long my robot will be, how much it will weigh, and where that weight will be at. So I chose to draw a quick sketch of what I think I want it to look like in the future, I'll build bottom-up, going to my knees next and then 3 DOF hip motors.
+I haven't even finished the shin part yet, but I needed a rough estimate of how long my robot will be, how much it will weigh, and where that weight will be at. So I chose to draw a quick sketch of what I think I want it to look like in the future, I'll build bottom up, going to my knees next and then 3 DOF hip motors.
 
 ![image](media/entry-10-media-07.png)
 
@@ -435,7 +435,7 @@ I had a better idea on what to do for my calves area now. Based on the placement
 
 ![image](media/entry-09-media-01.png)
 
-A differential mechanism like this is what most robots- asimov, unitree, boston dyanmics used to control their ankles if they had 2-dof ankles as it places the weight of the motors in the calves reducing the inertia. Currently, I was thinking of getting these 8318 motors instead of the C6374 motors. Why? Beacuse they were 100KV, meaning they provided more torque than my 170kv c6374 motor and their torque constant was much better. Not only that, they were pancake style motors, and their length was almost half that of my C6374 motors.
+A differential mechanism like this is what most robots- asimov, unitree, boston dyanmics used to control their ankles if they had 2 dof ankles as it places the weight of the motors in the calves reducing the inertia. Currently, I was thinking of getting these 8318 motors instead of the C6374 motors. Why? Beacuse they were 100KV, meaning they provided more torque than my 170kv c6374 motor and their torque constant was much better. Not only that, they were pancake style motors, and their length was almost half that of my C6374 motors.
 
 They were a fair price (+40 shipping) ![image](media/entry-09-media-02.png)
 
@@ -445,7 +445,7 @@ But the problem was that they weighed around 700 grams. This was less than what 
 
 Researching into different motors, though, I came across the 6007 motor. This motor was much smaller than that 8308 motor and half its weight, but provided much less torque and there was barely any documentation on its torque ratings. Based on its KV, I calculated that if I pushed 50A through the 160KV variant, I could get 2.5NM, maybe 3NM of torque for short bursts. This, if combined with a 30 reduction cyclodial gear, I could get 80+NM of torque. The problem which this was that designing the cyclodial gear for this would be much harder. Cyclodial gears aren't easy to design when they are small due to the fact that they use roller pins to reduce efficiency and those pins take up space. Currently I was using a M3 screw + aluminum bushing to act as my rollers, and they worked pretty well, but took up a lot of space. This was only with a 16 reduction. Pushing my reduction to 36 will cost me a lot more pins and I will have to make them smaller, and that would reduce their ability to roll and reduce their efficiency. Instead, to maximize on space, I was going to use was NASA used in their cyclodial gears.
 
-This is what NASA did, they used steel dowels but instead of having 2 small bearings on each dowel they mounted them loose so they could spin. This introduced backlash though and it wasn't something that could be easily repeated by me with a bench-CNC.
+This is what NASA did, they used steel dowels but instead of having 2 small bearings on each dowel they mounted them loose so they could spin. This introduced backlash though and it wasn't something that could be easily repeated by me with a bench CNC.
 
 ![image](media/entry-09-media-04.png)
 
@@ -475,7 +475,7 @@ t1/t2 are both the actuators, kP is the linkae pitch and kr is the linkage roll.
 
 Now I had to calculate how much RPM I needed the motors to spin BEFORE the linear linkage reduction. I was going to base my comparison on the walking ankle movement of a normal human this size. I found out normal human ankle pitch values to be around 30 degrees. Thats 0.524 rads, and if you want to cover that in 0.2 seconds, you need 50RPM. Thanks to my handy AP physics equations I could solve this ωpeak​≈t2Δθ​.
 
-If I wanted to do it in 0.15 seconds that would be 67 rpm. So a motor that provided a well margin like 85+ rpm would be good. For my knees, based on this data, I had estimated I would want torque values of 175+NM. Now, a 6007 160kv motor, if overwhelmed with current, could give this paired with a gearbox good enough, but I am across a commercial motor company that offered a pre-built actuator (steady win) with a slightly stronger stator (6010 instead of 6007 meaning more torque) and torque/rpm values that were exactly what I needed. Not only that, they were around the same price I'd spend if I made my own actuator gearbox, as the individual planetary gearsets, bearings, steel pins and custom CNC casings would add up to a lot. This steadywin 6010 motor was smaller, had enough torque, and barely met the rpm requirement I was looking for. It had enough torque that I could use the linear linkages to trade the torque for speed though:
+If I wanted to do it in 0.15 seconds that would be 67 rpm. So a motor that provided a well margin like 85+ rpm would be good. For my knees, based on this data, I had estimated I would want torque values of 175+NM. Now, a 6007 160kv motor, if overwhelmed with current, could give this paired with a gearbox good enough, but I am across a commercial motor company that offered a pre built actuator (steady win) with a slightly stronger stator (6010 instead of 6007 meaning more torque) and torque/rpm values that were exactly what I needed. Not only that, they were around the same price I'd spend if I made my own actuator gearbox, as the individual planetary gearsets, bearings, steel pins and custom CNC casings would add up to a lot. This steadywin 6010 motor was smaller, had enough torque, and barely met the rpm requirement I was looking for. It had enough torque that I could use the linear linkages to trade the torque for speed though:
 
 ![image](media/entry-08-media-01.png)
 
@@ -497,7 +497,7 @@ Created ball joint here:
 
 **Total time spent: 1.2h**
 
-# 2026-07-13: Re-designing foot CAD
+# 2026-07-13: Re designing foot CAD
 
 Date: 2026-07-13 (Jul 13, 2026, 10:20 PM)
 
@@ -507,7 +507,7 @@ This is my V2 of the foot:
 
 ![image](media/entry-06-media-01.png)
 
-It may look like its less than the old version, but it actually is simpler and much more robust. The encoder goes directly on the joints. I swapped out my complex CNC favored 3/8 inch split axis holders for a single piece that I will 3d print. I calculated that decision as found that a 3d printed piece will work just as fine as long as I use engineering grade NA-CF filament with full infill. This made my build significantly cheaper. Not only that, I researched and found bearing pillows I can use for this which are much stronger and cheaper. I spent a while designing this setup, where ZERO cnc was required. Also, on my foot, I added a bed layer below it that screwed onto my bearings and encoders, giving it a rigid base. That small base then screwed onto my actual footplate which made the whole thing a lot more rigid, stronger, and made it easier to change my foot geometry.
+It may look like its less than the old version, but it actually is simpler and much more robust. The encoder goes directly on the joints. I swapped out my complex CNC favored 3/8 inch split axis holders for a single piece that I will 3d print. I calculated that decision as found that a 3d printed piece will work just as fine as long as I use engineering grade NA CF filament with full infill. This made my build significantly cheaper. Not only that, I researched and found bearing pillows I can use for this which are much stronger and cheaper. I spent a while designing this setup, where ZERO cnc was required. Also, on my foot, I added a bed layer below it that screwed onto my bearings and encoders, giving it a rigid base. That small base then screwed onto my actual footplate which made the whole thing a lot more rigid, stronger, and made it easier to change my foot geometry.
 
 ![image](media/entry-06-media-02.png)
 
@@ -519,7 +519,7 @@ But then I came into a limitation:
 
 If I wanted to make it as cheap as possible, I couldn't rely on many machined parts, and this 2nd motor was adding weight, creating more break points, it was expensive, required an additional motor driver and setup, and removing it would remove an entire joint and a lot of jacobian math, and I felt like this would make my job a lot easier. Previously, many robots have walked in 3d environments without powered ankles at all, so this is something thats totally possible.
 
-So now, I had to abandon this cad after realizing how complex it was to a cleaner 1-DOF version. If I had access to CNC tools, I would've definitely gone with the 2DOF layout.
+So now, I had to abandon this cad after realizing how complex it was to a cleaner 1 DOF version. If I had access to CNC tools, I would've definitely gone with the 2DOF layout.
 
 **Total time spent: 7h**
 
@@ -561,7 +561,7 @@ I used a ball screw with an m4 nut which according to my calculations can handle
 
 ![image](media/entry-04-media-02.png)
 
-The system here is basically a reciprocating system but I have maxed out the torque and added a 2nd reduction from my linear system, of about 1.2:1 meaning my torque increases by 20 percent. I achieved this be having a 50 mm long crank arm and a 40 mm long length from the hinge. Although this leg looks ugly that can easily be fixed by lightweight 3d printed covers. And to minimize CNC, I am using off the shelve aluminum tubes and a ton of high infill NA-CF plastic to make a rigid joint.
+The system here is basically a reciprocating system but I have maxed out the torque and added a 2nd reduction from my linear system, of about 1.2:1 meaning my torque increases by 20 percent. I achieved this be having a 50 mm long crank arm and a 40 mm long length from the hinge. Although this leg looks ugly that can easily be fixed by lightweight 3d printed covers. And to minimize CNC, I am using off the shelve aluminum tubes and a ton of high infill NA CF plastic to make a rigid joint.
 
 Now it was time to make a grant and wait until I can build my lower leg.
 
@@ -641,7 +641,7 @@ The journals below progressed from me building the ankle, to then building a sui
 
 What the journals above are:
 
-It had been a month since I last worked on this project and I had new cad and design skills, I was going to shift my design approach and instead build a mock-up of a 5 foot robot and test it in ISAAC-lab first, and then design my actual robot around that mockup and its actuator specs/limits.
+It had been a month since I last worked on this project and I had new cad and design skills, I was going to shift my design approach and instead build a mock up of a 5 foot robot and test it in ISAAC lab first, and then design my actual robot around that mockup and its actuator specs/limits.
 
 ![Pasted picture](media/pasted-d48881ddbee3a264bd0378df65aa44825c8e0746a51f4a8ba1715ca5b77e534d.png)
 
@@ -739,7 +739,7 @@ I added a 5 kg payload to test whether the robot could still run while carrying 
 
 ![The 5 kg payload highlighted in blue in Fusion 360](media/local-2026-08-29-payload-5kg-fusion.png)
 
-The property panel in this Fusion screenshot shows a geometry-and-material calculation for the selected solid. The authoritative payload used in Isaac Lab was the 5 kg mass defined in the URDF model, not Fusion's temporary steel-derived value.
+The property panel in this Fusion screenshot shows a geometry and material calculation for the selected solid. The authoritative payload used in Isaac Lab was the 5 kg mass defined in the URDF model, not Fusion's temporary steel derived value.
 
 I watched this YouTube playlist to learn how to simulate and configure the joints: [Fusion 360 joint simulation playlist](https://www.youtube.com/watch?v=gGgmA1WZESs&list=PLHEouj-sdEJEdDfqwsiKI2izfYUGHi_Mu).
 
@@ -747,7 +747,7 @@ Moving the model into Isaac Lab
 
 Next, it was time to export the model as a URDF for Isaac Lab. I converted the model to URDF, generated the USD asset used by Isaac Sim, and added it to my custom Isaac Lab task.
 
-Before training, I had to specify the motors' actuator capabilities, velocity limits, friction, damping, and reflected inertia. I chose behavior similar to a BLDC actuator with a 20:1 planetary reduction instead of the low-reduction QDD actuators used on robots such as the MIT Cheetah.
+Before training, I had to specify the motors' actuator capabilities, velocity limits, friction, damping, and reflected inertia. I chose behavior similar to a BLDC actuator with a 20:1 planetary reduction instead of the low reduction QDD actuators used on robots such as the MIT Cheetah.
 
   
 
@@ -755,7 +755,7 @@ Before training, I had to specify the motors' actuator capabilities, velocity li
  |
 | --- | --- | --- |
 
-The actuator model also included a four-second thermal time constant, a zero-to-one-step command delay, torque-speed limiting, and a simple thermal budget that limited how long peak torque could be used.
+The actuator model also included a four second thermal time constant, a zero to one step command delay, torque speed limiting, and a simple thermal budget that limited how long peak torque could be used.
 
 How I trained it
 
@@ -770,17 +770,17 @@ I used curriculum learning, where each policy started from a skill learned in an
 
 For standing, the reward system encouraged the base to remain around 0.47 m high, stay level, keep its horizontal and angular velocity near zero, and remain close to the nominal joint pose. It also penalized excessive joint speed, torque, large or rapidly changing actions, and contacts made by anything other than the feet.
 
-For walking, the policy was rewarded for matching commanded forward, sideways, and turning velocities. A foot-air-time reward encouraged an actual stepping gait, while the standing stability and smoothness terms remained active. For running, the commanded forward speed range increased to 0.60–1.60 m/s, velocity tracking and foot air time became more important, and some motion penalties were relaxed so that the robot could use a faster gait.
+For walking, the policy was rewarded for matching commanded forward, sideways, and turning velocities. A foot air time reward encouraged an actual stepping gait, while the standing stability and smoothness terms remained active. For running, the commanded forward speed range increased to 0.60–1.60 m/s, velocity tracking and foot air time became more important, and some motion penalties were relaxed so that the robot could use a faster gait.
 
 Running with the 5 kg payload used the same type of reward system, but the extra body and its inertia were attached throughout training. The forward command range was 0.50–1.40 m/s.
 
-For jumping, a three-second phase clock defined when the robot should crouch, rise, become airborne, and land. The policy received rewards for following a target body-height curve and vertical-velocity curve, getting all four feet off the ground during the airborne phase, staying approximately upright and in place, and landing on its feet. Torque and rapidly changing actions were still penalized.
+For jumping, a three second phase clock defined when the robot should crouch, rise, become airborne, and land. The policy received rewards for following a target body height curve and vertical velocity curve, getting all four feet off the ground during the airborne phase, staying approximately upright and in place, and landing on its feet. Torque and rapidly changing actions were still penalized.
 
-For the backflip attempt, I retained the jump and landing objectives and added a time-varying pitch-orientation target plus a target backward pitch rate of about -9.5 rad/s during the rotation phase. These were rewards rather than strict requirements, which became important when I reviewed the result.
+For the backflip attempt, I retained the jump and landing objectives and added a time varying pitch orientation target plus a target backward pitch rate of about -9.5 rad/s during the rotation phase. These were rewards rather than strict requirements, which became important when I reviewed the result.
 
 Training scale
 
-My testing session lasted about 4 hours. I ran 2,048 robots in parallel. The final column below shows the number of parallel environment-iterations.
+My testing session lasted about 4 hours. I ran 2,048 robots in parallel. The final column below shows the number of parallel environment iterations.
 
 | Training session | envs |
 | --- | --- |
@@ -813,25 +813,25 @@ Jumping
 
 ![Jumping policy at 2x speed](media/local-2026-08-29-jumping-2x.gif)
 
-The jump was not very clean. The robot moved its legs unnaturally, and near the end some of the legs clipped slightly before the episode reset. The movement was a result of the reward system allowing any motion that achieved enough height, air time, and landing score. I could make future jumps more natural by rewarding symmetry and coordinated joint trajectories, penalizing self-collision and unnecessary foot motion, or adding mechanical-energy and peak-power costs. An energy reward alone would not guarantee a natural jump, but it could reduce some inefficient erratic motion when combined with posture and landing terms.
+The jump was not very clean. The robot moved its legs unnaturally, and near the end some of the legs clipped slightly before the episode reset. The movement was a result of the reward system allowing any motion that achieved enough height, air time, and landing score. I could make future jumps more natural by rewarding symmetry and coordinated joint trajectories, penalizing self collision and unnecessary foot motion, or adding mechanical energy and peak power costs. An energy reward alone would not guarantee a natural jump, but it could reduce some inefficient erratic motion when combined with posture and landing terms.
 
-For the backflip, the result was essentially the same as the jump. At first I was confused about why the robot did not rotate. I realized that it had found a loophole in my reward system: completing a full rotation was difficult, but it could still collect many points from jumping high, following the vertical phase, becoming airborne, and landing. The orientation and pitch-rate rewards were not strong gates that required a completed 360-degree rotation.
+For the backflip, the result was essentially the same as the jump. At first I was confused about why the robot did not rotate. I realized that it had found a loophole in my reward system: completing a full rotation was difficult, but it could still collect many points from jumping high, following the vertical phase, becoming airborne, and landing. The orientation and pitch rate rewards were not strong gates that required a completed 360 degree rotation.
 
 This was a great lesson for when I train my humanoid in the future. A better backflip task should track unwrapped accumulated pitch rotation, gate the height and landing rewards behind rotation milestones, require approximately one full rotation before touchdown, and penalize incomplete or repeated hops.
 
 **Total time spent: 6h**
 
-# 2026-09-04: Making a rough humanoid robot mock-up
+# 2026-09-04: Making a rough humanoid robot mock up
 
 Date: 2026-09-04 (Sep 4, 2026, 8:30 PM)
 
-Today, I spent the whole day making a rough mock-up sketch of a humanoid robot that is 5 feet tall, using a 1:15 differential joint for the knees.
+Today, I spent the whole day making a rough mock up sketch of a humanoid robot that is 5 feet tall, using a 1:15 differential joint for the knees.
 
-This wasn't easy. Although I was replicating a human who is 5 feet tall, I needed their dimensions and needed to know how their joints move. The trickiest part was making the Jacobian-style differential system.
+This wasn't easy. Although I was replicating a human who is 5 feet tall, I needed their dimensions and needed to know how their joints move. The trickiest part was making the Jacobian style differential system.
 
 I used resources such as [this NASA report](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19790005540.pdf) and [this CDC report](https://stacks.cdc.gov/view/cdc/206117/cdc_206117_DS1.pdf) because they were reliable places to find human joint specifications.
 
-From there, I decided to worry about the motor mass and full-body mass after building the entire robot.
+From there, I decided to worry about the motor mass and full body mass after building the entire robot.
 
 making robot cad
 
@@ -850,7 +850,7 @@ As you can see, I had made the joints on that. Now, I had to convert it to URDF,
 
 I was going to leave the robot training overnight. I was going to train it to stand, walk, run, and run at high speeds of 4 m/s. I was also going to train it to get up from a lying position.
 
-In the CAD, I hadn't copied the exact masses of a 5-foot human. I chose 39 kg, which is a good estimate for the whole body, a little bit heavier than the Unitree G1 but lighter than the H1, and its height fits perfectly. I made each joint around 80% of an actual human joint's weight, though I was going to change it after picking my motors. For my motors, I found the cheapest motor brand, Steadywin, and started looking at its motor datasheets. I had already decided what motors I was going to use for the ankles previously, so that stayed.
+In the CAD, I hadn't copied the exact masses of a 5 foot human. I chose 39 kg, which is a good estimate for the whole body, a little bit heavier than the Unitree G1 but lighter than the H1, and its height fits perfectly. I made each joint around 80% of an actual human joint's weight, though I was going to change it after picking my motors. For my motors, I found the cheapest motor brand, Steadywin, and started looking at its motor datasheets. I had already decided what motors I was going to use for the ankles previously, so that stayed.
 
 So here is a table of what motors I was thinking of using. I added a boost factor, as I would probably be using my own custom motor driver to push higher current through the motors:
 
@@ -862,15 +862,15 @@ all these torque values were taken from what I was discussing/planning in previo
 | --- | --- | --- | --- | --- |
 | Hip yaw | GIM8115-9 | 15.27 Nm | 54.55 Nm | 68.19 Nm |
 | Hip roll | GIM8108-36 | 25.00 Nm | 130.20 Nm | 162.75 Nm |
-| Hip pitch | 2× GIM8108-8 high-speed, 2:1 chain | 26.84 Nm | 92.36 Nm | 115.45 Nm |
-| Knee pitch | 2× GIM8108-8 high-speed, 2:1 chain | 26.84 Nm | 92.36 Nm | 115.45 Nm |
+| Hip pitch | 2× GIM8108-8 high speed, 2:1 chain | 26.84 Nm | 92.36 Nm | 115.45 Nm |
+| Knee pitch | 2× GIM8108-8 high speed, 2:1 chain | 26.84 Nm | 92.36 Nm | 115.45 Nm |
 | Ankle pitch | 2× GIM6010-36 differential, 1.15 linkage | 40.48 Nm | 120.70 Nm | 150.88 Nm |
 | Ankle roll | Same coupled differential | 40.48 Nm | 120.70 Nm | 150.88 Nm |
 | Waist yaw | GIM8115-9 | 15.27 Nm | 54.55 Nm | 68.19 Nm |
 | Waist pitch | GIM8115-9 | 15.27 Nm | 54.55 Nm | 68.19 Nm |
 | Shoulder pitch | GIM8108-9 | 8.19 Nm | 27.38 Nm | 34.23 Nm |
 | Shoulder roll | GIM8108-9 | 8.19 Nm | 27.38 Nm | 34.23 Nm |
-| Elbow pitch | GIM8108-8 high-speed | 6.71 Nm | 23.09 Nm | 28.86 Nm |
+| Elbow pitch | GIM8108-8 high speed | 6.71 Nm | 23.09 Nm | 28.86 Nm |
 | Head yaw | GIM4310-10 | 1.63 Nm | 7.98 Nm | 9.98 Nm |
 | Head pitch | GIM4310-10 | 1.63 Nm | 7.98 Nm | 9.98 Nm |
 
@@ -908,7 +908,7 @@ For training, my reward system utilized these rewards for standing:
  |
 | Roll/pitch angular velocity | −0.10 |   
  |
-| Upper-body posture | −0.10 |   
+| Upper body posture | −0.10 |   
  |
 | Lateral leg posture | −0.10 |   
  |
@@ -918,13 +918,13 @@ For training, my reward system utilized these rewards for standing:
  |
 | Joint acceleration | −2e-7 |   
  |
-| Action-rate change | −0.01 |   
+| Action rate change | −0.01 |   
  |
-| Joint-limit use | −1.0 |   
+| Joint limit use | −1.0 |   
  |
 | Foot sliding | −0.30 |   
  |
-| Non-foot contact | −1.0 |   
+| Non foot contact | −1.0 |   
  |
 | Ankle differential violation | −2.0 |   
  |
@@ -974,7 +974,7 @@ Getting up dashboard video (These html data visualizers are made by chatgpt! I u
 
 ![Getting up training dashboard video](media/local-2026-08-30-humanoid-getup-refine-dashboard-2x.gif)
 
-Now, as you can see, the robot was messed up. This is a combination of the joint problem and a reward failure policy loophole. The robot kept moving after getting up due to the continuous height and upright rewards being collectable without completing the hard stationary standing check. Also, the reversed pitch-axis convention resulted in the knees bending in the wrong direction. For the running, the forward-speed reward being stronger than the gait-quality penalties caused the robot to use an unnatural movement to reach the target speed.
+Now, as you can see, the robot was messed up. This is a combination of the joint problem and a reward failure policy loophole. The robot kept moving after getting up due to the continuous height and upright rewards being collectable without completing the hard stationary standing check. Also, the reversed pitch axis convention resulted in the knees bending in the wrong direction. For the running, the forward speed reward being stronger than the gait quality penalties caused the robot to use an unnatural movement to reach the target speed.
 
 I will train overnight again, with these fixes made, so the robot moves more naturally.
 
@@ -988,7 +988,7 @@ So for this new training session, I had significantly improved my robot's reward
 
 Here are the changes I made to the training:
 
-I made the joints much better by fixing the reversed hip, knee, and ankle pitch directions and improving the one-joint-at-a-time validation.
+I made the joints much better by fixing the reversed hip, knee, and ankle pitch directions and improving the one joint at a time validation.
 
 I utilized the Isaac Lab locomotion rewards used for the Unitree G1 and H1 to strengthen my reward system
 
@@ -1011,7 +1011,7 @@ As you can see, it is so much better than my previous run. Though I stopped at w
 
 Also it slowed down at the end as it dynamiaclly adjusts from 0.2 to 1 m/s walking speed and gets randomized pushes from each direction.
 
-I will be making chanegs to my training now, and re training the walking using a retargeted natural walking reference and a reward system for stride length, cadence, swing-foot clearance, alternating support, torso smoothness, and arm swing.
+I will be making chanegs to my training now, and re training the walking using a retargeted natural walking reference and a reward system for stride length, cadence, swing foot clearance, alternating support, torso smoothness, and arm swing.
 
 **Total time spent: 2h**
 
@@ -1146,7 +1146,7 @@ Reflection on current cad:
 
   
 
-This cad is my original ankle cad for my 2-dof ankle.
+This cad is my original ankle cad for my 2 dof ankle.
 
 ![Design screenshot 2](media/local-2026-09-10-redesign-screenshot-02.png)
 
@@ -1200,7 +1200,7 @@ Having the entire ankle supported on an aluminum sheet, and below that is the pr
 
 I use commercial amazon pillow ball bearings, 10 pack for 10 dollars, its steel and cheaper than cncing it myself and wasting some aluminum.
 
-To support it though, I have a thick 100 percent infill nylon-cf piece, that thats the roll axis at the bottom, and the pitch axis at the top, and joins them. It can be made thicker, but I think it will work. The encoder holders are carried on from the previous design, the pulley is removed making it simpler and in turn more robust. The output is much wider, larger, and better for mounting the shin.
+To support it though, I have a thick 100 percent infill nylon cf piece, that thats the roll axis at the bottom, and the pitch axis at the top, and joins them. It can be made thicker, but I think it will work. The encoder holders are carried on from the previous design, the pulley is removed making it simpler and in turn more robust. The output is much wider, larger, and better for mounting the shin.
 
 shin
 
@@ -1312,7 +1312,7 @@ Also I was thinking of having 4 different rods at first but realized it would be
 
   
 
-Now I wanted to improve the strength between the motor mount and the shin casing because if the motor was going to do up to 40-50nm of torque, it should be strong and in pa-cf filament.
+Now I wanted to improve the strength between the motor mount and the shin casing because if the motor was going to do up to 40-50nm of torque, it should be strong and in pa cf filament.
 
   
 
@@ -1531,7 +1531,7 @@ So for now I put a rough sketch of the hip roll and pitch and yaw motors. I have
 
 ![Pasted picture](media/pasted-a67f2faf1396118d8e0f6d9be162a095eb73cd9afdd3cc6efa81a16b438ced0e.png)  
 
-So based on my simulation runs for my robot, the hip yaw took at max 50NM of torque! Averaging like 18. The 7010-8 motors I am already using in my ankles can provide just that! So I will be re-using them for my leg's yaw, which is very beneficial as then I can buy the motors literally in bulk and make it cheaper.
+So based on my simulation runs for my robot, the hip yaw took at max 50NM of torque! Averaging like 18. The 7010-8 motors I am already using in my ankles can provide just that! So I will be re using them for my leg's yaw, which is very beneficial as then I can buy the motors literally in bulk and make it cheaper.
 
   
 
@@ -1836,7 +1836,7 @@ These are the ones i compared
 | Camera considered | Edits |
 | --- | --- |
 | Yahboom AI VIEW | Selected at $199 with onboard MX6000 depth processing. |
-| Luxonis OAK-D Lite | Main alternative |
+| Luxonis OAK D Lite | Main alternative |
 | Orbbec Gemini 2 / 2L |  no final selection. |
 | Intel RealSense D435 |  no final selection. |
 | Stereolabs ZED Mini | no final selection. |
@@ -2133,7 +2133,7 @@ For the rest I just offset around the arm and extruded it and turned it into a s
 
 ![Pasted picture](media/pasted-7fa9f35ecc145125868805acbbcfa83dd9a702d832c7275ef38ac1d939fac030.png)  
 
-So because of my wrist motors I had it thicker near the fore-arm but it didn't really look that bad so I kept it.
+So because of my wrist motors I had it thicker near the fore arm but it didn't really look that bad so I kept it.
 
   
 
@@ -2216,7 +2216,7 @@ Worked on taking measurments for the new motor, testing the odrives, and evaluat
 So the reason why this took me so long is because: 
 
   
-both odrives were faulty and I had to solder an encoder to my old motor I made aerlier in this project, to make it work, and a load cell to measure its torque, so I can test the motor driver out at different current values and see how it does at very high currents. But for some reason the odrive kept crashing and I used AI to diagnose it using an ST-LINK, and the answer it found was that the board was designed poorly. There are different variants of this board though, and I can always return it for new ones. 
+both odrives were faulty and I had to solder an encoder to my old motor I made aerlier in this project, to make it work, and a load cell to measure its torque, so I can test the motor driver out at different current values and see how it does at very high currents. But for some reason the odrive kept crashing and I used AI to diagnose it using an ST LINK, and the answer it found was that the board was designed poorly. There are different variants of this board though, and I can always return it for new ones. 
 
   
 
@@ -2316,7 +2316,7 @@ Made BOM
 
   
 
-For the esp32 firmware, I put the c++ transformed version of the nueral network into esp32's esp-idf using edge impulse. The rest, like the can bus and single bus uart code was done by AI
+For the esp32 firmware, I put the c++ transformed version of the nueral network into esp32's esp idf using edge impulse. The rest, like the can bus and single bus uart code was done by AI
 
   
 
@@ -2332,7 +2332,7 @@ For the esp32 firmware, I put the c++ transformed version of the nueral network 
 
 Date: 2026-11-01 (Nov 1, 2026, 10:07 PM)
 
-so i actually spent a lot of time ruminating and talking with chatgpt about my design I wanted to claim some hours, and this is only how much time I think I spent yapping to chat, which was my primarly source of research. I explored new design concepts such as force sensors on my robot and tendon drives, and different gear reduction systems and online materials, which I didn't include in previous journals because they were done intermittingly like at lunch during school or in the bus, not at home in a one-time sitting.
+so i actually spent a lot of time ruminating and talking with chatgpt about my design I wanted to claim some hours, and this is only how much time I think I spent yapping to chat, which was my primarly source of research. I explored new design concepts such as force sensors on my robot and tendon drives, and different gear reduction systems and online materials, which I didn't include in previous journals because they were done intermittingly like at lunch during school or in the bus, not at home in a one time sitting.
 
   
 
