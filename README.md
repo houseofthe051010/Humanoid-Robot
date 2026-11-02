@@ -1,12 +1,10 @@
 # Humanoid Robot
 
-A human-sized humanoid robot built with oval steel tubes, printed PETG parts, aluminum parts and electric actuators. Designed in Fusion 360. My friend and I are building it, and I have been training earlier versions in Isaac Lab using reinforcement learning.
+A humanoid robot I built that is 5 foot 3 inches tall, with a BOM under 4k, 20x cheaper than commercial robots this size. Its built with the help of hack club forge.
 
 ## Inspiration
 
-I spend hours each week gardening and mowing grass. As someone into robotics, I realized I could build a garden rover to automate some of these repetitive chores. This project gave me a reason to learn more about robotics while building something useful for my yard.
-
-[**Build journal**](JOURNAL.md) · [**See the assembly**](CAD/Full%20humanoid%20assembly/) · [**Firmware**](firmware/ESP32-P4%20Host%20controller/) · [**Isaac Lab training**](firmware/ISAAC%20Lab%20training/)
+I built it for fun and because I like robots.
 
 ### CAD Render Assembly
 
@@ -16,15 +14,13 @@ I spend hours each week gardening and mowing grass. As someone into robotics, I 
 
 ## Features
 
-* Oval steel tube frame with printed PETG and machined aluminum parts
-* Motorized legs, waist, shoulders, elbows, wrists, head and hands
+* Cheap easy to source BOM
+* Estimated 300+NM knee torque
 * Differential ankle and wrist mechanisms
 * ESP32-P4/C6 host controller
-* Three CAN buses for motor communication
-* BNO085 IMU and magnetic motor encoders
+* Nueral network policy trained in ISAAC LAB
 * Yahboom AI VIEW depth camera
 * 12S3P battery pack using 36 21700 cells
-* Isaac Lab reinforcement learning setup and saved policies
 
 # Building it yourself
 
@@ -36,7 +32,6 @@ This is a block level schematic of how each system is split
 
 ![Block-level electrical schematic](Schematics/schematic.png)
 
-KiCad: [**Schematics/**](Schematics/). [**Schematic PDF**](Schematics/Humanoid_Electronics.pdf).
 
 ## Bill of materials
 
@@ -100,18 +95,17 @@ KiCad: [**Schematics/**](Schematics/). [**Schematic PDF**](Schematics/Humanoid_E
 
 ## What I would do differently next time and plan for in the future
 
-- Finish the outer shells and improve joint coverage
-- Complete motor calibration and test the ESP32-P4 controller on hardware
-- Continue testing the learned policies on the physical robot
+- Run more isaac labs to train it better
+- Actually build it IRL after it gets approved
+- Add laser eyes
 
 ## Repository Structure
 
-In this repo, I have included the design files and software for this project.
+Everything is open source
 
-- Firmware source code
-- CAD source, assemblies, STEP files and STLs
-- Build instructions
+- Isaac lab training and firmware
+- CAD given
+- Build instructions (partially since its not done yet follow at your own discretion)
 - Electrical schematics
 - Bill of materials
-- Build journal and images
-- Isaac Lab training setup and checkpoints
+- Build journal
