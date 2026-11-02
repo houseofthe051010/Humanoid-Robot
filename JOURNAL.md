@@ -2326,3 +2326,23 @@ For the esp32 firmware, I put the c++ transformed version of the nueral network 
 ![Pasted picture](media/pasted-d0f872368a1880a5425ba433f8534e01581aaa81248230aa16fcedbceee5d00b.png)
 
 **Total time spent: 1h**
+
+# 2026-11-01: claiming hours
+
+Date: 2026-11-01 (Nov 1, 2026, 10:07 PM)
+
+so i actually spent a lot of time ruminating and talking with chatgpt about my design I wanted to claim some hours, and this is only how much time I think I spent yapping to chat, which was my primarly source of research. I explored new design concepts such as force sensors on my robot and tendon drives, and different gear reduction systems and online materials, which I didn't include in previous journals because they were done intermittingly like at lunch during school or in the bus, not at home in a one-time sitting.
+
+  
+
+https://chatgpt.com/g/g-p-69b214c5159c81918fa98184f07f1aa3-robot/project
+
+  
+
+my chat project shared to anyone with the link if anyone wants to see what I yapped about, it probably only contains half of my actual threads I'll find and add the rest cuz theres a lot more than weren't in that project.
+
+  
+
+![Pasted picture](media/pasted-3849c3226f54af6f6e983120a3a5bd650fa03f53605f9d62de192246918f849c.png)
+
+**Total time spent: 3h**
