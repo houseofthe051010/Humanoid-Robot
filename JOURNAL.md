@@ -625,9 +625,9 @@ Before I submit I wanted to my fusion timelines as timelapse GIFs in order to va
 
 **Total time spent: 0.2h**
 
-# 2026-08-05: Important note to reviewers
+# 2026-08-21: Important note to reviewers
 
-Date: 2026-08-05 (Aug 5, 2026, 2:17 PM)
+Date: 2026-08-21 (Aug 21, 2026, 2:17 PM)
 
 Ok, so I have submitted my robot for review in macondo but a whole month has passed and I honestly want to work on it and don't want to let the long review process stop me from working on it.
 
@@ -647,9 +647,9 @@ It had been a month since I last worked on this project and I had new cad and de
 
 **Total time spent: 0.05h**
 
-# 2026-08-25: Learning how to simulate the robot
+# 2026-08-22: Learning how to simulate the robot
 
-Date: 2026-08-25 (Aug 25, 2026, 1:39 PM)
+Date: 2026-08-22 (Aug 22, 2026, 1:39 PM)
 
 I realized the development process was flawed. I was designing from the ground up, letting my actuator size dictate my robot's shape and mass, but first, I needed to overcome a major skill gap: simulating the robot's movements digitally.
 
@@ -677,9 +677,9 @@ As you can see, there are many H1 robots in this picture.
 
 **Total time spent: 1.5h**
 
-# 2026-08-26: Learning Isaac Lab, playing with H1 and G1 robots
+# 2026-08-23: Learning Isaac Lab, playing with H1 and G1 robots
 
-Date: 2026-08-26 (Aug 26, 2026, 4:34 PM)
+Date: 2026-08-23 (Aug 23, 2026, 4:34 PM)
 
 I had spent a lot of time today training and testing these H1 and G1 robots. This was directly helping me understand how to use Isaac Lab for my own robot.
 
@@ -719,9 +719,9 @@ This was useful and helped me get a grasp on how much torque I'll need for my ro
 
 **Total time spent: 2h**
 
-# 2026-08-29: Training my own robot in Isaac Lab
+# 2026-08-27: Training my own robot in Isaac Lab
 
-Date: 2026-08-29 (Aug 29, 2026)
+Date: 2026-08-27 (Aug 27, 2026)
 
 Today was exciting because I made my own CAD model for a robot. I spent a lot of my time learning how to create and configure joints in Fusion 360, and then ran training simulations and tested the model in Isaac Lab.
 
@@ -828,9 +828,9 @@ This was a great lesson for when I train my humanoid in the future. A better bac
 
 **Total time spent: 6h**
 
-# 2026-08-29: Making a rough humanoid robot mock-up
+# 2026-09-04: Making a rough humanoid robot mock-up
 
-Date: 2026-08-29 (Aug 29, 2026, 8:30 PM)
+Date: 2026-09-04 (Sep 4, 2026, 8:30 PM)
 
 Today, I spent the whole day making a rough mock-up sketch of a humanoid robot that is 5 feet tall, using a 1:15 differential joint for the knees.
 
@@ -971,9 +971,9 @@ I was gonna leave this chain training overnight on my GPU. Time to check in tomo
 
 **Total time spent: 7h**
 
-# 2026-08-30: Analyzing the training
+# 2026-09-06: Analyzing the training
 
-Date: 2026-08-30 (Aug 30, 2026, 10:19 PM)
+Date: 2026-09-06 (Sep 6, 2026, 10:19 PM)
 
 Ok, so overnight, I trained my robot.
 
@@ -1015,9 +1015,9 @@ I will train overnight again, with these fixes made, so the robot moves more nat
 
 **Total time spent: 1.5h**
 
-# 2026-08-31: Improving the walking training
+# 2026-09-08: Improving the walking training
 
-Date: 2026-08-31 (Aug 31, 2026, 7:35 PM)
+Date: 2026-09-08 (Sep 8, 2026, 7:35 PM)
 
 So for this new training session, I had significantly improved my robot's reward and gait movement training. I learned a lot from the failure of the last attempt. This time, I was going to train just walking and see how it does, perfect it, and then train running from there.
 
@@ -1071,9 +1071,9 @@ I will be making chanegs to my training now, and re training the walking using a
 
 **Total time spent: 2h**
 
-# 2026-09-01: Finding cheaper actuators
+# 2026-09-09: Finding cheaper actuators
 
-Date: 2026-09-01 (Sep 1, 2026, 6:42 PM)
+Date: 2026-09-09 (Sep 9, 2026, 6:42 PM)
 
 3 Hours.
 
@@ -1127,9 +1127,9 @@ In the end I decided to go main with the 7010-8 motor because it had the highest
 
 **Total time spent: 3h**
 
-# 2026-09-02: Improving the training
+# 2026-09-10: Improving the training
 
-Date: 2026-09-02 (Sep 2, 2026, 11:17 AM)
+Date: 2026-09-10 (Sep 10, 2026, 11:17 AM)
 
 I had paused the robot at some way into the training, this is what it looked like:
 
@@ -1157,9 +1157,9 @@ After 8 hours, it didn't work. I decided to give up on this because I had enough
 
 **Total time spent: 3h**
 
-# 2026-09-10: Time to start redesign, overview of current design
+# 2026-09-12: Time to start redesign, overview of current design
 
-Date: 2026-09-10 (Sep 10, 2026, 11:42 AM)
+Date: 2026-09-12 (Sep 12, 2026, 11:42 AM)
 
 So it has been a while and I need to reflect on my design and decide what to do. I great thing I did was I pulled up another open source robot, the asimov robot, and used it as an example for my design.
 
@@ -1296,9 +1296,9 @@ I can see they use my same 3d printed thing to combine the roll and the pitch wh
 
 **Total time spent: 3h**
 
-# 2026-10-20: Cadding the shin
+# 2026-09-15: Cadding the shin
 
-Date: 2026-10-20 (Oct 20, 2026, 8:40 PM)
+Date: 2026-09-15 (Sep 15, 2026, 8:40 PM)
 
 I spent a while thinking about how this should be.
 
@@ -1322,9 +1322,9 @@ For my motors, they are the same 7010-8s I discussed earlier. The roll and pitch
 
 **Total time spent: 4.5h**
 
-# 2026-10-20: More cadding the shin
+# 2026-09-16: More cadding the shin
 
-Date: 2026-10-20 (Oct 20, 2026, 8:49 PM)
+Date: 2026-09-16 (Sep 16, 2026, 8:49 PM)
 
 I decided it would be a great idea to switch the shin around.
 
@@ -1397,9 +1397,9 @@ After adding motion limits to the jacobian differntial linkage (adding joints/mo
 
 **Total time spent: 4h**
 
-# 2026-10-20: Cadding the shin again and then making the knee system
+# 2026-09-18: Cadding the shin again and then making the knee system
 
-Date: 2026-10-20 (Oct 20, 2026, 9:03 PM)
+Date: 2026-09-18 (Sep 18, 2026, 9:03 PM)
 
 Ok so the problem was that the 6mm rods are way too thin to handle the torque and the pressure of the foot slamming on the ground
 
@@ -1494,9 +1494,9 @@ I also started to make my bom in github, and tried finding cheap parts on aliexp
 
 **Total time spent: 4h**
 
-# 2026-10-21: Continue working on upper leg
+# 2026-09-19: Continue working on upper leg
 
-Date: 2026-10-21 (Oct 21, 2026, 6:27 PM)
+Date: 2026-09-19 (Sep 19, 2026, 6:27 PM)
 
 So I had to decide what motor I was going to use on my upper leg. A choice I was contemplating for a while was the 10018 dji motor. In fact it is literally the cheapest available.
 
@@ -1607,9 +1607,9 @@ And here is a label of what each motor is if its confusing.
 
 **Total time spent: 3h**
 
-# 2026-10-21: More Upper Leg: Defining the hip motors
+# 2026-09-20: More Upper Leg: Defining the hip motors
 
-Date: 2026-10-21 (Oct 21, 2026, 6:59 PM)
+Date: 2026-09-20 (Sep 20, 2026, 6:59 PM)
 
 So heres a more refined version. I mirrored the entire thing and made it an actual bipedal. 
 
@@ -1667,9 +1667,9 @@ Chatgpt was very useful in helping me decide the chain and sprocket values to us
 
 **Total time spent: 4h**
 
-# 2026-10-21: more work on upper leg
+# 2026-09-22: more work on upper leg
 
-Date: 2026-10-21 (Oct 21, 2026, 7:18 PM)
+Date: 2026-09-22 (Sep 22, 2026, 7:18 PM)
 
 So my knee motors were going to be outputting up to 120NM of torque. To make sure my "3D PRINTED PLASTIC CASE BECAUSE IM TOO BROKE FOR ALUMINUM" handle it, I had it support the motor from both sides of the ovals. This had another effect: It made the frame stronger as the ovals were connected side to side. 
 
@@ -1751,9 +1751,9 @@ So this time, I was thinking of using cheaper 6010-8 motors. I had initially tho
 
 **Total time spent: 3h**
 
-# 2026-10-21: Working more on waist and upper legs
+# 2026-09-23: Working more on waist and upper legs
 
-Date: 2026-10-21 (Oct 21, 2026, 9:32 PM)
+Date: 2026-09-23 (Sep 23, 2026, 9:32 PM)
 
 ![Pasted picture](media/pasted-c3ee9dd988052d5dae143f3605f2174879573ac436cad7d2ba40b81b639db704.png)
 
@@ -1815,9 +1815,9 @@ here is a sketch of how I want the robot looking like
 
 **Total time spent: 3h**
 
-# 2026-10-21: Making shoulders
+# 2026-09-24: Making shoulders
 
-Date: 2026-10-21 (Oct 21, 2026, 9:46 PM)
+Date: 2026-09-24 (Sep 24, 2026, 9:46 PM)
 
 So heres what I was thinking for the shoulders
 
@@ -1851,9 +1851,9 @@ I actually did a lot of research for the shoulders. I thought of using tendon dr
 
 **Total time spent: 3h**
 
-# 2026-10-21: Working more on upper body
+# 2026-09-25: Working more on upper body
 
-Date: 2026-10-21 (Oct 21, 2026, 9:55 PM)
+Date: 2026-09-25 (Sep 25, 2026, 9:55 PM)
 
 For the arms, I hadn't decided yet on what motors to put. In fact I was literally thinking of using the same 6010-8 motors! Maybe it would help my robot do pull ups.
 
@@ -1914,9 +1914,9 @@ Currently I had made a box to put my electronics since I had extra space, but I 
 
 **Total time spent: 4h**
 
-# 2026-10-22: Improving hip area
+# 2026-09-26: Improving hip area
 
-Date: 2026-10-22 (Oct 22, 2026, 9:53 PM)
+Date: 2026-09-26 (Sep 26, 2026, 9:53 PM)
 
 I created much better hip pitch and roll joints. The current aluminum adapters were just drafts and were cantilevered very bad. This new design utilize more surface area and was able to handle the ~2600 newton loads of the robot which I estimated would be at the hip.
 
@@ -1987,9 +1987,9 @@ I'll do that later. I wanna make the casings so the robot looks good now.
 
 **Total time spent: 4h**
 
-# 2026-10-22: Making casings for the robot
+# 2026-09-27: Making casings for the robot
 
-Date: 2026-10-22 (Oct 22, 2026, 10:02 PM)
+Date: 2026-09-27 (Sep 27, 2026, 10:02 PM)
 
 Made the casings for my torso, pelvis, and arms. The hands already came with them so I didn't make anything for that.
 
@@ -2019,9 +2019,9 @@ Same goes for the waist which was in two pieces.
 
 **Total time spent: 3h**
 
-# 2026-11-01: Buying some parts and measuring them
+# 2026-09-28: Buying some parts and measuring them
 
-Date: 2026-11-01 (Nov 1, 2026, 3:59 PM)
+Date: 2026-09-28 (Sep 28, 2026, 3:59 PM)
 
 So a week earlier I bought some parts that im using in my ankles for my RSU diff because I needed some info that wasn't available in datasheets.
 
@@ -2035,7 +2035,7 @@ I bought the pillow block bearings and everything needed for my ankle diff syste
 
 So I was measuring the max tilt the bearing could maintain and I used chatgpt and sent it pictures for it to calculate how much tilt it could withstand, I got 35 degrees consistently across pictures.
 
-  
+Bought this a few weeks ago
 
 ![Pasted picture](media/pasted-e15ebe9fcfcdb821fa03de8bde77bcbb55e58688c91c3556f22a34e72e2621a1.png)  
 
@@ -2059,13 +2059,13 @@ I used an older design (one of my earlier prototypes) to talk about it. I made t
 
   
 
-![Pasted picture](media/pasted-ccc0e459641b692ffe4600724184498cdc44958da6998e12b56f27cc631de8f2.png)
+![Pasted picture](media/pasted-50fc96c524fb7e2db5fac55550cbbdc0856a9fad80ccfba190fc795ae6e1866f.png)
 
 **Total time spent: 2h**
 
-# 2026-11-01: Making the wrist systems; Color coding the robot and each part gets its own number
+# 2026-09-29: Making the wrist systems; Color coding the robot and each part gets its own number
 
-Date: 2026-11-01 (Nov 1, 2026, 4:08 PM)
+Date: 2026-09-29 (Sep 29, 2026, 4:08 PM)
 
 So today I updated my entire file structure. I renamed all my robots part, and I color coded it such that all parts that were zinc/steel alloys (NOT aluminum) were colored dark blue, such as the oval rods, whereas 7075 aluminum parts were orange, and light blue parts were plastic, and the motors were red.
 
@@ -2089,9 +2089,9 @@ SHD meant shoulder, TOR mean torso, NCK meant neck, its simple. And then at the 
 
 **Total time spent: 4.5h**
 
-# 2026-11-01: Making casings better also adding electronics
+# 2026-09-30: Making casings better also adding electronics
 
-Date: 2026-11-01 (Nov 1, 2026, 4:14 PM)
+Date: 2026-09-30 (Sep 30, 2026, 4:14 PM)
 
 So I made the shin look more human, and made its foot like like a shoe/foot. I made it more round.
 
@@ -2162,9 +2162,9 @@ Well I was gonna be using OTA updates anyways so no need for usb ports
 
 **Total time spent: 5h**
 
-# 2026-11-01: Making arm and hip casing
+# 2026-10-01: Making arm and hip casing
 
-Date: 2026-11-01 (Nov 1, 2026, 4:36 PM)
+Date: 2026-10-01 (Oct 1, 2026, 4:36 PM)
 
 Ok so I spent today making the casing for the arms. This was the final result.
 
@@ -2214,11 +2214,43 @@ I liked the initial prototype, just needed some lofts sharp angles, but the knee
 
 **Total time spent: 4h**
 
-# 2026-11-06: Testing motors and measuring them, testing motor drivers
+# 2026-10-02: Import from macondo + Making a motor mount to test 7010-8 motor
 
-Date: 2026-11-06 (Nov 6, 2026, 6:32 PM)
+Date: 2026-10-02 (Oct 2, 2026, 8:19 PM)
 
-So a few weeks back, I had ordered the motors (the 10018s for the legs) and the motor drivers because I needed to test them... As they had very little documentation and I needed to see if they were fit for my robot. 
+So currently I had this is the day that I had imported my project to forge, and I had implemented using lapse to make my cad. Which is sad because I didn't have it for any of my previous cad.
+
+Below is the holder I created for the 7010. It should be in the shin f3z but hidden. It’s the testing rig I made to test its torque.
+
+I have also attached the lapse recording for this here: https://lapse.hackclub.com/timelapse/qh4kLAhgvvr5 
+
+![Pasted picture](media/pasted-6168890e9c18b6331a94edce9821b1c72572d7affb46fde7edee36db0bfb5f2d.png)![Pasted picture](media/pasted-f3d2dbb23a54102c6fc11d5fe24319cdc795841538657b086b413a0b561da68a.png)
+
+**Total time spent: 1.3h**
+
+# 2026-10-04: testing odrive
+
+Date: 2026-10-04 (Oct 4, 2026, 8:18 PM)
+
+lapse 1 20m https://lapse.hackclub.com/timelapse/Jf6q1a4WCvcm
+
+lapse 2 1h 3m https://lapse.hackclub.com/timelapse/NQQwmqQz25k0
+
+  
+
+the odrive boards im supposed to use for my shin of my robot arrived and I got to testing if they worked using the cyclodial drive motor I made earlier in this project
+
+  
+
+![Pasted picture](media/pasted-c11ec916dd62b92f74310683751b6d24b80c3b2fe5e5b2b7977ed38408964284.png)
+
+**Total time spent: 1.5h**
+
+# 2026-10-18: Testing motors and measuring them, testing motor drivers
+
+Date: 2026-10-18 (Oct 18, 2026, 6:32 PM)
+
+So a few weeks back, I had ordered the motors (the 10018s for the legs) and the motor drivers because I needed to test them... As they had very little documentation and I needed to see if they were fit for my robot. Earlier I testing my odrive motor drivers but they didn't fully work and I continued testing with my 10018 motors. 
 
   
 
@@ -2234,11 +2266,70 @@ Worked on taking measurments for the new motor, testing the odrives, and evaluat
 
 ![Pasted picture](media/pasted-e95b75e1d17ef1437924357656aaf9c871c16a71d727457e5fea3f109ba31912.png)pic of odrive from my lapse; same one that is used in the shin of my robot
 
-**Total time spent: 5h**
+  
 
-# 2026-11-11: Final robot reveal making the github repo
+![Pasted picture](media/pasted-27630af250c60dd4bc729709ff7d8304c6c99ba65245dc3f264b6427d1841dac.png)  
 
-Date: 2026-11-11 (Nov 11, 2026, 5:01 PM)
+So the reason why this took me so long is because: 
+
+  
+both odrives were faulty and I had to solder an encoder to my old motor I made aerlier in this project, to make it work, and a load cell to measure its torque, so I can test the motor driver out at different current values and see how it does at very high currents. But for some reason the odrive kept crashing and I used AI to diagnose it using an ST-LINK, and the answer it found was that the board was designed poorly. There are different variants of this board though, and I can always return it for new ones. 
+
+  
+
+So I cadded a mount for them which was hard because I literally didn't have dimensions and needed to derive them from my plastic not rigid calipers
+
+  
+
+![Pasted picture](media/pasted-3d4dfa2cab70f7ed1e7ff4e3f16993441055c57859b3f2cb3a06540902a96810.png)  
+
+I made an iteration of cad checking some holes
+
+  
+
+![Pasted picture](media/pasted-c6acba1a4b9cb657825429629118368855c7f329a35d088180b2d46c9d421163.png)  
+
+and then made the final mount and mounted it
+
+  
+
+this was the st link setup for debugging it
+
+![Pasted picture](media/pasted-d005b33c56b70f3567cdadd9c085827f70e3c374835a395e8392bdbd74baa83e.png)  
+
+  
+
+this was the setup I used for testing each of the motors, I had bought 4, and my robot designed used 6.
+
+  
+
+![Pasted picture](media/pasted-c392638a8fa710d3bccf2c728fde440a46104ff36116ff63a16a0a0757205c55.png)
+
+**Total time spent: 4h**
+
+# 2026-10-25: Continue diagnosing odrive
+
+Date: 2026-10-25 (Oct 25, 2026, 8:37 PM)
+
+Lapse: 1h https://lapse.hackclub.com/timelapse/RKMk8lSj9du7 
+
+  
+
+So I had gotten a new encoder, which I was also going to use in my final robot design and I was testing it on my already build cyclodial drive. I had diagnosed the problem with the odrives using AI. They worked at a lower voltage but failed at a higher voltage. This was due to bad gate drivers.
+
+  
+
+I couldn't really get a better explanation. A fix was lowering the gate drive current on the board but that would increase switching losses and heat generation on the board.
+
+  
+
+![Pasted picture](media/pasted-d6618a0c8d960d579ca3e3297c2a5ce5f9ea187245511aa7ee20d687d4b31862.png)
+
+**Total time spent: 1h**
+
+# 2026-11-01: Final robot reveal making the github repo
+
+Date: 2026-11-01 (Nov 1, 2026, 5:01 PM)
 
 Added a filesystem for my cad
 
@@ -2264,6 +2355,10 @@ For the esp32 firmware, I put the c++ transformed version of the nueral network 
 
   
 
-![Pasted picture](media/pasted-74ccd357832f24ce24f85258c7226f9655b5a736e6c875cd6edbb8a528b34c2f.png)
+![Pasted picture](media/pasted-74ccd357832f24ce24f85258c7226f9655b5a736e6c875cd6edbb8a528b34c2f.png)final design:
+
+  
+
+![Pasted picture](media/pasted-d0f872368a1880a5425ba433f8534e01581aaa81248230aa16fcedbceee5d00b.png)
 
 **Total time spent: 1h**
