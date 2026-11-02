@@ -653,6 +653,8 @@ Date: 2026-08-22 (Aug 22, 2026, 1:39 PM)
 
 I realized the development process was flawed. I was designing from the ground up, letting my actuator size dictate my robot's shape and mass, but first, I needed to overcome a major skill gap: simulating the robot's movements digitally.
 
+Idk how to use isaac lab and used chatgpt to walk me through it.
+
 This was crucial, and I realized I needed to first learn physics simulators targeted toward training robot neural networks.
 
 This was going to take a long time, so I first started by downloading Isaac Lab.
@@ -689,7 +691,7 @@ Get the joint torques of the H1 and G1 robots. My robot's estimated load will be
 
 I will test those robots in different scenarios: walking, running, pushing, shoving, going up stairs, and falling, and measure the torque values.
 
-First, I made and used Python scripts that log the joint torque as a CSV.
+First, I made chatgpt make a Python scripts that log the joint torque as a CSV.
 
 In the screenshot, you can see all the data I had collected from one hour of pushing, shoving, and walking at different speeds, taking up over 100 MB.
 
@@ -747,21 +749,11 @@ Next, it was time to export the model as a **URDF** for Isaac Lab. I converted t
 
 Before training, I had to specify the motors' actuator capabilities, velocity limits, friction, damping, and reflected inertia. I chose behavior similar to a BLDC actuator with a 20:1 planetary reduction instead of the low-reduction QDD actuators used on robots such as the MIT Cheetah.
 
-Robot and actuator specifications
+  
 
-| Specification | Hip abduction joints | Hip flexion and knee joints |
+|  |  |   
+ |
 | --- | --- | --- |
-| Gear reduction | 20:1 | 20:1 |
-| Continuous output torque | 12 N·m | 18 N·m |
-| Command torque limit | 45 N·m | 55 N·m |
-| Short saturation torque | 50 N·m | 60 N·m |
-| Command velocity limit | 18 rad/s | 18 rad/s |
-| Simulation velocity ceiling | 22 rad/s | 22 rad/s |
-| Reflected armature | 0.035 kg·m² | 0.045 kg·m² |
-| Position stiffness | 45 N·m/rad | 55 N·m/rad |
-| Velocity damping | 2.5 N·m·s/rad | 3.0 N·m·s/rad |
-| Static / dynamic friction | 0.70 / 0.50 N·m | 0.80 / 0.55 N·m |
-| Viscous friction | 0.030 N·m·s/rad | 0.035 N·m·s/rad |
 
 The actuator model also included a four-second thermal time constant, a zero-to-one-step command delay, torque-speed limiting, and a simple thermal budget that limited how long peak torque could be used.
 
@@ -788,9 +780,9 @@ For the backflip attempt, I retained the jump and landing objectives and added a
 
 Training scale
 
-My testing session lasted about **4 hours**. I ran **2,048 robots in parallel**. The final column below shows the number of parallel environment-iterations, not individual physics timesteps.
+My testing session lasted about **4 hours**. I ran **2,048 robots in parallel**. The final column below shows the number of parallel environment-iterations.
 
-| Training session | Parallel environment-iterations |
+| Training session | envs |
 | --- | --- |
 | Standing | 819,200 |
 | Walking | 2,662,400 |
@@ -798,7 +790,8 @@ My testing session lasted about **4 hours**. I ran **2,048 robots in parallel**.
 | Running with 5 kg payload | 1,638,400 |
 | Jumping | 4,300,800 |
 | Backflip attempt | 5,734,400 |
-| Total | 18,432,000 |
+| apparently chatgpt told me this was enough but it was probably too conservative |   
+ |
 
 I have an RTX 4060 with 8 GB of VRAM, while the setup guidance I was following recommended 16 GB. I was worried that my GPU would not be strong enough, but at 2,048 parallel robots the training used only about 4 GB of VRAM. From that test, I estimated that 8,192 robots might fit with roughly 1 GB left. I would still increase the count gradually and verify VRAM and training throughput, because memory use does not always scale perfectly linearly.
 
@@ -840,23 +833,16 @@ I used resources such as [this NASA report](https://ntrs.nasa.gov/archive/nasa/c
 
 From there, I decided to worry about the motor mass and full-body mass after building the entire robot.
 
-Here is a GIF of me working on the robot's CAD:
+making robot cad
 
 ![CAD process for the humanoid robot mock-up at 2.5x speed](media/local-2026-08-29-humanoid-cad-2.5x.gif)
 
 Here is a table of the proportions:
 
-| Landmark | Previous | Updated |
+|   
+ |  |   
+ |
 | --- | --- | --- |
-| Ankle axis | 80 mm | 80 mm |
-| Knee axis | 400 mm | 450 mm |
-| Hip-pitch axis | 680 mm | 805 mm |
-| Shoulder axis | 1,185 mm | 1,245 mm |
-| Head top | 1,524 mm | 1,524 mm |
-| Thigh length | 280 mm | 355 mm |
-| Shank length | 320 mm | 370 mm |
-| Neck link | 160 mm | 85 mm |
-| Head height | 164 mm | 184 mm |
 
 As you can see, I had made the joints on that. Now, I had to convert it to URDF, and then USD for Isaac Lab, and actually test if the joints work in Isaac Lab. I made a script that makes each joint move, and indeed they work:
 
@@ -868,7 +854,11 @@ In the CAD, I hadn't copied the exact masses of a 5-foot human. I chose 39 kg, w
 
 So here is a table of what motors I was thinking of using. I added a boost factor, as I would probably be using my own custom motor driver to push higher current through the motors:
 
-| Joint | Motor/transmission | Continuous torque | Stock peak | 25%-boosted peak / Isaac limit |
+  
+
+all these torque values were taken from what I was discussing/planning in previous journals and the earlier c6734 moto gearbox I made in reference.
+
+| Joint | motor | Continuous torque | peak | peak2 |
 | --- | --- | --- | --- | --- |
 | Hip yaw | GIM8115-9 | 15.27 Nm | 54.55 Nm | 68.19 Nm |
 | Hip roll | GIM8108-36 | 25.00 Nm | 130.20 Nm | 162.75 Nm |
@@ -900,72 +890,47 @@ Now, to train it, I'm going to utilize my full RTX 4060 and its tiny 8 GB of VRA
 
 For training, my reward system utilized these rewards for standing:
 
-| Term | Weight | Purpose |
+| Term | Weight | Note |
 | --- | --- | --- |
-| Alive | +0.5 | Reward every surviving step |
-| Upright | +3.5 | Keep gravity aligned with the torso’s vertical axis |
-| Height | +2.5 | Track a base height of 0.84 m |
-| Both feet supporting | +1.5 | Prefer stable two-foot support |
-| Planar stillness | +1.0 | Keep horizontal velocity near zero |
-| Failure termination | −200.0 | Strong penalty for falling |
-| Vertical velocity | −1.0 | Prevent bouncing |
-| Roll/pitch angular velocity | −0.10 | Reduce torso rocking |
-| Upper-body posture | −0.10 | Keep waist, arms, and head near neutral |
-| Lateral leg posture | −0.10 | Avoid excessive hip/ankle roll |
-| Left/right asymmetry | −0.12 | Encourage a symmetric stance |
-| Torque squared | −1e-6 | Reduce excessive actuator torque |
-| Joint acceleration | −2e-7 | Reduce vibration |
-| Action-rate change | −0.01 | Prevent rapidly changing commands |
-| Joint-limit use | −1.0 | Avoid extreme joint positions |
-| Foot sliding | −0.30 | Prevent feet sliding on the ground |
-| Non-foot contact | −1.0 | Penalize other body parts touching |
-| Ankle differential violation | −2.0 | Keep ankle motor sums/differences feasible |
+| Alive | +0.5 |   
+ |
+| Upright | +3.5 |   
+ |
+| Height | +2.5 |   
+ |
+| Both feet supporting | +1.5 |   
+ |
+| Planar stillness | +1.0 |   
+ |
+| Failure termination | −200.0 |   
+ |
+| Vertical velocity | −1.0 |   
+ |
+| Roll/pitch angular velocity | −0.10 |   
+ |
+| Upper-body posture | −0.10 |   
+ |
+| Lateral leg posture | −0.10 |   
+ |
+| Left/right asymmetry | −0.12 |   
+ |
+| Torque squared | −1e-6 |   
+ |
+| Joint acceleration | −2e-7 |   
+ |
+| Action-rate change | −0.01 |   
+ |
+| Joint-limit use | −1.0 |   
+ |
+| Foot sliding | −0.30 |   
+ |
+| Non-foot contact | −1.0 |   
+ |
+| Ankle differential violation | −2.0 |   
+ |
 
-These rewards for walking:
-
-| Walking-specific term | Weight |
-| --- | --- |
-| Gated velocity tracking | +4.0 |
-| Yaw-rate tracking | +1.5 |
-| Swing-foot air time | +0.5 |
-| Vertical velocity | −0.50 |
-| Lateral velocity | −0.75 |
-| Foot sliding | −0.25 |
-| Joint power | −1e-5 |
-
-These rewards for running:
-
-| Running term | Weight |
-| --- | --- |
-| Gated velocity tracking | +5.0 |
-| Yaw-rate tracking | +1.5 |
-| Swing-foot air time | +0.8 |
-| Upright | +3.5 |
-| Height, target 0.81 m | +1.0 |
-| Vertical velocity | −0.15 |
-| Lateral velocity | −0.75 |
-| Roll/pitch angular velocity | −0.10 |
-| Torque squared | −7.5e-7 |
-| Action-rate change | −0.006 |
-| Joint acceleration | −2e-7 |
-| Joint power | −1e-5 |
-| Foot sliding | −0.25 |
-| Non-foot contact | −1.0 |
-| Ankle differential violation | −2.0 |
-
-And these rewards for getting up:
-
-| Term | Discovery | Refinement |
-| --- | --- | --- |
-| Height toward 0.84 m | +1.5 | +1.5 |
-| Upright orientation | +1.5 | +1.5 |
-| Joint limits | −0.5 | −0.5 |
-| Torque squared | −2e-7 | −1e-6 |
-| Action-rate change | −0.001 | −0.01 |
-| Joint acceleration | −5e-8 | −2e-7 |
-| Joint power | −2e-6 | −7.5e-6 |
-| Head contact | −2.0 | −2.0 |
-| Ankle differential violation | −1.0 | −1.0 |
+  
+Yeah these rewards were mostly copied from the working unitree
 
 I was gonna leave this chain training overnight on my GPU. Time to check in tomorrow.
 
@@ -1034,30 +999,9 @@ Here is a table of my rewards for walking:
 | Alive | Stay active |
 | Terminating | Penalize falls |
 | Upright | Keep torso upright |
-| Height | Maintain pelvis height |
-| Vertical velocity | Reduce bouncing |
-| Roll/pitch velocity | Reduce rocking |
-| Upper-body posture | Stabilize upper body |
-| Lateral posture | Limit sideways joints |
-| Torque | Reduce torque |
-| Acceleration | Smooth joint motion |
-| Action rate | Smooth commands |
-| Joint limits | Avoid joint limits |
-| Foot slide | Prevent slipping |
-| Undesired contacts | Feet-only support |
-| Ankle differential | Stay within motor limits |
-| Velocity tracking | Match walking speed |
-| Yaw tracking | Hold heading |
-| Feet air time | Encourage steps |
-| Lateral velocity | Reduce sideways drift |
-| Joint power | Reduce power |
-| Arm posture | Keep arms controlled |
-| Foot width | Maintain stance width |
-| Foot crossing | Prevent crossed feet |
-| Knee crossing | Prevent crossed knees |
-| Arm/torso clearance | Prevent arm overlap |
-| Foot alignment | Keep feet straight |
-| Single support | Alternate steps |
+| Height | keep pelvis height |
+| like 5 other small ones i dont think do anything |   
+ |
 
 Here is a video of how that went at 2x speed:
 
@@ -1155,7 +1099,7 @@ Time to leave it training for 8 hours, I’ll check in after 2.
 
 After 8 hours, it didn't work. I decided to give up on this because I had enough data
 
-**Total time spent: 3h**
+**Total time spent: 1h**
 
 # 2026-09-12: Time to start redesign, overview of current design
 
@@ -2055,9 +1999,7 @@ I later though about feetech motors because they were much simpler and probably 
 
 https://youtu.be/AoHroBzGvws?si=MZ7ELZSoG7Uv3MJD 
 
-I used an older design (one of my earlier prototypes) to talk about it. I made this video like 2 journals ago but wanted to claim my hours for it so I am mentioning it here.  
-
-  
+I used an older design (one of my earlier prototypes) to talk about it. I made this video like 2 journals ago but uploaded it to yt today.
 
 ![Pasted picture](media/pasted-50fc96c524fb7e2db5fac55550cbbdc0856a9fad80ccfba190fc795ae6e1866f.png)
 
@@ -2160,7 +2102,7 @@ I made holes for its access so I can program it 
 
 Well I was gonna be using OTA updates anyways so no need for usb ports
 
-**Total time spent: 5h**
+**Total time spent: 6h**
 
 # 2026-10-01: Making arm and hip casing
 
@@ -2326,6 +2268,28 @@ I couldn't really get a better explanation. A fix was lowering the gate drive cu
 ![Pasted picture](media/pasted-d6618a0c8d960d579ca3e3297c2a5ce5f9ea187245511aa7ee20d687d4b31862.png)
 
 **Total time spent: 1h**
+
+# 2026-10-28: training robot isaac lab
+
+Date: 2026-10-28 (Oct 28, 2026, 9:56 PM)
+
+Trained it using some updated values for my joint torques but the same reward system I used for the 5 foot one. This ran for 7 days straight on my computer btw. 
+
+  
+
+1 m/s
+
+![Robot locomotion at 1 m/s, normal playback speed](media/physical-v29-locomotion-100-clean-1x.gif)
+
+3 m/s
+
+![Robot locomotion at 3 m/s, normal playback speed](media/physical-v29-locomotion-300-clean-1x.gif)
+
+3.5 m/s
+
+![Robot locomotion at 3.5 m/s, normal playback speed](media/physical-v29-locomotion-350-clean-1x.gif)
+
+**Total time spent: 0.6h**
 
 # 2026-11-01: Final robot reveal making the github repo
 

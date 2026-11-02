@@ -10,6 +10,7 @@ I built it for fun and because I like robots.
 
 ![Humanoid robot assembly](media/pasted-d0f872368a1880a5425ba433f8534e01581aaa81248230aa16fcedbceee5d00b.png)
 
+![Robot walking in Isaac Lab at 1 m/s](media/physical-v29-locomotion-100-clean-1x.gif)
 
 ## Features
 
