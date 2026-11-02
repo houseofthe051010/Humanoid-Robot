@@ -15,7 +15,7 @@ I also looks into MIT's robot dog, that Katz made, using the now popular QDD (qu
 
 Looking online, I found the best and cheapest motors that were available and had high torque would be pancake style drone motors- such as the 10018 DJI 77kv motor with 15+ NM of torque at the shaft, and the 8318 motor with 5+ NM, and the 6374 which is more for skateboards, not a pancake, but also the cheapest ($40) producing 5+ nm advertised torque at 170kv. I also explored some other options, such as the 5065 motor, which was a little too weak for my taste.
 
-My goals were to maximize torque. Currently, I was only interested in building the LEGs of the robot. Researching, I found out that the unitree g1 and similar humanoids use 12-DOF legs, 2 for ankle, 1 knee, and 3 for hips. I found out that I also wanted to do the same. I contemplated a lot on whether to use 2-DOF for ankle or only 1-DOF, and after a lot of thinking, I thought of using a **differential system,** for my ankles. I wanted to start building it from the ankles and up, which would be the easiest for me, and how I do it in previous projects. I learned about torque, the lever arm, and how my differential system idea is very good, as the weight of the motors will be in the calves, reducing hip load, and how I will use 2 actuators per calve to control both ROLL and PITCH using a rod linkage systems. Big companies do not say their specific specs of their joints, motors, and linkage systems. I found that the new 1X Neo uses a tendon-drive system, which I will look into later, but right now I have chosen this direct drive gearbox motor system as best. I did explore different option for my knees too, from placing the knee motor in the knee, to placing it where your quads were. I'll have flexibility on that regardless on how I design my ankles, and the 3 hip motors, I knew where to place them, I won't have much flexibility on that, but due to the lever arm effect, I decided on placing my knee motors in the quads/lower glutes are.
+My goals were to maximize torque. Currently, I was only interested in building the LEGs of the robot. Researching, I found out that the unitree g1 and similar humanoids use 12-DOF legs, 2 for ankle, 1 knee, and 3 for hips. I found out that I also wanted to do the same. I contemplated a lot on whether to use 2-DOF for ankle or only 1-DOF, and after a lot of thinking, I thought of using a differential system, for my ankles. I wanted to start building it from the ankles and up, which would be the easiest for me, and how I do it in previous projects. I learned about torque, the lever arm, and how my differential system idea is very good, as the weight of the motors will be in the calves, reducing hip load, and how I will use 2 actuators per calve to control both ROLL and PITCH using a rod linkage systems. Big companies do not say their specific specs of their joints, motors, and linkage systems. I found that the new 1X Neo uses a tendon-drive system, which I will look into later, but right now I have chosen this direct drive gearbox motor system as best. I did explore different option for my knees too, from placing the knee motor in the knee, to placing it where your quads were. I'll have flexibility on that regardless on how I design my ankles, and the 3 hip motors, I knew where to place them, I won't have much flexibility on that, but due to the lever arm effect, I decided on placing my knee motors in the quads/lower glutes are.
 
 Right now though, I had to research into actuators. Before I even start building my robot, I had to make a compact actuator targeted towards my ankles. My decision came down to using either a C6374 motor, or a 5065 motor, as they are not pancake-style wide, and to place in the calves, they can't be too wide. ![image](media/entry-21-media-01.png)
 
@@ -249,7 +249,7 @@ Or heres a picture for a quick look:
 
 I hadn't just collected the data at 100A, I had collected the data at multiple different current intervals and found out how this motor performed at each interval, and how much torque/A of current it lost:
 
-**Now what was I going to do with all this data?**
+Now what was I going to do with all this data?
 
 ![image](media/entry-14-media-06.png)
 
@@ -389,7 +389,7 @@ To control my motors, I was going to use these controllers compactly placed on t
 
 ![image](media/entry-10-media-02.png)
 
-**This odrive 3.6 dual axis clone was a STEAL. It was 35 dollars of off bang good and could power 2 motors at 150A.**
+This odrive 3.6 dual axis clone was a STEAL. It was 35 dollars of off bang good and could power 2 motors at 150A.
 
 ![image](media/entry-10-media-03.png)
 
@@ -731,11 +731,11 @@ Here is a GIF of me building my quadruped. I chose a quadruped instead of a huma
 
 ![Building the quadruped in Fusion 360 at 2.5x speed](media/local-2026-08-29-building-quadruped-2.5x.gif)
 
-As shown in the recording, I learned how to create an assembly and add revolute joints. I also added mass properties to every body, which was crucial for the simulation. I estimated the masses by comparing the design with real quadrupeds. The normal robot's modeled mass was **22.8 kg**.
+As shown in the recording, I learned how to create an assembly and add revolute joints. I also added mass properties to every body, which was crucial for the simulation. I estimated the masses by comparing the design with real quadrupeds. The normal robot's modeled mass was 22.8 kg.
 
 Adding a payload
 
-I added a **5 kg payload** to test whether the robot could still run while carrying a load. This brought the simulated robot's total mass to **27.8 kg**.
+I added a 5 kg payload to test whether the robot could still run while carrying a load. This brought the simulated robot's total mass to 27.8 kg.
 
 ![The 5 kg payload highlighted in blue in Fusion 360](media/local-2026-08-29-payload-5kg-fusion.png)
 
@@ -745,7 +745,7 @@ I watched this YouTube playlist to learn how to simulate and configure the joint
 
 Moving the model into Isaac Lab
 
-Next, it was time to export the model as a **URDF** for Isaac Lab. I converted the model to URDF, generated the USD asset used by Isaac Sim, and added it to my custom Isaac Lab task.
+Next, it was time to export the model as a URDF for Isaac Lab. I converted the model to URDF, generated the USD asset used by Isaac Sim, and added it to my custom Isaac Lab task.
 
 Before training, I had to specify the motors' actuator capabilities, velocity limits, friction, damping, and reflected inertia. I chose behavior similar to a BLDC actuator with a 20:1 planetary reduction instead of the low-reduction QDD actuators used on robots such as the MIT Cheetah.
 
@@ -780,7 +780,7 @@ For the backflip attempt, I retained the jump and landing objectives and added a
 
 Training scale
 
-My testing session lasted about **4 hours**. I ran **2,048 robots in parallel**. The final column below shows the number of parallel environment-iterations.
+My testing session lasted about 4 hours. I ran 2,048 robots in parallel. The final column below shows the number of parallel environment-iterations.
 
 | Training session | envs |
 | --- | --- |
@@ -958,7 +958,7 @@ Walking dashboard video (These html data visualizers are made by chatgpt! I used
 
 ![Walking training dashboard video](media/local-2026-08-30-humanoid-walk-dashboard-2x.gif)
 
-Here is a video of it running at 4 m/s. According to the physics data, it was actually running at **3.984 meters per second**. That's definitely due to the way it's moving, and the joint errors.
+Here is a video of it running at 4 m/s. According to the physics data, it was actually running at 3.984 meters per second. That's definitely due to the way it's moving, and the joint errors.
 
 4 m/s running dashboard video (These html data visualizers are made by chatgpt! I used them to visualize the robot and how much force its joints take as it moves)
 
@@ -1835,12 +1835,12 @@ These are the ones i compared
 
 | Camera considered | Edits |
 | --- | --- |
-| **Yahboom AI VIEW** | **Selected** at $199 with onboard MX6000 depth processing. |
-| **Luxonis OAK-D Lite** | Main alternative |
-| **Orbbec Gemini 2 / 2L** |  no final selection. |
-| **Intel RealSense D435** |  no final selection. |
-| **Stereolabs ZED Mini** | no final selection. |
-| **Arducam and Sipeed options** |  but no specific model was documented |
+| Yahboom AI VIEW | Selected at $199 with onboard MX6000 depth processing. |
+| Luxonis OAK-D Lite | Main alternative |
+| Orbbec Gemini 2 / 2L |  no final selection. |
+| Intel RealSense D435 |  no final selection. |
+| Stereolabs ZED Mini | no final selection. |
+| Arducam and Sipeed options |  but no specific model was documented |
 
 So I was stuck between this: Whether or not I wanted on board stereo vision processing. I eventually went it yes for on board processing. This is because it might make my hardware signifcantly cheaper. I have an esp32 p4 and those are very powerful. I can essentially run the entire nueral network on that and the camera processing is done on the camera so no need for expensive hardware like a raspberry pi.
 
@@ -1916,10 +1916,11 @@ For the hands, I thought of using an already established hand as there are many 
 
   
 
-I used chatgpt to research what hands to use. After some comparison with different prices and types of arm architectures, I chose the **Pollen Robotics AmazingHand. This hand is not cadded by me and is imported.** 
+I used chatgpt to research what hands to use. After some comparison with different prices and types of arm architectures, I chose the Pollen Robotics AmazingHand. This hand is not cadded by me and is imported. 
 
-**![Pasted picture](media/pasted-1bf66f91b2d2cddbde293756dc4c0a9dd7860a002022eb472189f9506584eca8.png)  
-**
+  
+
+![Pasted picture](media/pasted-1bf66f91b2d2cddbde293756dc4c0a9dd7860a002022eb472189f9506584eca8.png)  
 
 Its pretty cheap at around 100 dollars per hand to make. It has 4 fingers.
 
