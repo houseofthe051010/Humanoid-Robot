@@ -10,7 +10,6 @@ I built it for fun and because I like robots.
 
 ![Humanoid robot assembly](media/pasted-d0f872368a1880a5425ba433f8534e01581aaa81248230aa16fcedbceee5d00b.png)
 
-![Humanoid robot design](media/pasted-74ccd357832f24ce24f85258c7226f9655b5a736e6c875cd6edbb8a528b34c2f.png)
 
 ## Features
 
