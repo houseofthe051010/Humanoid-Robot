@@ -1,3 +1,5 @@
+( im still working on this ill add better visuals and renders in a sec)
+
 Before you start
 
 Printing: print every [PR] part. Your old shin notes say PA6-CF, 100% infill, walls. The thin spacers (505, 506) look like TPU from their names.
