@@ -16,11 +16,12 @@ I built it for fun and because I like robots.
 
 * Cheap easy to source BOM
 * Estimated 300+NM knee torque
-* Differential ankle and wrist mechanisms
+* Differential ankle, waist and wrist mechanisms
 * ESP32-P4/C6 host controller
 * Nueral network policy trained in ISAAC LAB
 * Yahboom AI VIEW depth camera
 * 12S3P battery pack using 36 21700 cells
+* Same amount of DOF as a human
 
 # Building it yourself
 
