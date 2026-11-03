@@ -230,49 +230,43 @@ The finished robot:
 
 ## Wiring
 
-The wires are not in the CAD. Follow the [schematic](Schematics/Humanoid_Electronics.pdf) for the connections. Wire sizes below come from the schematic.
+Use the [schematic](Schematics/Humanoid_Electronics.pdf) for electrical. It details wire AWG sizes and connections.
 
 ### Power
 
-The battery (106) comes assembled with its JBD 12S 60A BMS. Run the BMS output (P+, P−) to the electronics box with 12 AWG wire. This is VBAT.
 
-The three DC-DC converters go in the electronics box (they are not in the CAD): 5 V / 25 A, 12 V / 20 A and 24 V / 10 A. Feed each from VBAT with 12 AWG wire.
+Put the three DC buck converters in the electronics box connecting it to the battery.
 
-- 5 V: ESP32-P4 (22 AWG), depth camera and the hand servos
+This is a mapping of where each voltage should go:
+- 5 V: ESP32-P4, depth camera and the hand servos
 - 12 V: STS3215 head and wrist servos
 - 24 V: elbow servos
 
 ### Motor drivers
 
-Every round FOC-68 motor driver and both ankle ODrives get two power wires (VBAT and GND), then CAN high and CAN low to their bus:
+Every steadywin driver and both ankle ODrives get two power wires (VBAT and GND), then their corresponding can wires detailed in the schematic (2 wires).:
 
-- CAN A, left leg: hip yaw, hip roll, hip pitch, knee and the left ankle ODrive
-- CAN B, right leg: the same motors on the right leg
-- CAN C, shoulders and waist: left and right shoulder pitch and roll, waist pitch, waist roll and waist yaw
+- Each motor driver should have 4 wires, except for the shin odrives where you need to attach 4 spi wires for the encoders.
 
-Use 12 AWG for the leg motor phase wires and 22 AWG for the CAN C motor phase wires. Each ankle ODrive drives both ankle motors and reads both AS5047P encoders on its shin.
 
-The three CAN buses connect to the ESP32-P4 through three SN65HVD230 CAN transceivers powered from 3.3 V: CAN A on GPIO 1/2, CAN B on GPIO 3/4 and CAN C on GPIO 5/6 (TX/RX).
+The three CAN buses connect to the ESP32-P4 through three SN65HVD230 CAN transceivers.
 
 ### Servos
 
-The servos get two power wires and one single-wire half-duplex UART data wire. Pull each data line up to 3.3 V.
+The servos get two power wires and one single-wire half-duplex UART data wire. You need a pull up resistor for connection to esp32.
 
-- Head and wrist STS3215 servos: 12 V, GND, data to GPIO 20
-- Hand SCS0009 servos: 5 V, GND, data to GPIO 21
-
-The two elbow servos are the exception: they take 24 V, GND and a PWM signal, left elbow on GPIO 22 and right elbow on GPIO 23.
+Follow the schematic to get detailed pinouts and wiring AWG.
 
 ### Sensors
 
-- BNO085 IMU (154): 3.3 V, GND, SDA to GPIO 7, SCL to GPIO 8, INT to GPIO 26, RST to GPIO 36, using 26 AWG
-- Depth camera (001): USB to the ESP32-P4 USB host port
+- The depth camera is connected using usb c
+- IMU is connected using spi
 
 ## Flashing the firmware
 
 ### ESP32-P4 main controller
 
-The source is in [`firmware/ESP32-P4 Host controller/`](firmware/ESP32-P4%20Host%20controller/) and the compiled images are in its [`images/`](firmware/ESP32-P4%20Host%20controller/images/) folder. The images are built for chip revision 3.1 or newer.
+The compiled binary is in: [`images/`](firmware/ESP32-P4%20Host%20controller/images/) folder.
 
 Install [esptool](https://docs.espressif.com/projects/esptool/en/latest/esp32p4/installation.html), connect the ESP32-P4 and run:
 
