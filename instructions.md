@@ -275,12 +275,5 @@ cd "firmware/ESP32-P4 Host controller/images"
 esptool --chip esp32p4 --port COM3 write-flash 0x2000 bootloader.bin 0x8000 partition-table.bin 0x10000 humanoid_p4.bin
 ```
 
-Replace COM3 with the serial port your ESP32-P4 is on.
+OR, you can use esp32 web flasher to do it also. Might be easier if you don't have esp-idf.
 
-### Motor drivers
-
-Set every motor driver and ODrive to 500 kbit/s CAN and give it the node ID listed for its motor in [`can_motors.c`](firmware/ESP32-P4%20Host%20controller/main/can_motors.c).
-
-### Servos
-
-The servo buses run at 1 Mbit/s. Give the head servos IDs 1 and 2 and the wrist servos IDs 3 to 6. The hand servos use IDs 1 to 16 on their own bus.
