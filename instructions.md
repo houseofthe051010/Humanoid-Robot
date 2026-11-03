@@ -198,7 +198,7 @@ Mount the depth camera (001) on the head pitch yoke, then close the head with th
 
 ## Arms
 
-The pictures show the left arm. Build the right arm the same way: it is a mirror of the left arm and uses the same part numbers with `-R` instead of `-L`.
+Below are instructions of left arm, build the right arm as a mirror of left.
 
 Mount the GWK 6010 shoulder pitch stator (256) on the pitch motor face mount (252) in the shoulder socket of the spine frame with its mount screws. Fit the 6810 pitch bearing (259) and hold it with the outer race retainer (251), then mount the shoulder pitch FOC-68 driver (254).
 
