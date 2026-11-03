@@ -2,7 +2,9 @@
 
 Prior to building, take a look at the Fabrication STLs folder and have all the parts there 3D printed and CNCd, along with everything else in the BOM. Each part has its own part number so make sure to organize accordingly.
 
-The pictures show the left leg. Blue labels give the part number and whether it is 3D printed (FDM), CNC machined (CNC) or bought (BUY). Yellow labels show the screws.
+Below are the instructions for the left leg, which will be mirrored for the right. The blue labels are the part number and whether it is 3D printed (FDM), CNC machined (CNC) or bought (BUY) and the yellow labels show the screws.
+
+The robot hasn't been assembled IRL yet, so don't expect this build guide to go without failure.
 
 ## Foot
 
