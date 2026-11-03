@@ -8,6 +8,7 @@ The robot hasn't been assembled IRL yet, so don't expect this build guide to go 
 
 Here are a few problems with it explaining why it likely won't work:
 
+Some screws are in weird or hard to reach places and I haven't printed it out yet to see if it will actually assemble, like the screws for the head casing. 
 I haven't modeled the internal gearboxes for the hip pitch/roll/knee motors because I don't have the dimensions for them and need the actual motor IRL to measure it, an I am awaiting Forge grant so I can get required materials to do this.
 
 ## Foot
