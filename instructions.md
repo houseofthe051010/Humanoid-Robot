@@ -118,6 +118,12 @@ Bolt the roll-to-pitch fork (401) onto the roll output.
 
 ![Roll to pitch fork](media/build-guide/26-hip-fork.png)
 
+## Thigh casing
+
+Fit the front and rear thigh casings (469, 470) around the thigh, from the hip roll down to the knee. They close around the knee motor and chain.
+
+![Thigh casings](media/build-guide/26b-thigh-casing.png)
+
 ## Waist
 
 Join the waist front and rear covers (224, 225) with the M4 bolts and nuts.
@@ -135,3 +141,55 @@ Build the right leg the same way. It is a mirror of the left leg and uses the sa
 Mount the GWK 7010 waist yaw motor (214) in its round holder (210) with the M3x8 button screws, fit the four metal risers (207.1 to 207.4) and the waist yaw FOC-68 driver (212), and bolt it down with the M4 bolts.
 
 ![Waist yaw motor and driver](media/build-guide/30-waist-yaw.png)
+
+## Torso
+
+Put the 6808 waist bearing on top of the yaw motor: the bearing seat (208), the outer race (222) with its seal, the inner race (217) on the 40 mm bearing journal (218), and the outer race retainer (209) held down with M2.5x6 flat head screws.
+
+![Waist bearing](media/build-guide/31-waist-bearing.png)
+
+Bolt the lower pitch base (201) to the yaw output with M3x18 screws. Fit the waist pitch joint (203) on it with the lower pitch pin (215) and its bushings, and the 6 mm base cross pin (216) with the pin spacers (202).
+
+![Waist pitch base and joint](media/build-guide/32-waist-pitch-base.png)
+
+Fit the pitch-to-roll bridge (204) on top with the upper roll pin (220) and its bushings.
+
+![Pitch to roll bridge](media/build-guide/33-waist-roll-bridge.png)
+
+Mount the upper roll spine carrier (205) on the bridge and push the spine oval tube (206) into it with the spine crossbolts. Mount the two GWK 6010 waist roll motors (213.1, 213.2) and their FOC-68 drivers (211-L, 211-R) on the carrier.
+
+![Waist roll motors on the spine carrier](media/build-guide/34-waist-roll-motors.png)
+
+Bolt a waist crank onto each waist roll motor output, and connect each crank to the end of the 6 mm base cross pin (216) with an M6 tie rod.
+
+![Waist cranks and tie rods](media/build-guide/35-waist-linkage.png)
+
+Put the TPU pad (102) in the battery lower cradle (101), set the 12S3P battery (106) on it, and close it with the upper restraint (103) using the M4 screws.
+
+![Battery cradle](media/build-guide/36-torso-battery.png)
+
+Clamp the internal shoulder spine frame (104) onto the spine tube with the two spine clamp caps (105.1, 105.2) and the M3 crossbolts and nuts.
+
+![Spine frame](media/build-guide/37-torso-frame.png)
+
+Mount the electronics box spine mount (152) and the electronics case (151). Screw the ESP32-P4 main board (153) in on 10 mm standoffs with M2.5x6 screws, and the BNO085 IMU (154) on 10 mm standoffs with M2x6 screws.
+
+![Torso electronics](media/build-guide/38-torso-electronics.png)
+
+Close the torso with the shell pieces (108 to 112, left and right), the USB-C service panels (115), the splices (113) and the blue identifier (107), using the torso shell screws.
+
+![Torso casing](media/build-guide/39-torso-casing.png)
+
+## Neck and head
+
+Fit the neck yaw: the oval spine servo adapter (051) on top of the spine, the 6005 bearing (063) with its retainer (053), the Feetech yaw servo (057) held by the yaw servo clamp (052), and the head yaw output (054).
+
+![Neck yaw](media/build-guide/40-neck-yaw.png)
+
+Clamp the Feetech pitch servo (060) to the head yaw output with the pitch servo clamp (055) and M3 screws, fit the head pitch yoke (056) on it, and put the neck yaw collar (065) over the neck.
+
+![Neck pitch](media/build-guide/41-neck-pitch.png)
+
+Mount the depth camera (001) on the head pitch yoke, then close the head with the front shell (002), the camera visor bezel (003) and the removable rear shell (004) using the head shell screws.
+
+![Head](media/build-guide/42-head.png)
