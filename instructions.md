@@ -6,6 +6,10 @@ Below are the instructions for the left leg, which will be mirrored for the righ
 
 The robot hasn't been assembled IRL yet, so don't expect this build guide to go without failure.
 
+Here are a few problems with it explaining why it likely won't work:
+
+I haven't modeled the internal gearboxes for the hip pitch/roll/knee motors because I don't have the dimensions for them and need the actual motor IRL to measure it, an I am awaiting Forge grant so I can get required materials to do this.
+
 ## Foot
 
 Attach the replaceable sole (558) to the bottom of the foot plate (557).
