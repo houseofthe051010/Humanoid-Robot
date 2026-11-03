@@ -193,3 +193,98 @@ Clamp the Feetech pitch servo (060) to the head yaw output with the pitch servo 
 Mount the depth camera (001) on the head pitch yoke, then close the head with the front shell (002), the camera visor bezel (003) and the removable rear shell (004) using the head shell screws.
 
 ![Head](media/build-guide/42-head.png)
+
+## Arms
+
+The pictures show the left arm. Build the right arm the same way: it is a mirror of the left arm and uses the same part numbers with `-R` instead of `-L`.
+
+Mount the GWK 6010 shoulder pitch stator (256) on the pitch motor face mount (252) in the shoulder socket of the spine frame with its mount screws. Fit the 6810 pitch bearing (259) and hold it with the outer race retainer (251), then mount the shoulder pitch FOC-68 driver (254).
+
+![Shoulder pitch](media/build-guide/50-shoulder-pitch.png)
+
+Build the shoulder roll on the pitch carrier roll housing (253): the GWK 6010 pitch rotating hub (257) with the inner collar (260), and the GWK 6010 roll stator (258) with its mount screws. Mount the shoulder roll FOC-68 driver (255).
+
+![Shoulder roll](media/build-guide/51-shoulder-roll.png)
+
+Fit the roll driven output (301) and the 6005 rear support bearing (305) with the rear bearing cap (306), using the drive and retainer screws. Mount the upper-arm fork (302) on the roll output and put the elbow servo (304) in its cradle.
+
+![Upper arm](media/build-guide/52-upper-arm.png)
+
+Fit the forearm fork (351) onto the elbow servo outputs with the driven horn (355) and the rear horn (356).
+
+![Forearm](media/build-guide/53-forearm.png)
+
+Build the wrist on the end of the forearm fork: put the two STS3215 servos in the wrist cassette with their straps, then fit the wrist gears, the pitch yoke and the roll output gear.
+
+![Wrist](media/build-guide/54-wrist.png)
+
+Close the arm with the shoulder roll pods (261, 262), the upper arm shells (307, 308) and the forearm shells (357, 358).
+
+![Arm covers](media/build-guide/56-arm-covers.png)
+
+The finished robot:
+
+![Finished robot](media/build-guide/57-full-robot.png)
+
+## Wiring
+
+The wires are not in the CAD. Follow the [schematic](Schematics/Humanoid_Electronics.pdf) for the connections. Wire sizes below come from the schematic.
+
+### Power
+
+The battery (106) comes assembled with its JBD 12S 60A BMS. Run the BMS output (P+, P−) to the electronics box with 12 AWG wire. This is VBAT.
+
+The three DC-DC converters go in the electronics box (they are not in the CAD): 5 V / 25 A, 12 V / 20 A and 24 V / 10 A. Feed each from VBAT with 12 AWG wire.
+
+- 5 V: ESP32-P4 (22 AWG), depth camera and the hand servos
+- 12 V: STS3215 head and wrist servos
+- 24 V: elbow servos
+
+### Motor drivers
+
+Every round FOC-68 motor driver and both ankle ODrives get two power wires (VBAT and GND), then CAN high and CAN low to their bus:
+
+- CAN A, left leg: hip yaw, hip roll, hip pitch, knee and the left ankle ODrive
+- CAN B, right leg: the same motors on the right leg
+- CAN C, shoulders and waist: left and right shoulder pitch and roll, waist pitch, waist roll and waist yaw
+
+Use 12 AWG for the leg motor phase wires and 22 AWG for the CAN C motor phase wires. Each ankle ODrive drives both ankle motors and reads both AS5047P encoders on its shin.
+
+The three CAN buses connect to the ESP32-P4 through three SN65HVD230 CAN transceivers powered from 3.3 V: CAN A on GPIO 1/2, CAN B on GPIO 3/4 and CAN C on GPIO 5/6 (TX/RX).
+
+### Servos
+
+The servos get two power wires and one single-wire half-duplex UART data wire. Pull each data line up to 3.3 V.
+
+- Head and wrist STS3215 servos: 12 V, GND, data to GPIO 20
+- Hand SCS0009 servos: 5 V, GND, data to GPIO 21
+
+The two elbow servos are the exception: they take 24 V, GND and a PWM signal, left elbow on GPIO 22 and right elbow on GPIO 23.
+
+### Sensors
+
+- BNO085 IMU (154): 3.3 V, GND, SDA to GPIO 7, SCL to GPIO 8, INT to GPIO 26, RST to GPIO 36, using 26 AWG
+- Depth camera (001): USB to the ESP32-P4 USB host port
+
+## Flashing the firmware
+
+### ESP32-P4 main controller
+
+The source is in [`firmware/ESP32-P4 Host controller/`](firmware/ESP32-P4%20Host%20controller/) and the compiled images are in its [`images/`](firmware/ESP32-P4%20Host%20controller/images/) folder. The images are built for chip revision 3.1 or newer.
+
+Install [esptool](https://docs.espressif.com/projects/esptool/en/latest/esp32p4/installation.html), connect the ESP32-P4 and run:
+
+```sh
+cd "firmware/ESP32-P4 Host controller/images"
+esptool --chip esp32p4 --port COM3 write-flash 0x2000 bootloader.bin 0x8000 partition-table.bin 0x10000 humanoid_p4.bin
+```
+
+Replace COM3 with the serial port your ESP32-P4 is on.
+
+### Motor drivers
+
+Set every motor driver and ODrive to 500 kbit/s CAN and give it the node ID listed for its motor in [`can_motors.c`](firmware/ESP32-P4%20Host%20controller/main/can_motors.c).
+
+### Servos
+
+The servo buses run at 1 Mbit/s. Give the head servos IDs 1 and 2 and the wrist servos IDs 3 to 6. The hand servos use IDs 1 to 16 on their own bus.
