@@ -14,6 +14,7 @@ I built it for fun and because I like robots.
 
 ## Features
 
+* Open source with code, cad, and UDRF for simulation
 * Cheap easy to source BOM
 * Estimated 300+NM knee torque
 * Differential ankle, waist and wrist mechanisms
